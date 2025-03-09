@@ -19,6 +19,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="227"/>
+        <source>Currently it gets an id of &quot;Unset&quot;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="285"/>
         <source>OK</source>
         <translation></translation>
@@ -26,6 +31,11 @@
     <message>
         <location filename="rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="285"/>
         <source>Conversion failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="285"/>
+        <source>Current value: %1 (%2)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -346,17 +356,6 @@
     </message>
 </context>
 <context>
-    <name>QMessageBox</name>
-    <message>
-        <source>Show Details...</source>
-        <translation type="vanished">Pokaż Szczegóły...</translation>
-    </message>
-    <message>
-        <source>Hide Details...</source>
-        <translation type="vanished">Ukryj Szczegóły...</translation>
-    </message>
-</context>
-<context>
     <name>QObject</name>
     <message>
         <location filename="rpcs3/main.cpp" line="1190"/>
@@ -422,41 +421,6 @@ Terminating...</source>
         <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252"/>
         <source>The PS Move tracking is not yet supported on this operating system.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>QPlatformTheme</name>
-    <message>
-        <source>&amp;Yes</source>
-        <translation type="vanished">&amp;Tak</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation type="vanished">&amp;Nie</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation type="vanished">Zapisz</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="vanished">Zamknij</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation type="vanished">Zastosuj</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation type="vanished">Przywróć domyślne</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Anuluj</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
@@ -2623,10 +2587,6 @@ Double-click: Set breakpoints.</source>
         <location filename="rpcs3/rpcs3qt/debugger_frame.cpp" line="1234"/>
         <source>Load PC: </source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pause</source>
-        <translation type="obsolete">Wstrzymaj</translation>
     </message>
 </context>
 <context>
@@ -10531,7 +10491,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="94"/>
         <source>100%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">3D {100%?}</translation>
     </message>
 </context>
 <context>
@@ -10780,14 +10740,6 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="938"/>
         <source>Enable Vibration</source>
         <translation type="unfinished">Wibracje</translation>
-    </message>
-    <message>
-        <source>Large</source>
-        <translation type="obsolete">Duże</translation>
-    </message>
-    <message>
-        <source>Small</source>
-        <translation type="obsolete">Małe</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="959"/>
@@ -15238,11 +15190,6 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disabled</source>
-        <comment>MSAA</comment>
-        <translation type="vanished">Wył.</translation>
-    </message>
-    <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="844"/>
         <source>Not needed for %0 renderer</source>
         <comment>Graphics adapter</comment>
@@ -16683,10 +16630,6 @@ Stop the emulator now?</source>
         <translation type="unfinished">Pokaż przy starcie</translation>
     </message>
     <message>
-        <source>Do not show again</source>
-        <translation type="vanished">Nie pokazuj ponownie</translation>
-    </message>
-    <message>
         <location filename="rpcs3/rpcs3qt/welcome_dialog.cpp" line="27"/>
         <source>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
@@ -16723,10 +16666,6 @@ Stop the emulator now?</source>
 				W przeciwnym razie dalsze dyskusje i wsparcie można znaleźć na &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;Forum&lt;/a&gt; lub na naszym serwerze &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt;
 			&lt;/p&gt;
 		</translation>
-    </message>
-    <message>
-        <source>&amp;Create Start Menu shortcut</source>
-        <translation type="obsolete">&amp;Utwórz skrót w menu startowym</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/welcome_dialog.cpp" line="50"/>

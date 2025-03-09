@@ -4,6 +4,11 @@
 <context>
     <name>AutoPauseConfigDialog</name>
     <message>
+        <location filename="./rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="219"/>
+        <source>&amp;Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="./rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="220"/>
         <source>&amp;Cancel</source>
         <translation type="unfinished"></translation>
