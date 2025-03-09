@@ -9,11 +9,12 @@ jobs:
   update-translations:
     runs-on: ubuntu-24.04
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@main
-        with:
-          token: ${{ secrets.PAT }}
+        uses: actions/checkout@v4
 
       - name: Get latest workflow run ID
         id: get-run-id
@@ -26,7 +27,7 @@ jobs:
           echo "run-id=$RUN_ID" >> $GITHUB_OUTPUT
 
       - name: Download template artifact
-        uses: actions/download-artifact@main
+        uses: actions/download-artifact@v4
         with:
           name: RPCS3_Translation_Template
           path: template/
@@ -58,4 +59,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add template/rpcs3_template.ts translations/
           git commit -m "Update translations based on latest template"
-          git push https://${{ secrets.PAT }}@github.com/FlexBy420/rpcs3_translations.git
+          git push
