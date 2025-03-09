@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@main
 
       - name: Download template artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@main
         with:
           workflow: Generate Translation Template
           name: RPCS3_Translation_Template.zip
