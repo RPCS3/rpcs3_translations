@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pl" sourcelanguage="en">
+<TS version="2.1" language="ja" sourcelanguage="en">
   <context>
     <name>AutoPauseConfigDialog</name>
     <message>
@@ -59,18 +59,12 @@
       <source>%Ln day(s)</source>
       <translation type="unfinished">
         <numerusform>%Ln day(s)</numerusform>
-        <numerusform>%Ln day(s)</numerusform>
-        <numerusform>%Ln day(s)</numerusform>
-        <numerusform>%Ln day(s)</numerusform>
       </translation>
     </message>
     <message numerus="yes">
       <location filename="./rpcs3/rpcs3qt/localized.cpp" line="19"/>
       <source>%Ln hour(s)</source>
       <translation type="unfinished">
-        <numerusform>%Ln hour(s)</numerusform>
-        <numerusform>%Ln hour(s)</numerusform>
-        <numerusform>%Ln hour(s)</numerusform>
         <numerusform>%Ln hour(s)</numerusform>
       </translation>
     </message>
@@ -79,18 +73,12 @@
       <source>%Ln minute(s)</source>
       <translation type="unfinished">
         <numerusform>%Ln minute(s)</numerusform>
-        <numerusform>%Ln minute(s)</numerusform>
-        <numerusform>%Ln minute(s)</numerusform>
-        <numerusform>%Ln minute(s)</numerusform>
       </translation>
     </message>
     <message numerus="yes">
       <location filename="./rpcs3/rpcs3qt/localized.cpp" line="21"/>
       <source>%Ln second(s)</source>
       <translation type="unfinished">
-        <numerusform>%Ln second(s)</numerusform>
-        <numerusform>%Ln second(s)</numerusform>
-        <numerusform>%Ln second(s)</numerusform>
         <numerusform>%Ln second(s)</numerusform>
       </translation>
     </message>
@@ -13914,9 +13902,6 @@ Note that the reset password token is different from the email verification toke
       <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="535"/>
       <source>Are you sure you want to delete these %n items?</source>
       <translation type="unfinished">
-        <numerusform>Are you sure you want to delete these %n items?</numerusform>
-        <numerusform>Are you sure you want to delete these %n items?</numerusform>
-        <numerusform>Are you sure you want to delete these %n items?</numerusform>
         <numerusform>Are you sure you want to delete these %n items?</numerusform>
       </translation>
     </message>
