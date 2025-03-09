@@ -19,7 +19,7 @@ jobs:
           name: RPCS3_Translation_Template
           path: template/
           repository: RPCS3/rpcs3
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract template ZIP
         run: |
