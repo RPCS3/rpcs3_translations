@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
 
       - name: Get latest workflow run ID
         id: get-run-id
@@ -24,7 +24,7 @@ jobs:
           echo "run-id=$RUN_ID" >> $GITHUB_OUTPUT
 
       - name: Download template artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@main
         with:
           name: RPCS3_Translation_Template
           path: template/
@@ -39,9 +39,16 @@ jobs:
 
       - name: Update translations
         run: |
-          for ts_file in translations/*.ts; do
-            lupdate template/rpcs3_template.ts -no-obsolete -ts "$ts_file"
-          done
+          LUPDATE_PATH=$(find /usr -name lupdate -type f 2>/dev/null | head -n 1)
+          if [ -z "$LUPDATE_PATH" ]; then
+            echo "Error: lupdate not found!"
+            exit 1
+          else
+            echo "lupdate found at: $LUPDATE_PATH"
+            for ts_file in translations/*.ts; do
+              $LUPDATE_PATH template/rpcs3_template.ts -no-obsolete -ts "$ts_file"
+            done
+          fi
 
       - name: Commit and push changes
         run: |
