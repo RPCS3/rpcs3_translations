@@ -16,9 +16,10 @@ jobs:
       - name: Download template artifact
         uses: actions/download-artifact@main
         with:
-          workflow: Generate Translation Template
           name: RPCS3_Translation_Template.zip
           path: template/
+          repository: RPCS3/rpcs3
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract template ZIP
         run: |
