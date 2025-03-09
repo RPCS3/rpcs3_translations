@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@main
+        with:
+          token: ${{ secrets.PAT }}
 
       - name: Get latest workflow run ID
         id: get-run-id
