@@ -4,5 +4,5 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 preserve_hierarchy: true
 
 files:
-  - source: /templates/rpcs3_template.ts
+  - source: /template/rpcs3_template.ts
     translation: /translations/rpcs3_%two_letters_code%.ts
