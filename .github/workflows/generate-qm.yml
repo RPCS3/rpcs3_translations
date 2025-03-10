@@ -1,0 +1,46 @@
+name: Generate QM Files
+
+on:
+  push:
+    workflow_dispatch:
+    branches:
+      - main
+    paths:
+      - 'translations/*.ts'
+
+jobs:
+  generate-qm:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install Qt Tools
+        run: |
+          sudo apt update
+          sudo apt install -y qt6-l10n-tools
+
+      - name: Generate .qm files
+        run: |
+          LRELEASE_PATH=$(find /usr -name lrelease -type f 2>/dev/null | head -n 1)
+          if [ -z "$LRELEASE_PATH" ]; then
+            echo "Error: lrelease not found!"
+            exit 1
+          else
+            echo "lrelease found at: $LRELEASE_PATH"
+            for ts_file in translations/*.ts; do
+              qm_file="qm/$(basename "$ts_file" .ts).qm"
+              "$LRELEASE_PATH" "$ts_file" -qm "$qm_file"
+            done
+          fi
+
+      - name: Commit and push .qm files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add qm/
+          git commit -m "Automatically generated .qm files from .ts files"
+          git push
