@@ -33,7 +33,7 @@ jobs:
             echo "lrelease found at: $LRELEASE_PATH"
             for ts_file in translations/*.ts; do
               qm_file="qm/$(basename "$ts_file" .ts).qm"
-              "$LRELEASE_PATH" "$ts_file" -qm "$qm_file"
+              "$LRELEASE_PATH" "$ts_file" -nounfinished -qm "$qm_file"
             done
           fi
 
