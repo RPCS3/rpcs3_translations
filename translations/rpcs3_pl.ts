@@ -31,7 +31,7 @@
     <message>
       <location filename="./rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="285"/>
       <source>OK</source>
-      <translation type="unfinished">OK</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="285"/>
@@ -2755,7 +2755,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="1228"/>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="1419"/>
       <source>OK</source>
-      <translation type="unfinished">OK</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="310"/>
@@ -5659,7 +5659,7 @@ Your configuration will revert to the global pad settings.</translation>
       <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2326"/>
       <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2359"/>
       <source>OK</source>
-      <translation type="unfinished">OK</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2391"/>
@@ -6134,7 +6134,7 @@ File was too small.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="40"/>
       <source>OK</source>
-      <translation type="unfinished">OK</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="41"/>
@@ -6691,7 +6691,7 @@ File was too small.</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="50"/>
       <source>OK</source>
       <comment>Message Dialog</comment>
-      <translation type="unfinished">OK</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="51"/>
@@ -11003,7 +11003,7 @@ Tip: SPU floats are commented along forming instructions.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="247"/>
       <source>OK</source>
-      <translation type="unfinished">OK</translation>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="254"/>
