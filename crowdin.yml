@@ -5,4 +5,4 @@ preserve_hierarchy: true
 
 files:
   - source: /template/rpcs3_template.ts
-    translation: /translations/rpcs3_%two_letters_code%.ts
+    translation: /translations/rpcs3_%locale_with_underscore%.ts
