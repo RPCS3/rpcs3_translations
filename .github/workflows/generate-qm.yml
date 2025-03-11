@@ -44,3 +44,10 @@ jobs:
           git add qm/
           git commit -m "Automatically generated .qm files from .ts files"
           git push
+
+      - name: Upload Translations
+        uses: actions/upload-artifact@main
+        with:
+          name: RPCS3-languages
+          path: qm/
+          compression-level: 1
