@@ -12427,12 +12427,12 @@ Zmień kolejność i/lub wyklucz je w razie potrzeby, a następnie kliknij &quot
         <translation>Próg nasycenia: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="365"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="366"/>
         <source>Min Radius: %0 %</source>
         <translation>Min. Promień: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="375"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="376"/>
         <source>Max Radius: %0 %</source>
         <translation>Maks. Promień: %0 %</translation>
     </message>
@@ -13894,7 +13894,7 @@ Pamiętaj, że token resetowania hasła jest inny niż token weryfikacji e-mail.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="104"/>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="687"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="685"/>
         <source>Compatible</source>
         <translation>Kompatybilny</translation>
     </message>
@@ -13940,80 +13940,80 @@ Pamiętaj, że token resetowania hasła jest inny niż token weryfikacji e-mail.
         <translation>Opcje ikony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="436"/>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="497"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="434"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="495"/>
         <source>&amp;Open Savestate Directory</source>
         <translation>&amp;Otwórz katalog zapisów stanu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="437"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="435"/>
         <source>&amp;Boot Savestate</source>
         <translation>&amp;Uruchom Zapisany Stan Gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="438"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="436"/>
         <source>&amp;Delete Savestate</source>
         <translation>&amp;Usuń Zapisany Stany Gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="463"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="461"/>
         <source>Confirm Deletion</source>
         <translation>Potwierdź usunięcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="463"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="461"/>
         <source>Delete savestate &apos;%0&apos;?</source>
         <translation>Usunąć zapis stanu &apos;%0&apos;?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="474"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="472"/>
         <source>Deletion Failed!</source>
         <translation>Usunięcie nie powiodło się!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="474"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="472"/>
         <source>Failed to delete savestate &apos;%0&apos;!</source>
         <translation>Nie udało się usunąć zapisu stanu &apos;%0&apos;!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="496"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="494"/>
         <source>&amp;Remove All Savestates</source>
         <translation>&amp;Usuń wszystkie Zapisane Stany Gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="506"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="504"/>
         <source>Delete Confirmation</source>
         <translation>Potwierdź usunięcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="506"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="504"/>
         <source>Are you sure you want to delete the savestates for:
 %0?</source>
         <translation>Czy na pewno chcesz usunąć zapisane stany dla:
 %0?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="523"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="521"/>
         <source>&amp;Copy Name</source>
         <translation>&amp;Kopiuj nazwę</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="583"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="581"/>
         <source>Loading savestates</source>
         <translation>Ładowanie zapisanych stanów gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="583"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="581"/>
         <source>Loading savestates, please wait...</source>
         <translation>Ładowanie zapisanych stanów gier proszę czekać...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="583"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="581"/>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="687"/>
+        <location filename="rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="685"/>
         <source>Not compatible</source>
         <translation>Nie kompatybilny</translation>
     </message>
@@ -16277,7 +16277,7 @@ Skontaktuj się z deweloperem.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="79"/>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1125"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1123"/>
         <source>Progress: %1% (%2/%3)</source>
         <translation>Postęp: %1% (%2/%3)</translation>
     </message>
@@ -16461,137 +16461,137 @@ Skontaktuj się z deweloperem.</translation>
         <translation>Opcje ikony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="815"/>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="952"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="813"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="950"/>
         <source>&amp;Open Trophy Directory</source>
         <translation>&amp;Otwórz katalog trofeów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="835"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="833"/>
         <source>&amp;Copy Info</source>
         <translation>&amp;Kopiuj informacje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="839"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="837"/>
         <source>&amp;Copy Name + Description</source>
         <translation>&amp;Kopiuj nazwę + opis</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="849"/>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="980"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="847"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="978"/>
         <source>&amp;Copy Name</source>
         <translation>&amp;Kopiuj nazwę</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="859"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="857"/>
         <source>&amp;Copy Description</source>
         <translation>&amp;Kopiuj opis</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="878"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="876"/>
         <source>&amp;Lock Trophy</source>
         <translation>&amp;Zablokuj Trofeum</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="878"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="876"/>
         <source>&amp;Unlock Trophy</source>
         <translation>&amp;Odblokuj Trofeum</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="883"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="881"/>
         <source>Action not permitted.</source>
         <translation>Operacja niedozwolona.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="883"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="881"/>
         <source>Platinum trophies can only be unlocked ingame.</source>
         <translation>Platynowe trofea można tylko odblokować w grze.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="926"/>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1196"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="924"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1194"/>
         <source>Earned</source>
         <translation>Zdobyte</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="926"/>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1196"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="924"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1194"/>
         <source>Not Earned</source>
         <translation>Nie zdobyto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="930"/>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1194"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="928"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1192"/>
         <source>Unknown</source>
         <translation>Nieznane</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="951"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="949"/>
         <source>&amp;Remove</source>
         <translation>&amp;Usuń</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="961"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="959"/>
         <source>Delete Confirmation</source>
         <translation>Potwierdź usunięcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="961"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="959"/>
         <source>Are you sure you want to delete the trophies for:
 %1?</source>
         <translation>Czy na pewno chcesz usunąć trofea dla:
 %1?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1024"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1022"/>
         <source>Loading trophies</source>
         <translation>Ładowanie trofeów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1024"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1022"/>
         <source>Loading trophy data, please wait...</source>
         <translation>Ładowanie danych trofeów, proszę czekać...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1024"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1022"/>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1083"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1081"/>
         <source>%0% (%1/%2)</source>
         <translation>%0% (%1/%2)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1160"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1158"/>
         <source>No</source>
         <translation>Nie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1160"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1158"/>
         <source>Yes</source>
         <translation>Tak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1167"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1165"/>
         <source>Bronze</source>
         <comment>Trophy type</comment>
         <translation>Brąz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1168"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1166"/>
         <source>Silver</source>
         <comment>Trophy type</comment>
         <translation>Srebro</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1169"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1167"/>
         <source>Gold</source>
         <comment>Trophy type</comment>
         <translation>Złoto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1170"/>
+        <location filename="rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1168"/>
         <source>Platinum</source>
         <comment>Trophy type</comment>
         <translation>Platyna</translation>
