@@ -55,168 +55,13 @@
 <context>
     <name>DeviceChoice</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="84"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="178"/>
         <source>DISABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="198"/>
         <source>-- Disabled --</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106"/>
-        <source>Steering</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="107"/>
-        <source>Throttle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="108"/>
-        <source>Brake</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="109"/>
-        <source>Clutch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="110"/>
-        <source>Shift up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="111"/>
-        <source>Shift down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="113"/>
-        <source>Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="114"/>
-        <source>Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="115"/>
-        <source>Left</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="116"/>
-        <source>Right</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="118"/>
-        <source>Triangle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="119"/>
-        <source>Cross</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="120"/>
-        <source>Square</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="121"/>
-        <source>Circle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="123"/>
-        <source>L2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="124"/>
-        <source>L3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="125"/>
-        <source>R2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="126"/>
-        <source>R3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="128"/>
-        <source>L4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="129"/>
-        <source>L5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="131"/>
-        <source>R4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="132"/>
-        <source>R5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="134"/>
-        <source>Select</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="135"/>
-        <source>Pause</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="137"/>
-        <source>Gear 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="138"/>
-        <source>Gear 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="139"/>
-        <source>Gear 3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="140"/>
-        <source>Gear 4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="141"/>
-        <source>Gear 5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="142"/>
-        <source>Gear 6</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="143"/>
-        <source>Gear r</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -518,47 +363,47 @@
 <context>
     <name>Mapping</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="200"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="261"/>
         <source>MAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="201"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="262"/>
         <source>UNMAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="202"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="263"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="206"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="267"/>
         <source>Pressed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="258"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
         <source>Input %0 for %1, timeout in %2 %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="258"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
         <source>axis</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="258"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
         <source>button/hat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="258"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
         <source>seconds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="258"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
         <source>second</source>
         <translation type="unfinished"></translation>
     </message>
@@ -618,6 +463,166 @@ Terminating...</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="710"/>
         <source>Cannot perform SPU capture due to the thread needing manual pausing!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="82"/>
+        <source>Steering</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="83"/>
+        <source>Throttle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="84"/>
+        <source>Brake</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="85"/>
+        <source>Clutch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="86"/>
+        <source>Shift up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="87"/>
+        <source>Shift down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="88"/>
+        <source>Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="89"/>
+        <source>Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="90"/>
+        <source>Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="91"/>
+        <source>Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="92"/>
+        <source>Triangle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="93"/>
+        <source>Cross</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="94"/>
+        <source>Square</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="95"/>
+        <source>Circle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="96"/>
+        <source>L2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="97"/>
+        <source>L3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="98"/>
+        <source>R2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="99"/>
+        <source>R3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="100"/>
+        <source>L4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="101"/>
+        <source>L5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="102"/>
+        <source>R4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="103"/>
+        <source>R5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
+        <source>Select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105"/>
+        <source>Pause</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106"/>
+        <source>Gear 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="107"/>
+        <source>Gear 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="108"/>
+        <source>Gear 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="109"/>
+        <source>Gear 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="110"/>
+        <source>Gear 5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="111"/>
+        <source>Gear 6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="112"/>
+        <source>Gear R</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="113"/>
+        <source>Shifter press</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4342,208 +4347,58 @@ This change will only be final when you save the config.</source>
 <context>
     <name>emulated_logitech_g27_settings_dialog</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="601"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="600"/>
         <source>Configure Emulated Logitech G27 Wheel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="629"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="628"/>
         <source>Confirm Reset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="629"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="628"/>
         <source>Reset all?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="641"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="639"/>
         <source>Warning: Force feedback output were meant for Logitech G27, on stronger wheels please adjust force strength accordingly in your wheel software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="646"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="644"/>
+        <source>Note: Please DO NOT map your wheel onto gamepads, only map it here. If your wheel was mapped onto gamepads, go to gamepad settings and unmap it. If you used vJoy to map your wheel onto a gamepad before for RPCS3, undo that.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="648"/>
         <source>Enabled (requires game restart)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="649"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="651"/>
         <source>Reverse force feedback effects</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="655"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="657"/>
         <source>Use the device with the following mapping for force feedback:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="656"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="658"/>
         <source>Use the device with the following mapping for LED:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="670"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="672"/>
         <source>Axes:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="679"/>
-        <source>Steering</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="680"/>
-        <source>Throttle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="681"/>
-        <source>Brake</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="682"/>
-        <source>Clutch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="684"/>
-        <source>Buttons:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="687"/>
-        <source>Shift up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="688"/>
-        <source>Shift down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="690"/>
-        <source>Up</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="691"/>
-        <source>Down</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="692"/>
-        <source>Left</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="693"/>
-        <source>Right</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="695"/>
-        <source>Triangle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="696"/>
-        <source>Cross</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="697"/>
-        <source>Square</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="698"/>
-        <source>Circle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="700"/>
-        <source>L2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="701"/>
-        <source>L3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="702"/>
-        <source>R2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="703"/>
-        <source>R3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="705"/>
-        <source>L4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="706"/>
-        <source>L5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="708"/>
-        <source>R4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="709"/>
-        <source>R5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="711"/>
-        <source>Select</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="712"/>
-        <source>Start</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="714"/>
-        <source>Gear 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="715"/>
-        <source>Gear 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="716"/>
-        <source>Gear 3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="717"/>
-        <source>Gear 4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="718"/>
-        <source>Gear 5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="719"/>
-        <source>Gear 6</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="720"/>
-        <source>Gear R</source>
+        <source>Buttons:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12402,32 +12257,32 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="285"/>
+        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="280"/>
         <source>Color: R=%0, G=%1, B=%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="325"/>
+        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="320"/>
         <source>Hue: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="345"/>
+        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="340"/>
         <source>Hue Threshold: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="356"/>
+        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="351"/>
         <source>Saturation Threshold: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="366"/>
+        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="361"/>
         <source>Min Radius: %0 %</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="376"/>
+        <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="371"/>
         <source>Max Radius: %0 %</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12607,6 +12462,11 @@ No graphics will be rendered.</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="162"/>
         <source>Test Account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="165"/>
+        <source>Disable IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
