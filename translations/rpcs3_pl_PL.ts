@@ -42,12 +42,12 @@
 <context>
     <name>Buffer</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="382"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="393"/>
         <source>Save Image At</source>
         <translation>Zapisz Obraz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="388"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="399"/>
         <source>Save Image</source>
         <translation>Zapisz Obraz</translation>
     </message>
@@ -13869,118 +13869,118 @@ Pamiętaj, że token resetowania hasła jest inny niż token weryfikacji e-mail.
 <context>
     <name>rsx_debugger</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="46"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="48"/>
         <source>RSX Debugger</source>
         <translation>Debugger RSX</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="58"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="60"/>
         <source>Frame</source>
         <translation>Klatka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="59"/>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="147"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="61"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="138"/>
         <source>Texture</source>
         <translation>Tekstura</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="60"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="62"/>
         <source>Draw</source>
         <translation>Rysuj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="61"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="63"/>
         <source>Primitive</source>
         <translation>Prymitywny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="62"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="64"/>
         <source>Command</source>
         <translation>Komenda</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="76"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="78"/>
         <source>Break on:</source>
         <translation>Przerywaj na:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="112"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="114"/>
         <source>Captured Frame</source>
         <translation>Przechwycona klatka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="113"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="115"/>
         <source>Captured Draw Calls</source>
         <translation>Przechwycone Draw Calls</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="115"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="117"/>
         <source>Column</source>
         <translation>Kolumna</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="118"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="120"/>
         <source>Draw calls</source>
         <translation>Draw calls</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="141"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="132"/>
         <source>Color Buffer A</source>
         <translation>Bufor koloru A</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="142"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="133"/>
         <source>Color Buffer B</source>
         <translation>Bufor koloru B</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="143"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="134"/>
         <source>Color Buffer C</source>
         <translation>Bufor koloru C</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="144"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="135"/>
         <source>Color Buffer D</source>
         <translation>Bufor koloru D</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="145"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="136"/>
         <source>Depth Buffer</source>
         <translation>Bufor Głębokości</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="146"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="137"/>
         <source>Stencil Buffer</source>
         <translation>Bufor Stencila</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="160"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="151"/>
         <source>Texture Index or Address / Format Override</source>
         <translation>Indeks tekstur lub adres / Format nadpisany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="212"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="223"/>
         <source>RTTs and DS</source>
         <translation>RTTs i DS</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="213"/>
-        <source>Transform program</source>
-        <translation>Przekształć program</translation>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="224"/>
+        <source>Vertex Program</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="214"/>
-        <source>Shader program</source>
-        <translation>Program shaderu</translation>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="225"/>
+        <source>Fragment Program</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="215"/>
-        <source>Index buffer</source>
-        <translation>Bufor indeksu</translation>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.cpp" line="226"/>
+        <source>Index Buffer</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rsx_debugger.h" line="53"/>
+        <location filename="rpcs3/rpcs3qt/rsx_debugger.h" line="54"/>
         <source> Enabled Textures Indices: </source>
         <translation> Włączone indeksy tekstur: </translation>
     </message>
@@ -16434,68 +16434,68 @@ Podgląd:
 <context>
     <name>skylander_creator_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="531"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="532"/>
         <source>Skylander Creator</source>
         <translation>Kreator Skylander</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="546"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="547"/>
         <source>--Unknown--</source>
         <translation>--Nieznany--</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="565"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="566"/>
         <source>ID:</source>
         <translation>ID:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="566"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="567"/>
         <source>Variant:</source>
         <translation>Wariant:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="579"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="580"/>
         <source>Create</source>
         <translation>Utwórz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="580"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="581"/>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="607"/>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="613"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="608"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="614"/>
         <source>Error converting value</source>
         <translation>Błąd konwersji wartości</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="607"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="608"/>
         <source>ID entered is invalid!</source>
         <translation>Wprowadzone ID jest nieprawidłowe!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="613"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="614"/>
         <source>Variant entered is invalid!</source>
         <translation>Wprowadzony wariant jest nieprawidłowy!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="628"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="629"/>
         <source>Create Skylander File</source>
         <translation>Utwórz plik Skylander</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="628"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="629"/>
         <source>Skylander Object (*.sky);;All Files (*)</source>
         <translation>Obiekt Skylander (*.sky);;Wszystkie pliki (*)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="637"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="638"/>
         <source>Failed to create skylander file!</source>
         <translation>Nie udało się utworzyć pliku skylander!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="637"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="638"/>
         <source>Failed to create skylander file:
 %1</source>
         <translation>Nie udało się utworzyć pliku skylander:
@@ -16505,76 +16505,76 @@ Podgląd:
 <context>
     <name>skylander_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="680"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="681"/>
         <source>Skylanders Manager</source>
         <translation>Menedżer Skylanders</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="695"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="696"/>
         <source>Active Portal Skylanders:</source>
         <translation>Aktywny Portal Skylanders:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="706"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="707"/>
         <source>Skylander %1</source>
         <translation>Skylander %1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="710"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="711"/>
         <source>Clear</source>
         <translation>Wyczyść</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="711"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="712"/>
         <source>Create</source>
         <translation>Utwórz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="712"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="713"/>
         <source>Load</source>
         <translation>Wczytaj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="769"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="770"/>
         <source>Select Skylander File</source>
         <translation>Wybierz plik Skylander</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="769"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="770"/>
         <source>Skylander (*.sky *.bin *.dmp *.dump);;All Files (*)</source>
         <translation>Skylander (*.sky *.bin *.dmp *.dump);Wszystkie pliki (*)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="785"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="786"/>
         <source>Failed to open the skylander file!</source>
         <translation>Nie udało się otworzyć pliku Skylander!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="785"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="786"/>
         <source>Failed to open the skylander file(%1)!
 File may already be in use on the portal.</source>
         <translation>Nie udało się otworzyć pliku skylander (%1)!
 Plik może być już używany na portalu.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="792"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="793"/>
         <source>Failed to read the skylander file!</source>
         <translation>Nie udało się odczytać pliku skylander!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="792"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="793"/>
         <source>Failed to read the skylander file(%1)!
 File was too small.</source>
         <translation>Nie udało się odczytać pliku skylander (%1)!
 Plik jest zbyt mały.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="822"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="823"/>
         <source>Unknown (Id:%1 Var:%2)</source>
         <translation>Nieznany (Id:%1 Var:%2)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="827"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="828"/>
         <source>None</source>
         <translation>Brak</translation>
     </message>
