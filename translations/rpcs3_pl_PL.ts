@@ -11780,7 +11780,7 @@ Wskazówka: Floats SPU są komentowane przy tworzeniu instrukcji.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="181"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1988"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1995"/>
         <source>Skateboard</source>
         <translation>Deskorolka</translation>
     </message>
@@ -11805,256 +11805,291 @@ Wskazówka: Floats SPU są komentowane przy tworzeniu instrukcji.</translation>
         <translation>Tablet uDraw</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="203"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="186"/>
+        <source>Copilot for Player 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="187"/>
+        <source>Copilot for Player 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="188"/>
+        <source>Copilot for Player 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="189"/>
+        <source>Copilot for Player 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="190"/>
+        <source>Copilot for Player 5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="191"/>
+        <source>Copilot for Player 6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="192"/>
+        <source>Copilot for Player 7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="210"/>
         <source>Relative</source>
         <translation>Względny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="204"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="211"/>
         <source>Absolute</source>
         <translation>Absolutny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="331"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1351"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="338"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1358"/>
         <source>[ Waiting %1 ]</source>
         <translation>[ Oczekiwanie %1]</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1523"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1530"/>
         <source>Custom Controller</source>
         <translation>Niestandardowy kontroler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1577"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1584"/>
         <source>No Device Detected</source>
         <translation>Nie wykryto urządzenia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1686"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1693"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation>Kontroler PS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1691"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1698"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation>Dance Dance Revolution</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1696"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1703"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation>Mixer DJ Hero</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1701"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1708"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation>Rock Band</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1706"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1713"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation>Rock Band Pro</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1711"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1718"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation>Rock Band</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1716"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1723"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation>Guitar Hero</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1721"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1728"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation>Guitar Hero</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1726"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1733"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation>Rock Revolution</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1731"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1738"/>
         <source>PS Move Navigation</source>
         <comment>PS Move Navigation Controller</comment>
         <translation>Kontroler Nawigacyjny PS Move</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1736"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1743"/>
         <source>RIDE Skateboard</source>
         <comment>Tony Hawk RIDE Skateboard Controller</comment>
         <translation>RIDE Skateboard</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1741"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1748"/>
         <source>GunCon 3</source>
         <comment>GunCon 3 Controller</comment>
         <translation>GunCon 3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1746"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1753"/>
         <source>Top Shot Elite</source>
         <comment>Top Shot Elite Controller</comment>
         <translation>Top Shot Elite</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1751"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1758"/>
         <source>Top Shot Fearmaster</source>
         <comment>Top Shot Fearmaster Controller</comment>
         <translation>Top Shot Fearmaster</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1756"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1763"/>
         <source>uDraw GameTablet</source>
         <comment>uDraw GameTablet Controller</comment>
         <translation>Tablet uDraw</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1766"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1773"/>
         <source>Choose a unique name</source>
         <translation>Wybierz unikalną nazwę</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1767"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1774"/>
         <source>Configuration Name: </source>
         <translation>Nazwa konfiguracji: </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1776"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1781"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1786"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1783"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1788"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1793"/>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1776"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1783"/>
         <source>Name cannot be empty</source>
         <translation>Nazwa nie może być pusta</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1781"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1788"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation>Musisz wybrać nazwę bez &apos;.&apos;</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1786"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1793"/>
         <source>Please choose a non-existing name</source>
         <translation>Proszę wybrać nieistniejącą nazwę</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1808"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1815"/>
         <source>Reserved</source>
         <translation>Zarezerwowany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1946"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1953"/>
         <source>Warning!</source>
         <translation>Ostrzeżenie!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1947"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1954"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation>Przycisk %0 &lt;b&gt;%1&lt;/b&gt; gracza &lt;b&gt; %2&lt;/b&gt; został przypisany co najmniej dwukrotnie.&lt;br&gt;Rozważ dostosowanie konfiguracji.&lt;br&gt;&lt;br&gt;Kontynuować?&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1983"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1990"/>
         <source>Null</source>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1984"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2009"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1991"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2016"/>
         <source>Keyboard</source>
         <translation>Klawiatura</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1985"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1992"/>
         <source>DualShock 3</source>
         <translation>DualShock 3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1986"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1993"/>
         <source>DualShock 4</source>
         <translation>DualShock 4</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1987"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1994"/>
         <source>DualSense</source>
         <translation>DualSense</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1989"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1996"/>
         <source>PS Move</source>
         <translation>PS Move</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1991"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1998"/>
         <source>XInput</source>
         <translation>XInput</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1992"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1999"/>
         <source>MMJoystick</source>
         <translation>MMJoystick</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1995"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2002"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1998"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2005"/>
         <source>Evdev</source>
         <translation>Evdev</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2008"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2015"/>
         <source>Default Null Device</source>
         <translation>Domyślne urządzenie Null</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2010"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
         <source>DS3 Pad #%0</source>
         <translation>DS3 Pad #%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2011"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2018"/>
         <source>DS4 Pad #%0</source>
         <translation>DS4 Pad #%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2012"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2019"/>
         <source>DualSense Pad #%0</source>
         <translation>DualSense Pad #%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2013"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2020"/>
         <source>Skateboard #%0</source>
         <translation>Skateboard #%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2014"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2021"/>
         <source>PS Move #%0</source>
         <translation>PS Move #%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2016"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2023"/>
         <source>XInput Pad #%0</source>
         <translation>XInput Pad #%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2024"/>
         <source>Joystick #%0</source>
         <translation>Joystick #%0</translation>
     </message>
