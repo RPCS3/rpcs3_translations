@@ -12282,7 +12282,7 @@ Eksport nieprawidłowych łatek jest niedozwolony.</translation>
     <name>patch_manager_dialog</name>
     <message>
         <location filename="rpcs3/rpcs3qt/patch_manager_dialog.ui" line="17"/>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1010"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1017"/>
         <source>Patch Manager</source>
         <translation>Menedżer łatek</translation>
     </message>
@@ -12367,94 +12367,94 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
 Upewnij się, że wszystkie łatki znajdujące się w &quot;%0&quot; zawierają prawidłowe formatowanie, które jest wymagane dla wersji %1 Menedżera Łatek.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="870"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="877"/>
         <source>Show Patch File</source>
         <translation>Pokaż plik łatki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="881"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="888"/>
         <source>Remove Patch</source>
         <translation>Usuń łatkę</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="885"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="892"/>
         <source>Remove Patch?</source>
         <translation>Usunąć łatkę?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="886"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="893"/>
         <source>Do you really want to remove the selected patch?
 This action is immediate and irreversible!</source>
         <translation>Czy na pewno chcesz usunąć wybraną łatkę?
 Ta akcja jest natychmiastowa i nieodwracalna!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="897"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="904"/>
         <source>Success</source>
         <translation>Sukces</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="897"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="904"/>
         <source>The patch was successfully removed!</source>
         <translation>Łatka została pomyślnie usunięta!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="903"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="910"/>
         <source>Failure</source>
         <translation>Błąd</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="903"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="910"/>
         <source>The patch could not be removed!</source>
         <translation>Nie można usunąć łatki!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="917"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="924"/>
         <source>Collapse</source>
         <translation>Zwiń</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="928"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="935"/>
         <source>Expand Children</source>
         <translation>Rozwiń podrzędne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="938"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="945"/>
         <source>Collapse Children</source>
         <translation>Zwiń podrzędne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="951"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="958"/>
         <source>Expand</source>
         <translation>Rozwiń</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="962"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="969"/>
         <source>Expand All</source>
         <translation>Rozwiń wszystko</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="966"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="973"/>
         <source>Collapse All</source>
         <translation>Zwiń wszystko</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1010"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1017"/>
         <source>What do you want to do with the patch file?</source>
         <translation>Co chcesz zrobić z plikiem łatki?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1011"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1018"/>
         <source>Import</source>
         <translation>Importuj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1012"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1019"/>
         <source>Validate</source>
         <translation>Weryfikuj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1048"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1055"/>
         <source>
 
 Log:
@@ -12465,34 +12465,34 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1052"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1059"/>
         <source>Nothing to import</source>
         <translation>Nic do zaimportowania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1052"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1059"/>
         <source>None of the found %0 patches were imported.%1</source>
         <translation>Żadna ze znalezionych %0 łatek nie została zaimportowana.%1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1057"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1064"/>
         <source>Import successful</source>
         <translation>Import udany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1057"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1064"/>
         <source>Imported %0/%1 patches to:
 %2%3</source>
         <translation>Zaimportowano %0/%1 łatek do:
 %2%3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1070"/>
         <source>Import failed</source>
         <translation>Import nieudany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1070"/>
         <source>The patch file could not be imported.
 
 Log:
@@ -12503,25 +12503,25 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1068"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1075"/>
         <source>Validation successful</source>
         <translation>Walidacja zakończona sukcesem.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1068"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1075"/>
         <source>The patch file passed the validation.</source>
         <translation>Plik łatki przeszedł walidację.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1078"/>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1083"/>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1300"/>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1305"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1085"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1090"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1307"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1312"/>
         <source>Validation failed</source>
         <translation>Weryfikacja nie powiodła się</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1078"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1085"/>
         <source>Errors were found in the patch file.
 
 Log:
@@ -12532,39 +12532,39 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1082"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1089"/>
         <source>Errors were found in the patch file.</source>
         <translation>Znaleziono błędy w pliku łatek.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1084"/>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1306"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1091"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1313"/>
         <source>To see the error log, please click &quot;Show Details&quot;.</source>
         <translation>Aby zobaczyć dziennik błędów, kliknij &quot;Pokaż szczegóły&quot;.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1156"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1163"/>
         <source>Downloading latest patches</source>
         <translation>Pobieranie najnowszych łatek</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1190"/>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1291"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1197"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1298"/>
         <source>Download successful</source>
         <translation>Pobieranie się powiodło</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1190"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1197"/>
         <source>Your patch file is already up to date.</source>
         <translation>Twój plik łatek jest już aktualny.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1205"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1212"/>
         <source>Update patches?</source>
         <translation>Zaktualizować łatki?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1205"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1212"/>
         <source>New patches are available.
 
 Do you want to update?</source>
@@ -12573,12 +12573,12 @@ Do you want to update?</source>
 Czy chcesz zaktualizować?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1291"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1298"/>
         <source>Your patch file is now up to date</source>
         <translation>Twój plik łatek jest już aktualny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1300"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1307"/>
         <source>Errors were found in the downloaded patch file.
 
 Log:
@@ -12589,7 +12589,7 @@ Log:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1304"/>
+        <location filename="rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1311"/>
         <source>Errors were found in the downloaded patch file.</source>
         <translation>Znaleziono błędy w pobranym pliku łatek.</translation>
     </message>
