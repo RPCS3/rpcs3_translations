@@ -1034,12 +1034,12 @@ Rocksmith следует использовать с ключом (dongle) Rocks
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="82"/>
         <source>Interpreter (slow). Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation></translation>
+        <translation>Интерпретатор (медленный). Попробуйте это, если PPU Recompiler (LLVM) не работает.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="83"/>
         <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation>Интерпретатор (медленный). Попробуйте это, если PPU Recompiler (LLVM) не работает.</translation>
+        <translation>Альтернативный интерпретатор (медленный). Может быть быстрее статического интерпретатора. Попробуйте, если PPU Recompiler (LLVM) не работает.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="84"/>
@@ -1206,51 +1206,61 @@ If unsure, do not modify this setting.</source>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="106"/>
         <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation></translation>
+        <translation>Учитывать значения битов режима Non-Java для векторных операций в бэкендах PPU.
+Если не уверены, не изменяйте эту настройку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="107"/>
         <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation></translation>
+        <translation>Точно устанавливать результаты NaN в векторных инструкциях в бэкендах PPU.
+Если не уверены, не изменяйте эту настройку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="108"/>
         <source>Accurately set FPCC Bits in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation></translation>
+        <translation>Точно устанавливать биты FPCC в бэкендах PPU.
+Если не уверены, не изменяйте эту настройку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="109"/>
         <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
-        <translation></translation>
+        <translation>Точно обрабатывает инструкцию PPU DCBZ.
+Кроме того, в сочетании с Accurate SPU DMA, доступ к кэш-линиям SPU PUT будет обрабатываться атомарно.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="110"/>
         <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Принудительно задерживает любую нечетную команду MFC, ожидает как минимум 2 отложенные команды, чтобы выполнить их в случайном порядке.
+В настоящее время необходимо использовать с одним из интерпретаторов SPU.
+Сильно снижает производительность! Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="111"/>
         <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-        <translation></translation>
+        <translation>Позволяет перехватывать некоторые функции, такие как 'memcpy', заменяя их высокоуровневыми реализациями. Может ничего не делать или ломать работу. Экспериментально.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="112"/>
         <source>Enables use of classic OpenGL buffers which allows capturing tools to work with RPCS3 e.g RenderDoc.
 Also allows Vulkan to use debug markers for nicer Renderdoc captures.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Включает использование классических буферов OpenGL, что позволяет инструментам захвата, таким как RenderDoc, работать с RPCS3.
+Также позволяет Vulkan использовать отладочные маркеры для более качественных захватов в RenderDoc.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="113"/>
         <source>Only useful when debugging differences in GPU hardware.
 Not necessary for average users.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Полезно только при отладке различий в аппаратном обеспечении GPU.
+Не нужно для обычных пользователей.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="114"/>
@@ -1258,38 +1268,47 @@ If unsure, don&apos;t use this option.</source>
 Will cause severe performance degradation especially with Vulkan.
 Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Включает встроенные функции отладки выбранного API.
+Вызовет серьезное падение производительности, особенно с Vulkan.
+Полезно только для разработчиков.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="115"/>
         <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Предоставляет графическое наложение с различной отладочной информацией.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="116"/>
         <source>Provides a graphical overlay with pad input values for player 1.
 This is only shown if the other debug overlay is disabled.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Предоставляет графическое наложение со значениями ввода геймпада для игрока 1.
+Отображается только если другое отладочное наложение отключено.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="117"/>
         <source>Dump game shaders to file. Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Сохраняет шейдеры игры в файл. Полезно только для разработчиков.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="118"/>
         <source>Disables running occlusion queries. Minor to moderate performance boost.
 Might introduce issues with broken occlusion e.g missing geometry and extreme pop-in.</source>
-        <translation></translation>
+        <translation>Отключает выполнение запросов окклюзии. Небольшое или умеренное повышение производительности.
+Может вызвать проблемы с нарушенной окклюзией, например, отсутствующую геометрию и резкое появление объектов.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="119"/>
         <source>Disables all video output and PS3 graphical rendering.
 Its only use case is to evaluate performance on CELL for development.</source>
-        <translation></translation>
+        <translation>Отключает весь видеовывод и графический рендеринг PS3.
+Единственный вариант использования - оценка производительности CELL для разработки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="120"/>
@@ -1297,28 +1316,33 @@ Its only use case is to evaluate performance on CELL for development.</source>
 Requires &apos;Write Color Buffers&apos; option to also be enabled in most cases to avoid missing graphics.
 Significantly degrades performance but is more accurate in some cases.
 This setting overrides the &apos;GPU texture scaling&apos; option.</source>
-        <translation></translation>
+        <translation>Принудительно эмулирует все операции блиттинга и манипуляции с изображениями на ЦП.
+В большинстве случаев требует включения опции 'Write Color Buffers', чтобы избежать отсутствия графики.
+Значительно снижает производительность, но в некоторых случаях более точен.
+Эта настройка отменяет опцию 'GPU texture scaling'.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="121"/>
         <source>Disables the custom Vulkan memory allocator and reverts to direct calls to VkAllocateMemory/VkFreeMemory.</source>
-        <translation></translation>
+        <translation>Отключает пользовательский аллокатор памяти Vulkan и возвращается к прямым вызовам VkAllocateMemory/VkFreeMemory.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="122"/>
         <source>Disables RSX FIFO optimizations completely. Draws are processed as they are received by the DMA puller.</source>
-        <translation></translation>
+        <translation>Полностью отключает оптимизации RSX FIFO. Отрисовка обрабатывается по мере поступления от DMA puller.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="123"/>
         <source>Force all texture transfer, scaling and conversion operations on the GPU.
 May cause texture corruption in some cases.</source>
-        <translation></translation>
+        <translation>Принудительно выполнять все операции по передаче, масштабированию и преобразованию текстур на ГП.
+В некоторых случаях может вызывать повреждение текстур.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="124"/>
         <source>Forces texture flushing even in situations where it is not necessary/correct. Known to cause visual artifacts, but useful for debugging certain texture cache issues.</source>
-        <translation></translation>
+        <translation>Принудительно сбрасывает текстуры даже в ситуациях, когда это не нужно/неправильно.
+Известно, что это вызывает визуальные артефакты, но полезно для отладки некоторых проблем с кэшем текстур.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="125"/>
@@ -1326,265 +1350,296 @@ May cause texture corruption in some cases.</source>
 Anaglyph uses different colors for each eye, which can then be filtered with certain glasses.
 Side-by-Side is more commonly supported by VR viewer apps.
 Over-Under is closer to the native stereo output, but less commonly supported.</source>
-        <translation></translation>
+        <translation>Устанавливает режим рендеринга 3D-стерео (доступно только в пользовательских конфигурациях с разрешением по умолчанию 720p).
+Анаглиф использует разные цвета для каждого глаза, которые затем можно отфильтровать с помощью специальных очков.
+Side-by-Side чаще поддерживается приложениями для просмотра VR.
+Over-Under ближе к нативному стереовыходу, но поддерживается реже.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="126"/>
         <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation&apos;s length.</source>
-        <translation></translation>
+        <translation>Когда включено, атомарные операции PPU будут работать со всей строкой кэша, а не с одним 64-битным блоком памяти, как при отключении.
+Числовые значения определяют, включать ли точную версию в зависимости от длины атомарной операции.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="127"/>
         <source>Measure certain events and print a chart after the emulator is stopped. Don&apos;t enable if not asked to.</source>
-        <translation></translation>
+        <translation>Измеряет определенные события и выводит диаграмму после остановки эмулятора. Не включайте, если вас об этом не просили.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="128"/>
         <source>Affects maximum amount of PPU threads running concurrently, the value of 1 has very low compatibility with games.
 2 is the default, if unsure do not modify this setting.</source>
-        <translation></translation>
+        <translation>Влияет на максимальное количество одновременно работающих потоков PPU, значение 1 имеет очень низкую совместимость с играми.
+2 — значение по умолчанию, если не уверены, не изменяйте эту настройку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="132"/>
         <source>Activate Feral Interactive&apos;s GameMode.
 This is a series of CPU and GPU optimizations and can potentially benefit game performance on some systems.</source>
-        <translation></translation>
+        <translation>Активировать GameMode от Feral Interactive.
+Это серия оптимизаций для CPU и GPU, которая потенциально может улучшить производительность игр на некоторых системах.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="133"/>
         <source>This requires Feral Interactive&apos;s GameMode to be installed.
 GameMode is a series of CPU and GPU optimizations and can potentially benefit game performance on some systems.
 To install GameMode for your specific Linux distribution, go to the GitHub page:https://github.com/FeralInteractive/gamemode.</source>
-        <translation></translation>
+        <translation>Для этого требуется установка GameMode от Feral Interactive.
+GameMode - это серия оптимизаций CPU и GPU, которая потенциально может улучшить производительность игр на некоторых системах.
+Чтобы установить GameMode для вашего дистрибутива Linux, перейдите на страницу GitHub: https://github.com/FeralInteractive/gamemode.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="134"/>
         <source>Automatically close RPCS3 when closing a game, or when a game closes itself.</source>
-        <translation></translation>
+        <translation>Автоматически закрывать RPCS3 при закрытии игры или когда игра закрывается сама.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="135"/>
         <source>Automatically pause emulation when RPCS3 loses its focus or the application is inactive in order to save power and reduce CPU usage.
 Do note that emulation pausing in general is not perfect and may not be compatible with all games.
 Although it currently also pauses gameplay, it is not recommended to rely on it as this behavior may be changed in the future and it is not the purpose of this setting.</source>
-        <translation></translation>
+        <translation>Автоматически приостанавливать эмуляцию, когда RPCS3 теряет фокус или приложение неактивно, для экономии энергии и снижения нагрузки на ЦП.
+Обратите внимание, что приостановка эмуляции в целом не идеальна и может быть несовместима со всеми играми.
+Хотя в настоящее время это также приостанавливает игровой процесс, не рекомендуется полагаться на это, поскольку такое поведение может измениться в будущем, и это не является целью данной настройки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="136"/>
         <source>Automatically puts the game window in fullscreen.
 Double click on the game window or press Alt+Enter to toggle fullscreen and windowed mode.</source>
-        <translation></translation>
+        <translation>Автоматически переводит окно игры в полноэкранный режим.
+Дважды щелкните по окну игры или нажмите Alt+Enter, чтобы переключиться между полноэкранным и оконным режимами.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="137"/>
         <source>Prevent the display from sleeping while a game is running.
 This requires the org.freedesktop.ScreenSaver D-Bus service on Linux.
 This option will be disabled if the current platform does not support display sleep control.</source>
-        <translation></translation>
+        <translation>Запретить дисплею переходить в спящий режим во время работы игры.
+Для этого требуется служба D-Bus org.freedesktop.ScreenSaver в Linux.
+Эта опция будет отключена, если текущая платформа не поддерживает управление спящим режимом дисплея.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="138"/>
         <source>Configure the game window title.
 Changing this and/or adding the framerate may cause buggy or outdated recording software to not notice RPCS3.</source>
-        <translation></translation>
+        <translation>Настроить заголовок окна игры.
+Изменение этого и/или добавление частоты кадров может привести к тому, что некорректное или устаревшее программное обеспечение для записи не заметит RPCS3.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="139"/>
         <source>Automatically resizes the game window on boot.
 This does not change the internal game resolution.</source>
-        <translation></translation>
+        <translation>Автоматически изменяет размер окна игры при загрузке.
+Это не изменяет внутреннее разрешение игры.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="140"/>
         <source>Show trophy pop-ups when a trophy is unlocked.</source>
-        <translation></translation>
+        <translation>Показывать всплывающие окна трофеев при разблокировке трофея.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="141"/>
         <source>Show RPCN friend list pop-ups.</source>
-        <translation></translation>
+        <translation>Показывать всплывающие окна списка друзей RPCN.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="142"/>
         <source>Disables the activation of fullscreen mode per double-click while the game screen is active.
 Check this if you want to play with mouse and keyboard (for example with UCR).</source>
-        <translation></translation>
+        <translation>Отключает активацию полноэкранного режима по двойному щелчку мыши, когда активен экран игры.
+Отметьте это, если вы хотите играть с помощью мыши и клавиатуры (например, с UCR).</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="143"/>
         <source>Disables keyboard hotkeys such as Ctrl+S, Ctrl+E, Ctrl+R, Ctrl+P while the game screen is active.
 This does not include Ctrl+L (hide and lock mouse) and Alt+Enter (toggle fullscreen).
 Check this if you want to play with mouse and keyboard.</source>
-        <translation></translation>
+        <translation>Отключает горячие клавиши, такие как Ctrl+S, Ctrl+E, Ctrl+R, Ctrl+P, когда активен экран игры.
+Это не включает Ctrl+L (скрыть и заблокировать мышь) и Alt+Enter (переключить полноэкранный режим).
+Отметьте это, если хотите играть с помощью мыши и клавиатуры.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="144"/>
         <source>Limits the maximum number of threads used for the initial PPU and SPU module compilation.
 Lower this in order to increase performance of other open applications.
 The default uses all available threads.</source>
-        <translation></translation>
+        <translation>Ограничивает максимальное количество потоков, используемых для начальной компиляции модулей PPU и SPU.
+Уменьшите это значение, чтобы повысить производительность других открытых приложений.
+По умолчанию используются все доступные потоки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="145"/>
         <source>Shows the mouse cursor when the fullscreen mode is active.
 Currently this may not work every time.</source>
-        <translation></translation>
+        <translation>Показывает курсор мыши, когда активен полноэкранный режим.
+В настоящее время это может работать не всегда.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="146"/>
         <source>Locks the mouse cursor to the center when the fullscreen mode is active.</source>
-        <translation></translation>
+        <translation>Блокирует курсор мыши в центре, когда активен полноэкранный режим.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="147"/>
         <source>Hides the mouse cursor if no mouse movement is detected for the configured time.</source>
-        <translation></translation>
+        <translation>Скрывает курсор мыши, если в течение настроенного времени не обнаружено движения мыши.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="148"/>
         <source>Shows &apos;Compiling shaders&apos; hint using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказку «Компиляция шейдеров» с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="149"/>
         <source>Shows &apos;Compiling PPU modules&apos; hint using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказку «Компиляция модулей PPU» с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="150"/>
         <source>Shows autosave/autoload hint using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказку автосохранения/автозагрузки с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="151"/>
         <source>Shows pressure intensity toggle hint using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказку о переключении интенсивности нажатия с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="152"/>
         <source>Shows analog limiter toggle hint using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказку о переключении аналогового ограничителя с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="153"/>
         <source>Shows mouse and keyboard toggle hint using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказку о переключении мыши и клавиатуры с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="154"/>
         <source>Shows screenshot and recording hints using the native overlay.</source>
-        <translation></translation>
+        <translation>Показывает подсказки о скриншотах и записи с помощью нативного наложения.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="155"/>
         <source>Enables use of native HUD within the game window that can interact with game controllers.
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
-        <translation></translation>
+        <translation>Включает использование нативного HUD в окне игры, который может взаимодействовать с игровыми контроллерами.
+При отключении вместо него используются обычные диалоги Qt.
+В настоящее время экранная клавиатура поддерживает только английскую раскладку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="156"/>
         <source>When enabled, opening the home menu will also pause emulation.
 While most games pause themselves while the home menu is shown, some do not.
 In that case it can be helpful to pause the emulation whenever the home menu is open.</source>
-        <translation></translation>
+        <translation>Если включено, открытие главного меню также приостановит эмуляцию.
+Хотя большинство игр приостанавливаются сами, когда отображается главное меню, некоторые этого не делают.
+В этом случае может быть полезно приостанавливать эмуляцию всякий раз, когда открыто главное меню.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="158"/>
         <source>Enables or disables the performance overlay.</source>
-        <translation></translation>
+        <translation>Включает или отключает оверлей производительности.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="159"/>
         <source>Enables or disables the framerate graph.</source>
-        <translation></translation>
+        <translation>Включает или отключает график частоты кадров.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="160"/>
         <source>Enables or disables the frametime graph.</source>
-        <translation></translation>
+        <translation>Включает или отключает график времени кадра.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="161"/>
         <source>Sets the amount of datapoints used in the framerate graph.</source>
-        <translation></translation>
+        <translation>Устанавливает количество точек данных, используемых в графике частоты кадров.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="162"/>
         <source>Sets the amount of datapoints used in the frametime graph.</source>
-        <translation></translation>
+        <translation>Устанавливает количество точек данных, используемых в графике времени кадра.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="163"/>
         <source>Sets the on-screen position (quadrant) of the performance overlay.</source>
-        <translation></translation>
+        <translation>Устанавливает положение (квадрант) оверлея производительности на экране.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="164"/>
         <source>Controls the amount of information displayed on the performance overlay.</source>
-        <translation></translation>
+        <translation>Управляет объемом информации, отображаемой в оверлее производительности.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="165"/>
         <source>Sets the time interval in which the performance overlay is being updated (measured in milliseconds).
 Setting this to 16 milliseconds will refresh the performance overlay at roughly 60Hz.
 The performance overlay refresh rate does not affect the frame graph statistics and can only be as fast as the current game allows.</source>
-        <translation></translation>
+        <translation>Устанавливает временной интервал, с которым обновляется оверлей производительности (измеряется в миллисекундах).
+Установка этого значения в 16 миллисекунд приведет к обновлению оверлея производительности примерно с частотой 60 Гц.
+Частота обновления оверлея производительности не влияет на статистику графика кадров и может быть только такой быстрой, как позволяет текущая игра.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="166"/>
         <source>Sets the font size of the performance overlay (measured in pixels).</source>
-        <translation></translation>
+        <translation>Устанавливает размер шрифта оверлея производительности (измеряется в пикселях).</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="167"/>
         <source>Sets the opacity of the performance overlay (measured in %).</source>
-        <translation></translation>
+        <translation>Устанавливает непрозрачность оверлея производительности (измеряется в %).</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="168"/>
         <source>Sets the horizontal distance to the screen border relative to the screen quadrant (measured in pixels).</source>
-        <translation></translation>
+        <translation>Устанавливает горизонтальное расстояние до границы экрана относительно квадранта экрана (измеряется в пикселях).</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="169"/>
         <source>Sets the vertical distance to the screen border relative to the screen quadrant (measured in pixels).</source>
-        <translation></translation>
+        <translation>Устанавливает вертикальное расстояние до границы экрана относительно квадранта экрана (измеряется в пикселях).</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="170"/>
         <source>Centers the performance overlay horizontally and overrides the horizontal margin.</source>
-        <translation></translation>
+        <translation>Центрирует оверлей производительности по горизонтали и отменяет горизонтальный отступ.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="171"/>
         <source>Centers the performance overlay vertically and overrides the vertical margin.</source>
-        <translation></translation>
+        <translation>Центрирует оверлей производительности по вертикали и отменяет вертикальный отступ.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="173"/>
         <source>Shows a background image during the native shader loading dialog/loading screen.
 By default the used image will be &lt;gamedir&gt;/PS3_GAME/PIC1.PNG.</source>
-        <translation></translation>
+        <translation>Показывает фоновое изображение во время диалога загрузки нативных шейдеров/экрана загрузки.
+По умолчанию используется изображение &lt;gamedir&gt;/PS3_GAME/PIC1.PNG.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="174"/>
         <source>Changes the background image darkening effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation></translation>
+        <translation>Изменяет силу эффекта затемнения фонового изображения в диалоге загрузки нативных шейдеров.
+Это можно использовать для улучшения читабельности и/или эстетики.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="175"/>
         <source>Changes the background image blur effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-        <translation></translation>
+        <translation>Изменяет силу эффекта размытия фонового изображения в диалоге загрузки нативных шейдеров.
+Это можно использовать для улучшения читабельности и/или эстетики.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="179"/>
         <source>Vulkan is the fastest renderer. OpenGL is the most accurate renderer.
 If unsure, use Vulkan. Should you have any compatibility issues, fall back to OpenGL.</source>
-        <translation></translation>
+        <translation>Vulkan — самый быстрый рендерер. OpenGL — самый точный рендерер.
+Если не уверены, используйте Vulkan. Если возникнут проблемы с совместимостью, вернитесь к OpenGL.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="180"/>
@@ -1592,18 +1647,22 @@ If unsure, use Vulkan. Should you have any compatibility issues, fall back to Op
 Leave this on 1280x720. Every PS3 game is compatible with this resolution.
 Only use 1920x1080 if the game supports it.
 Rarely due to emulation bugs some games will only render at low resolutions like 480p.</source>
-        <translation></translation>
+        <translation>Этот параметр будет проигнорирован, если Масштаб разрешения установлен на любое значение, отличное от 100%!
+Оставьте 1280x720. Каждая игра для PS3 совместима с этим разрешением.
+Используйте 1920x1080, только если игра его поддерживает.
+Из-за ошибок эмуляции некоторые игры редко будут отображаться только в низких разрешениях, таких как 480p.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="181"/>
         <source>On multi GPU systems select which GPU to use in RPCS3 when using Vulkan.
 This is not needed when using OpenGL.</source>
-        <translation></translation>
+        <translation>На системах с несколькими GPU выберите, какой GPU использовать в RPCS3 при использовании Vulkan.
+Это не требуется при использовании OpenGL.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="182"/>
         <source>Leave this on 16:9 unless you have a 4:3 monitor.</source>
-        <translation></translation>
+        <translation>Оставьте 16:9, если у вас не монитор 4:3.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="183"/>
@@ -1612,21 +1671,29 @@ Using the frame limiter will add extra overhead and slow down the game. However,
 PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.
 Infinite adds a positive feedback loop which adds another vblank signal per frame allowing more games to be fps limitless.
 Experienced users with need of other frame limits should use the setting &quot;Second Frame Limit&quot; in the configuration file.</source>
-        <translation></translation>
+        <translation>Off — самый быстрый вариант.
+Использование ограничителя кадров добавит дополнительную нагрузку и замедлит игру. Однако некоторые игры будут вылетать, если частота кадров слишком высока.
+Нативный PS3 следует использовать только в том случае, если Авто не работает корректно, так как это может вызвать проблемы с равномерностью кадров.
+Бесконечный добавляет положительную обратную связь, которая добавляет еще один сигнал vblank на кадр, позволяя большему количеству игр быть без ограничения fps.
+Опытные пользователи, которым нужны другие ограничения кадров, должны использовать настройку "Second Frame Limit" в файле конфигурации.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="184"/>
         <source>Emulate PS3 multisampling layout.
 Can fix some otherwise difficult to solve graphics glitches.
 Low to moderate performance hit depending on your GPU hardware.</source>
-        <translation></translation>
+        <translation>Эмулировать схему мультисэмплинга PS3.
+Может исправить некоторые графические сбои, которые иначе трудно устранить.
+От низкого до умеренного падения производительности в зависимости от вашего оборудования GPU.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="185"/>
         <source>Higher values increase sharpness of textures on sloped surfaces at the cost of GPU resources.
 Modern GPUs can handle this setting just fine, even at 16x.
 Keep this on Automatic if you want to use the original setting used by a real PS3.</source>
-        <translation></translation>
+        <translation>Более высокие значения повышают четкость текстур на наклонных поверхностях за счет ресурсов GPU.
+Современные GPU отлично справляются с этой настройкой, даже при 16x.
+Оставьте это на Автоматически, если хотите использовать оригинальные настройки реальной PS3.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="186"/>
@@ -1634,26 +1701,33 @@ Keep this on Automatic if you want to use the original setting used by a real PS
 The base resolution is always 1280x720.
 Set this value to 100% if you want to use the normal Resolution options.
 Values below 100% will usually not improve performance.</source>
-        <translation></translation>
+        <translation>Масштабирует разрешение игры на заданный процент.
+Базовое разрешение всегда 1280x720.
+Установите это значение на 100%, если хотите использовать обычные параметры разрешения.
+Значения ниже 100% обычно не улучшают производительность.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="187"/>
         <source>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 If unsure, don&apos;t change this option.</source>
-        <translation></translation>
+        <translation>Будут масштабироваться только буферы кадра больше этого размера.
+Увеличение этого значения может исправить проблемы с отсутствующей графикой при масштабировании, особенно если включен параметр Write Color Buffers.
+Если не уверены, не изменяйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="188"/>
         <source>Enable this option if you get missing graphics or broken lighting ingame.
 Might degrade performance and introduce stuttering in some cases.
 Required for Demon&apos;s Souls.</source>
-        <translation></translation>
+        <translation>Включите эту опцию, если у вас пропадает графика или ломается освещение в игре.
+В некоторых случаях может снизить производительность и вызвать подтормаживания.
+Требуется для Demon's Souls.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="189"/>
         <source>By having this off you might obtain a higher framerate at the cost of tearing artifacts in the game.</source>
-        <translation></translation>
+        <translation>Отключив это, вы можете получить более высокую частоту кадров за счет артефактов разрыва изображения в игре.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="190"/>
@@ -1661,70 +1735,86 @@ Required for Demon&apos;s Souls.</source>
 Might result in degraded performance in some games.
 Can resolve rare cases of missing graphics and flickering.
 If unsure, don&apos;t use this option.</source>
-        <translation></translation>
+        <translation>Обеспечивает строгое соответствие спецификации API.
+Может привести к снижению производительности в некоторых играх.
+Может устранить редкие случаи отсутствия графики и мерцания.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="191"/>
         <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
-        <translation></translation>
+        <translation>Отменяет соотношение сторон и растягивает изображение на всю область дисплея.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="192"/>
         <source>Offloads some RSX operations to a secondary thread.
 Improves performance for high-core processors.
 May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
-        <translation></translation>
+        <translation>Переносит некоторые операции RSX во вторичный поток.
+Улучшает производительность для многоядерных процессоров.
+Может вызвать замедление на более слабых ЦП из-за дополнительной нагрузки на рабочий поток.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="194"/>
         <source>Disables asynchronous shader compilation.
 Fixes missing graphics while shaders are compiling but introduces severe stuttering or lag.
 Use this if you do not want to deal with graphics pop-in, or for testing before filing any bug reports.</source>
-        <translation></translation>
+        <translation>Отключает асинхронную компиляцию шейдеров.
+Исправляет отсутствующую графику во время компиляции шейдеров, но вызывает сильные подтормаживания или задержки.
+Используйте это, если не хотите иметь дело с всплывающими графическими элементами, или для тестирования перед отправкой отчетов об ошибках.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="195"/>
         <source>This is the recommended option.
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
-        <translation></translation>
+        <translation>Это рекомендуемый вариант.
+Если шейдер не найден в кэше, для этого шейдера ничего не будет отображаться, пока он не скомпилируется.
+Вы можете столкнуться с всплывающими графическими элементами.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="196"/>
         <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
-        <translation></translation>
+        <translation>Гибридный режим рендеринга.
+Если шейдер не найден в кэше, интерпретатор будет использоваться для рендеринга приближенной графики для этого шейдера, пока он не будет скомпилирован.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="197"/>
         <source>All rendering is handled by the interpreter with no attempt to compile native shaders.
 This mode is very slow and experimental.</source>
-        <translation></translation>
+        <translation>Вся отрисовка выполняется интерпретатором без попытки скомпилировать нативные шейдеры.
+Этот режим очень медленный и экспериментальный.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="198"/>
         <source>Number of threads to use for the shader compiler backend.
 Only has an impact when shader mode is set to one of the asynchronous modes.</source>
-        <translation></translation>
+        <translation>Количество потоков для использования бэкендом компилятора шейдеров.
+Имеет значение только тогда, когда режим шейдеров установлен в один из асинхронных режимов.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="199"/>
         <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
-        <translation></translation>
+        <translation>Управляет уровнем точности генерируемых шейдеров. Низкая точность генерирует гораздо более быстрый код в зависимости от оборудования, но иногда может вызывать незначительные визуальные сбои или мерцание.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="201"/>
         <source>Stream textures to GPU in parallel with 3D rendering using asynchronous compute.
 Can improve performance on more powerful GPUs that have spare headroom.
 Only works with Vulkan renderer and greatly benefits from having MTRSX enabled if you have a capable CPU.</source>
-        <translation></translation>
+        <translation>Потоковая передача текстур на GPU параллельно с 3D-рендерингом с использованием асинхронных вычислений.
+Может повысить производительность на более мощных GPU, у которых есть запас мощности.
+Работает только с рендерером Vulkan и значительно выигрывает от включенного MTRSX, если у вас мощный ЦП.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="202"/>
         <source>Controls which fullscreen mode RPCS3 requests from drivers when using Vulkan renderer.
 Automatic will let the driver choose an appropriate mode, while the other options will hint the drivers on whether they should use exclusive or borderless fullscreen.
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
-        <translation></translation>
+        <translation>Управляет режимом полноэкранного режима, который RPCS3 запрашивает у драйверов при использовании рендерера Vulkan.
+Автоматический позволит драйверу выбрать подходящий режим, в то время как другие опции подскажут драйверам, следует ли им использовать эксклюзивный или безрамочный полноэкранный режим.
+Использование опции «Предпочитать безрамочный полноэкранный режим» может помочь, если у вас есть проблемы с потоковой передачей игрового процесса RPCS3 или если ваша система неправильно включает режим HDR при использовании полноэкранного режима.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="204"/>
@@ -1732,169 +1822,189 @@ Using Prefer borderless fullscreen option can help if you have issues with strea
 If the game is rendering at an internal resolution lower than your window resolution, FidelityFX will handle the upscale.
 FidelityFX can cause visual artifacts.
 FidelityFX does not work with stereo 3D output for now.</source>
-        <translation></translation>
+        <translation>Финальная фильтрация изображения. Nearest не применяет фильтрацию, Bilinear сглаживает изображение, а FidelityFX Super Resolution улучшает масштабированные изображения.
+Если игра рендерится с внутренним разрешением ниже разрешения вашего окна, FidelityFX обработает масштабирование.
+FidelityFX может вызывать визуальные артефакты.
+FidelityFX пока не работает со стереоскопическим 3D-выводом.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="205"/>
         <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
-        <translation></translation>
+        <translation>Управляйте силой повышения резкости, применяемой FidelityFX Super Resolution. Более высокие значения дадут более четкое изображение, но могут привести к появлению артефактов.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="207"/>
         <source>Changes Texture sampling accuracy. (Small changes have a big effect.)
 Avoid using values outside the range of -12 to +12 if you&apos;re unsure.
 -3 to +3 is plenty for most usecases</source>
-        <translation></translation>
+        <translation>Изменяет точность выборки текстур. (Небольшие изменения имеют большой эффект.)
+Избегайте использования значений за пределами диапазона от -12 до +12, если вы не уверены.
+От -3 до +3 достаточно для большинства случаев использования.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="211"/>
         <source>Sets the maximum amount of blocks that the log can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
-        <translation></translation>
+        <translation>Устанавливает максимальное количество блоков, которые может отображать журнал.
+Обычно это равно количеству строк.
+Установите 0, чтобы убрать ограничение.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="212"/>
         <source>Sets the maximum amount of blocks that the TTY can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
-        <translation></translation>
+        <translation>Устанавливает максимальное количество блоков, которые может отображать TTY.
+Обычно это равно количеству строк.
+Установите 0, чтобы убрать ограничение.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="213"/>
         <source>Changes the overall look of RPCS3.
 Choose a stylesheet and click Apply to change between styles.</source>
-        <translation></translation>
+        <translation>Изменяет общий вид RPCS3.
+Выберите таблицу стилей и нажмите Применить, чтобы переключаться между стилями.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="214"/>
         <source>Shows the initial welcome screen upon starting RPCS3.</source>
-        <translation></translation>
+        <translation>Показывать начальный экран приветствия при запуске RPCS3.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="215"/>
         <source>Shows a confirmation dialog when the game window is being closed.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно подтверждения при закрытии окна игры.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="216"/>
         <source>Shows a confirmation dialog when a game was booted while another game is running.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно подтверждения при запуске игры, когда другая игра уже запущена.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="217"/>
         <source>Shows a dialog when packages were installed successfully.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно при успешной установке пакетов.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="218"/>
         <source>Shows a dialog when firmware was installed successfully.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно при успешной установке прошивки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="219"/>
         <source>Shows a dialog when obsolete settings were found.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно при обнаружении устаревших настроек.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="220"/>
         <source>Shows a dialog in the game pad configuration when the same button was assigned twice.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно в конфигурации геймпада, когда одна и та же кнопка была назначена дважды.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="221"/>
         <source>Shows a dialog when RPCS3 is ready to restart after an update.</source>
-        <translation></translation>
+        <translation>Показывать диалоговое окно, когда RPCS3 готов к перезапуску после обновления.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="222"/>
         <source>Checks if an update is available on startup and asks if you want to update.
 If &quot;Automatic&quot; is selected, the update will run automatically without user confirmation.
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</source>
-        <translation></translation>
+        <translation>Проверяет наличие обновления при запуске и спрашивает, хотите ли вы обновиться.
+Если выбрано «Автоматически», обновление будет запущено автоматически без подтверждения пользователя.
+Если выбрано «В фоновом режиме», проверка выполняется незаметно в фоновом режиме, и новая опция загрузки отображается в правом верхнем углу меню, если была найдена новая версия.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="223"/>
         <source>Enables use of Discord Rich Presence to show what game you are playing on Discord.
 Requires a restart of RPCS3 to completely close the connection.</source>
-        <translation></translation>
+        <translation>Включает использование Discord Rich Presence для отображения игры, в которую вы играете, в Discord.
+Требуется перезапуск RPCS3, чтобы полностью закрыть соединение.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="224"/>
         <source>Tell your friends what you are doing.</source>
-        <translation></translation>
+        <translation>Расскажите друзьям, чем вы занимаетесь.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="225"/>
         <source>Prioritize custom user interface colors over properties set in stylesheet.</source>
-        <translation></translation>
+        <translation>Приоритезировать пользовательские цвета интерфейса над свойствами, установленными в таблице стилей.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="226"/>
         <source>This is the ID used for hardware statistics.
 It should only be reset if you change your hardware configuration or if you copied RPCS3 to another PC.</source>
-        <translation></translation>
+        <translation>Это идентификатор, используемый для статистики оборудования.
+Его следует сбрасывать только в том случае, если вы меняете конфигурацию оборудования или если вы скопировали RPCS3 на другой компьютер.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="227"/>
         <source>Use the game pad that is configured for player 1 to navigate in the GUI.</source>
-        <translation></translation>
+        <translation>Используйте геймпад, настроенный для игрока 1, для навигации в графическом интерфейсе.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="228"/>
         <source>Keep control over pad navigation if RPCS3 is not the active window.</source>
-        <translation></translation>
+        <translation>Сохранять управление навигацией с геймпада, если RPCS3 не является активным окном.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="232"/>
         <source>Single-threaded: All pad handlers run on the same thread sequentially.
 Multi-threaded: Each pad handler has its own thread.
 Only use multi-threaded if you can spare the extra threads.</source>
-        <translation></translation>
+        <translation>Однопоточный: все обработчики геймпадов выполняются последовательно в одном потоке.
+Многопоточный: у каждого обработчика геймпада есть свой собственный поток.
+Используйте многопоточный режим, только если у вас есть лишние потоки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="233"/>
         <source>Shows all configured pads as always connected ingame even if they are physically disconnected.</source>
-        <translation></translation>
+        <translation>Показывает все настроенные геймпады как всегда подключенные в игре, даже если они физически отключены.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="234"/>
         <source>Some games support native keyboard input.
 Basic will work in these cases.</source>
-        <translation></translation>
+        <translation>Некоторые игры поддерживают нативный ввод с клавиатуры.
+В этих случаях будет работать базовый.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="235"/>
         <source>Some games support native mouse input.
 Basic or Raw will work in these cases.</source>
-        <translation></translation>
+        <translation>Некоторые игры поддерживают нативный ввод с мыши.
+В этих случаях будет работать Basic или Raw.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="236"/>
         <source>Currently only used for cellMusic emulation.
 Select Qt to use the default output device of your operating system.
 This may not be able to play all audio formats.</source>
-        <translation></translation>
+        <translation>В настоящее время используется только для эмуляции cellMusic.
+Выберите Qt, чтобы использовать устройство вывода по умолчанию вашей операционной системы.
+Это может не поддерживать воспроизведение всех аудиоформатов.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="237"/>
         <source>Select Qt Camera to use the default camera device of your operating system.</source>
-        <translation></translation>
+        <translation>Выберите Qt Camera, чтобы использовать камеру по умолчанию вашей операционной системы.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="238"/>
         <source>Depending on the game, you may need to select a specific camera type.</source>
-        <translation></translation>
+        <translation>В зависимости от игры вам может потребоваться выбрать определенный тип камеры.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="239"/>
         <source>Flips the camera image either horizontally, vertically, or on both axes.</source>
-        <translation></translation>
+        <translation>Переворачивает изображение с камеры по горизонтали, вертикали или по обеим осям.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="240"/>
         <source>Select the camera that you want to use during gameplay.</source>
-        <translation></translation>
+        <translation>Выберите камеру, которую вы хотите использовать во время игры.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="241"/>
@@ -1902,14 +2012,19 @@ This may not be able to play all audio formats.</source>
 Fake: Experimental! This maps Move controls to DS3 controller mappings.
 Mouse: Emulate PSMove with Mouse handler.
 Raw Mouse: Emulate PSMove with Raw Mouse handler.</source>
-        <translation></translation>
+        <translation>Поддержка PlayStation Move.
+Fake: Экспериментально! Это сопоставляет элементы управления Move с раскладкой контроллера DS3.
+Mouse: Эмулировать PSMove с помощью обработчика мыши.
+Raw Mouse: Эмулировать PSMove с помощью обработчика необработанной мыши.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="242"/>
         <source>Buzz! support.
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don&apos;t have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
-        <translation></translation>
+        <translation>Поддержка Buzz!
+Выберите 1 или 2 контроллера, если игра требует контроллеры Buzz! и у вас нет настоящих контроллеров.
+Выберите Null, если игра поддерживает DualShock или если у вас есть настоящие контроллеры Buzz!</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="243"/>
@@ -1917,7 +2032,10 @@ Select Null if the game has support for DualShock or if you have real Buzz! cont
 Select 1 or 2 controllers if the game requires DJ Hero Turntable controllers and you don&apos;t have real turntable controllers.
 Select Null if the game has support for DualShock or if you have real turntable controllers.
 A real turntable controller can be used at the same time as an emulated turntable controller.</source>
-        <translation></translation>
+        <translation>Поддержка контроллера DJ Hero Turntable.
+Выберите 1 или 2 контроллера, если игра требует контроллеры DJ Hero Turntable и у вас нет настоящих контроллеров.
+Выберите Null, если игра поддерживает DualShock или если у вас есть настоящие контроллеры.
+Настоящий контроллер можно использовать одновременно с эмулированным.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="244"/>
@@ -1925,111 +2043,128 @@ A real turntable controller can be used at the same time as an emulated turntabl
 Select 1 or 2 controllers if the game requires GHL Guitar controllers and you don&apos;t have real guitar controllers.
 Select Null if the game has support for DualShock or if you have real guitar controllers.
 A real guitar controller can be used at the same time as an emulated guitar controller.</source>
-        <translation></translation>
+        <translation>Поддержка контроллера Guitar Hero Live (GHL).
+Выберите 1 или 2 контроллера, если игра требует контроллеры GHL Guitar и у вас нет настоящих гитар.
+Выберите Null, если игра поддерживает DualShock или если у вас есть настоящие гитары.
+Настоящий гитарный контроллер можно использовать одновременно с эмулированным.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="245"/>
         <source>Allows pad and keyboard input while the game window is unfocused.</source>
-        <translation></translation>
+        <translation>Разрешает ввод с геймпада и клавиатуры, когда окно игры не в фокусе.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="246"/>
         <source>Shows the raw position of the PS Move input.
 This can be very helpful during calibration screens.</source>
-        <translation></translation>
+        <translation>Показывает необработанное положение ввода PS Move.
+Это может быть очень полезно во время экранов калибровки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="247"/>
         <source>Select up to 3 emulated MIDI devices and their types.</source>
-        <translation></translation>
+        <translation>Выберите до 3 эмулируемых MIDI-устройств и их типы.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="248"/>
         <source>Loads the SDL GameController database for improved gamepad compatibility. Only used in the SDL pad handler.</source>
-        <translation></translation>
+        <translation>Загружает базу данных SDL GameController для улучшения совместимости с геймпадами. Используется только в обработчике геймпадов SDL.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="250"/>
         <source>Locks the native overlay input to the first player.</source>
-        <translation></translation>
+        <translation>Блокирует ввод нативного оверлея для первого игрока.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="254"/>
         <source>If set to Connected, RPCS3 will allow programs to use your internet connection.</source>
-        <translation></translation>
+        <translation>Если установлено «Подключено», RPCS3 разрешит программам использовать ваше интернет-соединение.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="255"/>
         <source>If set to RPCN, RPCS3 will use the RPCN server as PSN connection if the game is supported.
 If set to Simulated, RPCS3 will try to fake the PSN connection, but any actual attempt at using the PSN functionality may result in errors or crashes.
 Simulated is only available in custom configurations.</source>
-        <translation></translation>
+        <translation>Если установлено RPCN, RPCS3 будет использовать сервер RPCN в качестве соединения с PSN, если игра поддерживается.
+Если установлено Simulated, RPCS3 попытается подделать соединение с PSN, но любая фактическая попытка использования функциональности PSN может привести к ошибкам или сбоям.
+Simulated доступен только в пользовательских конфигурациях.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="256"/>
         <source>DNS used to resolve hostnames by applications.</source>
-        <translation></translation>
+        <translation>DNS, используемый для разрешения имен хостов приложениями.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="257"/>
         <source>DNS Swap List.
 Only available in custom configurations.</source>
-        <translation></translation>
+        <translation>Список подмены DNS.
+Доступно только в пользовательских конфигурациях.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="258"/>
         <source>Interface IP Address to bind to.
 Only available in custom configurations.</source>
-        <translation></translation>
+        <translation>IP-адрес интерфейса для привязки.
+Доступно только в пользовательских конфигурациях.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="259"/>
         <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
-        <translation></translation>
+        <translation>Включить UPNP.
+Это автоматически перенаправит порты, привязанные к 0.0.0.0, если на вашем маршрутизаторе включен UPNP.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="260"/>
         <source>Changes the RPCN country.</source>
-        <translation></translation>
+        <translation>Изменяет страну RPCN.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="264"/>
         <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
-        <translation></translation>
+        <translation>Регион консоли определяет лицензионную зону PS3.
+В зависимости от лицензионной зоны некоторые игры могут не работать.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="265"/>
         <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
-        <translation></translation>
+        <translation>Некоторые игры могут не загружаться, если системный язык недоступен в самой игре.
+Другие игры автоматически переключат язык на тот, который выбран здесь.
+Рекомендуется оставить язык, поддерживаемый игрой.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="266"/>
         <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
-        <translation></translation>
+        <translation>Устанавливает используемую раскладку клавиатуры.
+В настоящее время полностью поддерживаются только американская, японская и немецкая раскладки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="267"/>
         <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
-        <translation></translation>
+        <translation>Кнопка, используемая для ввода/принятия/подтверждения в системных диалоговых окнах.
+Измените это, чтобы вместо нее использовать кнопку «Круг», которая является конфигурацией по умолчанию на японских системах и во многих японских играх.
+В этих случаях назначение кнопки «крестик» часто может привести к путанице.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="268"/>
         <source>Required for some Homebrew.
 If unsure, do not use this option.</source>
-        <translation></translation>
+        <translation>Требуется для некоторых Homebrew.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="269"/>
         <source>Required for some Homebrew or Game Mods.
 If unsure, do not use this option</source>
-        <translation></translation>
+        <translation>Требуется для некоторых Homebrew или игровых модов.
+Если не уверены, не используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="270"/>
@@ -2037,175 +2172,181 @@ If unsure, do not use this option</source>
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.
 
 This setting is only available in the global configuration.</source>
-        <translation></translation>
+        <translation>Автоматически удаляет старые файлы из кэша диска при загрузке, если он становится больше указанного значения.
+Игры могут использовать папку кэша для временного хранения данных вне системной памяти. Он не используется для долгосрочного хранения.
+
+Эта настройка доступна только в глобальной конфигурации.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="271"/>
         <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</source>
-        <translation></translation>
+        <translation>Устанавливает время, которое будет использоваться в консоли. Это будет применяться как смещение, которое отслеживает реальное время.
+Можно сбросить до текущего реального времени, нажав «Установить сейчас».</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="276"/>
         <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
-        <translation></translation>
+        <translation>Этот контроллер отключен и будет отображаться как отключенный для программного обеспечения. Выберите другой обработчик, чтобы включить его.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="277"/>
         <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
-        <translation></translation>
+        <translation>Этот порт в настоящее время назначен пользовательскому контроллеру приложением и не может быть изменен.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="278"/>
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
-        <translation></translation>
+        <translation>Хотя в RPCS3 можно использовать клавиатуру в качестве геймпада, настоятельно рекомендуется использовать настоящий контроллер.&lt;br&gt;Чтобы привязать движение мыши к кнопке или джойстику, щелкните нужную кнопку, чтобы активировать ее, затем щелкните и удерживайте, перетаскивая мышь в нужном направлении.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="279"/>
         <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation></translation>
+        <translation>Чтобы использовать обработчик DualShock 3, вам необходимо сначала установить официальный драйвер DualShock 3.&lt;br&gt;Инструкции см. в &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;вики RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="280"/>
         <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation></translation>
+        <translation>Чтобы использовать обработчик DualShock 3, вам может потребоваться добавить правила udev, чтобы RPCS3 мог получить доступ к контроллеру.&lt;br&gt;Инструкции см. в &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;вики RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="281"/>
         <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
-        <translation></translation>
+        <translation>Обработчик DualShock 3 рекомендуется для официальных контроллеров DualShock 3.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="282"/>
         <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
-        <translation></translation>
+        <translation>Если у вас возникли проблемы с обработчиком DualShock 4, это может быть вызвано сторонними инструментами, такими как DS4Windows. Рекомендуется отключить их при использовании этого обработчика.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="283"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation></translation>
+        <translation>Чтобы использовать обработчик DualShock 4, вам может потребоваться добавить правила udev, чтобы RPCS3 мог получить доступ к контроллеру.&lt;br&gt;Инструкции см. в &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;вики RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="284"/>
         <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
-        <translation></translation>
+        <translation>Обработчик DualShock 4 рекомендуется для официальных контроллеров DualShock 4.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="285"/>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="286"/>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="287"/>
         <source>The DualSense handler is recommended for official DualSense controllers.</source>
-        <translation></translation>
+        <translation>Обработчик DualSense рекомендуется для официальных контроллеров DualSense.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="288"/>
         <source>The Skateboard handler is recommended for official RIDE skateboard controllers.</source>
-        <translation></translation>
+        <translation>Обработчик Skateboard рекомендуется для официальных контроллеров RIDE Skateboard.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="289"/>
         <source>The PS Move handler is recommended for official PS Move controllers.</source>
-        <translation></translation>
+        <translation>Обработчик PS Move рекомендуется для официальных контроллеров PS Move.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="290"/>
         <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP&apos;s XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</source>
-        <translation></translation>
+        <translation>Обработчик XInput будет работать с контроллерами Xbox и многими сторонними контроллерами, совместимыми с ПК. Чувствительные к давлению кнопки от SCP поддерживаются, если XInput1_3.dll от SCP помещен в основной каталог RPCS3. Для получения дополнительной информации см. &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;вики RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="291"/>
         <source>The evdev handler should work with any controller that has Linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-        <translation></translation>
+        <translation>Обработчик evdev должен работать с любым контроллером, имеющим поддержку Linux.&lt;br&gt;Если ваш джойстик не центрируется должным образом, прочитайте &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;вики RPCS3&lt;/a&gt; для получения инструкций.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="292"/>
         <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
-        <translation></translation>
+        <translation>Обработчик MMJoystick должен работать практически с любым контроллером, распознаваемым Windows. Однако рекомендуется использовать более специализированные обработчики, если у вас есть контроллер, который их поддерживает.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="293"/>
         <source>The SDL handler supports a variety of controllers across different platforms.</source>
-        <translation></translation>
+        <translation>Обработчик SDL поддерживает различные контроллеры на разных платформах.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="295"/>
         <source>Resets the sensor orientation when pressed.&lt;br&gt;Toggle the checkbox to enable or disable the orientation feature.&lt;br&gt;Currently only used for PS Move interactions.</source>
-        <translation></translation>
+        <translation>Сбрасывает ориентацию датчика при нажатии.&lt;br&gt;Установите/снимите флажок, чтобы включить или отключить функцию ориентации.&lt;br&gt;В настоящее время используется только для взаимодействий с PS Move.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="296"/>
         <source>Applies the stick multipliers while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the analog limiter on button press instead.</source>
-        <translation></translation>
+        <translation>Применяет множители стиков, пока нажата эта специальная кнопка.&lt;br&gt;Включите «Переключить», если хотите вместо этого переключать аналоговый ограничитель при нажатии кнопки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="297"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-        <translation></translation>
+        <translation>Управляет интенсивностью чувствительных к давлению кнопок, пока нажата эта специальная кнопка.&lt;br&gt;Включите «Переключить», если хотите вместо этого переключать интенсивность при нажатии кнопки.&lt;br&gt;Используйте проценты, чтобы изменить, насколько сильно вы хотите нажать кнопку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="298"/>
         <source>Controls the deadzone of pressure sensitive buttons. It determines how far the button has to be pressed until it is recognized by the game. The resulting range will be projected onto the full button sensitivity range.</source>
-        <translation></translation>
+        <translation>Управляет мертвой зоной чувствительных к давлению кнопок. Он определяет, насколько далеко нужно нажать кнопку, чтобы игра ее распознала. Полученный диапазон будет спроецирован на полный диапазон чувствительности кнопки.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="299"/>
         <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 8000 is usually recommended.</source>
-        <translation></translation>
+        <translation>Фактический диапазон стиков DualShock 3 не круглый, а имеет форму закругленного квадрата (или сквиркла), который представляет максимальный диапазон эмулируемых стиков. Вы можете использовать значения сквиркла для изменения ввода стиков, если ваши стики не могут достичь углов этого диапазона. Значение 0 не применяет так называемый сквирклинг. Обычно рекомендуется значение 8000.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="300"/>
         <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
-        <translation></translation>
+        <translation>Множители стиков можно использовать для изменения чувствительности движений стиков.&lt;br&gt;Настройка по умолчанию — 1 и представляет собой обычный ввод.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="301"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is simulated using the anti-deadzone slider (default is 13%), so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
-        <translation></translation>
+        <translation>Мертвая зона стика определяет, насколько далеко нужно сдвинуть стик, чтобы игра его полностью распознала. Полученный диапазон будет спроецирован на полный диапазон ввода, чтобы обеспечить плавность игры. Движение внутри мертвой зоны моделируется с помощью ползунка антимертвой зоны (по умолчанию 13%), так что не волнуйтесь, если в предварительном просмотре эмулируемого стика все еще отображается движение.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="302"/>
         <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.</source>
-        <translation></translation>
+        <translation>PS3 активирует два мотора (большой и маленький) для обработки вибраций контроллера.&lt;br&gt;Здесь вы можете включить, отключить или даже переключить эти сигналы для текущего выбранного геймпада.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="303"/>
         <source>Use this to configure the gamepad motion controls.</source>
-        <translation></translation>
+        <translation>Используйте это для настройки управления движением геймпада.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="304"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
-        <translation></translation>
+        <translation>Эмулируемые значения стиков (красные точки) в предварительном просмотре стиков представляют фактические положения стиков, которые будут видны игре. Фактический диапазон стиков DualShock 3 не круглый, а имеет форму закругленного квадрата (или сквиркла), который представляет максимальный диапазон эмулируемых стиков. Синие обычные точки представляют необработанные значения стиков (включая множители стиков) до их преобразования для использования в игре.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="305"/>
         <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
-        <translation></translation>
+        <translation>Мертвая зона триггера определяет, насколько далеко нужно сдвинуть триггер, чтобы игра его распознала. Полученный диапазон будет спроецирован на полный диапазон ввода, чтобы обеспечить плавность игры.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="306"/>
         <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
-        <translation></translation>
+        <translation>С клавиатурами вы неизбежно ограничены 8 направлениями стика (4 прямых + 4 диагональных). Кроме того, стик немедленно перескакивает на максимальное значение выбранного направления при нажатии клавиши. Интерполяцию стика можно использовать для решения обеих этих проблем путем сглаживания этих изменений направления. Чем ниже значение, тем дольше вам нужно нажимать или отпускать клавишу, пока не будет достигнута максимальная амплитуда.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="307"/>
         <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
-        <translation></translation>
+        <translation>Мертвые зоны мыши представляют собой собственные мертвые зоны игр по осям x и y. Игры обычно применяют свои собственные мертвые зоны,</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="308"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
-        <translation></translation>
+        <translation>Ускорение мыши можно использовать для усиления движений мыши по осям X и Y. Увеличивайте эти значения, если движения вашей мыши кажутся слишком медленными во время игры. Вы можете временно изменять эти значения во время игры, чтобы найти оптимальные (Alt+G и Alt+H для X, Alt+J и Alt+K для Y).
+Имейте в виду, что современные мыши обычно предоставляют различные режимы и настройки, которые также можно использовать для изменения скорости движения мыши.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="309"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
-        <translation></translation>
+        <translation>Режим движения мыши определяет, как движения мыши переводятся в ввод геймпада. Используйте относительный режим для традиционного движения мыши.
+Используйте абсолютный режим, чтобы использовать расстояние мыши от центра экрана в качестве значения ввода.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="310"/>
         <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Alt + Left-click: differentiate between trigger press and release (only XInput for now).&lt;br&gt;Right-click: clear this button mapping.</source>
-        <translation></translation>
+        <translation>ЛКМ: переназначить эту кнопку.&lt;br&gt;Shift + ЛКМ: добавить дополнительное назначение кнопки.&lt;br&gt;Alt + ЛКМ: различать нажатие и отпускание триггера (только для XInput).&lt;br&gt;ПКМ: очистить назначение кнопки.</translation>
     </message>
 </context>
 <context>
@@ -17067,5 +17208,3 @@ Otherwise, further discussion and support can be found on the %3 or on our %4 se
     </message>
 </context>
 </TS>
-
-
