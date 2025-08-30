@@ -925,46 +925,51 @@ This allows players to prepare for gameplay without being thrown into the action
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="60"/>
         <source>When enabled, SPU performance is measured at runtime.
 Enable only at a developer&apos;s request because when enabled it reduces performance a bit by itself.</source>
-        <translation></translation>
+        <translation>Когда опция включена, производительность SPU измеряется во время выполнения.
+Включайте только по запросу разработчика, поскольку само по себе это немного снижает производительность.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="64"/>
         <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 XAudio2 uses native Windows sounds system and is the next best alternative.</source>
-        <translation></translation>
+        <translation>Cubeb использует кросс-платформенный подход и поддерживает буферизацию звука, поэтому это рекомендуемый вариант.
+XAudio2 использует нативную звуковую систему Windows и является следующей лучшей альтернативой.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="65"/>
         <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 If it&apos;s not available, FAudio could be used instead.</source>
-        <translation></translation>
+        <translation>Cubeb использует кросс-платформенный подход и поддерживает буферизацию звука, поэтому это рекомендованный вариант.
+Если он недоступен, вместо него можно использовать FAudio.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="66"/>
         <source>Controls which PS3 audio API is used.
 Games use CellAudio, while VSH requires RSXAudio.</source>
-        <translation></translation>
+        <translation>Управляет тем, какой аудио-API PS3 используется.
+Игры используют CellAudio, в то время как VSH требуется RSXAudio.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="67"/>
         <source>Controls which avport is used to sample audio data from.</source>
-        <translation></translation>
+        <translation>Управляет тем, какой avport используется для сэмплирования аудиоданных.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="68"/>
         <source>Controls which device is used by audio backend.</source>
-        <translation></translation>
+        <translation>Управляет тем, какое устройство используется аудио-бэкендом.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="69"/>
         <source>Saves all audio as a raw wave file. If unsure, leave this unchecked.</source>
-        <translation></translation>
+        <translation>Сохраняет весь звук как необработанный (raw) файл в формате wave. Если не уверены, оставьте эту опцию выключенной.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="70"/>
         <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
-        <translation></translation>
+        <translation>Использует 16-битные аудиосэмплы вместо стандартных 32-битных с плавающей точкой.
+Используйте с "глючными" аудиодрайверами, если у вас нет звука или звук полностью сломан.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="71"/>
@@ -972,41 +977,48 @@ Use with buggy audio drivers if you have no sound or completely broken sound.</s
 Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
 The manual setting will use your selected formats while the automatic setting will let the game choose from all available formats.</source>
-        <translation></translation>
+        <translation>Определяет формат звука для эмуляции.
+Настройте эту опцию, если хотите переключиться между стерео- и объемным звуком.
+Изменение этих значений требует перезапуска игры.
+Ручной режим будет использовать выбранные вами форматы, в то время как автоматический режим позволит игре выбирать из всех доступных форматов.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="72"/>
         <source>Determines the sound format of RPCS3.
 Use &apos;Auto&apos; to let RPCS3 decide the best format based on the audio device and the emulated audio format.</source>
-        <translation></translation>
+        <translation>Определяет звуковой формат RPCS3.
+Используйте «Авто», чтобы позволить RPCS3 определить наилучший формат на основе аудиоустройства и эмулируемого аудиоформата.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="73"/>
         <source>Controls the overall volume of the emulation.
 Values above 100% might reduce the audio quality.</source>
-        <translation></translation>
+        <translation>Управляет общей громкостью эмуляции.
+Значения выше 100% могут снизить качество звука.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="74"/>
         <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
-        <translation></translation>
+        <translation>Включает буферизацию звука, что уменьшает треск/заикание, но увеличивает задержку звука.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="75"/>
         <source>Target buffer duration in milliseconds.
 Higher values make the buffering algorithm&apos;s job easier, but may introduce noticeable audio latency.</source>
-        <translation></translation>
+        <translation>Целевая продолжительность буфера в миллисекундах.
+Более высокие значения облегчают работу алгоритма буферизации, но могут привести к заметной задержке звука.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="76"/>
         <source>Enables time stretching - requires buffering to be enabled.
 Reduces crackle/stutter further, but may cause a very noticeable reduction in audio quality on slower CPUs.</source>
-        <translation></translation>
+        <translation>Включает растягивание времени — для этого необходимо включить буферизацию.
+Еще больше уменьшает треск/заикание, но на более медленных процессорах может вызвать очень заметное снижение качества звука.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="77"/>
         <source>Buffer fill level (in percentage) below which time stretching will start.</source>
-        <translation></translation>
+        <translation>Уровень заполнения буфера (в процентах), ниже которого начнется растягивание времени.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="78"/>
@@ -1014,7 +1026,10 @@ Reduces crackle/stutter further, but may cause a very noticeable reduction in au
 SingStar emulates a SingStar device and should be used with SingStar games.
 Real SingStar should only be used with a REAL SingStar device with SingStar games.
 Rocksmith should be used with a Rocksmith dongle.</source>
-        <translation></translation>
+        <translation>Для большинства игр следует использовать Standard.
+SingStar эмулирует устройство SingStar, и эту опцию следует использовать с играми SingStar.
+Real SingStar следует использовать ТОЛЬКО с НАСТОЯЩИМ устройством SingStar и играми SingStar.
+Rocksmith следует использовать с ключом (dongle) Rocksmith.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="82"/>
@@ -1024,7 +1039,7 @@ Rocksmith should be used with a Rocksmith dongle.</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="83"/>
         <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation></translation>
+        <translation>Интерпретатор (медленный). Попробуйте это, если PPU Recompiler (LLVM) не работает.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="84"/>
@@ -1032,79 +1047,99 @@ Rocksmith should be used with a Rocksmith dongle.</source>
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</source>
-        <translation></translation>
+        <translation>Пересобирает и кэширует код PPU игры с помощью LLVM Recompiler один раз перед первым запуском.
+Это самый быстрый вариант, и его всегда следует использовать.
+Если вы столкнетесь с проблемами совместимости, вернитесь к одному из интерпретаторов и попробуйте снова.
+Если не уверены, используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="85"/>
         <source>Searches the game&apos;s directory and precompiles extra PPU and SPU modules during boot.
 If disabled, these modules will only be compiled when needed. Depending on the game, this might interrupt the gameplay unexpectedly and possibly frequently.
 Only disable this if you want to get ingame more quickly.</source>
-        <translation></translation>
+        <translation>Ищет в директории игры и предварительно компилирует дополнительные модули PPU и SPU во время загрузки.
+Если эта опция отключена, эти модули будут компилироваться только при необходимости. В зависимости от игры, это может неожиданно и, возможно, часто прерывать игровой процесс.
+Отключайте это только в том случае, если вы хотите быстрее зайти в игру.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="86"/>
         <source>Interpreter (slow). Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation></translation>
+        <translation>Интерпретатор (медленный). Попробуйте это, если SPU Recompiler (LLVM) не работает.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="87"/>
         <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation></translation>
+        <translation>Альтернативный интерпретатор (медленный). Может быть быстрее, чем статический интерпретатор. Попробуйте это, если SPU Recompiler (LLVM) не работает.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="88"/>
         <source>Recompiles the game&apos;s SPU code using the ASMJIT Recompiler.
 This is the fast option with very good compatibility.
 If unsure, use this option.</source>
-        <translation></translation>
+        <translation>Пересобирает SPU-код игры с помощью ASMJIT Recompiler.
+Это быстрый вариант с очень хорошей совместимостью.
+Если не уверены, используйте эту опцию.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="89"/>
         <source>Recompiles and caches the game&apos;s SPU code using the LLVM Recompiler before running which adds extra start-up time.
 This is the fastest option with very good compatibility.
 If you experience issues, use the ASMJIT Recompiler.</source>
-        <translation></translation>
+        <translation>Пересобирает и кэширует SPU-код игры с помощью LLVM Recompiler перед запуском, что добавляет дополнительное время загрузки.
+Это самый быстрый вариант с очень хорошей совместимостью.
+Если возникнут проблемы, используйте ASMJIT Recompiler.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="90"/>
         <source>Control accuracy to SPU float vectors processing.
 Fixes bugs in various games at the cost of performance.
 This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</source>
-        <translation></translation>
+        <translation>Управляет точностью обработки векторов с плавающей точкой в SPU.
+Исправляет ошибки в различных играх, но за счет производительности.
+Эта настройка применяется только тогда, когда для SPU Decoder установлено значение Dynamic или LLVM.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="91"/>
         <source>Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU. It&apos;s recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</source>
-        <translation></translation>
+        <translation>Управляет тем, как RPCS3 использует потоки вашей системы. 
+Каждый вариант сильно зависит от игры и от вашего процессора. Рекомендуется попробовать каждый из них, чтобы найти тот, который обеспечивает наилучшую производительность.
+Изменение планировщика потоков не поддерживается на процессорах с количеством потоков менее 12.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="92"/>
         <source>Try to detect loop conditions in SPU kernels and use them as scheduling hints.
 Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
-        <translation></translation>
+        <translation>Пытается обнаруживать условия циклов в ядрах SPU и использовать их как подсказки для планировщика.
+Это повышает производительность и снижает загрузку процессора.
+В редких случаях может вызывать сильное заикание звука.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="93"/>
         <source>Enable usage of TSX instructions.
 Needs to be forced on some Haswell or Broadwell CPUs or CPUs with the TSX-FA instruction set.
 Forcing TSX in these cases may lead to system and performance instability, use it with caution.</source>
-        <translation></translation>
+        <translation>Включает использование инструкций TSX.
+Необходимо принудительно включать на некоторых процессорах Haswell (i3, i5, i7) или Broadwell, а также на процессорах с набором инструкций TSX-FA.
+Принудительное включение TSX в этих случаях может привести к нестабильности системы и производительности, используйте с осторожностью.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="94"/>
         <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
-        <translation></translation>
+        <translation>Эта опция управляет анализатором SPU, в частности, размером скомпилированных модулей. Режимы Mega и Giga могут повысить производительность, объединяя более мелкие модули, тем самым уменьшая количество скомпилированных единиц, но увеличивая их размер.
+Используйте режим Safe для максимальной совместимости.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="95"/>
         <source>Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls.
 Setting this to a smaller value might improve performance and reduce stuttering in some games.
 Leave this on auto if performance is negatively affected when setting a small value.</source>
-        <translation></translation>
+        <translation>Некоторые этапы SPU чувствительны к гонкам потоков, и ограничение их количества одновременно помогает уменьшить задержки в производительности.
+Установка меньшего значения может повысить производительность и снизить подтормаживания в некоторых играх.
+Оставьте значение на «Авто», если при установке малого значения производительность ухудшается.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="96"/>
@@ -1112,33 +1147,42 @@ Leave this on auto if performance is negatively affected when setting a small va
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it&apos;s active when framerate is stable.
 The lighter the game is on the hardware, the more power is saved by it. (until the preemption count barrier is reached)</source>
-        <translation></translation>
+        <translation>Снижает нагрузку на CPU и потребление энергии, увеличивая время работы от батареи на мобильных устройствах. (0 — отключено)
+Более высокие значения усиливают эффект, но могут вызвать проблемы с аудио или производительностью. Рекомендуется значение 50 или меньше.
+Эта опция принудительно ограничивает FPS, так как активна при стабильной частоте кадров.
+Чем легче игра для железа, тем больше энергии экономится. (до достижения предела количества прерываний)</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="100"/>
         <source>Leave this enabled unless you are a developer.</source>
-        <translation></translation>
+        <translation>Оставьте эту опцию включенной, если вы не являетесь разработчиком.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="101"/>
         <source>Creates PPU logs.
 Only useful to developers.
 Never use this.</source>
-        <translation></translation>
+        <translation>Создает PPU-логи.
+Полезно только разработчикам.
+Никогда не используйте это.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="102"/>
         <source>Creates SPU logs.
 Only useful to developers.
 Never use this.</source>
-        <translation></translation>
+        <translation>Создает SPU-логи.
+Полезно только разработчикам.
+Никогда не используйте это.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="103"/>
         <source>Creates MFC logs.
 Only useful to developers.
 Never use this.</source>
-        <translation></translation>
+        <translation>Создает логи MFC.
+Полезно только разработчикам.
+Никогда не используйте это.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="104"/>
@@ -1146,13 +1190,17 @@ Never use this.</source>
 Only used in PPU thread when it&apos;s not precise.
 Only useful to developers.
 Never use this.</source>
-        <translation></translation>
+        <translation>Устанавливает специальные флаги MXCSR для отладки ошибок в операциях SSE.
+Используется только в потоке PPU, когда он не является точным.
+Полезно только для разработчиков.
+Никогда не используйте это.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="105"/>
         <source>Accurately set Saturation Bit values in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation></translation>
+        <translation>Точно устанавливает значения битов насыщения (Saturation Bit) в бэкендах PPU.
+Если не уверены, не изменяйте эту настройку.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="106"/>
@@ -16844,37 +16892,37 @@ Stop the emulator now?</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="17"/>
         <source>Edit %0</source>
-        <translation></translation>
+        <translation>Редактировать %0</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="28"/>
         <source>Reset All</source>
-        <translation></translation>
+        <translation>Сбросить Всё</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="46"/>
         <source>Confirm Reset</source>
-        <translation></translation>
+        <translation>Подтвердите сброс</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="46"/>
         <source>Reset all entries and file system directories?</source>
-        <translation></translation>
+        <translation>Сбросить все записи и директории файловой системы?</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="75"/>
         <source>Vendor ID:</source>
-        <translation></translation>
+        <translation>ID поставщика:</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="76"/>
         <source>Product ID:</source>
-        <translation></translation>
+        <translation>ID Продукта:</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="77"/>
         <source>Serial:</source>
-        <translation></translation>
+        <translation>Серийный номер:</translation>
     </message>
 </context>
 <context>
@@ -16882,7 +16930,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_tab.cpp" line="150"/>
         <source>&amp;Edit</source>
-        <translation></translation>
+        <translation>&amp;Редактировать</translation>
     </message>
 </context>
 <context>
@@ -16890,17 +16938,17 @@ Stop the emulator now?</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_tool_dialog.ui" line="14"/>
         <source>VFS Tool</source>
-        <translation></translation>
+        <translation>Утилита VFS</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_tool_dialog.ui" line="20"/>
         <source>Path</source>
-        <translation></translation>
+        <translation>Путь</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/vfs_tool_dialog.ui" line="36"/>
         <source>Result</source>
-        <translation></translation>
+        <translation>Результат</translation>
     </message>
 </context>
 <context>
@@ -16908,52 +16956,52 @@ Stop the emulator now?</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="20"/>
         <source>Welcome to RPCS3</source>
-        <translation></translation>
+        <translation>Добро пожаловать в RPCS3!</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="98"/>
         <source>RPCS3 PlayStation 3 Emulator</source>
-        <translation></translation>
+        <translation>RPCS3 - Эмулятор PlayStation 3</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="180"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 does not condone piracy. You must dump your own games.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 не одобряет пиратство. Вы должны дампить свои игры.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="190"/>
         <source>Create desktop shortcut</source>
-        <translation></translation>
+        <translation>Создать ярлык на рабочем столе</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="197"/>
         <source>Create Start Menu shortcut</source>
-        <translation></translation>
+        <translation>Создать ярлык в меню "Пуск"</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="204"/>
         <source>Use Dark Theme (can be configured later)</source>
-        <translation></translation>
+        <translation>Использовать тёмную тему (может быть изменено позже)</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="238"/>
         <source>Continue</source>
-        <translation></translation>
+        <translation>Продолжить</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="248"/>
         <source>Exit</source>
-        <translation></translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="271"/>
         <source>I have read the Quickstart guide</source>
-        <translation></translation>
+        <translation>Я прочитал руководство по быстрому старту</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.ui" line="291"/>
         <source>Show at startup</source>
-        <translation></translation>
+        <translation>Показывать при старте</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="27"/>
@@ -16961,12 +17009,15 @@ Stop the emulator now?</source>
 It is written in C++ for Windows, Linux, FreeBSD and MacOS funded with %0.
 Our developers and contributors are always working hard to ensure this project is the best that it can be.
 There are still plenty of implementations to make and optimizations to do.</source>
-        <translation></translation>
+        <translation>RPCS3 - это эмулятор и отладчик игровой приставки Sony PlayStation 3 с открытым исходным кодом.
+Он написан на C++ для Windows, Linux, FreeBSD и MacOS, а его разработка финансируется за счет %0.
+Наши разработчики и контрибьюторы всегда усердно работают над тем, чтобы этот проект был наилучшим.
+Впереди еще много работы по реализации и оптимизации.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="32"/>
         <source>Patreon</source>
-        <translation></translation>
+        <translation>Patreon</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="34"/>
@@ -16974,42 +17025,45 @@ There are still plenty of implementations to make and optimizations to do.</sour
 Please refer to the %1 guide found on the official website for further information.
 If you have any further questions, please refer to the %2.
 Otherwise, further discussion and support can be found on the %3 or on our %4 server.</source>
-        <translation></translation>
+        <translation>Чтобы начать, вы должны сначала установить %0.
+Пожалуйста, обратитесь к руководству %1, которое находится на официальном сайте, для получения дополнительной информации.
+Если у вас есть ещё вопросы, пожалуйста, обратитесь к %2.
+В противном случае, дальнейшее обсуждение и поддержка доступны на %3 или на нашем сервере %4.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="39"/>
         <source>PlayStation 3 firmware</source>
-        <translation></translation>
+        <translation>Прошивка PlayStation 3</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="40"/>
         <source>Quickstart</source>
-        <translation></translation>
+        <translation>Быстрый старт</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="41"/>
         <source>FAQ</source>
-        <translation></translation>
+        <translation>ЧаВо</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="42"/>
         <source>Forums</source>
-        <translation></translation>
+        <translation>Форумы</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="43"/>
         <source>Discord</source>
-        <translation></translation>
+        <translation>Discord</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="46"/>
         <source>&amp;Create Launchpad shortcut</source>
-        <translation></translation>
+        <translation>&amp;Создать ярлык Launchpad.</translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="51"/>
         <source>&amp;Create Application Menu shortcut</source>
-        <translation></translation>
+        <translation>&amp;Создать ярлык приложения в меню.</translation>
     </message>
 </context>
 </TS>
