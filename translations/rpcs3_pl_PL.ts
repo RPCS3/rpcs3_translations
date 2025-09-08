@@ -6071,33 +6071,33 @@ Notka:
 <context>
     <name>gs_frame</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="441"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="445"/>
         <source>Recording saved: %0</source>
         <translation>Zapisano nagranie: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="516"/>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="529"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="520"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="533"/>
         <source>Recording not possible</source>
         <translation>Nagrywanie nie jest możliwe</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="542"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="546"/>
         <source>Recording started</source>
         <translation>Nagrywanie rozpoczęte</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1065"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1069"/>
         <source>Screenshot saved: %0</source>
         <translation>Zrzut ekranu zapisany: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1149"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1153"/>
         <source>Exit Game?</source>
         <translation>Wyjść z gry?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1150"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1154"/>
         <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
         <translation>Czy na pewno chcesz wyjść z gry?&lt;br&gt;&lt;br&gt;Wszelkie niezapisane postępy zostaną utracone!&lt;br&gt;</translation>
     </message>
@@ -17373,22 +17373,22 @@ Zatrzymać emulator teraz?</translation>
 <context>
     <name>vfs_dialog_path_widget</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="34"/>
+        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="27"/>
         <source>Add new directory</source>
         <translation>Dodaj nowy katalog</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="39"/>
+        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="32"/>
         <source>Remove directory</source>
         <translation>Usuń katalog</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="46"/>
+        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="39"/>
         <source>Used %0 directory:</source>
         <translation>Używany katalog %0:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="124"/>
+        <location filename="rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="117"/>
         <source>Choose a directory</source>
         <translation>Wybierz katalog</translation>
     </message>

@@ -5731,33 +5731,33 @@ Notes:
 <context>
     <name>gs_frame</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="441"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="445"/>
         <source>Recording saved: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="516"/>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="529"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="520"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="533"/>
         <source>Recording not possible</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="542"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="546"/>
         <source>Recording started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1065"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1069"/>
         <source>Screenshot saved: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1149"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1153"/>
         <source>Exit Game?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1150"/>
+        <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1154"/>
         <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -16750,22 +16750,22 @@ Stop the emulator now?</source>
 <context>
     <name>vfs_dialog_path_widget</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="34"/>
+        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="27"/>
         <source>Add new directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="39"/>
+        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="32"/>
         <source>Remove directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="46"/>
+        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="39"/>
         <source>Used %0 directory:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="124"/>
+        <location filename="./rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="117"/>
         <source>Choose a directory</source>
         <translation type="unfinished"></translation>
     </message>
