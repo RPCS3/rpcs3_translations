@@ -4876,68 +4876,93 @@ Może to być przydatne, jeśli twoje urządzenie nie ma wystarczającej liczby 
 <context>
     <name>figure_creator_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="408"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="409"/>
         <source>Figure Creator</source>
         <translation>Kreator Figur</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="440"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="417"/>
+        <source>Filter by Series:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="418"/>
+        <source>All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="419"/>
+        <source>1.0</source>
+        <translation type="unfinished">100% {1.0?}</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="420"/>
+        <source>2.0</source>
+        <translation type="unfinished">100% {2.0?}</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="421"/>
+        <source>3.0</source>
+        <translation type="unfinished">100% {3.0?}</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="477"/>
         <source>--Unknown--</source>
         <translation>--Nieznane--</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="459"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="508"/>
         <source>Figure Number:</source>
         <translation>Numer Figury:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="461"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="510"/>
         <source>Series:</source>
         <translation>Seria:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="474"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="523"/>
         <source>Create</source>
         <translation>Stwórz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="475"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="524"/>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="502"/>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="508"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="563"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="569"/>
         <source>Error converting value</source>
         <translation>Błąd konwersji wartości</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="502"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="563"/>
         <source>Figure number entered is invalid!</source>
         <translation>Wprowadzony numer figury jest nieprawidłowy!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="508"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="569"/>
         <source>Series number entered is invalid!</source>
         <translation>Wprowadzony numer serii jest nieprawidłowy!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="521"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="582"/>
         <source>Create Figure File</source>
         <translation>Utwórz plik Figury</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="521"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="582"/>
         <source>Infinity Figure (*.bin);;</source>
         <translation>Figura Infinity (*.bin);;</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="528"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="589"/>
         <source>Failed to create figure file!</source>
         <translation>Nie udało się utworzyć pliku figury!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="528"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="589"/>
         <source>Failed to create figure file:
 %1</source>
         <translation>Nie udało się utworzyć pliku figury:
@@ -6291,116 +6316,116 @@ Prawdopodobnie któryś z wątków utknął w martwym punkcie. Przerywam.</trans
 <context>
     <name>infinity_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="662"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="718"/>
         <source>Infinity Manager</source>
         <translation>Menedżer Infinity</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="677"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="733"/>
         <source>Active Infinity Figures:</source>
         <translation>Aktywne Figurki Infinity:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="680"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="736"/>
         <source>Play Set/Power Disc</source>
         <translation>Play Set/Power Disc</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="682"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="738"/>
         <source>Power Disc Two</source>
         <translation>Power Disc Dwa</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="684"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="740"/>
         <source>Power Disc Three</source>
         <translation>Power Disc Trzy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="686"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="742"/>
         <source>Player One</source>
         <translation>Gracz 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="688"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="744"/>
         <source>Player One Ability One</source>
         <translation>Umiejętność 1 Gracza 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="690"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="746"/>
         <source>Player One Ability Two</source>
         <translation>Umiejętność 2 Gracza 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="692"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="748"/>
         <source>Player Two</source>
         <translation>Gracz 2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="694"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="750"/>
         <source>Player Two Ability One</source>
         <translation>Umiejętność 1 Gracza 2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="696"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="752"/>
         <source>Player Two Ability Two</source>
         <translation>Umiejętność 2 Gracza 2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="724"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="780"/>
         <source>Clear</source>
         <translation>Wyczyść</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="725"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="781"/>
         <source>Create</source>
         <translation>Utwórz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="726"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="782"/>
         <source>Load</source>
         <translation>Wczytaj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="739"/>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="831"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="795"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="887"/>
         <source>Unknown Figure</source>
         <translation>Nieznana Figurka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="744"/>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="777"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="800"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="833"/>
         <source>None</source>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="794"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="850"/>
         <source>Select Infinity File</source>
         <translation>Wybierz plik Infinity</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="794"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="850"/>
         <source>Infinity Figure (*.bin);;</source>
         <translation>Figurka Infinity (*.bin);;</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="810"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="866"/>
         <source>Failed to open the figure file!</source>
         <translation>Nie udało się otworzyć pliku figury!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="810"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="866"/>
         <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
         <translation>Nie udało się otworzyć pliku (%1)!
 Plik może być już używany na podstawie.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="817"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="873"/>
         <source>Failed to read the figure file!</source>
         <translation>Nie udało się odczytać pliku figury!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="817"/>
+        <location filename="rpcs3/rpcs3qt/infinity_dialog.cpp" line="873"/>
         <source>Failed to read the figure file(%1)!
 File was too small.</source>
         <translation>Nie udało się odczytać pliku figury (%1)!
