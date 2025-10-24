@@ -43,7 +43,7 @@ jobs:
 
           if [[ -n "$(git status --porcelain)" ]]; then
             git add .
-            git commit -m "chore(crowdin): update approved translations [skip ci]"
+            git commit -m "New Crowdin translations by GitHub Action [skip ci]"
             git push origin main
           else
             echo "No approved translation updates found."
