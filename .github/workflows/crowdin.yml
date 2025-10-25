@@ -41,10 +41,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add .
+          git add translations/
+          if git diff --cached --exit-code; then
+            echo "No approved translation updates found."
+          else
             git commit -m "New Crowdin translations by GitHub Action [skip ci]"
             git push origin main
-          else
-            echo "No approved translation updates found."
           fi
