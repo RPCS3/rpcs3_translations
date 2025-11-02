@@ -38,7 +38,7 @@ jobs:
             done
           fi
 
-      - name: Upload Translations
+      - name: Upload Translations as Artifact
         uses: actions/upload-artifact@main
         with:
           name: RPCS3-languages
@@ -49,6 +49,45 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           git add qm/
-          git commit -m "Automatically generated .qm files from .ts files"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes in .qm files detected."
+            echo "no_changes=true" >> $GITHUB_ENV
+          else
+            git commit -m "Automatically generated .qm files from .ts files"
+            git push origin main
+            echo "no_changes=false" >> $GITHUB_ENV
+          fi
+
+      - name: Package .qm files
+        if: env.no_changes == 'false'
+        run: |
+          (cd qm && zip -r ../RPCS3-languages.zip .)
+
+      - name: Set release date
+        run: echo "RELEASE_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Create Release
+        if: env.no_changes == 'false'
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: release-${{ github.run_id }}-${{ github.run_number }}
+          release_name: "Translation Release - ${{ env.RELEASE_DATE }}"
+          body: "Automatically generated translation release for ${{ env.RELEASE_DATE }}."
+          draft: false
+          prerelease: false
+
+      - name: Upload .qm files to release
+        if: env.no_changes == 'false'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: RPCS3-languages.zip
+          asset_name: RPCS3-languages.zip
+          asset_content_type: application/zip
