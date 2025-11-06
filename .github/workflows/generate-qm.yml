@@ -7,6 +7,8 @@ on:
       - main
     paths:
       - 'translations/*.ts'
+  schedule:
+    - cron: '0 2 * * 1' # Every Monday at 02:00 UTC
 
 jobs:
   generate-qm:
