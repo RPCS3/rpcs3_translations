@@ -6271,12 +6271,12 @@ File was too small.</source>
     <name>kamen_rider_dialog</name>
     <message>
         <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="261"/>
-        <source>kamen_riders Manager</source>
+        <source>Kamen Rider Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="276"/>
-        <source>Active Portal Kamen Riders:</source>
+        <source>Active Kamen Riders:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
