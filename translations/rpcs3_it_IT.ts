@@ -663,6 +663,18 @@ Dial CCW</source>
         <source>Unknown: %0</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="85"/>
+        <source>Failed to connect to RPCN server:
+%0</source>
+        <translation type="unfinished">Connessione al server RPCN non riuscita:
+%0</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="86"/>
+        <source>Error Connecting to RPCN!</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Tooltips</name>
@@ -5444,8 +5456,8 @@ Rimuovere permanentemente i contenuti (opzionali) selezionati dal disco?
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="434"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="458"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="527"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1104"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1144"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1096"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
         <source>Confirm Removal</source>
         <translation type="unfinished">Conferma Rimozione</translation>
     </message>
@@ -5518,7 +5530,7 @@ Caches and custom configs have been left intact.</source>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="514"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="555"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1562"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1554"/>
         <source>Warning!</source>
         <translation type="unfinished">Attenzione!</translation>
     </message>
@@ -5535,7 +5547,7 @@ Your configuration will revert to the global pad settings.</source>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="529"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1144"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
         <source>Remove custom gamepad configuration?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5545,214 +5557,214 @@ Your configuration will revert to the global pad settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="963"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1001"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="955"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="993"/>
         <source>OK</source>
         <translation type="unfinished">OK</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1025"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1017"/>
         <source>Confirm Creation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1025"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1017"/>
         <source>Create LLVM cache?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1046"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1057"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1038"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1049"/>
         <source>LLVM Cache Batch Creation</source>
         <translation type="unfinished">Creazione in Blocco delle Cache LLVM</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1046"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1038"/>
         <source>No titles found</source>
         <translation type="unfinished">Nessun titolo trovato</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1055"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1047"/>
         <source>Creating all LLVM caches</source>
         <translation type="unfinished">Creazione di tutte le cache LLVM</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1057"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1127"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1167"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1209"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1251"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1294"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1337"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1429"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1049"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1119"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1159"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1201"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1286"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1329"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1372"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1421"/>
         <source>Cancel</source>
         <translation type="unfinished">Annulla</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1070"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1062"/>
         <source>%0
 Progress: %1/%2 caches compiled</source>
         <translation type="unfinished">%0
 Progresso: %1/%2 cache compilate</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1104"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1096"/>
         <source>Remove custom configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1123"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1127"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1115"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1119"/>
         <source>Custom Configuration Batch Removal</source>
         <translation type="unfinished">Rimozione in Blocco delle Configurazioni Personalizzate</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1123"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1163"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1205"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1247"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1290"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1333"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1376"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1423"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1115"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1155"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1197"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1239"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1282"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1325"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1368"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1415"/>
         <source>No files found</source>
         <translation type="unfinished">Nessun file trovato</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1127"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1119"/>
         <source>Removing all custom configurations</source>
         <translation type="unfinished">Rimozione di tutte le configurazioni personalizzate</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1132"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1124"/>
         <source>%0/%1 custom configurations cleared</source>
         <translation type="unfinished">%0/%1 configurazioni personalizzate pulite</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1163"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1167"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1155"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1159"/>
         <source>Custom Gamepad Configuration Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1167"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1159"/>
         <source>Removing all custom gamepad configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1172"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1164"/>
         <source>%0/%1 custom gamepad configurations cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1205"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1209"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1197"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1201"/>
         <source>Shader Cache Batch Removal</source>
         <translation type="unfinished">Rimozione in Blocco delle Cache degli Shader</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1209"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1201"/>
         <source>Removing all shader caches</source>
         <translation type="unfinished">Rimozione di tutte le cache degli shader</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1214"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1206"/>
         <source>%0/%1 shader caches cleared</source>
         <translation type="unfinished">%0/%1 cache degli shader pulite</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1247"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1251"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1239"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
         <source>PPU Cache Batch Removal</source>
         <translation type="unfinished">Rimozione in Blocco delle Cache LLVM</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1251"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
         <source>Removing all PPU caches</source>
         <translation type="unfinished">Rimozione di tutte le cache PPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1256"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1248"/>
         <source>%0/%1 PPU caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1290"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1294"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1282"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1286"/>
         <source>SPU Cache Batch Removal</source>
         <translation type="unfinished">Rimozione in Blocco delle Cache SPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1294"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1286"/>
         <source>Removing all SPU caches</source>
         <translation type="unfinished">Rimozione di tutte le cache SPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1299"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1291"/>
         <source>%0/%1 SPU caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1333"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1337"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1325"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1329"/>
         <source>HDD1 Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1337"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1329"/>
         <source>Removing all HDD1 caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1342"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1334"/>
         <source>%0/%1 HDD1 caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1376"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1368"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1372"/>
         <source>Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1372"/>
         <source>Removing all caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1385"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1377"/>
         <source>%0/%1 caches cleared</source>
         <translation type="unfinished">%0/%1 cache pulite</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1423"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1429"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1415"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1421"/>
         <source>Content Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1429"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1421"/>
         <source>Removing all contents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1434"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1426"/>
         <source>%0/%1 contents cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1558"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
         <source>Success!</source>
         <translation type="unfinished">Successo!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1558"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
         <source>Successfully created shortcut(s).</source>
         <translation type="unfinished">Collegamento(/i) creato(/i) con successo.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1562"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1554"/>
         <source>Failed to create one or more shortcuts!</source>
         <translation type="unfinished">Creazione di uno o più collegamenti non riuscita!</translation>
     </message>
@@ -6521,33 +6533,33 @@ Note:
 <context>
     <name>gs_frame</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="461"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="469"/>
         <source>Recording saved: %0</source>
         <translation>Registrazione salvata: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="536"/>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="549"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="544"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="557"/>
         <source>Recording not possible</source>
         <translation>Registrazione non possibile</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="562"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="570"/>
         <source>Recording started</source>
         <translation>Registrazione avviata</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1085"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1093"/>
         <source>Screenshot saved: %0</source>
         <translation>Screenshot salvato: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1169"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1177"/>
         <source>Exit Game?</source>
         <translation>Uscire dal Gioco?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1170"/>
+        <location filename="rpcs3/rpcs3qt/gs_frame.cpp" line="1178"/>
         <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
         <translation>Desideri davvero uscire dal gioco?&lt;br&gt;&lt;br&gt;Qualunque progresso non salvato andrà perduto!&lt;br&gt;</translation>
     </message>
@@ -13672,68 +13684,68 @@ La grafica non verrà renderata.</translation>
 <context>
     <name>rpcn_account_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="137"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="151"/>
         <source>RPCN: Account</source>
         <translation>RPCN: Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="142"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="146"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="156"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="160"/>
         <source>Server:</source>
         <translation>Server:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="155"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="169"/>
         <source>Add</source>
         <translation>Aggiungi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="156"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="170"/>
         <source>Del</source>
         <translation>Canc</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="167"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="181"/>
         <source>Account:</source>
         <translation>Account:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="169"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="183"/>
         <source>Create Account</source>
         <translation>Crea Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="170"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="184"/>
         <source>Edit Account</source>
         <translation>Modifica Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="171"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="185"/>
         <source>Test Account</source>
         <translation>Prova Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="174"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="188"/>
         <source>Disable IPv6</source>
         <translation>Disabilita IPv6</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="180"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>Current ID: %0</source>
         <translation>ID Attuale: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="225"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239"/>
         <source>Existing Server</source>
         <translation>Server Esistente</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="225"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239"/>
         <source>You already have a server with this description &amp; hostname in the list.</source>
         <translation>Hai già un server con questa descrizione &amp; questo hostname nella lista.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="251"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="265"/>
         <source>Please enter your username.
 
 Note that these restrictions apply:
@@ -13750,7 +13762,7 @@ Nota bene queste restrizioni:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="262"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="276"/>
         <source>Please choose your password:
 
 </source>
@@ -13759,7 +13771,7 @@ Nota bene queste restrizioni:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="269"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="283"/>
         <source>An email address is required, please note:
 - A valid email is needed to receive the token that validates your account.
 - Your email won&apos;t be used for anything beyond sending you this token or the password reset token.
@@ -13772,12 +13784,12 @@ Nota bene queste restrizioni:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="278"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292"/>
         <source>RPCN: Account Creation</source>
         <translation>RPCN: Creazione Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="278"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292"/>
         <source>You are about to create an account with:
 -Username:%0
 -Email:%1
@@ -13790,56 +13802,44 @@ Is this correct?</source>
 È corretto?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="287"/>
-        <source>Failed to connect to RPCN server:
-%0</source>
-        <translation>Connessione al server RPCN non riuscita:
-%0</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="288"/>
-        <source>Error Connecting</source>
-        <translation>Errore nella Connessione</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="297"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="307"/>
         <source>An account with that username already exists!</source>
         <translation>Un account con quel nome utente esiste già!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="298"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="308"/>
         <source>This email provider is banned!</source>
         <translation>Questo fornitore di email è bandito!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="299"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="309"/>
         <source>An account with that email already exists!</source>
         <translation>Un account con quell&apos;email esiste già!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="300"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="310"/>
         <source>Unknown creation error!</source>
         <translation>Errore di creazione sconosciuto!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="301"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="311"/>
         <source>Unknown error</source>
         <translation>Errore sconosciuto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="303"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="313"/>
         <source>Error Creating Account!</source>
         <translation>Errore Durante la Creazione dell&apos;Account!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="303"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="313"/>
         <source>Failed to create the account:
 %0</source>
         <translation>Creazione dell&apos;account non riuscita:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="312"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="322"/>
         <source>Your account has been created successfully!
 Your account authentification was saved.
 Now all you need is to enter the token that was sent to your email.
@@ -13852,36 +13852,24 @@ Puoi anche saltare questo passaggio lasciando il campo vuoto e inserendolo succe
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="341"/>
-        <source>Failed to connect to RPCN:
-%0</source>
-        <translation>Connessione a RPCN non riuscita:
-%0</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="342"/>
-        <source>Error connecting to RPCN!</source>
-        <translation>Errore nella Connessione a RPCN!</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="347"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="354"/>
         <source>Failed to authentify to RPCN:
 %0</source>
         <translation>Autenticazione a RPCN non riuscita:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="348"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="355"/>
         <source>Error authentifying to RPCN!</source>
         <translation>Errore nell&apos;autenticazione a RPCN!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="352"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="359"/>
         <source>RPCN Account Valid!</source>
         <translation>Account RPCN Valido!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="352"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="359"/>
         <source>Your account is valid!</source>
         <translation>Il tuo account è valido!</translation>
     </message>
@@ -13889,301 +13877,300 @@ Puoi anche saltare questo passaggio lasciando il campo vuoto e inserendolo succe
 <context>
     <name>rpcn_account_edit_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="663"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="732"/>
         <source>RPCN: Edit Account</source>
         <translation>RPCN: Modifica Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="673"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="742"/>
         <source>Username:</source>
         <translation>Nome Utente:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="677"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="746"/>
         <source>Password:</source>
         <translation>Password:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="678"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="747"/>
         <source>Set Password</source>
         <translation>Imposta Password</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="679"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="748"/>
         <source>Token:</source>
         <translation>Token:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="683"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="752"/>
         <source>Resend Token</source>
         <translation>Invia Nuovamente Token</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="684"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="753"/>
         <source>Change Password</source>
         <translation>Cambia Password</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="685"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="754"/>
+        <source>Delete Account</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="755"/>
         <source>Save</source>
         <translation>Salva</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="710"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="781"/>
         <source>Please enter your password:</source>
         <translation>Per favore, inserisci la tua password:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="720"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791"/>
         <source>RPCN Password Saved</source>
         <translation>Password RPCN Salvata</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="720"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791"/>
         <source>Your password was saved successfully!</source>
         <translation>La tua password è stata salvata con successo!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="744"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816"/>
         <source>Missing Input</source>
         <translation>Input Mancante</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="744"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816"/>
         <source>You need to enter a username and a password!</source>
         <translation>Devi inserire un nome utente e una password!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="750"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="822"/>
         <source>Invalid Username</source>
         <translation>Nome Utente Non Valido</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="750"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="822"/>
         <source>Username must be between 3 and 16 characters and can only contain &apos;-&apos;, &apos;_&apos; or alphanumeric characters.</source>
         <translation>Il nome utente dev&apos;essere lungo fra 3 e 16 caratteri e può solo contenere &apos;-&apos;, &apos;_&apos; o caratteri alfanumerici.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="756"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="828"/>
         <source>Invalid Token</source>
         <translation>Token Non Valido</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="756"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="828"/>
         <source>The token you have received should be 16 characters long and contain only 0-9 A-F.</source>
         <translation>Il token che hai ricevuto dovrebbe essere lungo 16 caratteri e contenere solo 0-9 A-F.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="780"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="829"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="874"/>
-        <source>Failed to connect to RPCN server:
-%0</source>
-        <translation>Connessione al server RPCN non riuscita:
-%0</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="781"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="830"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="875"/>
-        <source>Error Connecting!</source>
-        <translation>Errore nella Connessione!</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="790"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="858"/>
         <source>The server has no email verification and doesn&apos;t need a token!</source>
         <translation>Il server non ha verifica tramite email e non necessita di un token!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="840"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="885"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="859"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="905"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="947"/>
         <source>A database related error happened on the server!</source>
         <translation>Un errore relativo al database si è verificato sul server!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="792"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="860"/>
         <source>You can only ask for a token mail once every 24 hours!</source>
         <translation>Puoi richiedere una mail token solo una volta ogni 24 ore!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="793"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="842"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="887"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="861"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="907"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="949"/>
         <source>The mail couldn&apos;t be sent successfully!</source>
         <translation>Invio della mail non riuscito!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="794"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="862"/>
         <source>The username/password pair is invalid!</source>
         <translation>Username e/o password non validi!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="795"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="889"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="863"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="951"/>
         <source>Unknown error</source>
         <translation>Errore sconosciuto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="797"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="865"/>
         <source>Error Sending Token!</source>
         <translation>Errore nell&apos;Invio del Token!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="797"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="865"/>
         <source>Failed to send the token:
 %0</source>
         <translation>Invio del token non riuscito:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="801"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869"/>
         <source>Token Sent!</source>
         <translation>Token Inviato!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="801"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869"/>
         <source>Your token was successfully resent to the email associated with your account!</source>
         <translation>Il tuo token è stato inviato nuovamente con successo all&apos;email associata al tuo account!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="806"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="874"/>
         <source>Please confirm your username:</source>
         <translation>Per favore, conferma il tuo nome utente:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="813"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881"/>
         <source>RPCN: Change Password</source>
         <translation>RPCN: Cambia Password</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="813"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881"/>
         <source>Do you already have a reset password token?
 Note that the reset password token is different from the email verification token.</source>
         <translation>Hai già un token di reimpostazione password?
 Nota bene: il token di reimpostazione password è diverso dal token di verifica email.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="818"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="886"/>
         <source>Please enter the email you used to create the account:</source>
         <translation>Per favore, inserisci l&apos;email che hai usato per creare l&apos;account:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="839"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="884"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="904"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="946"/>
         <source>The server has no email verification and doesn&apos;t support password changes!</source>
         <translation>Il server non ha verifica tramite email e non supporta i cambi di password!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="841"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="886"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="906"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="948"/>
         <source>You can only ask for a reset password token once every 24 hours!</source>
         <translation>Puoi richiedere un token di reimpostazione password solo una volta ogni 24 ore!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="843"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="908"/>
         <source>The username/email pair is invalid!</source>
         <translation>Username e/o password non validi!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="844"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="909"/>
         <source>Unknown error!</source>
         <translation>Errore sconosciuto!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="846"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="911"/>
         <source>Error Sending Password Reset Token!</source>
         <translation>Errore nell&apos;Invio del Token di Reimpostazione Password!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="846"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="911"/>
         <source>Failed to send the password reset token:
 %0</source>
         <translation>Invio del token di reimpostazione password non riuscito:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="850"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915"/>
         <source>Password Reset Token Sent!</source>
         <translation>Token di Reimpostazione Password Inviato!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="850"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915"/>
         <source>The reset password token has successfully been sent!</source>
         <translation>Il token di reimpostazione password è stato inviato con successo!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="856"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="921"/>
         <source>Please enter the password reset token you received:</source>
         <translation>Per favore, inserisci il token di reimpostazione password che hai ricevuto:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="863"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="928"/>
         <source>Please enter your new password:</source>
         <translation>Per favore, inserisci la tua nuova password:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="888"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="950"/>
         <source>The username/token pair is invalid!</source>
         <translation>Username e/o password non validi!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="891"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="953"/>
         <source>Error Sending Password Reset Token</source>
         <translation>Errore nell&apos;Invio del Token di Reimpostazione Password</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="891"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="953"/>
         <source>Failed to change the password:
 %0</source>
         <translation>Cambio password non riuscito:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="897"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959"/>
         <source>Password Successfully Changed!</source>
         <translation>Password Cambiata con Successo!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="897"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959"/>
         <source>Your password has been successfully changed!</source>
         <translation>La tua password è stata cambiata con successo!</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="972"/>
+        <source>Account Not Configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="972"/>
+        <source>Please configure your account in the settings before deleting it.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>rpcn_add_server_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="386"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="393"/>
         <source>RPCN: Add Server</source>
         <translation>RPCN: Aggiungi Server</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="392"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="399"/>
         <source>Description:</source>
         <translation>Descrizione:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="394"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="401"/>
         <source>Host:</source>
         <translation>Host:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="413"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420"/>
         <source>Missing Description!</source>
         <translation>Descrizione Mancante!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="413"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420"/>
         <source>You must enter a description!</source>
         <translation>Devi inserire una descrizione!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="418"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425"/>
         <source>Missing Hostname!</source>
         <translation>Hostname Mancante!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="418"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425"/>
         <source>You must enter a hostname for the server!</source>
         <translation>Devi inserire un hostname per il server!</translation>
     </message>
@@ -14191,47 +14178,47 @@ Nota bene: il token di reimpostazione password è diverso dal token di verifica 
 <context>
     <name>rpcn_ask_email_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="546"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="553"/>
         <source>RPCN: Email</source>
         <translation>RPCN: Email</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="556"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="563"/>
         <source>Enter your email:</source>
         <translation>Inserisci la tua email:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="558"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="565"/>
         <source>Enter your email a second time:</source>
         <translation>Inserisci nuovamente la tua email:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="579"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586"/>
         <source>Wrong Input</source>
         <translation>Input Errato</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="579"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586"/>
         <source>The two emails you entered don&apos;t match!</source>
         <translation>Le due email che hai inserito non coincidono!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="585"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
         <source>Missing Email</source>
         <translation>Email Mancante</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="585"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
         <source>You need to enter an email!</source>
         <translation>Devi inserire un&apos;email!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="599"/>
         <source>Invalid Email</source>
         <translation>Email Invalida</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="599"/>
         <source>You need to enter a valid email!</source>
         <translation>Devi inserire un&apos;email valida!</translation>
     </message>
@@ -14239,37 +14226,37 @@ Nota bene: il token di reimpostazione password è diverso dal token di verifica 
 <context>
     <name>rpcn_ask_password_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="487"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="494"/>
         <source>RPCN: Password</source>
         <translation>RPCN: Password</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="497"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="504"/>
         <source>Enter your password:</source>
         <translation>Inserisci la tua password:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="500"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="507"/>
         <source>Enter your password a second time:</source>
         <translation>Inserisci nuovamente la tua password:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="522"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529"/>
         <source>Wrong Input</source>
         <translation>Input Errato</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="522"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529"/>
         <source>The two passwords you entered don&apos;t match!</source>
         <translation>Le due password che hai inserito non coincidono!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="528"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
         <source>Missing Password</source>
         <translation>Password Mancante</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="528"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
         <source>You need to enter a password!</source>
         <translation>Devi inserire una password!</translation>
     </message>
@@ -14277,22 +14264,22 @@ Nota bene: il token di reimpostazione password è diverso dal token di verifica 
 <context>
     <name>rpcn_ask_token_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="610"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="617"/>
         <source>RPCN: Username</source>
         <translation>RPCN: Nome Utente</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="617"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="624"/>
         <source>Token:</source>
         <translation>Token:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="640"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647"/>
         <source>Invalid Token</source>
         <translation>Token Non Valido</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="640"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647"/>
         <source>The token appears to be invalid:
 -Token should be 16 characters long
 -Token should only contain 0-9 and A-F</source>
@@ -14304,246 +14291,303 @@ Nota bene: il token di reimpostazione password è diverso dal token di verifica 
 <context>
     <name>rpcn_ask_username_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="436"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="443"/>
         <source>RPCN: Username</source>
         <translation>RPCN: Nome Utente</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="443"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="450"/>
         <source>Username:</source>
         <translation>Nome Utente:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="465"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472"/>
         <source>Missing Username!</source>
         <translation>Nome Utente Mancante!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="465"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472"/>
         <source>You must enter a username!</source>
         <translation>Devi inserire un nome utente!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="470"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="477"/>
         <source>Invalid Username!</source>
         <translation>Nome Utente Invalido!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="470"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="477"/>
         <source>Please enter a valid username!</source>
         <translation>Per favore, inserisci un nome utente valido!</translation>
     </message>
 </context>
 <context>
+    <name>rpcn_confirm_delete_dialog</name>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="670"/>
+        <source>Confirm Account Deletion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="675"/>
+        <source>Are you sure you want to delete RPCN account &quot;%1&quot;?
+
+Important:
+Deleting your account will blacklist your username and email for 3 months.
+To confirm, type your username below and click &quot;Yes&quot;.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="682"/>
+        <source>Type your username to confirm</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="684"/>
+        <source>Yes</source>
+        <translation type="unfinished">Sì</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="686"/>
+        <source>No</source>
+        <translation type="unfinished">No</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="714"/>
+        <source>Invalid login or password.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="715"/>
+        <source>Cannot delete a currently logged-in account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="716"/>
+        <source>An unknown error occurred.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="718"/>
+        <source>Deletion Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="718"/>
+        <source>Failed to delete the account:
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="723"/>
+        <source>Account Deleted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="723"/>
+        <source>Your account has been successfully deleted.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>rpcn_friends_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1001"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1074"/>
         <source>RPCN: Friends - Logged in as %0</source>
         <translation>RPCN: Amici - Accesso eseguito come %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1005"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1078"/>
         <source>RPCN: Friends - %0 (Not logged in)</source>
         <translation>RPCN: Amici - %0 (Accesso non eseguito)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1009"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1082"/>
         <source>RPCN: Friends</source>
         <translation>RPCN: Amici</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1020"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1093"/>
         <source>Friends</source>
         <translation>Amici</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1025"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1098"/>
         <source>Add Friend</source>
         <translation>Aggiungi Amico</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1030"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1103"/>
         <source>Friend Requests</source>
         <translation>Richieste di Amicizia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1040"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1113"/>
         <source>Blocked Users</source>
         <translation>Utenti Bloccati</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1047"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1120"/>
         <source>Recent Players</source>
         <translation>Giocatori Recenti</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1064"/>
-        <source>Failed to connect to RPCN:
-%0</source>
-        <translation>Connessione a RPCN non riuscita:
-%0</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1065"/>
-        <source>Error connecting to RPCN!</source>
-        <translation>Errore nella Connessione a RPCN!</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1070"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1140"/>
         <source>Failed to authentify to RPCN:
 %0</source>
         <translation>Autenticazione a RPCN non riuscita:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1071"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1141"/>
         <source>Error authentifying to RPCN!</source>
         <translation>Errore nell&apos;autenticazione a RPCN!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1136"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1206"/>
         <source>&amp;Remove Friend</source>
         <translation>&amp;Rimuovi Amico</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1142"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1212"/>
         <source>Error removing a friend!</source>
         <translation>Errore nella rimozione di un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1142"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1212"/>
         <source>An error occurred while trying to remove a friend!</source>
         <translation>Si è verificato un errore durante il tentativo di rimozione di un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1146"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1216"/>
         <source>Friend removed!</source>
         <translation>Amico rimosso!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1146"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1216"/>
         <source>You&apos;ve successfully removed a friend!</source>
         <translation>Hai rimosso con successo un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1169"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239"/>
         <source>&amp;Cancel Request</source>
         <translation>&amp;Annulla Richiesta</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1175"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1245"/>
         <source>Error cancelling friend request!</source>
         <translation>Errore nell&apos;annullamento della richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1175"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1245"/>
         <source>An error occurred while trying to cancel friend request!</source>
         <translation>Si è verificato un errore durante il tentativo di annullamento della richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1179"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1213"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1283"/>
         <source>Friend request cancelled!</source>
         <translation>Richiesta d&apos;amicizia annullata!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1179"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249"/>
         <source>You&apos;ve successfully cancelled the friend request!</source>
         <translation>Hai annullato con successo la richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1190"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1260"/>
         <source>&amp;Accept Request</source>
         <translation>&amp;Accetta Richiesta</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1191"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1261"/>
         <source>&amp;Reject Request</source>
         <translation>&amp;Rifiuta Richiesta</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1197"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
         <source>Error adding a friend!</source>
         <translation>Errore nell&apos;aggiunta di un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1197"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
         <source>An error occurred while trying to add a friend!</source>
         <translation>Si è verificato un errore durante il tentativo di aggiunta di un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1201"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1281"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1351"/>
         <source>Friend added!</source>
         <translation>Amico aggiunto!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1201"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
         <source>You&apos;ve successfully added a friend!</source>
         <translation>Hai aggiunto con successo un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1209"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1279"/>
         <source>Error rejecting friend request!</source>
         <translation>Errore nel rifiuto della richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1209"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1279"/>
         <source>An error occurred while trying to reject the friend request!</source>
         <translation>Si è verificato un errore durante il tentativo di rifiuto della richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1213"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1283"/>
         <source>You&apos;ve successfully rejected the friend request!</source>
         <translation>Hai rifiutato con successo la richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1233"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1303"/>
         <source>&amp;Send Friend Request</source>
         <translation>&amp;Invia Richiesta d&apos;Amicizia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1309"/>
         <source>Error sending a friend request!</source>
         <translation>Errore nell&apos;invio della richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1309"/>
         <source>An error occurred while trying to send a friend request!</source>
         <translation>Si è verificato un errore durante il tentativo di invio della richiesta d&apos;amicizia!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1258"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1328"/>
         <source>Add a friend</source>
         <translation>Aggiungi un amico</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1258"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1328"/>
         <source>Friend&apos;s username:</source>
         <translation>Nome utente dell&apos;amico:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
         <source>Error validating username!</source>
         <translation>Errore nella convalida del nome utente!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
         <source>The username you entered is invalid!</source>
         <translation>Il nome utente che hai inserito è invalido!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1346"/>
         <source>Error adding friend!</source>
         <translation>Errore nell&apos;aggiunta dell&apos;amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1346"/>
         <source>An error occurred while adding a friend!</source>
         <translation>Si è verificato un errore durante l&apos;aggiunta di un amico!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1281"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1351"/>
         <source>Friend was successfully added!</source>
         <translation>L&apos;amico è stato aggiunto con successo!</translation>
     </message>
@@ -14551,33 +14595,33 @@ Nota bene: il token di reimpostazione password è diverso dal token di verifica 
 <context>
     <name>rpcn_settings_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="88"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="102"/>
         <source>RPCN - %0</source>
         <translation>RPCN - %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="92"/>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="101"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="106"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="115"/>
         <source>RPCN</source>
         <translation>RPCN</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="104"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118"/>
         <source>Account</source>
         <translation>Account</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="105"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="119"/>
         <source>Friends</source>
         <translation>Amici</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="132"/>
         <source>Error: Emulation Running</source>
         <translation>Errore: Emulazione in Esecuzione</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118"/>
+        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="132"/>
         <source>You need to stop the emulator before editing RPCN account information!</source>
         <translation>Devi arrestare l&apos;emulatore prima di modificare le informazioni dell&apos;account RPCN!</translation>
     </message>
