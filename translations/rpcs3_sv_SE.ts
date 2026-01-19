@@ -55,12 +55,12 @@
   <context>
     <name>DeviceChoice</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="178"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="182"/>
       <source>DISABLE</source>
       <translation>INAKTIVERA</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="198"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="202"/>
       <source>-- Disabled --</source>
       <translation>-- Inaktiverad --</translation>
     </message>
@@ -367,47 +367,47 @@
   <context>
     <name>Mapping</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="261"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="266"/>
       <source>MAP</source>
       <translation>MAPPA</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="262"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="267"/>
       <source>UNMAP</source>
       <translation>AVMAPPA</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="263"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="268"/>
       <source>Reverse</source>
       <translation>Omvänd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="267"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="272"/>
       <source>Pressed</source>
       <translation>Tryckt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326"/>
       <source>Input %0 for %1, timeout in %2 %3</source>
       <translation>Inmatning %0 för %1, tidsgräns om %2 %3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326"/>
       <source>axis</source>
       <translation>axel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326"/>
       <source>button/hat</source>
       <translation>knapp/hatt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326"/>
       <source>seconds</source>
       <translation>sekunder</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326"/>
       <source>second</source>
       <translation>sekund</translation>
     </message>
@@ -415,7 +415,7 @@
   <context>
     <name>QObject</name>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="972"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="977"/>
       <source>RPCS3 should never be run from a temporary location!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -426,7 +426,7 @@ Aktuell plats:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="985"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="990"/>
       <source>RPCS3 should never be run from an archive!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -437,7 +437,7 @@ Aktuell plats:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="999"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="1004"/>
       <source>RPCS3 should never be run from a OneDrive path!
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
@@ -448,26 +448,31 @@ Aktuell plats:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="1124"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="1129"/>
       <source>Invalid command-line arguments!</source>
       <translation>Ogiltiga kommandoradsargument!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="1124"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="1129"/>
       <source>Cannot perform multiple installations at the same time!</source>
       <translation>Kan inte genomföra flera installationer på samma gång!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="1318"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="1323"/>
       <source>Missing command-line arguments!</source>
       <translation>Saknar kommandoradsargument!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3.cpp" line="1318"/>
+      <location filename="./rpcs3/rpcs3.cpp" line="1323"/>
       <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
       <translation>Kan inte köra no-gui-läge utan uppstartsmål.
 Avslutar...</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="134"/>
+      <source>Unknown: %0</source>
+      <translation>Okänd: %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="711"/>
@@ -480,164 +485,177 @@ Avslutar...</translation>
       <translation>Kan inte genomföra SPU-fångst på grund av tråd behöver manuella pauser!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="82"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="83"/>
       <source>Steering</source>
       <translation>Styrning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="83"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="84"/>
       <source>Throttle</source>
       <translation>Gaspedal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="84"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="85"/>
       <source>Brake</source>
       <translation>Bromspedal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="85"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="86"/>
       <source>Clutch</source>
       <translation>Koppling</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="86"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="87"/>
       <source>Shift up</source>
       <translation>Växla upp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="87"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="88"/>
       <source>Shift down</source>
       <translation>Växla ner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="88"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="89"/>
       <source>Up</source>
       <translation>Upp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="89"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="90"/>
       <source>Down</source>
       <translation>Ner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="90"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="91"/>
       <source>Left</source>
       <translation>Vänster</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="91"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="92"/>
       <source>Right</source>
       <translation>Höger</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="92"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="93"/>
       <source>Triangle</source>
       <translation>Triangel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="93"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="94"/>
       <source>Cross</source>
       <translation>Kryss</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="94"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="95"/>
       <source>Square</source>
       <translation>Fyrkant</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="95"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="96"/>
       <source>Circle</source>
       <translation>Cirkel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="96"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="97"/>
       <source>L2</source>
       <translation>L2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="97"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="98"/>
       <source>L3</source>
       <translation>L3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="98"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="99"/>
       <source>R2</source>
       <translation>R2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="99"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="100"/>
       <source>R3</source>
       <translation>R3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="100"/>
-      <source>L4</source>
-      <translation>L4</translation>
-    </message>
-    <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="101"/>
-      <source>L5</source>
-      <translation>L5</translation>
+      <source>L4
+Plus</source>
+      <translation>L4
+Plus</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="102"/>
-      <source>R4</source>
-      <translation>R4</translation>
+      <source>L5
+Minus</source>
+      <translation>L5
+Minus</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="103"/>
-      <source>R5</source>
-      <translation>R5</translation>
+      <source>R4
+Dial CW</source>
+      <translation>R4
+Snurra medurs</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
+      <source>R5
+Dial CCW</source>
+      <translation>R5
+Snurra moturs</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105"/>
+      <source>Dial Center</source>
+      <translation>Snurrcentrum</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106"/>
       <source>Select</source>
       <translation>Select</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105"/>
-      <source>Pause</source>
-      <translation>Paus</translation>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="107"/>
+      <source>Start</source>
+      <translation>Start</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="108"/>
+      <source>PS</source>
+      <translation>PS</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="109"/>
       <source>Gear 1</source>
       <translation>Växel 1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="107"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="110"/>
       <source>Gear 2</source>
       <translation>Växel 2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="108"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="111"/>
       <source>Gear 3</source>
       <translation>Växel 3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="109"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="112"/>
       <source>Gear 4</source>
       <translation>Växel 4</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="110"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="113"/>
       <source>Gear 5</source>
       <translation>Växel 5</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="111"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="114"/>
       <source>Gear 6</source>
       <translation>Växel 6</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="112"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="115"/>
       <source>Gear R</source>
       <translation>Backväxel</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="113"/>
-      <source>Shifter press</source>
-      <translation>Växeltryck</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252"/>
@@ -648,6 +666,18 @@ Avslutar...</translation>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252"/>
       <source>The PS Move tracking is not yet supported on this operating system.</source>
       <translation>PS Move-spårning stöds ännu inte på detta operativsystem.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="85"/>
+      <source>Failed to connect to RPCN server:
+%0</source>
+      <translation>Misslyckades med att ansluta till RPCN-server:
+%0</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="86"/>
+      <source>Error Connecting to RPCN!</source>
+      <translation>Fel vid anslutning till RPCN!</translation>
     </message>
   </context>
   <context>
@@ -1123,9 +1153,9 @@ Kan i sällsynta fall orsaka kraftig ljudstuttering.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="94"/>
       <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
-Use the Safe mode for maximum compatibility at the cost of lower performance.</source>
+Use the Safe mode for maximum compatibility.</source>
       <translation>Det här alternativet styr SPU-analysatorn, särskilt storleken på kompilerade enheter. Mega- och Giga-lägena kan förbättra prestandan genom att koppla samman mindre enheter, vilket minskar antalet kompilerade enheter men ökar deras storlek.
-Använd Säkert-läget för maximal kompatibilitet på bekostnad av lägre prestanda.</translation>
+Använd Säker-läget för maximal kompatibilitet.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="95"/>
@@ -2131,14 +2161,21 @@ Detta kommer automatiskt att vidarebefordra portar som är bundna till 0.0.0.0 o
       <translation>Ändrar RPCN-landet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="266"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="263"/>
+      <source>Enable connection to the Clans server.
+Only affects games supporting the Clans feature.</source>
+      <translation>Aktivera anslutning till Clans-servern.
+Påverkar endast spel som har stöd för Clans-funktionen.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="267"/>
       <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
       <translation>Konsolregionen definierar licensområdet för PS3.
 Beroende på licensområdet kan det hända att vissa spel inte fungerar.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="267"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="268"/>
       <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
@@ -2147,24 +2184,24 @@ Andra spel byter språk automatiskt till det språk som väljs här.
 Vi rekommenderar att du låter detta vara kvar på ett språk som stöds av spelet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="268"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="269"/>
       <source>Select the PS3&apos;s date format.</source>
       <translation>Välj datumformat för PS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="269"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="270"/>
       <source>Select the PS3&apos;s time format.</source>
       <translation>Välj tidsformat för PS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="271"/>
       <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
       <translation>Ställer in den tangentbordslayout som används.
 För närvarande är det bara amerikanska, japanska och tyska layouter som stöds fullt ut.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="271"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="272"/>
       <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
@@ -2173,21 +2210,21 @@ In these cases having the cross button assigned can often lead to confusion.</so
 I dessa fall kan det ofta leda till förvirring om kryssknappen är tilldelad.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="272"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="273"/>
       <source>Required for some Homebrew.
 If unsure, do not use this option.</source>
       <translation>Krävs för vissa Homebrew.
 Om osäker, använd inte detta alternativ.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="273"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="274"/>
       <source>Required for some Homebrew or Game Mods.
 If unsure, do not use this option</source>
       <translation>Krävs för vissa Homebrew eller Game Mods.
 Om du är osäker, använd inte detta alternativ</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="274"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="275"/>
       <source>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.
 
@@ -2198,171 +2235,171 @@ I spel kan du använda cachemappen för att tillfälligt lagra data utanför sys
 Den här inställningen är endast tillgänglig i den globala konfigurationen.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="275"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="276"/>
       <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</source>
       <translation>Ställer in den tid som ska användas i konsolen. Detta kommer att tillämpas som en förskjutning som följer väggklockans tid.
 Kan återställas till aktuell väggklocktid genom att klicka på &quot;Set to Now&quot;.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="280"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="281"/>
       <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
       <translation>Denna handkontroller är inaktiverad och kommer att visas som frånkopplad för programmet. Välj en annan hanterare för att aktivera den.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="281"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="282"/>
       <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
       <translation>Denna port är för närvarande tilldelad till en anpassad handkontroller av programmet och kan inte ändras.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="282"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="283"/>
       <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
       <translation>Det är möjligt att använda ett tangentbord som kontroller i RPCS3, men det rekommenderas starkt att använda en riktig kontroller.&lt;br&gt;För att binda musrörelser till en knapp eller styrspak klickar du på önskad knapp för att aktivera den och klickar sedan och håller ned medan du drar musen i en riktning.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="283"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="284"/>
       <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>För att kunna använda DualShock 3-hanteraren måste du först installera den officiella drivrutinen för DualShock 3.&lt;br&gt;Se &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; för instruktioner.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="284"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="285"/>
       <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>För att kunna använda DualShock 3-hanteraren kan du behöva lägga till udev-regler för att låta RPCS3 få åtkomst till kontrollenheten.&lt;br&gt;Se &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; för instruktioner.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="285"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="286"/>
       <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
       <translation>DualShock 3-hanteraren rekommenderas för officiella DualShock 3-kontroller.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="286"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="287"/>
       <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
       <translation>Om du har problem med DualShock 4-hanteraren kan det orsakas av verktyg från tredje part som DS4Windows. Det rekommenderas att du inaktiverar dem när du använder den här hanteraren.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="287"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="288"/>
       <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>För att kunna använda DualShock 4-hanteraren kan du behöva lägga till udev-regler för att låta RPCS3 få åtkomst till kontrollenheten.&lt;br&gt;Se &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; för instruktioner.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="288"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="289"/>
       <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
       <translation>DualShock 4-hanteraren rekommenderas för officiella DualShock 4-kontroller.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="289"/>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="290"/>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="291"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="292"/>
       <source>The DualSense handler is recommended for official DualSense controllers.</source>
       <translation>DualSense-hanteraren rekommenderas för officiella DualSense-kontroller.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="292"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="293"/>
       <source>The Skateboard handler is recommended for official RIDE skateboard controllers.</source>
       <translation>Skateboar-hanteraren rekommenderas för officiella RIDE-kontroller för skateboards.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="293"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="294"/>
       <source>The PS Move handler is recommended for official PS Move controllers.</source>
       <translation>PS Move-hanteraren rekommenderas för officiella PS Move-kontroller.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="294"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="295"/>
       <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP&apos;s XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</source>
       <translation>XInput-hanteraren fungerar med Xbox-kontroller och många PC-kompatibla kontroller från tredje part. Tryckkänsliga knappar från SCP stöds när SCP:s XInput1_3.dll placeras i RPCS3:s huvudkatalog. För mer information, se &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="295"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="296"/>
       <source>The evdev handler should work with any controller that has Linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>Hanteraren evdev bör fungera med alla kontroller som har Linux-stöd.&lt;br&gt;Om din styrspak inte centreras korrekt, läs &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; för instruktioner.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="296"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="297"/>
       <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
       <translation>MMJoystick-hanteraren bör fungera med nästan alla styrenheter som känns igen av Windows. Vi rekommenderar dock att du använder de mer specifika hanterarna om du har en styrenhet som stöder dem.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="297"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="298"/>
       <source>The SDL handler supports a variety of controllers across different platforms.</source>
       <translation>SDL-hanteraren stöder en mängd olika styrenheter på olika plattformar.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="299"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="300"/>
       <source>Resets the sensor orientation when pressed.&lt;br&gt;Toggle the checkbox to enable or disable the orientation feature.&lt;br&gt;Currently only used for PS Move interactions.</source>
       <translation>Återställer sensorns orientering när du trycker på den.&lt;br&gt;Växla kryssrutan för att aktivera eller inaktivera orienteringsfunktionen.&lt;br&gt;Används för närvarande endast för PS Move-interaktioner.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="300"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="301"/>
       <source>Applies the stick multipliers while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the analog limiter on button press instead.&lt;br&gt;If no button has been assigned, the stick multipliers are always applied.</source>
       <translation>Tillämpar spakmultiplikatorerna medan denna specialknapp hålls intryckt.&lt;br&gt;Aktivera &quot;Växla&quot; om du istället vill växla mellan analog begränsare och knapp.&lt;br&gt;Om ingen knapp har tilldelats tillämpas spakmultiplikatorerna alltid.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="301"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="302"/>
       <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
       <translation>Styr intensiteten för tryckkänsliga knappar när den här specialknappen trycks in.&lt;br&gt;Aktivera &quot;Växla&quot; om du vill växla intensitet vid knapptryckning istället.&lt;br&gt;Använd procentsatsen för att ändra hur hårt du vill trycka på en knapp.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="302"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="303"/>
       <source>Controls the deadzone of pressure sensitive buttons. It determines how far the button has to be pressed until it is recognized by the game. The resulting range will be projected onto the full button sensitivity range.</source>
       <translation>Styr dödzonen för tryckkänsliga knappar. Den avgör hur långt knappen måste tryckas in för att den ska kännas igen av spelet. Det resulterande intervallet kommer att projiceras på hela knappkänslighetsområdet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="303"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="304"/>
       <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 8000 is usually recommended.</source>
       <translation>Den faktiska DualShock 3:s spakområde är inte cirkulärt utan format som en rundad kvadrat (eller kvirkel) som representerar det maximala området för de emulerade spakarna. Du kan använda kvirkelvärdena för att modifiera spakinmatningen om dina spakar inte kan nå hörnen av detta intervall. Ett värde på 0 tillämpar inte någon så kallad kvirkling. Ett värde på 8000 rekommenderas vanligtvis.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="304"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="305"/>
       <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
       <translation>Spakmultiplikatorerna kan användas för att ändra känsligheten i dina spakrörelser.&lt;br&gt;Standardinställningen är 1 och representerar normal inmatning.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="305"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="306"/>
       <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is simulated using the anti-deadzone slider (default is 13%), so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
       <translation>En spaks dödzon avgör hur långt spaken måste flyttas innan spelet känner igen den helt och hållet. Det resulterande intervallet kommer att projiceras på hela inmatningsintervallet för att ge dig en smidig upplevelse. Rörelser inom dödzonen simuleras med hjälp av reglaget för anti-dödzon (standard är 13 %), så oroa dig inte om det fortfarande visas rörelser i förhandsgranskningen av den emulerade spaken.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="306"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="307"/>
       <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.&lt;br&gt;The game sends values from 0-255 to activate the motors.&lt;br&gt;Any value smaller or equal the threshold will be set to 0. This is 63 by default for pad handlers other than DualShock3 in order to emulate the DualShock3&apos;s behavior.</source>
       <translation>PS3 aktiverar två motorer (stor och liten) för att hantera vibrationer från kontrollen.&lt;br&gt;Här kan du aktivera, inaktivera eller till och med växla mellan dessa signaler för den valda kontrollen.&lt;br&gt;Spelet skickar värden mellan 0 och 255 för att aktivera motorerna.&lt;br&gt; Alla värden som är mindre än eller lika med tröskelvärdet kommer att sättas till 0. Detta är 63 som standard för andra pad-hanterare än DualShock3 för att emulera DualShock3:s beteende.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="307"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="308"/>
       <source>Use this to configure the gamepad motion controls.</source>
       <translation>Använd denna funktion för att konfigurera handkontrollerns rörelsekontroller.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="308"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="309"/>
       <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
       <translation>De emulerade spakvärdena (röda prickar) i spakförhandsgranskningen representerar de faktiska spakpositionerna som de kommer att vara synliga för spelet. Den faktiska räckvidden för DualShock 3:s spakar är inte cirkulär utan formad som en rundad kvadrat (eller kvirkel) som representerar den maximala räckvidden för de emulerade spakarna. De blå vanliga prickarna representerar de råa spakvärdena (inklusive spakmultiplikatorer) innan de konverteras för användning i spelet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="309"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="310"/>
       <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
       <translation>En avtryckares dödzon avgör hur långt avtryckaren måste flyttas innan den känns igen av spelet. Det resulterande intervallet kommer att projiceras på hela inmatningsintervallet för att ge dig en smidig upplevelse.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="310"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="311"/>
       <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
       <translation>Med tangentbord är du oundvikligen begränsad till 8 spakriktningar (4 raka + 4 diagonala). Dessutom kommer spaken att hoppa till det maximala värdet för den valda riktningen omedelbart när en tangent trycks in. Spakinterpolationen kan användas för att kringgå båda dessa problem genom att jämna ut dessa riktningsändringar. Ju lägre värde, desto längre tid tar det att trycka in eller släppa upp en tangent tills den maximala amplituden uppnås.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="311"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="312"/>
       <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
       <translation>Musens dödzoner representerar spelets egna dödzoner på x- och y-axlarna. Spelen tillämpar vanligtvis sina egna dödzoner för att filtrera bort små oönskade spakrörelser. Följaktligen känns musinmatning ointuitiv eftersom den förlitar sig på omedelbar respons. Du kan ändra dessa värden tillfälligt under spelets gång för att ta reda på vilka värden som är optimala för ditt spel (Alt+T och Alt+Y för x, Alt+U och Alt+I för y).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="312"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="313"/>
       <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
       <translation>Musaccelerationen kan användas för att förstärka dina musrörelser på x- och y-axlarna. Öka dessa värden om dina musrörelser känns för långsamma när du spelar ett spel. Du kan ändra dessa värden tillfälligt under spelets gång för att hitta de optimala värdena (Alt+G och Alt+H för x, Alt+J och Alt+K för y). Tänk på att moderna möss vanligtvis har olika lägen och inställningar som också kan användas för att ändra musens rörelsehastighet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="313"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="314"/>
       <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
       <translation>Musrörelseläget avgör hur musrörelsen översätts till kontrollerinmatning.&lt;br&gt;Använd det relativa läget för traditionell musrörelse.&lt;br&gt;Använd det absoluta läget för att använda musens avstånd till skärmens mitt som inmatningsvärde.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="314"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="315"/>
       <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Alt + Left-click: differentiate between trigger press and release (only XInput for now).&lt;br&gt;Right-click: clear this button mapping.</source>
       <translation>Vänsterklicka: mappa om den här knappen.&lt;br&gt;Skift + vänsterklicka: lägg till ytterligare en knappmappning.&lt;br&gt;Alt + vänsterklicka: gör skillnad mellan att trycka på avtryckaren och att släppa den (endast XInput för tillfället).&lt;br&gt;Högerklicka: ta bort den här knappmappningen.</translation>
     </message>
@@ -2629,57 +2666,74 @@ Omstart av spelet krävs för att tillämpa detta. Du kan aktivera/inaktivera de
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="22"/>
+      <source>Handler</source>
+      <translation>Handtag</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="28"/>
+      <source>No handlers found</source>
+      <translation>Inga handtag hittades</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="38"/>
       <source>Camera</source>
       <translation>Kamera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="28"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="44"/>
       <source>No cameras found</source>
       <translation>Inga kameror hittades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="38"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="54"/>
       <source>Settings</source>
       <translation>Inställningar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="44"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="60"/>
       <source>No settings found</source>
       <translation>Inga inställningar hittades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="56"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.ui" line="72"/>
       <source>Preview</source>
       <translation>Förhandsvisa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="130"/>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="226"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="320"/>
+      <source>Camera permissions denied!</source>
+      <translation>Kameraåtkomst nekades!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="320"/>
+      <source>RPCS3 has no permissions to access cameras on this device.</source>
+      <translation>RPCS3 har ingen behörighet att komma åt kameror på denna enhet.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="364"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="451"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="657"/>
       <source>Camera not available</source>
       <translation>Kameran inte tillgänglig</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="130"/>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="226"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="364"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="451"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="657"/>
       <source>The selected camera is not available.
 It might be blocked by another application.</source>
       <translation>Den valda kameran är inte tillgänglig.
 Den kanske blockeras av ett annat program.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="156"/>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="390"/>
       <source>%0x%1, %2-%3 FPS, Format=%4</source>
       <translation>%0x%1, %2-%3 bilder/s, Format=%4</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="232"/>
-      <source>Camera permissions denied!</source>
-      <translation>Kameraåtkomst nekades!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="232"/>
-      <source>RPCS3 has no permissions to access cameras on this device.</source>
-      <translation>RPCS3 har ingen behörighet att komma åt kameror på denna enhet.</translation>
+      <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="541"/>
+      <source>%0x%1, %2 FPS, Format=%3</source>
+      <translation>%0x%1, %2 bilder/s, Format=%3</translation>
     </message>
   </context>
   <context>
@@ -2713,69 +2767,151 @@ Den kanske blockeras av ett annat program.</translation>
   <context>
     <name>cheat_manager_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="976"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="991"/>
       <source>Error converting value</source>
       <translation>Fel vid konvertering av värdet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="976"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="991"/>
       <source>Couldn&apos;t convert the search value you typed to the integer type you selected</source>
       <translation>Kunde inte konvertera sökvärdet som du angav till den heltalstyp du valde</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="986"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1001"/>
       <source>Nothing found</source>
       <translation>Ingenting hittades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="993"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1008"/>
       <source>Too many entries to display (%0)</source>
       <translation>För många poster att visa (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1054"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1069"/>
       <source>Unsigned 8 bits</source>
       <translation>Osignerad 8 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1055"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1070"/>
       <source>Unsigned 16 bits</source>
       <translation>Osignerad 16 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1056"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1071"/>
       <source>Unsigned 32 bits</source>
       <translation>Osignerad 32 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1057"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1072"/>
       <source>Unsigned 64 bits</source>
       <translation>Osignerad 64 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1058"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1073"/>
       <source>Signed 8 bits</source>
       <translation>Signerad 8 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1059"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1074"/>
       <source>Signed 16 bits</source>
       <translation>Signerad 16 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1060"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1075"/>
       <source>Signed 32 bits</source>
       <translation>Signerad 32 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1061"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1076"/>
       <source>Signed 64 bits</source>
       <translation>Signerad 64 bitar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1062"/>
+      <location filename="./rpcs3/rpcs3qt/cheat_manager.cpp" line="1077"/>
       <source>Float 32 bits</source>
       <translation>Float 32 bitar</translation>
+    </message>
+  </context>
+  <context>
+    <name>clans_add_server_dialog</name>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="142"/>
+      <source>Clans: Add Server</source>
+      <translation>Clans: Lägg till server</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="148"/>
+      <source>Description:</source>
+      <translation>Beskrivning:</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="150"/>
+      <source>Host:</source>
+      <translation>Värd:</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="169"/>
+      <source>Missing Description!</source>
+      <translation>Saknar beskrivning!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="169"/>
+      <source>You must enter a description!</source>
+      <translation>Du måste ange en beskrivning!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174"/>
+      <source>Missing Hostname!</source>
+      <translation>Saknar värdnamn!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174"/>
+      <source>You must enter a hostname for the server!</source>
+      <translation>Du måste ange ett värdnamn för servern!</translation>
+    </message>
+  </context>
+  <context>
+    <name>clans_settings_dialog</name>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="17"/>
+      <source>Clans Configuration</source>
+      <translation>Konfiguration för Clans</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="22"/>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="26"/>
+      <source>Server:</source>
+      <translation>Server:</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="41"/>
+      <source>Add</source>
+      <translation>Lägg till</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="42"/>
+      <source>Del</source>
+      <translation>Ta bort</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="87"/>
+      <source>Existing Server</source>
+      <translation>Befintlig server</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="87"/>
+      <source>You already have a server with this description &amp; hostname in the list.</source>
+      <translation>Du har redan en server med denna beskrivning och värdnamn i listan.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="113"/>
+      <source>Cannot Delete</source>
+      <translation>Kan inte ta bort</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="113"/>
+      <source>This server cannot be deleted.</source>
+      <translation>Denna server kan inte tas bort.</translation>
     </message>
   </context>
   <context>
@@ -2963,13 +3099,13 @@ Key Down: Scroll one instruction downwards. (address is incremented)
 Key Page-Up: Scroll upwards with steps count equal to the viewed instruction count.
 Key Page-Down: Scroll downwards with steps count equal to the viewed instruction count.
 Double-click: Set breakpoints.</source>
-      <translation>Tangenterna Ctrl+G: Gå till den inskrivna adressen.
+      <translation>Tangenter Ctrl+G: Gå till den inskrivna adressen.
 Tangenter Ctrl+B: Öppna inställningar för brytpunkter.
 Tangenter Ctrl+C: Kopiera instruktionsinnehåll.
 Tangenter Ctrl+F: Hitta tråd.
 Tangenter Alt+S: Fånga SPU-bilder av vald SPU eller generaliserad form när den används från PPU.
 Tangenter Alt+S: Startar en minnesvisare som pekar på den aktuella RSX-semaforplatsen när den används från RSX.
-Tangenterna Alt+R: Läs in den senast sparade SPU-lägesbilden.
+Tangenter Alt+R: Läs in den senast sparade SPU-lägesbilden.
 Tangenter Alt+F5: Visa dialogrutan SPU disassmebler.
 Tangent D: Loggar SPU MFC-kommandon, MFC-felsökningsinställningen måste vara aktiverad.
 Tangent D: Även PPU anropshistorik logger, tolk och icke-noll anropshistorikstorlek måste användas.
@@ -3346,19 +3482,19 @@ Denna ändring blir slutgiltig först när du sparar konfigurationen.</translati
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="976"/>
       <source>Safe</source>
-      <comment>SPU Analyzer Block Size</comment>
-      <translation>Säkert</translation>
+      <comment>SPU block size</comment>
+      <translation>Säker</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="977"/>
       <source>Mega</source>
-      <comment>SPU Analyzer Block Size</comment>
+      <comment>SPU block size</comment>
       <translation>Mega</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="978"/>
       <source>Giga</source>
-      <comment>SPU Analyzer Block Size</comment>
+      <comment>SPU block size</comment>
       <translation>Giga</translation>
     </message>
     <message>
@@ -3746,946 +3882,952 @@ Denna ändring blir slutgiltig först när du sparar konfigurationen.</translati
       <translation>Qt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1127"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1123"/>
+      <source>SDL</source>
+      <comment>Camera handler</comment>
+      <translation>SDL</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1130"/>
       <source>Null</source>
       <comment>Music handler</comment>
       <translation>Null</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1128"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1131"/>
       <source>Qt</source>
       <comment>Music handler</comment>
       <translation>Qt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1134"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1137"/>
       <source>Single-threaded</source>
       <comment>Pad handler mode</comment>
       <translation>Enkeltrådad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1135"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1138"/>
       <source>Multi-threaded</source>
       <comment>Pad handler mode</comment>
       <translation>Flertrådad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1141"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1144"/>
       <source>Null</source>
       <comment>Move handler</comment>
       <translation>Null</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1142"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1145"/>
       <source>Real</source>
       <comment>Move handler</comment>
       <translation>Riktig</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1143"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1146"/>
       <source>Fake</source>
       <comment>Move handler</comment>
       <translation>Fejk</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1144"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1147"/>
       <source>Mouse</source>
       <comment>Move handler</comment>
       <translation>Mus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1145"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1148"/>
       <source>Raw Mouse</source>
       <comment>Move handler</comment>
       <translation>Rå mus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1147"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1150"/>
       <source>Gun</source>
       <comment>Gun handler</comment>
       <translation>Pistol</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1154"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1157"/>
       <source>Null (use real Buzzers)</source>
       <comment>Buzz handler</comment>
       <translation>Null (använd riktiga Buzzers)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1155"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1158"/>
       <source>1 controller (1-4 players)</source>
       <comment>Buzz handler</comment>
       <translation>1 kontroller (1-4 spelare)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1156"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1159"/>
       <source>2 controllers (5-7 players)</source>
       <comment>Buzz handler</comment>
       <translation>2 kontroller (5-7 spelare)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1162"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1165"/>
       <source>Null</source>
       <comment>Turntable handler</comment>
       <translation>Null</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1163"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1166"/>
       <source>1 controller</source>
       <comment>Turntable handler</comment>
       <translation>1 kontroller</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1164"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1167"/>
       <source>2 controllers</source>
       <comment>Turntable handler</comment>
       <translation>2 kontroller</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1170"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1173"/>
       <source>Null</source>
       <comment>GHLtar handler</comment>
       <translation>Null</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1171"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1174"/>
       <source>1 controller</source>
       <comment>GHLtar handler</comment>
       <translation>1 kontroller</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1172"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1175"/>
       <source>2 controllers</source>
       <comment>GHLtar handler</comment>
       <translation>2 kontroller</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1178"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1181"/>
       <source>Disconnected</source>
       <comment>Internet Status</comment>
       <translation>Frånkopplad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1179"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1182"/>
       <source>Connected</source>
       <comment>Internet Status</comment>
       <translation>Ansluten</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1185"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1188"/>
       <source>Disconnected</source>
       <comment>PSN Status</comment>
       <translation>Frånkopplad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1186"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1189"/>
       <source>Simulated</source>
       <comment>PSN Status</comment>
       <translation>Simulerad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1187"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1190"/>
       <source>RPCN</source>
       <comment>PSN Status</comment>
       <translation>RPCN</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1193"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1196"/>
       <source>As Host</source>
       <comment>Sleep timers accuracy</comment>
       <translation>Som värd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1194"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1197"/>
       <source>Usleep Only</source>
       <comment>Sleep timers accuracy</comment>
       <translation>Endast Usleep</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1195"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1198"/>
       <source>All Timers</source>
       <comment>Sleep timers accuracy</comment>
       <translation>Alla tidtagare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1201"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1204"/>
       <source>Fast</source>
       <comment>RSX FIFO Fetch Accuracy</comment>
       <translation>Snabb</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1202"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1205"/>
       <source>Atomic</source>
       <comment>RSX FIFO Fetch Accuracy</comment>
       <translation>Atomisk</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1203"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1206"/>
       <source>Ordered &amp; Atomic</source>
       <comment>RSX FIFO Fetch Accuracy</comment>
       <translation>Atomisk &amp; ordnad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1204"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1207"/>
       <source>PS3</source>
       <comment>RSX FIFO Fetch Accuracy</comment>
       <translation>PS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1210"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1213"/>
       <source>None</source>
       <comment>Detail Level</comment>
       <translation>Ingen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1211"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1214"/>
       <source>Minimal</source>
       <comment>Detail Level</comment>
       <translation>Minimal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1212"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1215"/>
       <source>Low</source>
       <comment>Detail Level</comment>
       <translation>Låg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1213"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1216"/>
       <source>Medium</source>
       <comment>Detail Level</comment>
       <translation>Medel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1214"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1217"/>
       <source>High</source>
       <comment>Detail Level</comment>
       <translation>Hög</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1221"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1224"/>
       <source>Minimal</source>
       <comment>Perf Graph Detail Level</comment>
       <translation>Minimal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1222"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1225"/>
       <source>Show Min And Max</source>
       <comment>Perf Graph Detail Level</comment>
       <translation>Visa min och max</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1223"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1226"/>
       <source>Show 1% Low And Average</source>
       <comment>Perf Graph Detail Level</comment>
       <translation>Visa 1% låg och genomsnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1224"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1227"/>
       <source>Show All</source>
       <comment>Perf Graph Detail Level</comment>
       <translation>Visa alla</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1230"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1233"/>
       <source>Top Left</source>
       <comment>Performance overlay position</comment>
       <translation>Övre vänstra hörnet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1231"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1234"/>
       <source>Top Right</source>
       <comment>Performance overlay position</comment>
       <translation>Övre högra hörnet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1232"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1235"/>
       <source>Bottom Left</source>
       <comment>Performance overlay position</comment>
       <translation>Nedre vänstra hörnet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1233"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1236"/>
       <source>Bottom Right</source>
       <comment>Performance overlay position</comment>
       <translation>Nedre högra hörnet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1239"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1242"/>
       <source>Interpreter (static)</source>
       <comment>PPU decoder</comment>
       <translation>Tolk (statisk)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1240"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1243"/>
       <source>Recompiler (LLVM)</source>
       <comment>PPU decoder</comment>
       <translation>Omkompilerare (LLVM)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1246"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1249"/>
       <source>Interpreter (static)</source>
       <comment>SPU decoder</comment>
       <translation>Tolk (statisk)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1247"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1250"/>
       <source>Interpreter (dynamic)</source>
       <comment>SPU decoder</comment>
       <translation>Tolk (dynamisk)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1248"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1251"/>
       <source>Recompiler (ASMJIT)</source>
       <comment>SPU decoder</comment>
       <translation>Omkompilerare (ASMJIT)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1249"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1252"/>
       <source>Recompiler (LLVM)</source>
       <comment>SPU decoder</comment>
       <translation>Omkompilerare (LLVM)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1255"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1258"/>
       <source>Enter with circle</source>
       <comment>Enter button assignment</comment>
       <translation>Enter med cirkel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1256"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1259"/>
       <source>Enter with cross</source>
       <comment>Enter button assignment</comment>
       <translation>Enter med kryss</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1262"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1265"/>
       <source>Stereo</source>
       <comment>Audio format</comment>
       <translation>Stereo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1263"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1266"/>
       <source>Surround 5.1</source>
       <comment>Audio format</comment>
       <translation>Surround 5.1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1264"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1267"/>
       <source>Surround 7.1</source>
       <comment>Audio format</comment>
       <translation>Surround 7.1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1265"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1268"/>
       <source>Manual</source>
       <comment>Audio format</comment>
       <translation>Manuellt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1266"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1269"/>
       <source>Automatic</source>
       <comment>Audio format</comment>
       <translation>Automatiskt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1272"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1275"/>
       <source>Linear PCM 2 Ch. 48 kHz</source>
       <comment>Audio format flag</comment>
       <translation>Linjär PCM 2 kanaler 48 kHz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1273"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1276"/>
       <source>Linear PCM 5.1 Ch. 48 kHz</source>
       <comment>Audio format flag</comment>
       <translation>Linjär PCM 5.1-kanaler 48 kHz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1274"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1277"/>
       <source>Linear PCM 7.1 Ch. 48 kHz</source>
       <comment>Audio format flag</comment>
       <translation>Linjär PCM 7.1-kanaler 48 kHz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1275"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1278"/>
       <source>Dolby Digital 5.1 Ch.</source>
       <comment>Audio format flag</comment>
       <translation>Dolby Digital 5.1-kanaler.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1276"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1279"/>
       <source>DTS 5.1 Ch.</source>
       <comment>Audio format flag</comment>
       <translation>.DTS 5.1-kanaler.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1282"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1285"/>
       <source>None</source>
       <comment>Audio Provider</comment>
       <translation>Ingen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1283"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1286"/>
       <source>CellAudio</source>
       <comment>Audio Provider</comment>
       <translation>CellAudio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1284"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1287"/>
       <source>RSXAudio</source>
       <comment>Audio Provider</comment>
       <translation>RSXAudio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1290"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1293"/>
       <source>HDMI 0</source>
       <comment>Audio Avport</comment>
       <translation>HDMI 0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1291"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1294"/>
       <source>HDMI 1</source>
       <comment>Audio Avport</comment>
       <translation>HDMI 1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1292"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1295"/>
       <source>AV multiout</source>
       <comment>Audio Avport</comment>
       <translation>AV multiout</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1293"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1296"/>
       <source>SPDIF 0</source>
       <comment>Audio Avport</comment>
       <translation>SPDIF 0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1294"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1297"/>
       <source>SPDIF 1</source>
       <comment>Audio Avport</comment>
       <translation>SPDIF 1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1300"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1303"/>
       <source>Auto</source>
       <comment>Audio Channel Layout</comment>
       <translation>Automatiskt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1301"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1304"/>
       <source>Mono</source>
       <comment>Audio Channel Layout</comment>
       <translation>Mono</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1302"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1305"/>
       <source>Stereo</source>
       <comment>Audio Channel Layout</comment>
       <translation>Stereo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1303"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1306"/>
       <source>Stereo LFE</source>
       <comment>Audio Channel Layout</comment>
       <translation>Stereo LFE</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1304"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1307"/>
       <source>Quadraphonic</source>
       <comment>Audio Channel Layout</comment>
       <translation>Kvadrofonisk</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1305"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1308"/>
       <source>Quadraphonic LFE</source>
       <comment>Audio Channel Layout</comment>
       <translation>Kvadrofonisk LFE</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1306"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1309"/>
       <source>Surround 5.1</source>
       <comment>Audio Channel Layout</comment>
       <translation>Surround 5.1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1307"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1310"/>
       <source>Surround 7.1</source>
       <comment>Audio Channel Layout</comment>
       <translation>Surround 7.1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1313"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1316"/>
       <source>Japan</source>
       <comment>License Area</comment>
       <translation>Japan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1314"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1317"/>
       <source>America</source>
       <comment>License Area</comment>
       <translation>Amerika</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1315"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1318"/>
       <source>Europe, Oceania, Middle East, Russia</source>
       <comment>License Area</comment>
       <translation>Europa, Oceanien, Mellanöstern, Ryssland</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1316"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1319"/>
       <source>Southeast Asia</source>
       <comment>License Area</comment>
       <translation>Sydöstra Asien</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1317"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1320"/>
       <source>Korea</source>
       <comment>License Area</comment>
       <translation>Korea</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1318"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1321"/>
       <source>China</source>
       <comment>License Area</comment>
       <translation>Kina</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1319"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1322"/>
       <source>Other</source>
       <comment>License Area</comment>
       <translation>Annan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1325"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1328"/>
       <source>Safe</source>
       <comment>Asynchronous Queue Scheduler</comment>
       <translation>Säker</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1326"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1329"/>
       <source>Fast</source>
       <comment>Asynchronous Queue Scheduler</comment>
       <translation>Snabb</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1332"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1335"/>
       <source>Year/Month/Day</source>
       <comment>Date Format</comment>
       <translation>År/Månad/Dag</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1333"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1336"/>
       <source>Day/Month/Year</source>
       <comment>Date Format</comment>
       <translation>Dag/Månad/År</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1334"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1337"/>
       <source>Month/Day/Year</source>
       <comment>Date Format</comment>
       <translation>Månad/Dag/År</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1340"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1343"/>
       <source>12-hour clock</source>
       <comment>Time Format</comment>
       <translation>12-timmarsklocka</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1341"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1344"/>
       <source>24-hour clock</source>
       <comment>Time Format</comment>
       <translation>24-timmarsklocka</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1347"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1350"/>
       <source>Japanese</source>
       <comment>System Language</comment>
       <translation>Japanska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1348"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1351"/>
       <source>English (US)</source>
       <comment>System Language</comment>
       <translation>Engelska (USA)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1349"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1352"/>
       <source>French</source>
       <comment>System Language</comment>
       <translation>Franska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1350"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1353"/>
       <source>Spanish</source>
       <comment>System Language</comment>
       <translation>Spanska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1351"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1354"/>
       <source>German</source>
       <comment>System Language</comment>
       <translation>Tyska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1352"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1355"/>
       <source>Italian</source>
       <comment>System Language</comment>
       <translation>Italienska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1353"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1356"/>
       <source>Dutch</source>
       <comment>System Language</comment>
       <translation>Nederländska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1354"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1357"/>
       <source>Portuguese (Portugal)</source>
       <comment>System Language</comment>
       <translation>Portugisiska (Portugal)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1355"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1358"/>
       <source>Russian</source>
       <comment>System Language</comment>
       <translation>Ryska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1356"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1359"/>
       <source>Korean</source>
       <comment>System Language</comment>
       <translation>Koreanska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1357"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1360"/>
       <source>Chinese (Traditional)</source>
       <comment>System Language</comment>
       <translation>Kinesiska (traditionell)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1358"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1361"/>
       <source>Chinese (Simplified)</source>
       <comment>System Language</comment>
       <translation>Kinesiska (förenklad)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1359"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1362"/>
       <source>Finnish</source>
       <comment>System Language</comment>
       <translation>Finska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1360"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1363"/>
       <source>Swedish</source>
       <comment>System Language</comment>
       <translation>Svenska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1361"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1364"/>
       <source>Danish</source>
       <comment>System Language</comment>
       <translation>Danska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1362"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1365"/>
       <source>Norwegian</source>
       <comment>System Language</comment>
       <translation>Norska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1363"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1366"/>
       <source>Polish</source>
       <comment>System Language</comment>
       <translation>Polska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1364"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1367"/>
       <source>English (UK)</source>
       <comment>System Language</comment>
       <translation>Engelska (UK)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1365"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1368"/>
       <source>Portuguese (Brazil)</source>
       <comment>System Language</comment>
       <translation>Portugisiska (Brasilien)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1366"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1369"/>
       <source>Turkish</source>
       <comment>System Language</comment>
       <translation>Turkiska</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1374"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1377"/>
       <source>English keyboard (US standard)</source>
       <comment>Keyboard Type</comment>
       <translation>Engelskt tangentbord (USA-standard)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1375"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1378"/>
       <source>Japanese keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Japanskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1376"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1379"/>
       <source>Japanese keyboard (Kana state)</source>
       <comment>Keyboard Type</comment>
       <translation>Japanskt tangentbord (Kana-tillstånd)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1377"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1380"/>
       <source>German keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Tyskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1378"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1381"/>
       <source>Spanish keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Spanskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1379"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1382"/>
       <source>French keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Franskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1380"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1383"/>
       <source>Italian keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Italienskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1381"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1384"/>
       <source>Dutch keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Nederländskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1382"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1385"/>
       <source>Portuguese keyboard (Portugal)</source>
       <comment>Keyboard Type</comment>
       <translation>Portugisiskt tangentbord (Portugal)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1383"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1386"/>
       <source>Russian keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Ryskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1384"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1387"/>
       <source>English keyboard (UK standard)</source>
       <comment>Keyboard Type</comment>
       <translation>Engelskt tangentbord (UK-standard)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1385"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1388"/>
       <source>Korean keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Koreanskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1386"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1389"/>
       <source>Norwegian keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Norskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1387"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1390"/>
       <source>Finnish keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Finskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1388"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1391"/>
       <source>Danish keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Danskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1389"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1392"/>
       <source>Swedish keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Svenskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1390"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1393"/>
       <source>Chinese keyboard (Traditional)</source>
       <comment>Keyboard Type</comment>
       <translation>Kinesiskt tangentbord (traditionellt)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1391"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1394"/>
       <source>Chinese keyboard (Simplified)</source>
       <comment>Keyboard Type</comment>
       <translation>Kinesiskt tangentbord (förenklat)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1392"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1395"/>
       <source>French keyboard (Switzerland)</source>
       <comment>Keyboard Type</comment>
       <translation>Franskt tangentbord (Schweiz)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1393"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1396"/>
       <source>German keyboard (Switzerland)</source>
       <comment>Keyboard Type</comment>
       <translation>Tyskt tangentbord (Schweiz)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1394"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1397"/>
       <source>French keyboard (Canada)</source>
       <comment>Keyboard Type</comment>
       <translation>Franskt tangentbord (Kanada)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1395"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1398"/>
       <source>French keyboard (Belgium)</source>
       <comment>Keyboard Type</comment>
       <translation>Franskt tangentbord (Belgien)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1396"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1399"/>
       <source>Polish keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Polskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1397"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1400"/>
       <source>Portuguese keyboard (Brazil)</source>
       <comment>Keyboard Type</comment>
       <translation>Portugisiskt tangentbord (Brasilien)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1398"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1401"/>
       <source>Turkish keyboard</source>
       <comment>Keyboard Type</comment>
       <translation>Turkiskt tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1404"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1407"/>
       <source>Automatic (Default)</source>
       <comment>Exclusive Fullscreen Mode</comment>
       <translation>Automatiskt (standard)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1405"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1408"/>
       <source>Prefer borderless fullscreen</source>
       <comment>Exclusive Fullscreen Mode</comment>
       <translation>Föredra kantlös helskärm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1406"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1409"/>
       <source>Prefer exclusive fullscreen</source>
       <comment>Exclusive Fullscreen Mode</comment>
       <translation>Föredra exklusiv helskärm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1412"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1415"/>
       <source>Disabled</source>
       <comment>3D Display Mode</comment>
       <translation>Inaktiverad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1413"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1416"/>
       <source>Side-by-side</source>
       <comment>3D Display Mode</comment>
       <translation>Sida-vid-sida</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1414"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1417"/>
       <source>Over-under</source>
       <comment>3D Display Mode</comment>
       <translation>Över-under</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1415"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1418"/>
       <source>Interlaced</source>
       <comment>3D Display Mode</comment>
       <translation>Interlaced</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1416"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1419"/>
       <source>Anaglyph Red-Green</source>
       <comment>3D Display Mode</comment>
       <translation>Anaglyf röd-grönt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1417"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1420"/>
       <source>Anaglyph Red-Blue</source>
       <comment>3D Display Mode</comment>
       <translation>Anaglyf röd-blå</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1418"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1421"/>
       <source>Anaglyph Red-Cyan</source>
       <comment>3D Display Mode</comment>
       <translation>Anaglyf röd-cyan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1419"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1422"/>
       <source>Anaglyph Magenta-Cyan</source>
       <comment>3D Display Mode</comment>
       <translation>Anaglyf magenta-cyan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1420"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1423"/>
       <source>Anaglyph Green-Magenta (Trioscopic)</source>
       <comment>3D Display Mode</comment>
       <translation>Anaglyf grön-magenta (trioskopisk)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1421"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1424"/>
       <source>Anaglyph Amber-Blue (ColorCode 3D)</source>
       <comment>3D Display Mode</comment>
       <translation>Anaglyf amber-blå (ColorCode 3D)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1427"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1430"/>
       <source>Guitar (17 frets)</source>
       <comment>Midi Device Type</comment>
       <translation>Gitarr (17 greppband)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1428"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1431"/>
       <source>Guitar (22 frets)</source>
       <comment>Midi Device Type</comment>
       <translation>Gitarr (22 greppband)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1429"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1432"/>
       <source>Keyboard</source>
       <comment>Midi Device Type</comment>
       <translation>Tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1430"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1433"/>
       <source>Drums</source>
       <comment>Midi Device Type</comment>
       <translation>Trummor</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1436"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1439"/>
       <source>Accurate XFloat</source>
       <translation>Exakt XFloat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1437"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1440"/>
       <source>Approximate XFloat</source>
       <translation>Ungefärlig XFloat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1438"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1441"/>
       <source>Relaxed XFloat</source>
       <translation>Avslappnad XFloat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1439"/>
+      <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1442"/>
       <source>Inaccurate XFloat</source>
       <translation>Inte exakt XFloat</translation>
     </message>
@@ -4693,57 +4835,82 @@ Denna ändring blir slutgiltig först när du sparar konfigurationen.</translati
   <context>
     <name>emulated_logitech_g27_settings_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="600"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="607"/>
       <source>Configure Emulated Logitech G27 Wheel</source>
       <translation>Konfigurera emulerad Logitech G27-ratt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="628"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="635"/>
       <source>Confirm Reset</source>
       <translation>Bekräfta nollställning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="628"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="635"/>
       <source>Reset all?</source>
       <translation>Nollställ alla?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="639"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="646"/>
       <source>Warning: Force feedback output were meant for Logitech G27, on stronger wheels please adjust force strength accordingly in your wheel software.</source>
       <translation>Varning: Force feedback-utgången är avsedd för Logitech G27. På starkare rattar måste du justera kraftstyrkan i rattens programvara.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="644"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="651"/>
       <source>Note: Please DO NOT map your wheel onto gamepads, only map it here. If your wheel was mapped onto gamepads, go to gamepad settings and unmap it. If you used vJoy to map your wheel onto a gamepad before for RPCS3, undo that.</source>
       <translation>Observera! Mappa INTE ratten till gamepads, utan endast här. Om ratten har mappats till gamepads går du till gamepadinställningarna och avmappar den. Om du tidigare har använt vJoy för att mappa ratten till en gamepad för RPCS3 måste du ta bort det.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="648"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="655"/>
       <source>Enabled (requires game restart)</source>
       <translation>Aktiverad (kräver omstart av spel)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="651"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="658"/>
       <source>Reverse force feedback effects</source>
       <translation>Omvända force feedback-effekter</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="657"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="663"/>
+      <source>Compatibility limit:</source>
+      <translation>Kompatibilitetsgräns:</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="666"/>
+      <source>G27 (Default)</source>
+      <translation>G27 (standard)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="667"/>
+      <source>Driving Force GT</source>
+      <translation>Driving Force GT</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="668"/>
+      <source>G25</source>
+      <translation>G25</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="669"/>
+      <source>Driving Force Pro</source>
+      <translation>Driving Force Pro</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="676"/>
       <source>Use the device with the following mapping for force feedback:</source>
       <translation>Använd enheten med följande mappning för force feedback:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="658"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="677"/>
       <source>Use the device with the following mapping for LED:</source>
       <translation>Använd enheten med följande mappning för LED:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="672"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="691"/>
       <source>Axes:</source>
       <translation>Axlar:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="692"/>
+      <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="711"/>
       <source>Buttons:</source>
       <translation>Knappar:</translation>
     </message>
@@ -5091,45 +5258,1090 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
   </context>
   <context>
-    <name>game_list_frame</name>
+    <name>game_list_actions</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="52"/>
-      <source>Game List</source>
-      <translation>Spellista</translation>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="128"/>
+      <source>%0 - %1
+</source>
+      <translation>%0 - %1
+</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="126"/>
-      <source>Loading games</source>
-      <translation>Läser in spel</translation>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="132"/>
+      <source>
+Disc Game Info:
+Path: %0
+</source>
+      <translation>
+Info om skivspel:
+Sökväg: %0
+</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="126"/>
-      <source>Loading games, please wait...</source>
-      <translation>Läser in spel, vänta...</translation>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="135"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="150"/>
+      <source>Size: %0
+</source>
+      <translation>Storlek: %0
+</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="126"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2516"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2583"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2622"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2657"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2691"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2730"/>
-      <source>Cancel</source>
-      <translation>Avbryt</translation>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="141"/>
+      <source>
+%0 Info:
+</source>
+      <translation>
+Info för %0:
+</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="209"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1184"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1562"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1578"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2130"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2174"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="141"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="285"/>
+      <source>Game Data</source>
+      <translation>Speldata</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="145"/>
+      <source>Path: %0
+</source>
+      <translation>Sökväg: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="155"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="184"/>
+      <source>Total size: %0
+</source>
+      <translation>Total storlek: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="169"/>
+      <source>%0 selected games: %1 Disc Game - %2 not Disc Game
+</source>
+      <translation>%0 valda spel: %1 skivspel - %2 inte skivspel
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="172"/>
+      <source>
+Disc Game Info:
+</source>
+      <translation>
+Info om skivspel:
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="175"/>
+      <source>VFS unhosted: %0
+</source>
+      <translation>VFS unhosted: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="178"/>
+      <source>VFS hosted: %0
+</source>
+      <translation>VFS hosted: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="181"/>
+      <source>Total games: %0
+</source>
+      <translation>Totalt antal spel: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="187"/>
+      <source>
+Game Data Info:
+Total size: %0
+</source>
+      <translation>
+Info om speldata:
+Total storlek: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="229"/>
+      <source>
+Emulator Data Info:
+Caches size: %0
+</source>
+      <translation>
+Info om emulatordata:
+Storlek på cachar: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="230"/>
+      <source>Icons size: %0
+</source>
+      <translation>Storlek för ikoner: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="231"/>
+      <source>Savestates size: %0
+</source>
+      <translation>Storlek för sparade tillstånd: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="232"/>
+      <source>Captures size: %0
+</source>
+      <translation>Storlek på fångster: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="233"/>
+      <source>Recordings size: %0
+</source>
+      <translation>Storlek för inspelningar: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="234"/>
+      <source>Screenshots size: %0
+</source>
+      <translation>Storlek för skärmbilder: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="238"/>
+      <source>
+Current free disk space: %0
+</source>
+      <translation>
+Aktuellt ledigt diskutrymme: %0
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="253"/>
+      <source>Remove title from game list (Disc Game path is not removed!)</source>
+      <translation>Ta bort titeln från spellistan (sökväg för skivspel tas inte bort!)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="254"/>
+      <source>Remove caches and custom configs</source>
+      <translation>Ta bort cachar och anpassade konfigurationer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="255"/>
+      <source>Remove icons and shortcuts</source>
+      <translation>Ta bort ikoner och genvägar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="256"/>
+      <source>Remove savestates</source>
+      <translation>Ta bort sparade tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="257"/>
+      <source>Remove captures</source>
+      <translation>Ta bort fångster</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="258"/>
+      <source>Remove recordings</source>
+      <translation>Ta bort inspelningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="259"/>
+      <source>Remove screenshots</source>
+      <translation>Ta bort skärmbilder</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="265"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="271"/>
+      <source>Title located under auto-detection VFS &quot;games&quot; folder cannot be removed</source>
+      <translation>Titeln som finns under automatisk detektering VFS &quot;games&quot;-mappen kan inte tas bort</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="284"/>
+      <source>
+Permanently remove %0 and selected (optional) contents from drive?
+</source>
+      <translation>
+Ta permanent bort %0 and valt (valfritt) innehåll från enheten?
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="289"/>
+      <source>
+Permanently remove selected (optional) contents from drive?
+</source>
+      <translation>
+Ta permanent bort valt (valfritt) innehåll från enheten?
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="295"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="434"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="458"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="527"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1096"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
+      <source>Confirm Removal</source>
+      <translation>Bekräfta borttagning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="346"/>
+      <source>Failure!</source>
+      <translation>Misslyckades!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="347"/>
+      <source>Failed to remove %0 from drive!
+Caches and custom configs have been left intact.</source>
+      <translation>Misslyckades med att ta bort %0 från enheten!
+Cachar och anpassade konfigurationer har lämnats kvar.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="348"/>
+      <source>Failed to remove %0 from drive!</source>
+      <translation>Misslyckades med att ta bort %0 från enheten!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="364"/>
+      <source>Game Info</source>
+      <translation>Spelinfo</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="384"/>
+      <source>
+    %0: %1</source>
+      <translation>
+    %0: %1</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="389"/>
+      <source>
+  VFS disk usage: %0%1</source>
+      <translation>
+  VFS-diskanvändning: %0%1</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="391"/>
+      <source>
+  Cache disk usage: %0</source>
+      <translation>
+  Diskanvändning för cache: %0</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="397"/>
+      <source>Disk usage</source>
+      <translation>Diskanvändning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="427"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="449"/>
+      <source>Removal Aborted</source>
+      <translation>Borttagning avbröts</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="428"/>
+      <source>Removal of %0 not allowed due to %1 title is running!</source>
+      <translation>Borttagning av %0 tillåts inte på grund av titeln %1 körs!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="434"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="458"/>
+      <source>Remove %0?</source>
+      <translation>Ta bort %0?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="450"/>
+      <source>Removal of %0 not allowed due to emulator is running!</source>
+      <translation>Borttagning av %0 tillåts inte på grund av emulatorn körs!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="514"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="555"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1554"/>
       <source>Warning!</source>
       <translation>Varning!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="209"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="514"/>
+      <source>Failed to remove configuration file!</source>
+      <translation>Misslyckades med att ta bort konfigurationsfilen!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="528"/>
+      <source>Remove custom gamepad configuration?
+Your configuration will revert to the global pad settings.</source>
+      <translation>Ta bort anpassad gamepad-konfiguration?
+Din konfiguration kommer att återgå till de globala pad-inställningarna.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="529"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
+      <source>Remove custom gamepad configuration?</source>
+      <translation>Ta bort anpassad gamepad-konfiguration?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="555"/>
+      <source>Failed to completely remove gamepad configuration directory!</source>
+      <translation>Misslyckades med att helt ta bort gamepad-konfigurationskatalog!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="955"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="993"/>
+      <source>OK</source>
+      <translation>OK</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1017"/>
+      <source>Confirm Creation</source>
+      <translation>Bekräfta skapande</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1017"/>
+      <source>Create LLVM cache?</source>
+      <translation>Skapa LLVM-cache?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1038"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1049"/>
+      <source>LLVM Cache Batch Creation</source>
+      <translation>Masskapa LLVM-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1038"/>
+      <source>No titles found</source>
+      <translation>Inga titlar hittades</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1047"/>
+      <source>Creating all LLVM caches</source>
+      <translation>Skapar alla LLVM-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1049"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1119"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1159"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1201"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1286"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1329"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1372"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1421"/>
+      <source>Cancel</source>
+      <translation>Avbryt</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1062"/>
+      <source>%0
+Progress: %1/%2 caches compiled</source>
+      <translation>%0
+Förlopp: %1/%2 cachar kompilerade</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1096"/>
+      <source>Remove custom configuration?</source>
+      <translation>Ta bort anpassad konfiguration?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1115"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1119"/>
+      <source>Custom Configuration Batch Removal</source>
+      <translation>Massborttagning av anpassad konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1115"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1155"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1197"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1239"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1282"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1325"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1368"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1415"/>
+      <source>No files found</source>
+      <translation>Inga filer hittades</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1119"/>
+      <source>Removing all custom configurations</source>
+      <translation>Tar bort alla anpassade konfigurationer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1124"/>
+      <source>%0/%1 custom configurations cleared</source>
+      <translation>%0/%1 anpassade konfigurationer tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1155"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1159"/>
+      <source>Custom Gamepad Configuration Batch Removal</source>
+      <translation>Massborttagning av anpassad gamepad-konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1159"/>
+      <source>Removing all custom gamepad configurations</source>
+      <translation>Tar bort alla anpassade gamepad-konfigurationer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1164"/>
+      <source>%0/%1 custom gamepad configurations cleared</source>
+      <translation>%0/%1 anpassade gamepad-konfigurationer tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1197"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1201"/>
+      <source>Shader Cache Batch Removal</source>
+      <translation>Massborttagning av shader-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1201"/>
+      <source>Removing all shader caches</source>
+      <translation>Tar bort alla shader-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1206"/>
+      <source>%0/%1 shader caches cleared</source>
+      <translation>%0/%1 shader-cachar tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1239"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+      <source>PPU Cache Batch Removal</source>
+      <translation>Massborttagning av PPU-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+      <source>Removing all PPU caches</source>
+      <translation>Tar bort alla PPU-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1248"/>
+      <source>%0/%1 PPU caches cleared</source>
+      <translation>%0/%1 PPU-cachar tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1282"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1286"/>
+      <source>SPU Cache Batch Removal</source>
+      <translation>Massborttagning av SPU-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1286"/>
+      <source>Removing all SPU caches</source>
+      <translation>Tar bort alla SPU-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1291"/>
+      <source>%0/%1 SPU caches cleared</source>
+      <translation>%0/%1 SPU-cachar tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1325"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1329"/>
+      <source>HDD1 Cache Batch Removal</source>
+      <translation>Massborttagning av HDD1-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1329"/>
+      <source>Removing all HDD1 caches</source>
+      <translation>Tar bort alla HDD1-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1334"/>
+      <source>%0/%1 HDD1 caches cleared</source>
+      <translation>%0/%1 HDD1-cachar tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1368"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1372"/>
+      <source>Cache Batch Removal</source>
+      <translation>Massborttagning av cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1372"/>
+      <source>Removing all caches</source>
+      <translation>Tar bort alla cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1377"/>
+      <source>%0/%1 caches cleared</source>
+      <translation>%0/%1 cachar tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1415"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1421"/>
+      <source>Content Batch Removal</source>
+      <translation>Massborttagning av innehåll</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1421"/>
+      <source>Removing all contents</source>
+      <translation>Tar bort allt innehåll</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1426"/>
+      <source>%0/%1 contents cleared</source>
+      <translation>%0/%1 innehåll tömda</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
+      <source>Success!</source>
+      <translation>Lyckades!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
+      <source>Successfully created shortcut(s).</source>
+      <translation>Genväg(ar) skapades.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1554"/>
+      <source>Failed to create one or more shortcuts!</source>
+      <translation>Misslyckades med att skapa en eller flera genvägar!</translation>
+    </message>
+  </context>
+  <context>
+    <name>game_list_context_menu</name>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="69"/>
+      <source>&amp;Reboot with Global Configuration</source>
+      <translation>Starta &amp;om med global konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="70"/>
+      <source>&amp;Boot with Global Configuration</source>
+      <translation>Starta &amp;upp med global konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="72"/>
+      <source>&amp;Reboot</source>
+      <translation>Starta o&amp;m</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="73"/>
+      <source>&amp;Boot</source>
+      <translation>Starta &amp;upp</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="81"/>
+      <source>&amp;Reboot with Custom Configuration</source>
+      <translation>Starta &amp;om med anpassad konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="82"/>
+      <source>&amp;Boot with Custom Configuration</source>
+      <translation>Starta &amp;upp med anpassad konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="99"/>
+      <source>&amp;Reboot with Default Configuration</source>
+      <translation>Starta &amp;om med standardkonfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="100"/>
+      <source>&amp;Boot with Default Configuration</source>
+      <translation>Starta &amp;upp med standardkonfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="109"/>
+      <source>&amp;Reboot with Manually Selected Configuration</source>
+      <translation>Starta &amp;om med manuellt vald konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="110"/>
+      <source>&amp;Boot with Manually Selected Configuration</source>
+      <translation>Starta &amp;upp med manuellt vald konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="114"/>
+      <source>Config Files (*.yml);;All files (*.*)</source>
+      <translation>Konfigurationsfiler (*.yml);;Alla filer (*.*)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="133"/>
+      <source>&amp;Reboot with last SaveState</source>
+      <translation>Starta &amp;om med senaste sparade tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="134"/>
+      <source>&amp;Boot with last SaveState</source>
+      <translation>Starta &amp;upp med senaste sparade tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="145"/>
+      <source>&amp;Choose SaveState to reboot</source>
+      <translation>&amp;Välj sparat tillstånd att starta om med</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="146"/>
+      <source>&amp;Choose SaveState to boot</source>
+      <translation>&amp;Välj sparat tillstånd att starta upp med</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="159"/>
+      <source>&amp;Change Custom Configuration</source>
+      <translation>Ä&amp;ndra anpassad konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="160"/>
+      <source>&amp;Create Custom Configuration From Global Settings</source>
+      <translation>S&amp;kapa anpassad konfiguration från globala inställningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="162"/>
+      <source>&amp;Create Custom Configuration From Default Settings</source>
+      <translation>S&amp;kapa anpassad konfiguration från standardinställningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="164"/>
+      <source>&amp;Change Custom Gamepad Configuration</source>
+      <translation>Ä&amp;ndra anpassad gamepad-konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="165"/>
+      <source>&amp;Create Custom Gamepad Configuration</source>
+      <translation>S&amp;kapa anpassad gamepad-konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="166"/>
+      <source>&amp;Manage Game Patches</source>
+      <translation>&amp;Hantera spelpatchar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="171"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="751"/>
+      <source>&amp;Create LLVM Cache</source>
+      <translation>S&amp;kapa LLVM-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="174"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="758"/>
+      <source>&amp;Remove</source>
+      <translation>&amp;Ta bort</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="178"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="760"/>
+      <source>&amp;Remove Custom Configuration</source>
+      <translation>&amp;Ta bort anpassad konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="189"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="766"/>
+      <source>&amp;Remove Custom Gamepad Configuration</source>
+      <translation>&amp;Ta bort anpassad gamepad-konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="207"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="774"/>
+      <source>&amp;Remove Shader Cache</source>
+      <translation>&amp;Ta bort shader-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="214"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="780"/>
+      <source>&amp;Remove PPU Cache</source>
+      <translation>&amp;Ta bort PPU-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="221"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="786"/>
+      <source>&amp;Remove SPU Cache</source>
+      <translation>&amp;Ta bort SPU-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="231"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="792"/>
+      <source>&amp;Remove HDD1 Cache</source>
+      <translation>&amp;Ta bort HDD1-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="241"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="798"/>
+      <source>&amp;Remove All Caches</source>
+      <translation>&amp;Ta bort alla cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="253"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="806"/>
+      <source>&amp;Remove Savestates</source>
+      <translation>&amp;Ta bort sparade tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="268"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="819"/>
+      <source>&amp;Manage Game</source>
+      <translation>&amp;Hantera spel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="271"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="822"/>
+      <source>&amp;Create Desktop Shortcut</source>
+      <translation>S&amp;kapa skrivbordsgenväg</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="832"/>
+      <source>&amp;Create Start Menu Shortcut</source>
+      <translation>S&amp;kapa genväg på startmenyn</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="279"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="834"/>
+      <source>&amp;Create Launchpad Shortcut</source>
+      <translation>S&amp;kapa genväg på Launchpad</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="281"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="836"/>
+      <source>&amp;Create Application Menu Shortcut</source>
+      <translation>S&amp;kapa genväg på programmenyn</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="291"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="849"/>
+      <source>&amp;Hide In Game List</source>
+      <translation>&amp;Dölj i spellista</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="294"/>
+      <source>&amp;Rename In Game List</source>
+      <translation>&amp;Byt namn i spellista</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="297"/>
+      <source>&amp;Edit Tooltip Notes</source>
+      <translation>R&amp;edigera verktygstipsanteckningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="298"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="880"/>
+      <source>&amp;Reset Time Played</source>
+      <translation>&amp;Nollställ speltid</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="303"/>
+      <source>&amp;Remove %1</source>
+      <translation>&amp;Ta bort %1</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="307"/>
+      <source>&amp;Custom Images</source>
+      <translation>A&amp;npassade bilder</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="310"/>
+      <source>&amp;Import Custom Icon</source>
+      <translation>&amp;Importera anpassad ikon</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="311"/>
+      <source>&amp;Replace Custom Icon</source>
+      <translation>&amp;Ersätt anpassad ikon</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="312"/>
+      <source>&amp;Remove Custom Icon</source>
+      <translation>&amp;Ta bort anpassad ikon</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="317"/>
+      <source>&amp;Import Hover Gif</source>
+      <translation>&amp;Importera hovrande gif</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="318"/>
+      <source>&amp;Replace Hover Gif</source>
+      <translation>&amp;Ersätt hovrande gif</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="319"/>
+      <source>&amp;Remove Hover Gif</source>
+      <translation>&amp;Ta bort hovrande gif</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="324"/>
+      <source>&amp;Import Custom Shader Loading Background</source>
+      <translation>&amp;Importera anpassad bakgrund för shader-inläsning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="325"/>
+      <source>&amp;Replace Custom Shader Loading Background</source>
+      <translation>&amp;Ersätt anpassad bakgrund för shader-inläsning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="326"/>
+      <source>&amp;Remove Custom Shader Loading Background</source>
+      <translation>&amp;Ta bort anpassad bakgrund för shader-inläsning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="355"/>
+      <source>Select Custom Icon</source>
+      <translation>Välj anpassad ikon</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="358"/>
+      <source>Select Custom Hover Gif</source>
+      <translation>Välj anpassad hovrande gif</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="361"/>
+      <source>Select Custom Shader Loading Background</source>
+      <translation>Välj anpassad bakgrund för shader-inläsning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="364"/>
+      <source>%0 (*.%0);;All files (*.*)</source>
+      <translation>%0 (*.%0);;Alla filer (*.*)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="374"/>
+      <source>Remove Custom Icon of %0?</source>
+      <translation>Ta bort anpassad ikon för %0?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="377"/>
+      <source>Remove Custom Hover Gif of %0?</source>
+      <translation>Ta bort anpassad hovrande gif för %0?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="380"/>
+      <source>Remove Custom Shader Loading Background of %0?</source>
+      <translation>Ta bort anpassad bakgrund för shader-inläsning för %0?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="385"/>
+      <source>Confirm Removal</source>
+      <translation>Bekräfta borttagning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="390"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="406"/>
+      <source>Warning!</source>
+      <translation>Varning!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="390"/>
+      <source>Failed to remove the old file!</source>
+      <translation>Misslyckades med att ta bort gamla filen!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="406"/>
+      <source>Failed to import the new file!</source>
+      <translation>Misslyckades med att importera nya filen!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="454"/>
+      <source>&amp;Open Folder</source>
+      <translation>Öppna &amp;mapp</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="465"/>
+      <source>&amp;Open Disc Game Folder</source>
+      <translation>Ö&amp;ppna mapp för skivspel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="481"/>
+      <source>&amp;Open %0 Folder</source>
+      <translation>Ö&amp;ppna mapp för %0</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="481"/>
+      <source>Game Data</source>
+      <translation>Speldata</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="493"/>
+      <source>&amp;Open Custom Config Folder</source>
+      <translation>Ö&amp;ppna mapp för anpassad konfiguration</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="506"/>
+      <source>&amp;Open Cache Folder</source>
+      <translation>Ö&amp;ppna cachemapp</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="515"/>
+      <source>&amp;Open Data Folder</source>
+      <translation>Ö&amp;ppna datamapp</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="524"/>
+      <source>&amp;Open Savestates Folder</source>
+      <translation>Ö&amp;ppna mapp för sparade tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="533"/>
+      <source>&amp;Open Captures Folder</source>
+      <translation>Ö&amp;ppna fångstmappen</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="542"/>
+      <source>&amp;Open Recordings Folder</source>
+      <translation>Ö&amp;ppna inspelningsmappen</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="551"/>
+      <source>&amp;Open Screenshots Folder</source>
+      <translation>Ö&amp;ppna skärmbildsmappen</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="559"/>
+      <source>&amp;Copy Info</source>
+      <translation>&amp;Kopiera information</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="560"/>
+      <source>&amp;Copy Name + Serial</source>
+      <translation>&amp;Kopiera namn + serienummer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="561"/>
+      <source>&amp;Copy Name</source>
+      <translation>&amp;Kopiera namn</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="562"/>
+      <source>&amp;Copy Serial</source>
+      <translation>&amp;Kopiera serienummer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="566"/>
+      <source>&amp;Check Game Compatibility</source>
+      <translation>&amp;Kontrollera spelkompatibilitet</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="567"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="908"/>
+      <source>&amp;Download Compatibility Database</source>
+      <translation>&amp;Hämta ner kompatibilitetsdatabas</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="572"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="917"/>
+      <source>&amp;Disk Usage</source>
+      <translation>&amp;Diskanvändning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="579"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="924"/>
+      <source>&amp;Game Info</source>
+      <translation>&amp;Spelinfo</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="668"/>
+      <source>Rename Title</source>
+      <translation>Byt namn på titel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="668"/>
+      <source>%0
+%1
+
+You can clear the line in order to use the original title.</source>
+      <translation>%0
+%1
+
+Du kan tömma raden för att använda den ursprungliga titeln.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="692"/>
+      <source>Edit Tooltip Notes</source>
+      <translation>Redigera verktygstipsanteckningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="692"/>
+      <source>%0
+%1</source>
+      <translation>%0
+%1</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="711"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="883"/>
+      <source>Confirm Reset</source>
+      <translation>Bekräfta nollställning</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="711"/>
+      <source>Reset time played?
+
+%0 [%1]</source>
+      <translation>Nollställ speltid?
+
+%0 [%1]</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="825"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="840"/>
+      <source>Confirm Creation</source>
+      <translation>Bekräfta skapande</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="825"/>
+      <source>Create desktop shortcut?</source>
+      <translation>Skapa skrivbordsgenväg?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="840"/>
+      <source>Create shortcut?</source>
+      <translation>Skapa genväg?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="852"/>
+      <source>Confirm Hiding</source>
+      <translation>Bekräfta döljande</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="852"/>
+      <source>Hide in game list?</source>
+      <translation>Dölj i spellista?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="865"/>
+      <source>&amp;Show In Game List</source>
+      <translation>&amp;Visa i spellista</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="883"/>
+      <source>Reset time played?</source>
+      <translation>Nollställ speltid?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="900"/>
+      <source>&amp;Remove Game</source>
+      <translation>&amp;Ta bort spel</translation>
+    </message>
+  </context>
+  <context>
+    <name>game_list_frame</name>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="38"/>
+      <source>Game List</source>
+      <translation>Spellista</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="114"/>
+      <source>Loading games</source>
+      <translation>Läser in spel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="114"/>
+      <source>Loading games, please wait...</source>
+      <translation>Läser in spel, vänta...</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="114"/>
+      <source>Cancel</source>
+      <translation>Avbryt</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="197"/>
+      <source>Warning!</source>
+      <translation>Varning!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="197"/>
       <source>Failed to retrieve the online compatibility database!
 Falling back to local database.
 
@@ -5140,940 +6352,160 @@ Faller tillbaka på lokala databasen.
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="246"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="234"/>
       <source>Icon</source>
       <translation>Ikon</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="247"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="235"/>
       <source>Name</source>
       <translation>Namn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="248"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="236"/>
       <source>Serial</source>
       <translation>Serienummer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="249"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="237"/>
       <source>Firmware</source>
       <translation>Firmware</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="250"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="238"/>
       <source>Version</source>
       <translation>Version</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="251"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="239"/>
       <source>Category</source>
       <translation>Kategori</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="252"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="240"/>
       <source>Path</source>
       <translation>Sökväg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="253"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="241"/>
       <source>PlayStation Move</source>
       <translation>PlayStation Move</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="254"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="242"/>
       <source>Supported Resolutions</source>
       <translation>Upplösningar som stöds</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="255"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="243"/>
       <source>Sound Formats</source>
       <translation>Ljudformat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="256"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="244"/>
       <source>Parental Level</source>
       <translation>Föräldranivå</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="257"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="245"/>
       <source>Last Played</source>
       <translation>Senast spelat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="258"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="246"/>
       <source>Time Played</source>
       <translation>Tid spelat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="259"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="247"/>
       <source>Compatibility</source>
       <translation>Kompatibilitet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="260"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="248"/>
       <source>Space On Disk</source>
       <translation>Utrymme på disk</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="258"/>
       <source>Show Icons</source>
       <translation>Visa ikoner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="271"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="259"/>
       <source>Show Names</source>
       <translation>Visa namn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="272"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="260"/>
       <source>Show Serials</source>
       <translation>Visa serienummer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="273"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="261"/>
       <source>Show Firmwares</source>
       <translation>Visa firmwares</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="274"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="262"/>
       <source>Show Versions</source>
       <translation>Visa versioner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="275"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="263"/>
       <source>Show Categories</source>
       <translation>Visa kategorier</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="276"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="264"/>
       <source>Show Paths</source>
       <translation>Visa sökvägar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="265"/>
       <source>Show PlayStation Move</source>
       <translation>Visa PlayStation Move</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="278"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="266"/>
       <source>Show Supported Resolutions</source>
       <translation>Visa upplösningar som stöds</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="279"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="267"/>
       <source>Show Sound Formats</source>
       <translation>Visa ljudformat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="280"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="268"/>
       <source>Show Parental Levels</source>
       <translation>Visa föräldranivåer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="281"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="269"/>
       <source>Show Last Played</source>
       <translation>Visa senast spelat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="282"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="270"/>
       <source>Show Time Played</source>
       <translation>Visa tid spelat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="283"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="271"/>
       <source>Show Compatibility</source>
       <translation>Visa kompatibilitet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="284"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="272"/>
       <source>Show Space On Disk</source>
       <translation>Visa utrymme på disk</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1180"/>
-      <source>Success!</source>
-      <translation>Lyckades!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1180"/>
-      <source>Successfully created shortcut(s).</source>
-      <translation>Genväg(ar) skapades.</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1184"/>
-      <source>Failed to create one or more shortcuts!</source>
-      <translation>Misslyckades med att skapa en eller flera genvägar!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1229"/>
-      <source>&amp;Reboot with global configuration</source>
-      <translation>S&amp;tarta om med global konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1230"/>
-      <source>&amp;Boot with global configuration</source>
-      <translation>S&amp;tarta upp med global konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1232"/>
-      <source>&amp;Reboot</source>
-      <translation>Starta &amp;om</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1233"/>
-      <source>&amp;Boot</source>
-      <translation>Starta &amp;upp</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1241"/>
-      <source>&amp;Reboot with custom configuration</source>
-      <translation>&amp;Starta om med anpassad konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1242"/>
-      <source>&amp;Boot with custom configuration</source>
-      <translation>&amp;Starta upp med anpassad konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1259"/>
-      <source>&amp;Reboot with default configuration</source>
-      <translation>Starta &amp;om med standardkonfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1260"/>
-      <source>&amp;Boot with default configuration</source>
-      <translation>Sta&amp;rta upp med standardkonfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1269"/>
-      <source>&amp;Reboot with manually selected configuration</source>
-      <translation>Star&amp;ta om med manuellt vald konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1270"/>
-      <source>&amp;Boot with manually selected configuration</source>
-      <translation>Sta&amp;rta upp med manuellt vald konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1274"/>
-      <source>Config Files (*.yml);;All files (*.*)</source>
-      <translation>Konfigurationsfiler (*.yml);;Alla filer (*.*)</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1293"/>
-      <source>&amp;Reboot with last SaveState</source>
-      <translation>S&amp;tarta om med senaste SaveState</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1294"/>
-      <source>&amp;Boot with last SaveState</source>
-      <translation>S&amp;tarta upp med senaste SaveState</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1305"/>
-      <source>&amp;Choose SaveState to reboot</source>
-      <translation>&amp;Välj SaveState för omstart</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1306"/>
-      <source>&amp;Choose SaveState to boot</source>
-      <translation>&amp;Välj SaveState för uppstart</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1319"/>
-      <source>&amp;Change Custom Configuration</source>
-      <translation>Ä&amp;ndra anpassad konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1320"/>
-      <source>&amp;Create Custom Configuration From Global Settings</source>
-      <translation>Ska&amp;pa anpassad konfiguration från globala inställningar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1322"/>
-      <source>&amp;Create Custom Configuration From Default Settings</source>
-      <translation>S&amp;kapa anpassad konfiguration från standardinställningar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1324"/>
-      <source>&amp;Change Custom Gamepad Configuration</source>
-      <translation>Änd&amp;dra anpassad gamepad-konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1325"/>
-      <source>&amp;Create Custom Gamepad Configuration</source>
-      <translation>&amp;Skapa anpassad gamepad-konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1326"/>
-      <source>&amp;Manage Game Patches</source>
-      <translation>&amp;Hantera spelpatchar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1330"/>
-      <source>&amp;Create LLVM Cache</source>
-      <translation>Ska&amp;pa LLVM-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1333"/>
-      <source>&amp;Remove</source>
-      <translation>&amp;Ta bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1337"/>
-      <source>&amp;Remove Custom Configuration</source>
-      <translation>&amp;Ta bort anpassad konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1348"/>
-      <source>&amp;Remove Custom Gamepad Configuration</source>
-      <translation>&amp;Ta bort anpassad gamepad-konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1364"/>
-      <source>&amp;Remove Shaders Cache</source>
-      <translation>&amp;Ta bort Shaders-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1370"/>
-      <source>&amp;Remove PPU Cache</source>
-      <translation>&amp;Ta bort PPU-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1376"/>
-      <source>&amp;Remove SPU Cache</source>
-      <translation>&amp;Ta bort SPU-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1389"/>
-      <source>&amp;Remove HDD1 Cache</source>
-      <translation>&amp;Ta bort HDD1-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1399"/>
-      <source>&amp;Remove All Caches</source>
-      <translation>&amp;Ta bort alla cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1406"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1427"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1557"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2106"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2146"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2185"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2236"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2287"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2338"/>
-      <source>Confirm Removal</source>
-      <translation>Bekräfta borttagning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1406"/>
-      <source>Remove all caches?</source>
-      <translation>Ta bort alla cachar?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1420"/>
-      <source>&amp;Remove Savestates</source>
-      <translation>&amp;Ta bort sparade tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1427"/>
-      <source>Remove savestates?</source>
-      <translation>Ta bort sparade tillstånd?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1440"/>
-      <source>&amp;Manage Game</source>
-      <translation>&amp;Hantera spel</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1443"/>
-      <source>&amp;Create Desktop Shortcut</source>
-      <translation>S&amp;kapa skrivbordsgenväg</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1449"/>
-      <source>&amp;Create Start Menu Shortcut</source>
-      <translation>&amp;Skapa genväg på startmenyn</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1451"/>
-      <source>&amp;Create Launchpad Shortcut</source>
-      <translation>S&amp;kapa Launchpad-genväg</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1453"/>
-      <source>&amp;Create Application Menu Shortcut</source>
-      <translation>&amp;Skapa genväg på programmenyn</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1463"/>
-      <source>&amp;Hide From Game List</source>
-      <translation>&amp;Dölj från spellista</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1466"/>
-      <source>&amp;Rename In Game List</source>
-      <translation>&amp;Byt namn i spellista</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1469"/>
-      <source>&amp;Edit Tooltip Notes</source>
-      <translation>R&amp;edigera anteckningar för verktygstips</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1470"/>
-      <source>&amp;Reset Time Played</source>
-      <translation>&amp;Nollställ tid spelat</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1475"/>
-      <source>&amp;Remove %1</source>
-      <translation>&amp;Ta bort %1</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1479"/>
-      <source>&amp;Custom Images</source>
-      <translation>&amp;Anpassade bilder</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1482"/>
-      <source>&amp;Import Custom Icon</source>
-      <translation>&amp;Importera anpassad ikon</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1483"/>
-      <source>&amp;Replace Custom Icon</source>
-      <translation>&amp;Ersätt anpassad ikon</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1484"/>
-      <source>&amp;Remove Custom Icon</source>
-      <translation>&amp;Ta bort anpassad ikon</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1489"/>
-      <source>&amp;Import Hover Gif</source>
-      <translation>&amp;Importera överliggande Gif</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1490"/>
-      <source>&amp;Replace Hover Gif</source>
-      <translation>&amp;Ersätt överliggande Gif</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1491"/>
-      <source>&amp;Remove Hover Gif</source>
-      <translation>&amp;Ta bort överliggande Gif</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1496"/>
-      <source>&amp;Import Custom Shader Loading Background</source>
-      <translation>&amp;Importera anpassad bakgrund för shaderinläsning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1497"/>
-      <source>&amp;Replace Custom Shader Loading Background</source>
-      <translation>&amp;Ersätt anpassad bakgrund för shaderinläsning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1498"/>
-      <source>&amp;Remove Custom Shader Loading Background</source>
-      <translation>&amp;Ta bort anpassad bakgrund för shaderinläsning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1527"/>
-      <source>Select Custom Icon</source>
-      <translation>Välj anpassad ikon</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1530"/>
-      <source>Select Custom Hover Gif</source>
-      <translation>Välj anpassad överliggande Gif</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1533"/>
-      <source>Select Custom Shader Loading Background</source>
-      <translation>Välj anpassad bakgrund för shaderinläsning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1536"/>
-      <source>%0 (*.%0);;All files (*.*)</source>
-      <translation>%0 (*.%0);;Alla filer (*.*)</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1546"/>
-      <source>Remove Custom Icon of %0?</source>
-      <translation>Ta bort anpassad ikon för %0?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1549"/>
-      <source>Remove Custom Hover Gif of %0?</source>
-      <translation>Ta bort anpassad överliggande Gif för %0?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1552"/>
-      <source>Remove Custom Shader Loading Background of %0?</source>
-      <translation>Ta bort anpassad bakgrund för shaderinläsning för %0?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1562"/>
-      <source>Failed to remove the old file!</source>
-      <translation>Misslyckades med att ta bort gamla filen!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1578"/>
-      <source>Failed to import the new file!</source>
-      <translation>Misslyckades med att importera nya filen!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1628"/>
-      <source>&amp;Open Folder</source>
-      <translation>Öppna &amp;mapp</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1638"/>
-      <source>&amp;Open Disc Game Folder</source>
-      <translation>Ö&amp;ppna skivspelsmapp</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1653"/>
-      <source>&amp;Open %0 Folder</source>
-      <translation>Ö&amp;ppna mapp för %0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1653"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1836"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1862"/>
-      <source>Game Data</source>
-      <translation>Speldata</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1665"/>
-      <source>&amp;Open Custom Config Folder</source>
-      <translation>Öppn&amp;a mapp för anpassad konfiguration</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1678"/>
-      <source>&amp;Open Cache Folder</source>
-      <translation>Öpp&amp;na cachemapp</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1687"/>
-      <source>&amp;Open Config Data Folder</source>
-      <translation>Öppna &amp;mapp för konfigurationsdata</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1696"/>
-      <source>&amp;Open Savestate Folder</source>
-      <translation>Ö&amp;ppna mapp för sparade tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1703"/>
-      <source>&amp;Open Captures Folder</source>
-      <translation>Ö&amp;ppna mapp för fångat media</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1711"/>
-      <source>&amp;Open Recordings Folder</source>
-      <translation>Öppna mapp fö&amp;r inspelningar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1720"/>
-      <source>&amp;Open Screenshots Folder</source>
-      <translation>Öppn&amp;a mapp för skärmbilder</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1728"/>
-      <source>&amp;Copy Info</source>
-      <translation>&amp;Kopiera information</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1729"/>
-      <source>&amp;Copy Name + Serial</source>
-      <translation>&amp;Kopiera namn + serienummer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1730"/>
-      <source>&amp;Copy Name</source>
-      <translation>&amp;Kopiera namn</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1731"/>
-      <source>&amp;Copy Serial</source>
-      <translation>&amp;Kopiera serienummer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1735"/>
-      <source>&amp;Check Game Compatibility</source>
-      <translation>&amp;Kontrollera spelets kompatibilitet</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1736"/>
-      <source>&amp;Download Compatibility Database</source>
-      <translation>&amp;Hämta kompatibilitetsdatabasen</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1802"/>
-      <source>Cannot Remove Game</source>
-      <translation>Kan inte ta bort spelet</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1802"/>
-      <source>The PS3 application is still running, it cannot be removed!</source>
-      <translation>PS3-programmet körs fortfarande. Det kan inte tas bort!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1820"/>
-      <source>%0 - %1
-</source>
-      <translation>%0 - %1
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1824"/>
-      <source>
-Disc Game Info:
-Path: %0
-</source>
-      <translation>
-Information om skivspel:
-Sökväg: %0
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1828"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1845"/>
-      <source>Size: %0
-</source>
-      <translation>Storlek: %0
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1836"/>
-      <source>
-%0 Info:
-</source>
-      <translation>
-%0 Info:
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1840"/>
-      <source>Path: %0
-</source>
-      <translation>Sökväg: %0
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1851"/>
-      <source>Total size: %0
-</source>
-      <translation>Total storlek: %0
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1857"/>
-      <source>
-Current free disk space: %0
-</source>
-      <translation>
-Aktuellt ledigt diskutrymme: %0
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1862"/>
-      <source>
-Permanently remove %0 and selected (optional) contents from drive?
-</source>
-      <translation>
-Ta permanent bort %0 and valt (valfritt) innehåll från enheten?
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1866"/>
-      <source>
-Permanently remove selected (optional) contents from drive?
-</source>
-      <translation>
-Ta permanent bort valt (valfritt) innehåll från enheten?
-</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1869"/>
-      <source>Confirm %0 Removal</source>
-      <translation>Bekräfta borttagning av %0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1870"/>
-      <source>Remove title from game list (Disc Game path is not removed!)</source>
-      <translation>Ta bort titeln från spellistan (sökväg för skivspel tas inte bort!)</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1871"/>
-      <source>Remove caches and custom configs</source>
-      <translation>Ta bort cachar och anpassade konfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1872"/>
-      <source>Remove icons and shortcuts</source>
-      <translation>Ta bort ikoner och genvägar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1873"/>
-      <source>Remove savestates</source>
-      <translation>Ta bort sparade tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1874"/>
-      <source>Remove captures</source>
-      <translation>Ta bort fångat media</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1875"/>
-      <source>Remove recordings</source>
-      <translation>Ta bort inspelningar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1876"/>
-      <source>Remove screenshots</source>
-      <translation>Ta bort skärmbilder</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1882"/>
-      <source>Title located under auto-detection &quot;games&quot; folder cannot be removed</source>
-      <translation>Titel som ligger under autodetektering av &quot;spel&quot; mappen kan inte tas bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1917"/>
-      <source>Failure!</source>
-      <translation>Misslyckades!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1918"/>
-      <source>Failed to remove %0 from drive!
-Path: %1
-Caches and custom configs have been left intact.</source>
-      <translation>Misslyckades med att ta bort %0 från enheten!
-Sökväg: %1
-Cachar och anpassade konfigurationer har inte rörts.</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="1919"/>
-      <source>Failed to remove %0 from drive!
-Path: %1</source>
-      <translation>Misslyckades med att ta bort %0 från enhet!
-Sökväg: %1</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2000"/>
-      <source>Rename Title</source>
-      <translation>Byt namn på titel</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2000"/>
-      <source>%0
-%1
-
-You can clear the line in order to use the original title.</source>
-      <translation>%0
-%1
-
-Du kan rensa raden för att använda den ursprungliga titeln.</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2024"/>
-      <source>Edit Tooltip Notes</source>
-      <translation>Redigera anteckningar för verktygstips</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2024"/>
-      <source>%0
-%1</source>
-      <translation>%0
-%1</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2043"/>
-      <source>Confirm Reset</source>
-      <translation>Bekräfta nollställning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2043"/>
-      <source>Reset time played?
-
-%0 [%1]</source>
-      <translation>Nollställ tid spelat?
-
-%0 [%1]</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2106"/>
-      <source>Remove custom game configuration?</source>
-      <translation>Ta bort anpassad spelkonfiguration?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2130"/>
-      <source>Failed to remove configuration file!</source>
-      <translation>Misslyckades med att ta bort konfigurationsfilen!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2147"/>
-      <source>Remove custom pad configuration?
-Your configuration will revert to the global pad settings.</source>
-      <translation>Ta bort anpassad kontrollerkonfiguration?
-Din konfiguration återgår till de globala kontrollerinställningarna.</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2148"/>
-      <source>Remove custom pad configuration?</source>
-      <translation>Ta bort anpassad kontrollerkonfiguration?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2174"/>
-      <source>Failed to completely remove pad configuration directory!</source>
-      <translation>Misslyckades med att helt ta bort pad-konfigurationskatalogen!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2185"/>
-      <source>Remove shaders cache?</source>
-      <translation>Ta bort shaders-cache?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2236"/>
-      <source>Remove PPU cache?</source>
-      <translation>Ta bort PPU-cache?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2287"/>
-      <source>Remove SPU cache?</source>
-      <translation>Ta bort SPU-cache?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2338"/>
-      <source>Remove HDD1 cache?</source>
-      <translation>Ta bort HDD1-cache?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2435"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2468"/>
-      <source>OK</source>
-      <translation>Ok</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2503"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2516"/>
-      <source>LLVM Cache Batch Creation</source>
-      <translation>Skapa flera LLVM-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2503"/>
-      <source>No titles found</source>
-      <translation>Inga titlar hittades</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2514"/>
-      <source>Creating all LLVM caches</source>
-      <translation>Skapar alla LLVM-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2529"/>
-      <source>%0
-Progress: %1/%2 caches compiled</source>
-      <translation>%0
-Förlopp: %1/%2 cachar kompilerade</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2579"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2583"/>
-      <source>PPU Cache Batch Removal</source>
-      <translation>Borttagning av flera PPU-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2579"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2618"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2653"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2687"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2726"/>
-      <source>No files found</source>
-      <translation>Inga filer hittades</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2583"/>
-      <source>Removing all PPU caches</source>
-      <translation>Tar bort alla PPU-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2588"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2627"/>
-      <source>%0/%1 caches cleared</source>
-      <translation>%0/%1 cachar tömda</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2618"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2622"/>
-      <source>SPU Cache Batch Removal</source>
-      <translation>Borttagning av flera SPU-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2622"/>
-      <source>Removing all SPU caches</source>
-      <translation>Tar bort alla SPU-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2653"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2657"/>
-      <source>Custom Configuration Batch Removal</source>
-      <translation>Borttagning av flera anpassade konfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2657"/>
-      <source>Removing all custom configurations</source>
-      <translation>Tar bort alla anpassade konfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2662"/>
-      <source>%0/%1 custom configurations cleared</source>
-      <translation>%0/%1 anpassade konfigurationer tömda</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2687"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2691"/>
-      <source>Custom Pad Configuration Batch Removal</source>
-      <translation>Borttagning av flera anpassade pad-konfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2691"/>
-      <source>Removing all custom pad configurations</source>
-      <translation>Tar bort alla anpassade kontrollerkonfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2696"/>
-      <source>%0/%1 custom pad configurations cleared</source>
-      <translation>%0/%1 anpassade pad-konfigurationer tömdes</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2726"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2730"/>
-      <source>Shader Cache Batch Removal</source>
-      <translation>Borttagning av flera Shader-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2730"/>
-      <source>Removing all shader caches</source>
-      <translation>Tar bort alla shader-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="2735"/>
-      <source>%0/%1 shader caches cleared</source>
-      <translation>%0/%1 shader-cachar tömda</translation>
     </message>
   </context>
   <context>
     <name>game_list_grid</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_grid.cpp" line="77"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_grid.cpp" line="79"/>
       <source>%0 [%1]
 
 Notes:
@@ -6084,7 +6516,7 @@ Anteckningar:
 %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_grid.cpp" line="81"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_grid.cpp" line="83"/>
       <source>%0 [%1]</source>
       <translation>%0 [%1]</translation>
     </message>
@@ -6092,13 +6524,13 @@ Anteckningar:
   <context>
     <name>game_list_table</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="50"/>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="379"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="52"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="393"/>
       <source>Unknown</source>
       <translation>Okänt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="310"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="324"/>
       <source>%0 [%1]
 
 Notes:
@@ -6109,22 +6541,22 @@ Anteckningar:
 %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="342"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="356"/>
       <source>%0 (Update available: %1)</source>
       <translation>%0 (Uppdatering tillgänglig: %1)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="372"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="386"/>
       <source>Supported</source>
       <translation>Stöds</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="372"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="386"/>
       <source>Not Supported</source>
       <translation>Stöds inte</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="377"/>
+      <location filename="./rpcs3/rpcs3qt/game_list_table.cpp" line="391"/>
       <source>Never played</source>
       <translation>Aldrig spelat</translation>
     </message>
@@ -6132,33 +6564,33 @@ Anteckningar:
   <context>
     <name>gs_frame</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="461"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="469"/>
       <source>Recording saved: %0</source>
       <translation>Inspelning sparad: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="536"/>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="549"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="544"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="557"/>
       <source>Recording not possible</source>
       <translation>Inspelning inte möjlig</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="562"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="570"/>
       <source>Recording started</source>
       <translation>Inspelning startad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1085"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1093"/>
       <source>Screenshot saved: %0</source>
       <translation>Skärmbild sparad: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1169"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1177"/>
       <source>Exit Game?</source>
       <translation>Avsluta spelet?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1170"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1178"/>
       <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
       <translation>Vill du verkligen avsluta spelet?&lt;br&gt;&lt;br&gt;Allt osparat förlopp kommer att förloras!&lt;br&gt;</translation>
     </message>
@@ -6166,12 +6598,12 @@ Anteckningar:
   <context>
     <name>gui_application</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="103"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="107"/>
       <source>Experimental Build Warning</source>
       <translation>Varning för experimentellt bygge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="108"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="112"/>
       <source>Please understand that this build is not an official RPCS3 release.
 This build contains changes that may break games, or even &lt;b&gt;damage&lt;/b&gt; your data.
 We recommend to download and use the official build from the %0.
@@ -6186,17 +6618,17 @@ Byggversionens ursprung: %1
 Vill du använda den här versionen ändå?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="115"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="119"/>
       <source>RPCS3 website</source>
       <translation>RPCS3s webbsida</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="186"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="190"/>
       <source>Warning</source>
       <translation>Varning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="187"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="191"/>
       <source>The current limit of maximum file descriptors is too low.
 Some games will crash.
 
@@ -6207,56 +6639,56 @@ Vissa spel kommer att krascha.
 Öka denna gräns innan du kör RPCS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="786"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="847"/>
       <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
       <translation>Stoppandet av emulatorn tog för lång tid.
 Någon tråd har antagligen deadlocked. Avbryter.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="799"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="860"/>
       <source>PS3 Game/Application Is Unresponsive</source>
       <translation>PS3-spel/program svarar inte</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="803"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="864"/>
       <source>Terminate RPCS3</source>
       <translation>Avsluta RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="804"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="865"/>
       <source>Keep Waiting</source>
       <translation>Fortsätt vänta</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="806"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="867"/>
       <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
       <translation>Väntat i %0 sekund(er) redan för att stoppa emulatorn utan att lyckas.
 Fortsätt vänta eller avsluta RPCS3 på din egen risk?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="845"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="906"/>
       <source>Creating Save-State / Do Not Close RPCS3</source>
       <translation>Skapar sparat tillstånd / Stäng inte av RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="845"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="906"/>
       <source>Please wait...</source>
       <translation>Vänta...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="845"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="906"/>
       <source>Hide Progress</source>
       <translation>Dölj förlopp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="850"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="911"/>
       <source>%0 written, %1 second(s) passed%2</source>
       <translation>%0 skrevs, %1 sekund(er) passerat%2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="909"/>
+      <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="970"/>
       <source>If Stuck, Report To Developers</source>
       <translation>Om den fastnar, rapportera till utvecklarna</translation>
     </message>
@@ -6297,7 +6729,7 @@ Fortsätt vänta eller avsluta RPCS3 på din egen risk?</translation>
   <context>
     <name>headless_application</name>
     <message>
-      <location filename="./rpcs3/headless_application.cpp" line="152"/>
+      <location filename="./rpcs3/headless_application.cpp" line="155"/>
       <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
       <translation>Stoppandet av emulatorn tog för lång tid.
@@ -6654,8 +7086,8 @@ Filen är för liten.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="412"/>
-      <source>Unknown (Id:%1 Var:%2)</source>
-      <translation>Okänd (Id:%1 Var:%2)</translation>
+      <source>Unknown (Id:%1 Type:%2)</source>
+      <translation>Okänd (Id:%1 Typ:%2)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="417"/>
@@ -9004,184 +9436,153 @@ Subject:</source>
   <context>
     <name>log_frame</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="118"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="159"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="113"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="154"/>
       <source>Log</source>
       <translation>Logg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="144"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="354"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="360"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="139"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="322"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="328"/>
       <source>Channel %0</source>
       <translation>Kanal %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="148"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="343"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="349"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="143"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="311"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="317"/>
       <source>All user channels</source>
       <translation>Alla användarkanaler</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="160"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="155"/>
       <source>TTY</source>
       <translation>TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="181"/>
-      <source>
-    %0: %1</source>
-      <translation>
-    %0: %1</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="187"/>
-      <source>
-  VFS disk usage: %0%1</source>
-      <translation>
-  VFS-diskanvändning: %0%1</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="190"/>
-      <source>
-  Cache disk usage: %0</source>
-      <translation>
-  Cache-diskanvändning: %0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="193"/>
-      <source>Disk usage</source>
-      <translation>Diskanvändning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="261"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="269"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="239"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="247"/>
       <source>Clear</source>
       <translation>Töm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="276"/>
-      <source>Show Disk Usage</source>
-      <translation>Visa diskanvändning</translation>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="254"/>
+      <source>Go-To on Debugger</source>
+      <translation>Gå-till i felsökaren</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="296"/>
-      <source>Go-To On The Debugger</source>
-      <translation>Gå till i felsökaren</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="303"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="261"/>
       <source>Show in Memory Viewer</source>
       <translation>Visa i minnesvisaren</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="311"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="269"/>
       <source>Invalid Hex</source>
       <translation>Ogiltig hex</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="311"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="269"/>
       <source>“%0” is not a valid 32-bit hex value.</source>
       <translation>“%0” är inte ett giltigt 32-bitars hexvärde.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="318"/>
-      <source>Show Thread On The Debugger</source>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="276"/>
+      <source>Show Thread on Debugger</source>
       <translation>Visa tråd i felsökaren</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="325"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="283"/>
       <source>Stack Mode (TTY)</source>
       <translation>Stack-läge (TTY)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="333"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="291"/>
       <source>ANSI Code (TTY)</source>
       <translation>ANSI-kod (TTY)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="366"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="334"/>
       <source>Nothing</source>
       <translation>Ingenting</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="368"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="336"/>
       <source>Fatal</source>
       <translation>Ödesdigert</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="369"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
       <source>Error</source>
       <translation>Fel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="370"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
       <source>Todo</source>
       <translation>Att göra</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="371"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="339"/>
       <source>Success</source>
       <translation>Lyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="372"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
       <source>Warning</source>
       <translation>Varning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="373"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="341"/>
       <source>Notice</source>
       <translation>Observera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="374"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="342"/>
       <source>Trace</source>
       <translation>Spåra</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="376"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="344"/>
       <source>Stack Mode (Log)</source>
       <translation>Stack-läge (logg)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="384"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="352"/>
       <source>Stack Cell Errors</source>
       <translation>Fel i stackcell</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="392"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="360"/>
       <source>Show Thread Prefix</source>
       <translation>Visa trådprefix</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="400"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="368"/>
       <source>Enable TTY</source>
       <translation>Aktivera TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="432"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="398"/>
       <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
       <translation>Hoppa till den valda hexadecimala adressen från loggtexten i felsökaren.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="433"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="399"/>
       <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
       <translation>Visa den tråd som motsvarar tråd-ID: t från loggtexten i felsökaren.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="434"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="400"/>
       <source>Jump to the selected hexadecimal address from the log text on the memory viewer.</source>
       <translation>Hoppa till den valda hexadecimala adressen från loggtexten i minnesvisaren.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="456"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="423"/>
       <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
       <translation>Hoppa till den valda hexadecimala adressen från TTY-texten i felsökaren.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="457"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="424"/>
       <source>Jump to the selected hexadecimal address from the TTY text on the memory viewer.</source>
       <translation>Hoppa till den valda hexadecimala adressen från TTY-texten i minnesvisaren.</translation>
     </message>
@@ -9274,58 +9675,58 @@ Subject:</source>
       <translation>Spåra</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="149"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="144"/>
       <source>Select log file</source>
       <translation>Välj loggfil</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="149"/>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="158"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="144"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="153"/>
       <source>Log files (*.log *.gz);;All files (*.*)</source>
       <translation>Loggfiler (*.log *.gz);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="158"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="153"/>
       <source>Save to file</source>
       <translation>Spara till fil</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="195"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="190"/>
       <source>Filter log</source>
       <translation>Filtrera logg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="195"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="190"/>
       <source>Enter text</source>
       <translation>Ange text</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="244"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="239"/>
       <source>Loading file...</source>
       <translation>Läser in fil...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="272"/>
       <source>Failed to open &apos;%0&apos;</source>
       <translation>Misslyckades med att öppna &apos;%0&apos;</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="290"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="285"/>
       <source>Pasting...</source>
       <translation>Klistrar in...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="306"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="301"/>
       <source>Filtering...</source>
       <translation>Filtrerar...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="411"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="406"/>
       <source>Ooops!</source>
       <translation>Hoppsan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="411"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="406"/>
       <source>Cannot find any game boot!</source>
       <translation>Kan inte hitta någon speluppstart!</translation>
     </message>
@@ -9338,37 +9739,37 @@ Subject:</source>
       <translation>RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="76"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="75"/>
       <source>Search...</source>
       <translation>Sök...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="152"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="151"/>
       <source>File</source>
       <translation>Arkiv</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="159"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="158"/>
       <source>Boot (S)Elf</source>
       <translation>Starta upp (S)Elf</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="169"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="168"/>
       <source>Boot Recent</source>
       <translation>Starta upp senaste</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="180"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="179"/>
       <source>All Titles</source>
       <translation>Alla titlar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="197"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="196"/>
       <source>Firmware</source>
       <translation>Firmware</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="204"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="203"/>
       <source>Boot Recent Savestate</source>
       <translation>Starta upp tidigare sparat tillstånd</translation>
     </message>
@@ -9384,1201 +9785,1167 @@ Subject:</source>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="248"/>
-      <source>USB Devices</source>
-      <translation>USB-enheter</translation>
+      <source>Devices</source>
+      <translation>Enheter</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="264"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="252"/>
       <source>Mice</source>
       <translation>Möss</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="293"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="264"/>
+      <source>Emulated Devices</source>
+      <translation>Emulerade enheter</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="298"/>
       <source>Manage</source>
       <translation>Hantera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="313"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="302"/>
+      <source>Network Services</source>
+      <translation>Nätverkstjänster</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="310"/>
+      <source>Portals and Gates</source>
+      <translation>Portaler och portar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="335"/>
       <source>Utilities</source>
       <translation>Verktyg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="340"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="361"/>
       <source>View</source>
       <translation>Visa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="344"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="365"/>
       <source>Game List Icons</source>
       <translation>Ikoner för spellista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="357"/>
-      <source>Game List Mode</source>
-      <translation>Läge för spellista</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="378"/>
+      <source>Game List View</source>
+      <translation>Spellistvy</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="364"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="385"/>
+      <source>Game List in Grid Mode</source>
+      <translation>Spellista i rutnätsläge</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="391"/>
       <source>Game Categories</source>
       <translation>Spelkategorier</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="397"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="423"/>
       <source>Help</source>
       <translation>Hjälp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="401"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="427"/>
       <source>Language</source>
       <translation>Språk</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="417"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="442"/>
       <source>Update Available!</source>
       <translation>Uppdatering tillgänglig!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="441"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="466"/>
       <source>Show tool bar</source>
       <translation>Visa verktygsrad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="479"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="505"/>
       <source>Boot SELF/ELF</source>
       <translation>Starta upp SELF/ELF</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="484"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="510"/>
       <source>Boot Test</source>
       <translation>Uppstartstest</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="489"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="515"/>
       <source>Boot Game</source>
       <translation>Starta upp spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="494"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="520"/>
       <source>Boot Savestate</source>
       <translation>Starta upp sparat tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="499"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="525"/>
       <source>Install Packages/Raps/Edats</source>
       <translation>Installera paket/Rap/Edat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="502"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="528"/>
       <source>Install application from a .pkg file</source>
       <translation>Installera program från en .pkg-fil</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="507"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="533"/>
       <source>Install Firmware</source>
       <translation>Installera firmware</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="510"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="536"/>
       <source>Install firmware from PS3UPDAT.PUP</source>
       <translation>Installera firmware från PS3UPDAT.PUP</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="522"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1936"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1957"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="548"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1883"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1904"/>
       <source>Pause</source>
       <translation>Pausa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="525"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="987"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="551"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1021"/>
       <source>Start emulation</source>
       <translation>Starta emulering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="537"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="996"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="563"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1030"/>
       <source>Stop</source>
       <translation>Stoppa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="540"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="999"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="566"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1033"/>
       <source>Stop emulation</source>
       <translation>Stoppa emulering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="548"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="574"/>
       <source>Send Open System Menu CMD</source>
       <translation>Skicka kommando för Öppna systemmeny</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="553"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="579"/>
       <source>CPU</source>
       <translation>CPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="556"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="582"/>
       <source>Configure CPU</source>
       <translation>Konfigurera CPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="561"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="587"/>
       <source>GPU</source>
       <translation>GPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="564"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="590"/>
       <source>Configure graphics</source>
       <translation>Konfigurera grafik</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="569"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="572"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1020"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="595"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="598"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1066"/>
       <source>Pads</source>
       <translation>Kontroller</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="575"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1023"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="601"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1069"/>
       <source>Configure controls</source>
       <translation>Konfigurera kontroller</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="580"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="606"/>
       <source>Audio</source>
       <translation>Ljud</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="583"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="609"/>
       <source>Configure audio</source>
       <translation>Konfigurera ljud</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="588"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="614"/>
       <source>Input/Output</source>
       <translation>Inmatning/Utmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="591"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="617"/>
       <source>Configure Input/Output</source>
       <translation>Konfigurera inmatning/utmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="596"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="622"/>
       <source>System</source>
       <translation>System</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="599"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="625"/>
       <source>Configure system</source>
       <translation>Konfigurera systemet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="604"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="630"/>
+      <source>Network</source>
+      <translation>Nätverk</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="633"/>
+      <source>Configure Network settings</source>
+      <translation>Konfigurera nätverksinställningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="638"/>
       <source>Advanced</source>
       <translation>Avancerat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="607"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="641"/>
       <source>Configure advanced emulator settings</source>
       <translation>Konfigurera avancerade emulatorinställningar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="612"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="646"/>
       <source>Emulator</source>
       <translation>Emulator</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="615"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="649"/>
       <source>Configure Emulator settings</source>
       <translation>Konfigurera emulatorinställningar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="620"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="654"/>
       <source>GUI</source>
       <translation>Grafiskt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="623"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="657"/>
       <source>Configure GUI settings</source>
       <translation>Konfigurera inställningar för grafiskt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="631"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="665"/>
       <source>Auto Pause</source>
       <translation>Automatisk paus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="634"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="668"/>
       <source>Configure Auto Pause</source>
       <translation>Konfigurera automatisk paus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="639"/>
-      <source>Exit And Save Log</source>
-      <translation>Avsluta och spara logg</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="673"/>
+      <source>Exit and Save Log</source>
+      <translation>Avsluta och spara loggen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="642"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="676"/>
       <source>Exit RPCS3, move the log file to a custom location</source>
       <translation>Avsluta RPCS3, flytta loggfilen till en anpassad plats</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="645"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="679"/>
       <source>Exit the application and save the log to a user-defined location</source>
       <translation>Avsluta programmet och spara loggen till en användardefinierad plats</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="650"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="684"/>
       <source>Exit</source>
       <translation>Avsluta</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="653"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="687"/>
       <source>Exit RPCS3</source>
       <translation>Avsluta RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="656"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="690"/>
       <source>Exit the application.</source>
       <translation>Avsluta programmet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="664"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="698"/>
       <source>Save Data</source>
       <translation>Sparat data</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="667"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="701"/>
       <source>Manage save data</source>
       <translation>Hantera sparat data</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="675"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="709"/>
       <source>Trophies</source>
       <translation>Troféer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="678"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="712"/>
       <source>Manage trophies</source>
       <translation>Hantera troféer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="683"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="717"/>
       <source>User Accounts</source>
       <translation>Användarkonton</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="686"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="720"/>
       <source>Manage user accounts</source>
       <translation>Hantera användarkonton</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="691"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="725"/>
       <source>Cg Disasm</source>
       <translation>Cg Disasm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="699"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="733"/>
       <source>Kernel Explorer</source>
       <translation>Kärnutforskare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="707"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="741"/>
       <source>Memory Viewer</source>
       <translation>Minnesvisare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="715"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="749"/>
       <source>RSX Debugger</source>
       <translation>RSX-felsökare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="720"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="754"/>
       <source>Decrypt PS3 Binaries</source>
       <translation>Avkryptera PS3-binärer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="725"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="759"/>
       <source>Extract MSELF</source>
       <translation>Extrahera MSELF</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="730"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="764"/>
       <source>Extract PUP</source>
       <translation>Extrahera PUP</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="735"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="769"/>
       <source>Extract Encrypted TAR</source>
       <translation>Extrahera krypterad TAR</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="738"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="772"/>
       <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
       <translation>Extrahera filer från speciella .tar-filer inuti PS3UPDAT.PUP</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="746"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="780"/>
       <source>Show Debugger</source>
       <translation>Visa felsökare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="754"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="788"/>
       <source>Show Log/TTY</source>
       <translation>Visa logg/TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="759"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="793"/>
       <source>Support Us</source>
       <translation>Stöd oss</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="762"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="796"/>
       <source>To ensure continued improvements of RPCS3, become a part of our Patreon group!</source>
       <translation>För att säkerställa fortsatta förbättringar av RPCS3, bli en del av vår Patreon-grupp!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="767"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="801"/>
       <source>About RPCS3</source>
       <translation>Om RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="772"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="806"/>
       <source>About Qt</source>
       <translation>Om Qt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="780"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="814"/>
       <source>Show Game List</source>
       <translation>Visa spellista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="788"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="822"/>
       <source>Show Tool Bar</source>
       <translation>Visa verktygsrad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="796"/>
-      <source>Show Game Compatibility in Grid Mode</source>
-      <translation>Visa spelkompatibilitet i rutnätsläge</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="830"/>
+      <source>Show Game Compatibility</source>
+      <translation>Visa spelkompatibilitet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="801"/>
-      <source>Game List Refresh</source>
-      <translation>Uppdatera spellista</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="835"/>
+      <source>Refresh Game List</source>
+      <translation>Uppdatera spellistan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="809"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="843"/>
       <source>RAP Files</source>
       <translation>RAP-filer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="814"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="848"/>
       <source>Check for Updates</source>
       <translation>Leta efter uppdateringar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="819"/>
-      <source>View The Welcome Dialog</source>
-      <translation>Visa välkomstdialogen</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="853"/>
+      <source>View Welcome Dialog</source>
+      <translation>Visa välkomstdialog</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="824"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="858"/>
       <source>Virtual File System</source>
       <translation>Virtuellt filsystem</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="829"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1424"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="863"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1478"/>
       <source>List Clear</source>
       <translation>Töm listan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="837"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1432"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="871"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1486"/>
       <source>List Freeze</source>
       <translation>Frys listan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="845"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="879"/>
       <source>Tiny</source>
       <translation>Mycket små</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="856"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="890"/>
       <source>Small</source>
       <translation>Små</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="864"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="898"/>
       <source>Medium</source>
       <translation>Medel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="872"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="906"/>
       <source>Large</source>
       <translation>Stora</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="883"/>
-      <source>List View</source>
-      <translation>Listvy</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="917"/>
+      <source>List Mode</source>
+      <translation>Listläge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="891"/>
-      <source>Grid View</source>
-      <translation>Rutnätsvy</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="925"/>
+      <source>Grid Mode</source>
+      <translation>Rutnätsläge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="903"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2006"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3560"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3583"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="937"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1953"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3573"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3596"/>
       <source>Restart</source>
       <translation>Starta om</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="911"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3315"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="945"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3336"/>
       <source>HDD Games</source>
       <translation>Hårddiskspel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="919"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3316"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="953"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3337"/>
       <source>Disc Games</source>
       <translation>Skivspel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="927"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3317"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="961"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3338"/>
       <source>PS1 Games</source>
       <translation>PS1-spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="935"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3318"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="969"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3339"/>
       <source>PS2 Games</source>
       <translation>PS2-spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="943"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3319"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="977"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3340"/>
       <source>PSP Games</source>
       <translation>PSP-spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="951"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3320"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="985"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3341"/>
       <source>Home</source>
       <translation>Hem</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="959"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3321"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="993"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3342"/>
       <source>Audio/Video</source>
       <translation>Ljud/Video</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="967"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3322"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1001"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3343"/>
       <source>Game Data</source>
       <translation>Speldata</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="975"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3324"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1009"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3345"/>
       <source>Unknown</source>
       <translation>Okänt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="984"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1018"/>
       <source>Start</source>
       <translation>Starta</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1008"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1042"/>
       <source>Config</source>
       <translation>Konfig</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1011"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1045"/>
       <source>Configure the emulator</source>
       <translation>Konfigurera emulatorn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1032"/>
-      <source>FullScr</source>
-      <translation>Helskärm</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1035"/>
-      <source>Toggle fullscreen</source>
-      <translation>Växla helskärm</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1044"/>
-      <source>List</source>
-      <translation>Lista</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1047"/>
-      <source>Switch to list mode</source>
-      <translation>Växla till listläge</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1056"/>
-      <source>Grid</source>
-      <translation>Rutnät</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1059"/>
-      <source>Switch to grid mode</source>
-      <translation>Växla till rutnätsläge</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1068"/>
-      <source>Refresh</source>
-      <translation>Uppdatera</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1071"/>
-      <source>Refresh gamelist</source>
-      <translation>Uppdatera spellistan</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1080"/>
-      <source>Open</source>
-      <translation>Öppna</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1083"/>
-      <source>Boot a game</source>
-      <translation>Starta upp ett spel</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1091"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3325"/>
-      <source>Other</source>
-      <translation>Övrigt</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1099"/>
-      <source>Show Hidden Entries</source>
-      <translation>Visa dolda poster</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1104"/>
-      <source>Open RSX Capture</source>
-      <translation>Öppna RSX-fångst</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1109"/>
-      <source>Add Games</source>
-      <translation>Lägg till spel</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1117"/>
-      <source>Show Title Bars</source>
-      <translation>Visa titelrader</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1122"/>
-      <source>Create LLVM Caches</source>
-      <translation>Skapa LLVM-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1127"/>
-      <source>Remove Custom Configurations</source>
-      <translation>Ta bort anpassade konfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1132"/>
-      <source>Remove Custom Pad Configurations</source>
-      <translation>Ta bort anpassade kontrollerkonfigurationer</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1137"/>
-      <source>Remove Shader Caches</source>
-      <translation>Ta bort shaders-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1142"/>
-      <source>Remove PPU Caches</source>
-      <translation>Ta bort PPU-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1147"/>
-      <source>Remove SPU Caches</source>
-      <translation>Ta bort SPU-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1152"/>
-      <source>Remove HDD1 Caches</source>
-      <translation>Ta bort HDD1-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1157"/>
-      <source>Remove All Caches</source>
-      <translation>Ta bort alla cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1162"/>
-      <source>Remove Savestates</source>
-      <translation>Ta bort sparade tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1167"/>
-      <source>Clean up Game List</source>
-      <translation>Rensa upp i spellistan</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1172"/>
-      <source>Skylanders Portal</source>
-      <translation>Skylanders-portal</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1177"/>
-      <source>Infinity Base</source>
-      <translation>Infinity Base</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1182"/>
-      <source>Dimensions Toypad</source>
-      <translation>Dimensions Toypad</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1187"/>
-      <source>Kamen Rider Ride Gate</source>
-      <translation>Kamen Rider Ride Gate</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1192"/>
-      <source>Cheats</source>
-      <translation>Fusk</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1200"/>
-      <source>English</source>
-      <translation>Engelska</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1205"/>
-      <source>Screenshots</source>
-      <translation>Skärmbilder</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1210"/>
-      <source>Remove Firmware Cache</source>
-      <translation>Ta bort firmware-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1215"/>
-      <source>Create Firmware Cache</source>
-      <translation>Skapa firmware-cache</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1223"/>
-      <source>Create RSX Capture</source>
-      <translation>Skapa RSX-fångst</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1231"/>
-      <source>Create Savestate</source>
-      <translation>Skapa sparat tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1239"/>
-      <source>Stop And Create Savestate</source>
-      <translation>Stoppa och skapa sparat tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1244"/>
-      <source>Game Patches</source>
-      <translation>Spelpatchar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1249"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1054"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1295"/>
       <source>RPCN</source>
       <translation>RPCN</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1252"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1057"/>
+      <source>Configure RPCN settings</source>
+      <translation>Konfigurera RPCN-inställningar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1078"/>
+      <source>FullScr</source>
+      <translation>Helskärm</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1081"/>
+      <source>Toggle fullscreen</source>
+      <translation>Växla helskärm</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1090"/>
+      <source>List</source>
+      <translation>Lista</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1093"/>
+      <source>Switch to list mode</source>
+      <translation>Växla till listläge</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1102"/>
+      <source>Grid</source>
+      <translation>Rutnät</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1105"/>
+      <source>Switch to grid mode</source>
+      <translation>Växla till rutnätsläge</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1114"/>
+      <source>Refresh</source>
+      <translation>Uppdatera</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1117"/>
+      <source>Refresh gamelist</source>
+      <translation>Uppdatera spellistan</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1126"/>
+      <source>Open</source>
+      <translation>Öppna</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1129"/>
+      <source>Boot a game</source>
+      <translation>Starta upp ett spel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1137"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3346"/>
+      <source>Other</source>
+      <translation>Övrigt</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1145"/>
+      <source>Show Hidden Entries</source>
+      <translation>Visa dolda poster</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1150"/>
+      <source>Open RSX Capture</source>
+      <translation>Öppna RSX-fångst</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1155"/>
+      <source>Add Games</source>
+      <translation>Lägg till spel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1163"/>
+      <source>Show Title Bars</source>
+      <translation>Visa titelrader</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1168"/>
+      <source>Create LLVM Caches</source>
+      <translation>Skapa LLVM-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1173"/>
+      <source>Remove Custom Configurations</source>
+      <translation>Ta bort anpassade konfigurationer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1178"/>
+      <source>Remove Custom Gamepad Configurations</source>
+      <translation>Ta bort anpassade gamepad-konfigurationer</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1183"/>
+      <source>Remove Shader Caches</source>
+      <translation>Ta bort shaders-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1188"/>
+      <source>Remove PPU Caches</source>
+      <translation>Ta bort PPU-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1193"/>
+      <source>Remove SPU Caches</source>
+      <translation>Ta bort SPU-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1198"/>
+      <source>Remove HDD1 Caches</source>
+      <translation>Ta bort HDD1-cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1203"/>
+      <source>Remove All Caches</source>
+      <translation>Ta bort alla cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1208"/>
+      <source>Remove Savestates</source>
+      <translation>Ta bort sparade tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1213"/>
+      <source>Clean up Game List</source>
+      <translation>Rensa upp i spellistan</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1218"/>
+      <source>Skylanders Portal</source>
+      <translation>Skylanders-portal</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1223"/>
+      <source>Infinity Base</source>
+      <translation>Infinity Base</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1228"/>
+      <source>Dimensions Toypad</source>
+      <translation>Dimensions Toypad</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1233"/>
+      <source>Kamen Rider Ride Gate</source>
+      <translation>Kamen Rider Ride Gate</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1238"/>
+      <source>Cheats</source>
+      <translation>Fusk</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1246"/>
+      <source>English</source>
+      <translation>Engelska</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1251"/>
+      <source>Screenshots</source>
+      <translation>Skärmbilder</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1256"/>
+      <source>Remove Firmware Cache</source>
+      <translation>Ta bort firmware-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1261"/>
+      <source>Create Firmware Cache</source>
+      <translation>Skapa firmware-cache</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1269"/>
+      <source>Create RSX Capture</source>
+      <translation>Skapa RSX-fångst</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1277"/>
+      <source>Create Savestate</source>
+      <translation>Skapa sparat tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1285"/>
+      <source>Stop And Create Savestate</source>
+      <translation>Stoppa och skapa sparat tillstånd</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1290"/>
+      <source>Game Patches</source>
+      <translation>Spelpatchar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1298"/>
       <source>Configure RPCN</source>
       <translation>Konfigurera RPCN</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1257"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1303"/>
+      <source>Clans</source>
+      <translation>Clans</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1306"/>
+      <source>Configure Clans</source>
+      <translation>Konfigurera Clans</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1311"/>
       <source>IPC</source>
       <translation>IPC</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1260"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1314"/>
       <source>Configure IPC</source>
       <translation>Konfigurera IPC</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1265"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1319"/>
       <source>Log Viewer</source>
       <translation>Loggvisare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1276"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1330"/>
       <source>Show Custom Icons</source>
       <translation>Visa anpassade ikoner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1287"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1341"/>
       <source>Play Hover Gifs</source>
       <translation>Spela upp hovrande GIFs</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1292"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1346"/>
       <source>Boot VSH/XMB</source>
       <translation>Starta upp VSH/XMB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1297"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1351"/>
       <source>Patch Creator</source>
       <translation>Patchskapare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1302"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1356"/>
       <source>Cameras</source>
       <translation>Kameror</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1310"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1364"/>
       <source>Eject Disc</source>
       <translation>Mata ut skiva</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1318"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1372"/>
       <source>Insert Disc</source>
       <translation>Mata in skiva</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1323"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1377"/>
       <source>Check Config</source>
       <translation>Kontrollera konfiguration</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1328"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1382"/>
       <source>Shortcuts</source>
       <translation>Genvägar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1336"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1390"/>
       <source>System Commands</source>
       <translation>Systemkommandon</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1341"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1395"/>
       <source>Buzz</source>
       <translation>Buzz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1346"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1400"/>
       <source>GHLtar</source>
       <translation>GHLtar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1351"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1405"/>
       <source>Turntable</source>
       <translation>Skivspelare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1356"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1410"/>
       <source>USIO</source>
       <translation>USIO</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1361"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1415"/>
       <source>PS Move (Fake)</source>
       <translation>PS Move (Fejk)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1366"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1420"/>
       <source>PS Move (Mouse)</source>
       <translation>PS Move (Mus)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1371"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1425"/>
       <source>GunCon 3</source>
       <translation>GunCon 3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1376"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1430"/>
       <source>Top Shot Elite</source>
       <translation>Top Shot Elite</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1381"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1435"/>
       <source>Top Shot Fearmaster</source>
       <translation>Top Shot Fearmaster</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1386"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1440"/>
       <source>Logitech G27 Wheel</source>
       <translation>Logitech G27-ratt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1391"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1445"/>
       <source>Basic Mouse</source>
       <translation>Grundläggande mus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1396"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1450"/>
       <source>Raw Mouse</source>
       <translation>Rå mus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1401"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1455"/>
       <source>VFS Tool</source>
       <translation>VFS-verktyg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1406"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1460"/>
       <source>PS Move Tracker</source>
       <translation>PS Move-spårare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1411"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1465"/>
       <source>PS Move</source>
       <translation>PS Move</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1419"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3323"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1473"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3344"/>
       <source>Operating System</source>
       <translation>Operativsystem</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1437"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1491"/>
       <source>Savestates</source>
       <translation>Sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1445"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1499"/>
       <source>Prefer Game Data Icons</source>
       <translation>Föredra speldataikoner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1450"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1504"/>
       <source>Music Player</source>
       <translation>Musikspelare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1455"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1509"/>
       <source>Sound Effects</source>
       <translation>Ljudeffekter</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1460"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1514"/>
       <source>Download Update</source>
       <translation>Hämta uppdatering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="219"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1987"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2049"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3564"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3574"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1519"/>
+      <source>Add ISO Games</source>
+      <translation>Lägg till ISO-spel</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1524"/>
+      <source>Boot ISO</source>
+      <translation>Starta upp ISO</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="221"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1934"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1996"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3577"/>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3587"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3600"/>
       <source>Play %0</source>
       <translation>Spela %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="219"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1972"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1997"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2056"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3567"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="221"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1919"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1944"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2003"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3580"/>
       <source>Play</source>
       <translation>Spela</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="223"/>
-      <source>&amp;Play last played game</source>
-      <translation>&amp;Spela senast spelade spel</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="225"/>
+      <source>&amp;Play Last Played Game</source>
+      <translation>&amp;Spela senaste spelade spelet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="322"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="324"/>
       <source>Missing Firmware Detected!</source>
       <translation>Saknat firmware har upptäckts!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="323"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="325"/>
       <source>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
       <translation>Kommersiella spel kräver att en firmware (filen PS3UPDAT.PUP) installeras.
 &lt;br&gt;För information om hur du skaffar denna nödvändiga firmware, läs &lt;a %0 href=”https://rpcs3.net/quickstart”&gt;snabbstartguiden&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="329"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="331"/>
       <source>Locate PS3UPDAT.PUP</source>
       <translation>Hitta PS3UPDAT.PUP</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="458"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="460"/>
       <source>No bootable content was found.</source>
       <translation>Inget uppstartbart innehåll hittades.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="461"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="463"/>
       <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
       <translation>Skivan kunde inte monteras korrekt. Kontrollera att skivan inte finns i mappen dev_hdd0/game.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="464"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="466"/>
       <source>The selected file or folder is invalid or corrupted.</source>
       <translation>Den valda filen eller mappen är ogiltig eller skadad.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="467"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="469"/>
       <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
       <translation>Den virtuella mappen dev_bdvd finns inte eller är inte tom.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="470"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="472"/>
       <source>Additional content could not be installed.</source>
       <translation>Ytterligare innehåll kunde inte installeras.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="473"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="475"/>
       <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
       <translation>Digitalt innehåll kunde inte dekrypteras. Detta orsakas vanligtvis av en saknad eller ogiltig licensfil (RAP).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="476"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="478"/>
       <source>The emulator could not create files required for booting.</source>
       <translation>Emulatorn kunde inte skapa filer som krävs för att starta upp.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="479"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="481"/>
       <source>This disc type is not supported yet.</source>
       <translation>Denna skivtyp stöds ännu inte.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="482"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="484"/>
       <source>Savestate data is corrupted or it&apos;s not an RPCS3 savestate.</source>
       <translation>Data för sparat tillstånd är skadat eller är inte ett RPCS3-sparat tillstånd.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="485"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="487"/>
       <source>Savestate versioning data differs from your RPCS3 build.</source>
       <translation>Versionsdata för sparat tillstånd skiljer sig från din RPCS3-version.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="488"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="490"/>
       <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
       <translation>Ett spel eller PS3-program körs fortfarande eller har ännu inte helt stoppats.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="491"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="493"/>
       <source>The game or PS3 application needs a more recent firmware version.</source>
       <translation>Spelet eller PS3-applikationen behöver en senare firmware-version.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="499"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="501"/>
       <source>Unknown error.</source>
       <translation>Okänt fel.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="502"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="504"/>
       <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
       <translation>&lt;br /&gt;&lt;br /&gt;För information om hur man konfigurerar emulatorn och dumpar dina PS3-spel, läs &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;snabbstartsguiden&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="505"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="507"/>
       <source>Boot Failed</source>
       <translation>Uppstart misslyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="509"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="511"/>
       <source>Booting failed: %1 %2</source>
       <translation>Uppstart misslyckades: %1 %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="565"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="612"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="575"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="623"/>
       <source>Select (S)ELF To Boot</source>
       <translation>Välj (S)ELF att starta upp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="565"/>
-      <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;All executable files (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;All files (*.*)</source>
-      <translation>(S)ELF-filer (*BOOT.BIN *.elf *.self);;ELF-filer (BOOT.BIN *.elf);;SELF-filer (EBOOT.BIN *.self);;BOOT-filer (*BOOT.BIN);;BIN-filer (*. bin);;Alla körbara filer (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;Alla filer (*.*)</translation>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="575"/>
+      <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;ISO files (*.iso);;All executable files (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;All files (*.*)</source>
+      <translation>(S)ELF-filer (*BOOT.BIN *.elf *.self);;ELF-filer (BOOT.BIN *.elf);;SELF-filer (EBOOT.BIN *.self);;BOOT-filer (*BOOT.BIN);;BIN-filer (*.bin);;ISO-filer (*.iso);;Alla körbara filer (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="612"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="623"/>
       <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;All files (*.*)</source>
       <translation>(S)ELF-filer (*.elf *.self);;ELF-filer (*.elf);;SELF-filer (*.self);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="644"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="655"/>
       <source>Select Savestate To Boot</source>
       <translation>Välj sparat tillstånd att starta upp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="644"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="655"/>
       <source>Savestate files (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;All files (*.*)</source>
       <translation>Filer för sparade tillstånd (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="675"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="686"/>
       <source>Select Game Folder</source>
       <translation>Välj spelmapp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="710"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="714"/>
+      <source>Select ISO</source>
+      <translation>Välj ISO</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="714"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2570"/>
+      <source>ISO files (*.iso);;All files (*.*)</source>
+      <translation>ISO-filer (*.iso);;Alla filer (*.*)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="749"/>
       <source>Select RSX Capture</source>
       <translation>Välj RSX-fångst</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="710"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="749"/>
       <source>RRC files (*.rrc *.RRC *.rrc.gz *.RRC.GZ);;All files (*.*)</source>
       <translation>RRC-filer (*.rrc *.RRC *.rrc.gz *.RRC.GZ);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="788"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="827"/>
       <source>Select packages and/or rap files to install</source>
       <translation>Välj paket och/eller rap-filer att installera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="789"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="828"/>
       <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
       <translation>Alla relevanta (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Paketfiler (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat-filer (*.edat *.EDAT);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="828"/>
-      <source>Invalid package!</source>
-      <translation>Ogiltigt paket!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="828"/>
-      <source>The selected package is invalid!
-
-Path:
-%0</source>
-      <translation>Det valda paketet är ogiltigt!
-
-Sökväg:
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="836"/>
-      <source>
-DLC</source>
-      <comment>Block for package type (DLC)</comment>
-      <translation>
-DLC</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="840"/>
-      <source>
-Update</source>
-      <comment>Block for package type (Update)</comment>
-      <translation>
-Uppdatering</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="845"/>
-      <source>
-%0</source>
-      <comment>Block for package type</comment>
-      <translation>
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="850"/>
-      <source>
-%0</source>
-      <comment>Block for Title ID</comment>
-      <translation>
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="855"/>
-      <source>
-Version %0</source>
-      <comment>Block for Version</comment>
-      <translation>
-Version %0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="860"/>
-      <source>Changelog:
-%0</source>
-      <comment>Block for Changelog</comment>
-      <translation>Ändringslogg:
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="872"/>
-      <source>Installation path: %0
-Available disk space: %1%2
-Required disk space: %3</source>
-      <translation>Installationssökväg: %0
-Tillgängligt diskutrymme: %1%2
-Nödvändigt diskutrymme: %3</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="875"/>
-      <source> - &lt;b&gt;NOT ENOUGH SPACE&lt;/b&gt;</source>
-      <translation> - &lt;b&gt;INTE TILLRÄCKLIGT MED UTRYMME&lt;/b&gt;</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="879"/>
-      <source>Do you want to install this package?
-
-%0
-
-%1</source>
-      <translation>Vill du installera detta paket?
-
-%0
-
-%1</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="881"/>
-      <source>PKG Decrypter / Installer</source>
-      <translation>PKG-avkrypterare / Installerare</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="888"/>
-      <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-      <translation>Klicka på &quot;Visa detaljer&quot; för att se ändringsloggen.</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1025"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="972"/>
       <source>RPCS3 Package Installer</source>
       <translation>Paketinstallerare för RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1025"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="972"/>
       <source>Installing package, please wait...</source>
       <translation>Installerar paket, vänta...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1025"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1373"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1607"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="972"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1319"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1553"/>
       <source>Cancel</source>
       <translation>Avbryt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1051"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="998"/>
       <source>v.%0</source>
       <comment>Package version for install progress dialog</comment>
       <translation>v.%0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1109"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1056"/>
       <source>Installing package (%0/%1), please wait...
 
 %2</source>
@@ -10587,28 +10954,26 @@ Nödvändigt diskutrymme: %3</translation>
 %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1201"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1215"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1709"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="4009"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1161"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1655"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3961"/>
       <source>Success!</source>
       <translation>Lyckades!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1201"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1215"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1161"/>
       <source>Successfully installed software from package(s)!</source>
       <translation>Programvaran installerades från paket(en)!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1254"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1259"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1266"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1200"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1205"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1212"/>
       <source>Warning!</source>
       <translation>Varning!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1254"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1200"/>
       <source>Package cannot be installed on top of the current data.
 Update is for version %1, but you have version %2.
 
@@ -10619,7 +10984,7 @@ Uppdateringen är för version %1, men du har version %2.
 Försökt att installera: %3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1259"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1205"/>
       <source>Package cannot be installed on top of the current data.
 Update is for version %1, but you don&apos;t have any data installed.
 
@@ -10630,17 +10995,17 @@ Uppdateringen är för version %1, men du har inget data installerat.
 Försökt att installera: %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1265"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1211"/>
       <source>version %1</source>
       <translation>version %1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1265"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1211"/>
       <source>no data installed</source>
       <translation>inget data installerades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1266"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1212"/>
       <source>Package cannot be installed on top of the current data.
 Update is for unknown version, but you have version %1.
 
@@ -10651,12 +11016,12 @@ Uppdateringen är för en okänd version, men du har version %1.
 Försökt att installera: %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1273"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1219"/>
       <source>Failure!</source>
       <translation>Misslyckades!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1273"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1219"/>
       <source>Failed to install software from package:
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
@@ -10667,148 +11032,148 @@ Detta orsakas troligen av en extern störning från ett felaktigt antivirusprogr
 Lägg till RPCS3 på vitlistan för ditt antivirusprogram eller använd ett bättre antivirusprogram.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1286"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1232"/>
       <source>Select MSELF To extract</source>
       <translation>Välj MSELF att extrahera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1286"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1232"/>
       <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
       <translation>Alla mself-filer (*.mself *.MSELF);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1293"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1339"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1364"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1239"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1285"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1310"/>
       <source>Extraction Directory</source>
       <translation>Extraheringskatalog</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1307"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1253"/>
       <source>Select PS3UPDAT.PUP To Install</source>
       <translation>Välj PS3UPDAT.PUP att installera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1307"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1332"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1253"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1278"/>
       <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
       <translation>PS3-uppdateringsfil (PS3UPDAT.PUP);;Alla pup-filer (*.pup *.PUP);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1311"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1586"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1596"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1607"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1257"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1532"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1542"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1553"/>
       <source>RPCS3 Firmware Installer</source>
       <translation>Firmware-installerare för RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1311"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1257"/>
       <source>Install firmware: %1?</source>
       <translation>Installera firmware: %1?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1332"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1278"/>
       <source>Select PS3UPDAT.PUP To extract</source>
       <translation>Välj PS3UPDAT.PUP att extrahera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1357"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1303"/>
       <source>Select TAR To extract</source>
       <translation>Välj TAR att extrahera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1357"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1303"/>
       <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
       <translation>Alla tar-filer (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1373"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1319"/>
       <source>TAR Extraction</source>
       <translation>TAR-extrahering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1373"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1319"/>
       <source>Extracting encrypted TARs
 Please wait...</source>
       <translation>Extraherar krypterade TARar
 Vänta...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1396"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1342"/>
       <source>The following TAR file(s) could not be extracted:</source>
       <translation>Följande TAR-fil(er) kunde inte extraheras:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1413"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1359"/>
       <source>TAR extraction failed</source>
       <translation>TAR-extrahering misslyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1423"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1369"/>
       <source>Firmware Installation Failed</source>
       <translation>Firmware-installation misslyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1430"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1376"/>
       <source>Firmware installation failed: The provided path is empty.</source>
       <translation>Firmware-installation misslyckades: Angiven sökväg är tom.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1449"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1395"/>
       <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
       <translation>Firmware-installation misslyckades: Vald firmware-fil kunde inte öppnas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1460"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1406"/>
       <source>Firmware installation failed: The provided file is empty.</source>
       <translation>Firmware-installation misslyckades: Angiven fil är tom.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1466"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1412"/>
       <source>Firmware installation failed: The provided file is not a PUP file.</source>
       <translation>Firmware-installation misslyckades: Angiven fil är inte en PUP-fil.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1472"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1418"/>
       <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
       <translation>Firmware-installation misslyckades: Angiven fil är inte komplett. Prova att hämta den igen.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1487"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1433"/>
       <source>Firmware installation failed: The provided file is corrupted.</source>
       <translation>Firmware-installation misslyckades: Angiven fil är skadad.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1493"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1439"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1452"/>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1506"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1560"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1581"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1527"/>
       <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
       <translation>Firmware-installation misslyckades: Angivet filinnehåll är skadat.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1514"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1460"/>
       <source>Firmware installation failed: Couldn&apos;t retrieve available disk space.</source>
       <translation>Firmware-installation misslyckades: Kunde inte hämta tillgängligt diskutrymme.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1521"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1467"/>
       <source>Firmware installation failed: Out of disk space.</source>
       <translation>Firmware-installation misslyckades: Slut på diskutrymme.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1534"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1480"/>
       <source>Firmware extraction failed: VFS mounting failed.</source>
       <translation>Firmware-extrahering misslyckades: VFS-montering misslyckades.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1541"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1487"/>
       <source>Firmware installation failed: Firmware contents could not be extracted.</source>
       <translation>Firmware-installation misslyckades: Firmware-innehållet kunde inte extraheras.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1586"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1532"/>
       <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
@@ -10817,26 +11182,26 @@ Den senaste firmware-versionen är %1 och du försöker att installera version %
 Fortsätta installationen?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1596"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1542"/>
       <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
       <translation>Firmware av version %1 har redan installerats.
 Skriv över aktuella installationen med version %2?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1607"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1553"/>
       <source>Installing firmware version %1
 Please wait...</source>
       <translation>Installerar firmware-version %1
 Vänta...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1640"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1586"/>
       <source>Firmware installation failed: Firmware could not be decompressed</source>
       <translation>Firmware-installationen misslyckades: Firmware kunde inte packas upp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1649"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1595"/>
       <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
@@ -10845,173 +11210,193 @@ Detta orsakas troligen av extern störning från ett felaktigt antivirusprogram.
 Lägg till RPCS3 på vitlistan för ditt antivirusprogram eller använd ett bättre antivirusprogram.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1709"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1655"/>
       <source>Successfully installed PS3 firmware and LLE Modules!</source>
       <translation>PS3-firmware och LLE-moduler installerades!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1725"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1671"/>
       <source>Select binary files</source>
       <translation>Välj binärfiler</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1725"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1671"/>
       <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
       <translation>Alla binärer (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN-filer (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX-filer (*.sprx *.SPRX);;SDAT/EDAT-filer (*.sdat *.SDAT *.edat *.EDAT);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1749"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1695"/>
       <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with &quot;KLIC=0x&quot; from the log message)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
       <translation>Tips: KLIC (KLicense key) är en 16 byte lång sträng. (32 hexadecimala tecken, kan prefixas med ”KLIC=0x” från loggmeddelandet)
 Och loggas med vissa sceNpDrm*-funktioner när spelet/applikationen som äger ”%0” körs.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1757"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1703"/>
       <source>Enter KLIC of %0</source>
       <translation>Ange KLIC för %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1758"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1704"/>
       <source>Decryption failed with provided KLIC.
 %0</source>
       <translation>Dekryptering misslyckades med tillhandahållen KLIC.
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1758"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1704"/>
       <source>Hexadecimal value.</source>
       <translation>Hexadecimalt värde.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1927"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1950"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2002"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3557"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3580"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1874"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1897"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1949"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3570"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3593"/>
       <source>Restart %0</source>
       <translation>Starta om %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1928"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1951"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1875"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1898"/>
       <source>Pause %0</source>
       <translation>Pausa %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1929"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1952"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1876"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1899"/>
       <source>Stop %0</source>
       <translation>Stoppa %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1933"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1954"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1880"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1901"/>
       <source>&amp;Pause</source>
       <translation>&amp;Pausa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1967"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1914"/>
       <source>Resume %0</source>
       <translation>Återuppta %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1969"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1916"/>
       <source>&amp;Resume</source>
       <translation>Å&amp;teruppta</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1989"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2053"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1936"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2000"/>
       <source>&amp;Play</source>
       <translation>&amp;Spela</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2404"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2351"/>
+      <source>Precompile caches</source>
+      <translation>Förkompilera cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2353"/>
       <source>Add desktop shortcut(s)</source>
       <translation>Lägg till skrivbordsgenväg(ar)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2406"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2355"/>
       <source>Add Start menu shortcut(s)</source>
       <translation>Lägg till genväg(ar) på startmenyn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2408"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2357"/>
       <source>Add dock shortcut(s)</source>
       <translation>Lägg till dockgenväg(ar)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2410"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2359"/>
       <source>Add launcher shortcut(s)</source>
       <translation>Lägg till genväg(ar) på Launcher</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2412"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2361"/>
       <source>%1
-Would you like to install shortcuts to the installed software? (%2 new software detected)
+Would you like to precompile caches and install shortcuts to the installed software? (%2 new software detected)
 
 </source>
       <translation>%1
-Vill du installera genvägar till den installerade programvaran? (%2 ny programvara upptäcktes)
+Vill du förkompilera cachar och installera genvägar till den installerade programvaran? (%2 ny programvara upptäckt)
 
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2590"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2552"/>
       <source>Select a folder containing one or more games</source>
       <translation>Välj en mapp som innehåller ett eller flera spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2693"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2570"/>
+      <source>Select ISO files to add</source>
+      <translation>Välj ISO-filer att lägga till</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2671"/>
       <source>Failed to locate log</source>
       <translation>Misslyckades med att hitta loggen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2693"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2671"/>
       <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
       <translation>Misslyckades med att hitta loggfiler.
 Kontrollera att RPCS3.log och RPCS3.log.gz är skrivbara och kan skapas utan behörighetsproblem.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2750"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2773"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2728"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2751"/>
       <source>Select RPCS3&apos;s log saving location (saving %0)</source>
       <translation>Välj var RPCS3:s logg ska sparas (spara %0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2838"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2844"/>
       <source>Select Disc Game Folder</source>
       <translation>Välj mapp för skivspel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2849"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2855"/>
       <source>Failed to insert disc</source>
       <translation>Misslyckades med att mata in skiva</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2849"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2855"/>
       <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
       <translation>Försäkra dig om att emuleringen är igång och att den valda sökvägen tillhör till ett giltigt skivspel.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3119"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3007"/>
+      <source>Error: Emulation Running</source>
+      <translation>Fel: Emuleringen kör</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3007"/>
+      <source>You need to stop the emulator before editing Clans connection information!</source>
+      <translation>Du måste stoppa emulatorn innan du redigerar anslutningsinformation för Clans!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3140"/>
       <source>Select rpcs3.log or config.yml</source>
       <translation>Välj rpcs3.log eller config.yml</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3119"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3140"/>
       <source>Log or Config files (*.log *.gz *.txt *.yml);;Log files (*.log *.gz);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
       <translation>Logg eller konfigurationsfiler (*.log *.gz *.txt *.yml);;Loggfiler (*.log *.gz);;Konfigurationsfiler (*.yml);;Textfiler (*.txt);;Alla filer (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3130"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3151"/>
       <source>Weird file!</source>
       <translation>Konstig fil!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3130"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3151"/>
       <source>This file seems to have an unexpected type:
 %0
 
@@ -11022,136 +11407,72 @@ Check anyway?</source>
 Kontrollera ändå?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3162"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3183"/>
       <source>Failed to open file</source>
       <translation>Misslyckades med att öppna filen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3162"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3183"/>
       <source>The file could not be opened:
 %0</source>
       <translation>Filen kunde inte öppnas:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3333"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3354"/>
       <source>Auto-updater</source>
       <translation>Automatisk uppdaterare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3333"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3354"/>
       <source>The auto-updater isn&apos;t available for your OS currently.</source>
       <translation>Automatiska uppdateraren är inte tillgänglig för ditt operativsystem för tillfället.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3736"/>
-      <source>HDD1 Caches Removed</source>
-      <translation>HDD1-cachar togs bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3736"/>
-      <source>HDD1 caches successfully removed</source>
-      <translation>HDD1-cachar togs bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3740"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3772"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3789"/>
-      <source>Error</source>
-      <translation>Fel</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3740"/>
-      <source>Could not remove HDD1 caches</source>
-      <translation>Kunde inte ta bort HDD1-cachar</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3746"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3780"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3795"/>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3835"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3747"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3787"/>
       <source>Confirm Removal</source>
       <translation>Bekräfta borttagning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3746"/>
-      <source>Remove all caches?</source>
-      <translation>Ta bort alla cachar?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3768"/>
-      <source>Caches Removed</source>
-      <translation>Cachar togs bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3768"/>
-      <source>%0 cache(s) successfully removed</source>
-      <translation>%0 cachar togs bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3772"/>
-      <source>Could not remove %0 of %1 cache(s)</source>
-      <translation>Kunde inte ta bort %0 av %1 cach(e/ar)</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3780"/>
-      <source>Remove savestates?</source>
-      <translation>Ta bort sparade tillstånd?</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3785"/>
-      <source>Savestates Removed</source>
-      <translation>Sparade tillstånd togs bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3785"/>
-      <source>Savestates successfully removed</source>
-      <translation>Sparade tillstånd togs bort</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3789"/>
-      <source>Could not remove savestates</source>
-      <translation>Kunde inte ta bort sparade tillstånd</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3795"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3747"/>
       <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
       <translation>Ta bort ogiltiga spelsökvägar från spellistan?
 Oidentifierade spel (zombies) samt korrupta spel kommer att tas bort från spellistfilen (games.yml)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3825"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3777"/>
       <source>Summary</source>
       <translation>Sammandrag</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3825"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3777"/>
       <source>%0 game(s) removed from game list</source>
       <translation>%0 spel togs bort från spellistan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3835"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3787"/>
       <source>Remove firmware cache?</source>
       <translation>Ta bort firmware-cache?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="4005"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3957"/>
       <source>Nothing to add!</source>
       <translation>Ingenting att lägga till!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="4005"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3957"/>
       <source>Could not find any new software.</source>
       <translation>Kunde inte hitta någon ny programvara.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="4009"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3961"/>
       <source>Successfully added software to game list from path(s)!</source>
       <translation>Programvaran lades till till spellistan från sökväg(ar)!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="4181"/>
+      <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="4136"/>
       <source>PARAM.SFO Information</source>
       <translation>PARAM.SFO-information</translation>
     </message>
@@ -12628,7 +12949,7 @@ Export av ogiltiga patchar är inte tillåten.</translation>
     <name>patch_manager_dialog</name>
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.ui" line="17"/>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1023"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1025"/>
       <source>Patch Manager</source>
       <translation>Patchhanterare</translation>
     </message>
@@ -12785,22 +13106,22 @@ Denna åtgärd är direkt och går inte ångra!</translation>
       <translation>Fäll in alla</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1023"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1025"/>
       <source>What do you want to do with the patch file?</source>
       <translation>Vad vill du göra med patchfilen?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1024"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1026"/>
       <source>Import</source>
       <translation>Importera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1025"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1027"/>
       <source>Validate</source>
       <translation>Validera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1061"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1063"/>
       <source>
 
 Log:
@@ -12811,34 +13132,34 @@ Logg:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1065"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1067"/>
       <source>Nothing to import</source>
       <translation>Ingenting att importera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1065"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1067"/>
       <source>None of the found %0 patches were imported.%1</source>
       <translation>Ingen av de %0 patchar som hittades importerades.%1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1070"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1072"/>
       <source>Import successful</source>
       <translation>Importen lyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1070"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1072"/>
       <source>Imported %0/%1 patches to:
 %2%3</source>
       <translation>Importerade %0/%1 patchar till:
 %2%3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1076"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1078"/>
       <source>Import failed</source>
       <translation>Importen misslyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1076"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1078"/>
       <source>The patch file could not be imported.
 
 Log:
@@ -12849,25 +13170,25 @@ Logg:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1081"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1083"/>
       <source>Validation successful</source>
       <translation>Validering lyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1081"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1083"/>
       <source>The patch file passed the validation.</source>
       <translation>Patchfilen klarade valideringen.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1091"/>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1096"/>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1313"/>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1318"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1093"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1098"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1310"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1315"/>
       <source>Validation failed</source>
       <translation>Validering misslyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1091"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1093"/>
       <source>Errors were found in the patch file.
 
 Log:
@@ -12878,39 +13199,39 @@ Logg:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1095"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1097"/>
       <source>Errors were found in the patch file.</source>
       <translation>Fel hittades i patchfilen.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1097"/>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1319"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1099"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1316"/>
       <source>To see the error log, please click &quot;Show Details&quot;.</source>
       <translation>Klicka på &quot;Visa detaljer&quot; för att se felloggen.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1169"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1166"/>
       <source>Downloading latest patches</source>
       <translation>Hämtar senaste patchar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1203"/>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1304"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1200"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1301"/>
       <source>Download successful</source>
       <translation>Hämtningen lyckades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1203"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1200"/>
       <source>Your patch file is already up to date.</source>
       <translation>Din patchfil är redan uppdaterad.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1218"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1215"/>
       <source>Update patches?</source>
       <translation>Uppdatera patchar?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1218"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1215"/>
       <source>New patches are available.
 
 Do you want to update?</source>
@@ -12919,12 +13240,12 @@ Do you want to update?</source>
 Vill du uppdatera?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1304"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1301"/>
       <source>Your patch file is now up to date</source>
       <translation>Din patchfil är nu uppdaterad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1313"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1310"/>
       <source>Errors were found in the downloaded patch file.
 
 Log:
@@ -12935,7 +13256,7 @@ Logg:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1317"/>
+      <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1314"/>
       <source>Errors were found in the downloaded patch file.</source>
       <translation>Fel hittades i den hämtade patchfilen.</translation>
     </message>
@@ -12958,31 +13279,31 @@ Logg:
   <context>
     <name>pkg_install_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="66"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="65"/>
       <source>DLC</source>
       <comment>Package type info (DLC)</comment>
       <translation>DLC</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="70"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="69"/>
       <source>Update</source>
       <comment>Package type info (Update)</comment>
       <translation>Uppdatera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="82"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="81"/>
       <source>v.%0</source>
       <comment>Version info</comment>
       <translation>v.%0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="87"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="86"/>
       <source>No info</source>
       <comment>Changelog info placeholder</comment>
       <translation>Ingen information</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="91"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="90"/>
       <source>Changelog:
 
 %0</source>
@@ -12992,40 +13313,75 @@ Logg:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="97"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="96"/>
       <source>&lt;b&gt;%0&lt;/b&gt; (%1) - %2</source>
       <comment>Package text</comment>
       <translation>&lt;b&gt;%0&lt;/b&gt; (%1) - %2</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="122"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="119"/>
       <source>Install</source>
       <translation>Installera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="144"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="153"/>
       <source>Move selected item up</source>
       <translation>Flytta markerad post upp</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="149"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="158"/>
       <source>Move selected item down</source>
       <translation>Flytta markerad post ner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="157"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="168"/>
+      <source>Do you want to install this package?</source>
+      <translation>Vill du installera detta paket?</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="169"/>
       <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
       <translation>Du är på väg att installera flera paket.
 Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installera&quot; för att fortsätta.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="167"/>
-      <source>Batch PKG Installation</source>
-      <translation>Installera flera PKG</translation>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="171"/>
+      <source>Would you like to precompile caches and install shortcuts to the installed software?</source>
+      <translation>Vill du förkompilera cachar och installera genvägar till den installerade programvaran?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="192"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="173"/>
+      <source>Precompile caches</source>
+      <translation>Förkompilera cachar</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="177"/>
+      <source>Add desktop shortcut(s)</source>
+      <translation>Lägg till skrivbordsgenväg(ar)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="181"/>
+      <source>Add Start menu shortcut(s)</source>
+      <translation>Lägg till genväg(ar) på startmenyn</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="183"/>
+      <source>Add dock shortcut(s)</source>
+      <translation>Lägg till dockgenväg(ar)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="185"/>
+      <source>Add launcher shortcut(s)</source>
+      <translation>Lägg till genväg(ar) på Launcher</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="201"/>
+      <source>PKG Installation</source>
+      <translation>PKG-installation</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="226"/>
       <source>Installation path: %0
 Available disk space: %1%2
 Required disk space: %3</source>
@@ -13034,7 +13390,7 @@ Tillgängligt diskutrymme: %1%2
 Nödvändigt diskutrymme: %3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="195"/>
+      <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="229"/>
       <source> - &lt;b&gt;NOT ENOUGH SPACE&lt;/b&gt;</source>
       <translation> - &lt;b&gt;INTE TILLRÄCKLIGT MED UTRYMME&lt;/b&gt;</translation>
     </message>
@@ -13043,8 +13399,8 @@ Nödvändigt diskutrymme: %3</translation>
     <name>ps_move_tracker_dialog</name>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="20"/>
-      <source>Dialog</source>
-      <translation>Dialog</translation>
+      <source>PS Move Tracker Settings</source>
+      <translation>Inställningar för PS Move-spårning</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="30"/>
@@ -13364,68 +13720,68 @@ Ingen grafik kommer att renderas.</translation>
   <context>
     <name>rpcn_account_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="137"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="151"/>
       <source>RPCN: Account</source>
       <translation>RPCN: Konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="142"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="146"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="156"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="160"/>
       <source>Server:</source>
       <translation>Server:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="155"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="169"/>
       <source>Add</source>
       <translation>Lägg till</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="156"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="170"/>
       <source>Del</source>
       <translation>Ta bort</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="167"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="181"/>
       <source>Account:</source>
       <translation>Konto:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="169"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="183"/>
       <source>Create Account</source>
       <translation>Skapa konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="170"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="184"/>
       <source>Edit Account</source>
       <translation>Redigera konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="171"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="185"/>
       <source>Test Account</source>
       <translation>Testa konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="174"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="188"/>
       <source>Disable IPv6</source>
       <translation>Inaktivera IPv6</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="180"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
       <source>Current ID: %0</source>
       <translation>Aktuellt ID: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="225"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239"/>
       <source>Existing Server</source>
       <translation>Befintlig server</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="225"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239"/>
       <source>You already have a server with this description &amp; hostname in the list.</source>
       <translation>Du har redan en server med denna beskrivning och värdnamn i listan.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="251"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="265"/>
       <source>Please enter your username.
 
 Note that these restrictions apply:
@@ -13442,7 +13798,7 @@ Observera att dessa begränsningar gäller:
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="262"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="276"/>
       <source>Please choose your password:
 
 </source>
@@ -13451,7 +13807,7 @@ Observera att dessa begränsningar gäller:
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="269"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="283"/>
       <source>An email address is required, please note:
 - A valid email is needed to receive the token that validates your account.
 - Your email won&apos;t be used for anything beyond sending you this token or the password reset token.
@@ -13465,12 +13821,12 @@ Observera att dessa begränsningar gäller:
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="278"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292"/>
       <source>RPCN: Account Creation</source>
       <translation>RPCN: Skapa konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="278"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292"/>
       <source>You are about to create an account with:
 -Username:%0
 -Email:%1
@@ -13483,56 +13839,44 @@ Is this correct?</source>
 Är detta korrekt?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="287"/>
-      <source>Failed to connect to RPCN server:
-%0</source>
-      <translation>Misslyckades med att ansluta till RPCN-server:
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="288"/>
-      <source>Error Connecting</source>
-      <translation>Fel vid anslutning</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="297"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="307"/>
       <source>An account with that username already exists!</source>
       <translation>Ett konto med det användarnamnet finns redan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="298"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="308"/>
       <source>This email provider is banned!</source>
       <translation>Denna e-postleverantör är bannlyst!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="299"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="309"/>
       <source>An account with that email already exists!</source>
       <translation>Ett konto med den e-postadress finns redan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="300"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="310"/>
       <source>Unknown creation error!</source>
       <translation>Okänt fel vid skapandet!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="301"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="311"/>
       <source>Unknown error</source>
       <translation>Okänt fel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="303"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="313"/>
       <source>Error Creating Account!</source>
       <translation>Fel vid skapandet av konto!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="303"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="313"/>
       <source>Failed to create the account:
 %0</source>
       <translation>Misslyckades med att skapa kontot:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="312"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="322"/>
       <source>Your account has been created successfully!
 Your account authentification was saved.
 Now all you need is to enter the token that was sent to your email.
@@ -13545,36 +13889,24 @@ Du kan hoppa över detta steg genom att lämna det tomt och ange den senare i Re
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="341"/>
-      <source>Failed to connect to RPCN:
-%0</source>
-      <translation>Misslyckades med att ansluta till RPCN:
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="342"/>
-      <source>Error connecting to RPCN!</source>
-      <translation>Fel vid anslutning till RPCN!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="347"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="354"/>
       <source>Failed to authentify to RPCN:
 %0</source>
       <translation>Misslyckades med att autentisera till RPCN:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="348"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="355"/>
       <source>Error authentifying to RPCN!</source>
       <translation>Fel vid autentisering till RPCN!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="352"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="359"/>
       <source>RPCN Account Valid!</source>
       <translation>RPCN Kontot är giltigt!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="352"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="359"/>
       <source>Your account is valid!</source>
       <translation>Ditt konto är giltigt!</translation>
     </message>
@@ -13582,301 +13914,300 @@ Du kan hoppa över detta steg genom att lämna det tomt och ange den senare i Re
   <context>
     <name>rpcn_account_edit_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="663"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="732"/>
       <source>RPCN: Edit Account</source>
       <translation>RPCN: Redigera konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="673"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="742"/>
       <source>Username:</source>
       <translation>Användarnamn:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="677"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="746"/>
       <source>Password:</source>
       <translation>Lösenord:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="678"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="747"/>
       <source>Set Password</source>
       <translation>Ställ in lösenord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="679"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="748"/>
       <source>Token:</source>
       <translation>Token:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="683"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="752"/>
       <source>Resend Token</source>
       <translation>Skicka token igen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="684"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="753"/>
       <source>Change Password</source>
       <translation>Byt lösenord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="685"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="754"/>
+      <source>Delete Account</source>
+      <translation>Ta bort konto</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="755"/>
       <source>Save</source>
       <translation>Spara</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="710"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="781"/>
       <source>Please enter your password:</source>
       <translation>Ange ditt lösenord:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="720"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791"/>
       <source>RPCN Password Saved</source>
       <translation>RPCN Lösenord sparat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="720"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791"/>
       <source>Your password was saved successfully!</source>
       <translation>Ditt lösenord har sparats!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="744"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816"/>
       <source>Missing Input</source>
       <translation>Saknar inmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="744"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816"/>
       <source>You need to enter a username and a password!</source>
       <translation>Du behöver ange ett användarnamn och ett lösenord!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="750"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="822"/>
       <source>Invalid Username</source>
       <translation>Ogiltigt användarnamn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="750"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="822"/>
       <source>Username must be between 3 and 16 characters and can only contain &apos;-&apos;, &apos;_&apos; or alphanumeric characters.</source>
       <translation>Användarnamn måste vara mellan 3 och 16 tecken långt och får endast innehålla &apos;-&apos;, &apos;_&apos; eller alfanumeriska tecken.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="756"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="828"/>
       <source>Invalid Token</source>
       <translation>Ogiltigt token</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="756"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="828"/>
       <source>The token you have received should be 16 characters long and contain only 0-9 A-F.</source>
       <translation>Token som du har tagit emot ska vara 16 tecken långt och får endast innehålla 0-9 A-F.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="780"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="829"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="874"/>
-      <source>Failed to connect to RPCN server:
-%0</source>
-      <translation>Misslyckades med att ansluta till RPCN-servern:
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="781"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="830"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="875"/>
-      <source>Error Connecting!</source>
-      <translation>Fel vid anslutning!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="790"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="858"/>
       <source>The server has no email verification and doesn&apos;t need a token!</source>
       <translation>Servern har ingen e-postverifiering och behöver inte ett token!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="840"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="885"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="859"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="905"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="947"/>
       <source>A database related error happened on the server!</source>
       <translation>Ett databasrelaterat fel inträffade på servern!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="792"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="860"/>
       <source>You can only ask for a token mail once every 24 hours!</source>
       <translation>Du kan endast fråga efter ett token en gång per dygn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="793"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="842"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="887"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="861"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="907"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="949"/>
       <source>The mail couldn&apos;t be sent successfully!</source>
       <translation>E-postmeddelandet kunde inte skickas korrekt!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="794"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="862"/>
       <source>The username/password pair is invalid!</source>
       <translation>Användarnamn/lösenord är ogiltigt!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="795"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="889"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="863"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="951"/>
       <source>Unknown error</source>
       <translation>Okänt fel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="797"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="865"/>
       <source>Error Sending Token!</source>
       <translation>Fel vid sändning av token!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="797"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="865"/>
       <source>Failed to send the token:
 %0</source>
       <translation>Misslyckades med att skicka token:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="801"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869"/>
       <source>Token Sent!</source>
       <translation>Token skickat!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="801"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869"/>
       <source>Your token was successfully resent to the email associated with your account!</source>
       <translation>Ditt token skickades igen till e-postadressen kopplat till ditt konto!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="806"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="874"/>
       <source>Please confirm your username:</source>
       <translation>Bekräfta ditt användarnamn:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="813"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881"/>
       <source>RPCN: Change Password</source>
       <translation>RPCN: Ändra lösenord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="813"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881"/>
       <source>Do you already have a reset password token?
 Note that the reset password token is different from the email verification token.</source>
       <translation>Du har redan fått ett token för lösenordsåterställning?
 Observera att token för lösenordsåterställning är annorlunda från token för e-postverifiering.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="818"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="886"/>
       <source>Please enter the email you used to create the account:</source>
       <translation>Ange e-postadressen som du använde för att skapa kontot:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="839"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="884"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="904"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="946"/>
       <source>The server has no email verification and doesn&apos;t support password changes!</source>
       <translation>Servern har ingen e-postverifiering och har inte stöd för lösenordsändringar!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="841"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="886"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="906"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="948"/>
       <source>You can only ask for a reset password token once every 24 hours!</source>
       <translation>Du kan endast fråga efter ett token för lösenordsåterställning en gång varje dygn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="843"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="908"/>
       <source>The username/email pair is invalid!</source>
       <translation>Användarnamn/e-post är ogiltiga!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="844"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="909"/>
       <source>Unknown error!</source>
       <translation>Okänt fel!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="846"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="911"/>
       <source>Error Sending Password Reset Token!</source>
       <translation>Fel vid sändning av token för lösenordsåterställning!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="846"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="911"/>
       <source>Failed to send the password reset token:
 %0</source>
       <translation>Misslyckades med att skicka token för lösenordsåterställning:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="850"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915"/>
       <source>Password Reset Token Sent!</source>
       <translation>Token för lösenordsåterställning skickat!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="850"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915"/>
       <source>The reset password token has successfully been sent!</source>
       <translation>Token för lösenordsåterställning har skickats!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="856"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="921"/>
       <source>Please enter the password reset token you received:</source>
       <translation>Ange token för lösenordsåterställning som du fick:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="863"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="928"/>
       <source>Please enter your new password:</source>
       <translation>Ange ditt nya lösenord:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="888"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="950"/>
       <source>The username/token pair is invalid!</source>
       <translation>Användarnamn/token är ogiltigt!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="891"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="953"/>
       <source>Error Sending Password Reset Token</source>
       <translation>Fel vid sändning av token för lösenordsåterställning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="891"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="953"/>
       <source>Failed to change the password:
 %0</source>
       <translation>Misslyckades med att ändra lösenordet:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="897"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959"/>
       <source>Password Successfully Changed!</source>
       <translation>Lösenordet har ändrats!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="897"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959"/>
       <source>Your password has been successfully changed!</source>
       <translation>Ditt lösenord har nu ändrats!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="972"/>
+      <source>Account Not Configured</source>
+      <translation>Kontot är inte konfigurerat</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="972"/>
+      <source>Please configure your account in the settings before deleting it.</source>
+      <translation>Konfigurera ditt konto i inställningarna innan du tar bort det.</translation>
     </message>
   </context>
   <context>
     <name>rpcn_add_server_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="386"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="393"/>
       <source>RPCN: Add Server</source>
       <translation>RPCN: Lägg till server</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="392"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="399"/>
       <source>Description:</source>
       <translation>Beskrivning:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="394"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="401"/>
       <source>Host:</source>
       <translation>Värd:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="413"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420"/>
       <source>Missing Description!</source>
       <translation>Saknar beskrivning!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="413"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420"/>
       <source>You must enter a description!</source>
       <translation>Du måste ange en beskrivning!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="418"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425"/>
       <source>Missing Hostname!</source>
       <translation>Saknar värdnamn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="418"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425"/>
       <source>You must enter a hostname for the server!</source>
       <translation>Du måste ange ett värdnamn för servern!</translation>
     </message>
@@ -13884,47 +14215,47 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
   <context>
     <name>rpcn_ask_email_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="546"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="553"/>
       <source>RPCN: Email</source>
       <translation>RPCN: E-postadress</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="556"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="563"/>
       <source>Enter your email:</source>
       <translation>Ange din e-postadress:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="558"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="565"/>
       <source>Enter your email a second time:</source>
       <translation>Ange din e-postadress en andra gång:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="579"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586"/>
       <source>Wrong Input</source>
       <translation>Felaktig inmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="579"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586"/>
       <source>The two emails you entered don&apos;t match!</source>
       <translation>De två e-postadresserna du angav stämmer inte överens!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="585"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
       <source>Missing Email</source>
       <translation>Saknar e-postadress</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="585"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
       <source>You need to enter an email!</source>
       <translation>Du måste ange en e-postadress!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="599"/>
       <source>Invalid Email</source>
       <translation>Ogiltig e-postadress</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="599"/>
       <source>You need to enter a valid email!</source>
       <translation>Du måste ange en giltig e-postadress!</translation>
     </message>
@@ -13932,37 +14263,37 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
   <context>
     <name>rpcn_ask_password_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="487"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="494"/>
       <source>RPCN: Password</source>
       <translation>RPCN: Lösenord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="497"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="504"/>
       <source>Enter your password:</source>
       <translation>Ange ditt lösenord:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="500"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="507"/>
       <source>Enter your password a second time:</source>
       <translation>Ange ditt lösenord en andra gång:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="522"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529"/>
       <source>Wrong Input</source>
       <translation>Felaktig inmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="522"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529"/>
       <source>The two passwords you entered don&apos;t match!</source>
       <translation>De två lösenorden som du angav stämmer inte överens!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="528"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
       <source>Missing Password</source>
       <translation>Saknar lösenord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="528"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
       <source>You need to enter a password!</source>
       <translation>Du måste ange ett lösenord!</translation>
     </message>
@@ -13970,22 +14301,22 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
   <context>
     <name>rpcn_ask_token_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="610"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="617"/>
       <source>RPCN: Username</source>
       <translation>RPCN: Användarnamn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="617"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="624"/>
       <source>Token:</source>
       <translation>Token:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="640"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647"/>
       <source>Invalid Token</source>
       <translation>Ogiltigt token</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="640"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647"/>
       <source>The token appears to be invalid:
 -Token should be 16 characters long
 -Token should only contain 0-9 and A-F</source>
@@ -13997,246 +14328,309 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
   <context>
     <name>rpcn_ask_username_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="436"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="443"/>
       <source>RPCN: Username</source>
       <translation>RPCN: Användarnamn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="443"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="450"/>
       <source>Username:</source>
       <translation>Användarnamn:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="465"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472"/>
       <source>Missing Username!</source>
       <translation>Saknar användarnamn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="465"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472"/>
       <source>You must enter a username!</source>
       <translation>Du måste ange ett användarnamn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="470"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="477"/>
       <source>Invalid Username!</source>
       <translation>Ogiltigt användarnamn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="470"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="477"/>
       <source>Please enter a valid username!</source>
       <translation>Ange ett giltigt användarnamn!</translation>
     </message>
   </context>
   <context>
+    <name>rpcn_confirm_delete_dialog</name>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="670"/>
+      <source>Confirm Account Deletion</source>
+      <translation>Bekräfta borttagning av konto</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="675"/>
+      <source>Are you sure you want to delete RPCN account &quot;%1&quot;?
+
+Important:
+Deleting your account will blacklist your username and email for 3 months.
+To confirm, type your username below and click &quot;Yes&quot;.
+</source>
+      <translation>Är du säker på att du vill ta bort RPCN-kontot &quot;%1&quot;?
+
+Viktigt:
+Borttagning av ditt konto kommer att svartlista ditt användarnamn och e-postadress i 3 månader.
+Ange ditt användarnamn nedan för att bekräfta och klicka på &quot;Ja&quot;.
+</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="682"/>
+      <source>Type your username to confirm</source>
+      <translation>Ange ditt användarnamn för att bekräfta</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="684"/>
+      <source>Yes</source>
+      <translation>Ja</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="686"/>
+      <source>No</source>
+      <translation>Nej</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="714"/>
+      <source>Invalid login or password.</source>
+      <translation>Ogiltigt användarnamn eller lösenord.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="715"/>
+      <source>Cannot delete a currently logged-in account.</source>
+      <translation>Kan inte ta bort ett konto som är inloggat.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="716"/>
+      <source>An unknown error occurred.</source>
+      <translation>Ett okänt fel inträffade.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="718"/>
+      <source>Deletion Failed</source>
+      <translation>Borttagning misslyckades</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="718"/>
+      <source>Failed to delete the account:
+%1</source>
+      <translation>Misslyckades med att ta bort kontot:
+%1</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="723"/>
+      <source>Account Deleted</source>
+      <translation>Kontot togs bort</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="723"/>
+      <source>Your account has been successfully deleted.</source>
+      <translation>Ditt konto har tagits bort.</translation>
+    </message>
+  </context>
+  <context>
     <name>rpcn_friends_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1001"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1074"/>
       <source>RPCN: Friends - Logged in as %0</source>
       <translation>RPCN: Vänner - Inloggad som %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1005"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1078"/>
       <source>RPCN: Friends - %0 (Not logged in)</source>
       <translation>RPCN: Vänner - %0 (inte inloggad)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1009"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1082"/>
       <source>RPCN: Friends</source>
       <translation>RPCN: Vänner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1020"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1093"/>
       <source>Friends</source>
       <translation>Vänner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1025"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1098"/>
       <source>Add Friend</source>
       <translation>Lägg till vän</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1030"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1103"/>
       <source>Friend Requests</source>
       <translation>Vänförfrågningar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1040"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1113"/>
       <source>Blocked Users</source>
       <translation>Blockerade användare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1047"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1120"/>
       <source>Recent Players</source>
       <translation>Senaste spelare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1064"/>
-      <source>Failed to connect to RPCN:
-%0</source>
-      <translation>Misslyckades med att ansluta till RPCN:
-%0</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1065"/>
-      <source>Error connecting to RPCN!</source>
-      <translation>Fel vid anslutning till RPCN!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1070"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1140"/>
       <source>Failed to authentify to RPCN:
 %0</source>
       <translation>Misslyckades med att autentisera till RPCN:
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1071"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1141"/>
       <source>Error authentifying to RPCN!</source>
       <translation>Fel vid autentisering till RPCN!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1136"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1206"/>
       <source>&amp;Remove Friend</source>
       <translation>&amp;Ta bort vän</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1142"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1212"/>
       <source>Error removing a friend!</source>
       <translation>Fel vid borttagning av en vän!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1142"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1212"/>
       <source>An error occurred while trying to remove a friend!</source>
       <translation>Ett fel inträffade vid försök att ta bort en vän!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1146"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1216"/>
       <source>Friend removed!</source>
       <translation>Vännen togs bort!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1146"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1216"/>
       <source>You&apos;ve successfully removed a friend!</source>
       <translation>Du har tagit bort en vän!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1169"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239"/>
       <source>&amp;Cancel Request</source>
       <translation>Avbryt &amp;förfrågan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1175"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1245"/>
       <source>Error cancelling friend request!</source>
       <translation>Fel vid avbryt för vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1175"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1245"/>
       <source>An error occurred while trying to cancel friend request!</source>
       <translation>Ett fel inträffade vid försök att avbryta en vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1179"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1213"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1283"/>
       <source>Friend request cancelled!</source>
       <translation>Vänförfrågan avbröts!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1179"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249"/>
       <source>You&apos;ve successfully cancelled the friend request!</source>
       <translation>Du har avbrutit vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1190"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1260"/>
       <source>&amp;Accept Request</source>
       <translation>&amp;Acceptera förfrågan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1191"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1261"/>
       <source>&amp;Reject Request</source>
       <translation>&amp;Neka förfrågan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1197"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
       <source>Error adding a friend!</source>
       <translation>Fel när en vän skulle läggas till!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1197"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
       <source>An error occurred while trying to add a friend!</source>
       <translation>Ett fel inträffade vid försök att lägga till en vän!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1201"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1281"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1351"/>
       <source>Friend added!</source>
       <translation>Vännen lades till!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1201"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
       <source>You&apos;ve successfully added a friend!</source>
       <translation>Du har lagt till en vän!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1209"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1279"/>
       <source>Error rejecting friend request!</source>
       <translation>Fel vid nekande av vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1209"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1279"/>
       <source>An error occurred while trying to reject the friend request!</source>
       <translation>Ett fel inträffade vid försök att neka vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1213"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1283"/>
       <source>You&apos;ve successfully rejected the friend request!</source>
       <translation>Du har nekat vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1233"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1303"/>
       <source>&amp;Send Friend Request</source>
       <translation>&amp;Skicka vänförfrågan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1309"/>
       <source>Error sending a friend request!</source>
       <translation>Fel vid sändning av vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1309"/>
       <source>An error occurred while trying to send a friend request!</source>
       <translation>Ett fel inträffade vid försök att skicka en vänförfrågan!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1258"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1328"/>
       <source>Add a friend</source>
       <translation>Lägg till vän</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1258"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1328"/>
       <source>Friend&apos;s username:</source>
       <translation>Vännens användarnamn:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
       <source>Error validating username!</source>
       <translation>Fel vid validering av användarnamn!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
       <source>The username you entered is invalid!</source>
       <translation>Användarnamnet du angav är ogiltigt!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1346"/>
       <source>Error adding friend!</source>
       <translation>Fel när vän skulle läggas till!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1346"/>
       <source>An error occurred while adding a friend!</source>
       <translation>Ett fel inträffade när en vän skulle läggas till!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1281"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1351"/>
       <source>Friend was successfully added!</source>
       <translation>Vännen lades till!</translation>
     </message>
@@ -14244,33 +14638,33 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
   <context>
     <name>rpcn_settings_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="88"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="102"/>
       <source>RPCN - %0</source>
       <translation>RPCN - %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="92"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="101"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="106"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="115"/>
       <source>RPCN</source>
       <translation>RPCN</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="104"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118"/>
       <source>Account</source>
       <translation>Konto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="105"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="119"/>
       <source>Friends</source>
       <translation>Vänner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="132"/>
       <source>Error: Emulation Running</source>
       <translation>Fel: Emuleringen kör</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="132"/>
       <source>You need to stop the emulator before editing RPCN account information!</source>
       <translation>Du måste stoppa emulatorn innan du redigerar information för RPCN-kontot!</translation>
     </message>
@@ -14638,172 +15032,172 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
   <context>
     <name>savestate_manager_dialog</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="33"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="35"/>
       <source>Savestate Manager</source>
       <translation>Hanterare för sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="118"/>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="154"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="120"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="156"/>
       <source>Game Icon Size: %0x%1</source>
       <translation>Storlek för spelikon: %0x%1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="125"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="127"/>
       <source>Choose Game</source>
       <translation>Välj spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="130"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="132"/>
       <source>Icon Options</source>
       <translation>Ikonalternativ</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="230"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="232"/>
       <source>Name</source>
       <translation>Namn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="231"/>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="771"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="233"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="779"/>
       <source>Compatible</source>
       <translation>Kompatibel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="232"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="234"/>
       <source>Created</source>
       <translation>Skapades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="233"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="235"/>
       <source>Path</source>
       <translation>Sökväg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="243"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="245"/>
       <source>Show Names</source>
       <translation>Visa namn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="244"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="246"/>
       <source>Show Compatible</source>
       <translation>Visa kompatibel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="245"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="247"/>
       <source>Show Created</source>
       <translation>Visa skapades</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="246"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="248"/>
       <source>Show Paths</source>
       <translation>Visa sökvägar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="256"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="258"/>
       <source>Icon</source>
       <translation>Ikon</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="257"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="259"/>
       <source>Game</source>
       <translation>Spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="258"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="260"/>
       <source>Savestates</source>
       <translation>Sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="268"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="270"/>
       <source>Show Icons</source>
       <translation>Visa ikoner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="269"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="271"/>
       <source>Show Games</source>
       <translation>Visa spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="272"/>
       <source>Show Savestates</source>
       <translation>Visa sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="487"/>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="548"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="490"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="551"/>
       <source>&amp;Open Savestate Directory</source>
       <translation>Ö&amp;ppna katalog för sparat tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="488"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="491"/>
       <source>&amp;Boot Savestate</source>
       <translation>S&amp;tarta upp sparat tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="489"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="492"/>
       <source>&amp;Delete Savestate</source>
       <translation>&amp;Ta bort sparat tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="514"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="517"/>
       <source>Confirm Deletion</source>
       <translation>Bekräfta borttagning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="514"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="517"/>
       <source>Delete savestate &apos;%0&apos;?</source>
       <translation>Ta bort sparat tillstånd &apos;%0&apos;?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="525"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="528"/>
       <source>Deletion Failed!</source>
       <translation>Borttagning misslyckades!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="525"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="528"/>
       <source>Failed to delete savestate &apos;%0&apos;!</source>
       <translation>Misslyckades med att ta bort sparat tillstånd &apos;%0&apos;!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="547"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="550"/>
       <source>&amp;Remove All Savestates</source>
       <translation>&amp;Ta bort alla sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="557"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="560"/>
       <source>Delete Confirmation</source>
       <translation>Bekräfta borttagning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="557"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="560"/>
       <source>Are you sure you want to delete the savestates for:
 %0?</source>
       <translation>Är du säker på att du vill ta bort sparade tillstånd för:
 %0?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="574"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="577"/>
       <source>&amp;Copy Name</source>
       <translation>&amp;Kopiera namn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="639"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="647"/>
       <source>Loading savestates</source>
       <translation>Läser in sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="639"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="647"/>
       <source>Loading savestates, please wait...</source>
       <translation>Läser in sparade tillstånd, vänta...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="639"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="647"/>
       <source>Cancel</source>
       <translation>Avbryt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="771"/>
+      <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="779"/>
       <source>Not compatible</source>
       <translation>Inte kompatibel</translation>
     </message>
@@ -14939,12 +15333,12 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="655"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="716"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="823"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2567"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2642"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2803"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2846"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3388"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4507"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2574"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2649"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2810"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2853"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3395"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4514"/>
       <source>Reset</source>
       <translation>Nollställ</translation>
     </message>
@@ -14964,11 +15358,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1545"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1849"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2157"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2362"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2898"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3738"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4165"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4613"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2369"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2905"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3745"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4172"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4620"/>
       <source>Description</source>
       <translation>Beskrivning</translation>
     </message>
@@ -14978,11 +15372,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1551"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1855"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2163"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2368"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2904"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3744"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4171"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4619"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2375"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2911"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3751"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4178"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4626"/>
       <source>Point your mouse at an option to display a description in here.
 
 
@@ -14994,8 +15388,8 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="373"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2664"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4205"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2671"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4212"/>
       <source>GPU</source>
       <translation>GPU</translation>
     </message>
@@ -15261,7 +15655,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1574"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4537"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4544"/>
       <source>I/O</source>
       <translation>In/ut</translation>
     </message>
@@ -15486,779 +15880,784 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
       <translation>Land</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2391"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2325"/>
+      <source>Enable Clans</source>
+      <translation>Aktivera Clans</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2398"/>
       <source>Advanced</source>
       <translation>Avancerat</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2407"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4334"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2414"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4341"/>
       <source>Core</source>
       <translation>Kärna</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2413"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2420"/>
       <source>Debug Console Mode</source>
       <translation>Konsolläge för felsökning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2420"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2427"/>
       <source>Accurate DFMA</source>
       <translation>Exakt DFMA</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2427"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2434"/>
       <source>Accurate RSX reservation access</source>
       <translation>Exakt RSX-reservationsåtkomst</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2434"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2441"/>
       <source>Accurate SPU DMA</source>
       <translation>Exakt SPU DMA</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2441"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2448"/>
       <source>Disable SPU GETLLAR Spin Optimization</source>
       <translation>Inaktivera SPU GETLLAR Spin-optimering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2448"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2455"/>
       <source>Enable SPU Events Busy Loop</source>
       <translation>Aktivera SPU Events Busy Loop</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2455"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2462"/>
       <source>PPU Non-Java Mode Fixup</source>
       <translation>PPU-lösning för icke-Java-läge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2462"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2469"/>
       <source>PPU/SPU LLVM Precompilation</source>
       <translation>PPU/SPU LLVM-förkompilering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2469"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2476"/>
       <source>Delay each odd MFC Command</source>
       <translation>Fördröj varje udda MFC-kommando</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2476"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2483"/>
       <source>Anti-Cheat Savestates Mode</source>
       <translation>Läge för anti-cheat i sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2483"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2490"/>
       <source>SPU-Compatible Savestates Mode</source>
       <translation>SPU-kompatibelt Savestates-läge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2490"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2497"/>
       <source>Silence All Logs</source>
       <translation>Tysta alla loggar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2506"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2513"/>
       <source>Sleep Timers Accuracy</source>
       <translation>Noggrannhet för vilotimer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2524"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2531"/>
       <source>Maximum Number of SPURS Threads</source>
       <translation>Maximalt antal SPURS-trådar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2542"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2549"/>
       <source>Clocks Scale</source>
       <translation>Klockskala</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2557"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2564"/>
       <source>100%</source>
       <translation>100%</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2599"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2606"/>
       <source>Firmware Libraries</source>
       <translation>Firmware-bibliotek</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2670"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2677"/>
       <source>Read Depth Buffers</source>
       <translation>Buffertar för läsdjup</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2677"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2684"/>
       <source>Write Depth Buffers</source>
       <translation>Buffertar för skrivdjup</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2684"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2691"/>
       <source>Read Color Buffers</source>
       <translation>Läs färgbuffertar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2691"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2698"/>
       <source>Handle RSX memory tiling</source>
       <translation>Hantering av RSX memory tiling</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2698"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2705"/>
       <source>Disable Vertex Cache</source>
       <translation>Inaktivera Vertex-cache</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2705"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2712"/>
       <source>Allow Host GPU Labels (Experimental)</source>
       <translation>Tillåt GPU-etiketter för värdar (experimentell)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2712"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2719"/>
       <source>Force Hardware MSAA Resolve</source>
       <translation>Tvinga MSAA-lösning i hårdvara</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2719"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2726"/>
       <source>Use Re-BAR memory for GPU uploads</source>
       <translation>Använd Re-BAR-minne för GPU-uppladdningar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2726"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2733"/>
       <source>Disable MSL Fast Math</source>
       <translation>Inaktivera MSL Fast Math</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2742"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2749"/>
       <source>RSX FIFO Accuracy</source>
       <translation>RSX FIFO-noggrannhet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2760"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2767"/>
       <source>Exclusive Fullscreen Mode</source>
       <translation>Exklusivt helskärmsläge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2778"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2785"/>
       <source>Driver Wake-Up Delay</source>
       <translation>Fördröjning av drivrutinsuppvaknande</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2793"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2800"/>
       <source>1 µs</source>
       <translation>1 µs</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2821"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2828"/>
       <source>VBlank Frequency</source>
       <translation>VBlank-frekvens</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2836"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2843"/>
       <source>60 Hz</source>
       <translation>60 Hz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2855"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2862"/>
       <source>VBlank NTSC Fixup</source>
       <translation>Korrigera VBlank NTSC</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2927"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2934"/>
       <source>Emulator</source>
       <translation>Emulator</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2937"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2944"/>
       <source>Emulator Settings</source>
       <translation>Emulatorinställningar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2943"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2950"/>
       <source>Exit RPCS3 when process finishes</source>
       <translation>Avsluta RPCS3 när processen är färdig</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2950"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2957"/>
       <source>Pause emulation on RPCS3 focus loss</source>
       <translation>Pausa emulering vid fokusförlust på RPCS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2957"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2964"/>
       <source>Pause emulation after loading savestates</source>
       <translation>Pausa emulering efter inläsning av sparade tillstånd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2964"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2971"/>
       <source>Pause emulation during home menu</source>
       <translation>Pausa emuleringen under hemmenyn</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2971"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2978"/>
       <source>Prevent display sleep while running games</source>
       <translation>Förhindra att skärmen sover när du kör spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2978"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2985"/>
       <source>Show trophy popups</source>
       <translation>Visa trofépopup</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2985"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2992"/>
       <source>Show RPCN popups</source>
       <translation>Visa RPCN-popup</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2992"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2999"/>
       <source>Show shader compilation hint</source>
       <translation>Visa tips om shaderkompilering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2999"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3006"/>
       <source>Show PPU compilation hint</source>
       <translation>Visa PPU-kompileringstips</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3006"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3013"/>
       <source>Show autosave/autoload hint</source>
       <translation>Visa autospar/autoload-tips</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3013"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3020"/>
       <source>Show analog limiter toggle hint</source>
       <translation>Visa växlingstips för analog begränsare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3020"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3027"/>
       <source>Show pressure intensity toggle hint</source>
       <translation>Visa växlingstips för tryckintensitet</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3027"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
       <source>Show mouse and keyboard toggle hint</source>
       <translation>Visa tips för växling mellan mus och tangentbord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
       <source>Show capture hints</source>
       <translation>Visa inspelningstips</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3048"/>
       <source>Start games in fullscreen mode</source>
       <translation>Starta spel i helskärmsläge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3048"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3055"/>
       <source>Use native user interface</source>
       <translation>Använd inbyggt användargränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3055"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3062"/>
       <source>Record with overlays</source>
       <translation>Spela in med överlägg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3062"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3069"/>
       <source>Enable GameMode</source>
       <translation>Aktivera GameMode</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3088"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3095"/>
       <source>Max LLVM Compile Threads</source>
       <translation>Max LLVM-kompileringstrådar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3100"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3107"/>
       <source>Max Shader Compile Threads</source>
       <translation>Max shader-kompileringstrådar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3116"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3123"/>
       <source>Viewport</source>
       <translation>Visningsområde</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3122"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3129"/>
       <source>Ignore doubleclicks for Fullscreen</source>
       <translation>Ignorera dubbelklick för helskärm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3129"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3136"/>
       <source>Ignore keyboard hotkeys</source>
       <translation>Ignorera snabbtangenter</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3136"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3143"/>
       <source>Show mouse cursor in Fullscreen</source>
       <translation>Visa muspekare i helskärm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3143"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3150"/>
       <source>Lock mouse cursor in Fullscreen</source>
       <translation>Lås muspekare i helskärm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3165"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3172"/>
       <source>Hide mouse cursor if idle</source>
       <translation>Dölj muspekare om overksam</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3181"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3188"/>
       <source>ms</source>
       <translation>ms</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3218"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3225"/>
       <source>Resize game window on boot</source>
       <translation>Storleksändra spelfönstret vid uppstart</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3225"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3232"/>
       <source>Resize manually</source>
       <translation>Storleksändra manuellt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3234"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3241"/>
       <source>Width</source>
       <translation>Bredd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3265"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3272"/>
       <source>Height</source>
       <translation>Höjd</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3307"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3314"/>
       <source>Shader Loading Screen</source>
       <translation>Inläsningsskärm för shader</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3313"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3320"/>
       <source>Allow custom background</source>
       <translation>Tillåt anpassad bakgrund</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3320"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3327"/>
       <source>Background darkening:</source>
       <translation>Mörkare bakgrund:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3334"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3341"/>
       <source>Background blur:</source>
       <translation>Bakgrundsoskärpa:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3367"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3374"/>
       <source>Game Window Title</source>
       <translation>Titel för spelfönstret</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3385"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3392"/>
       <source>Reset the game window title to default</source>
       <translation>Nollställ spelfönstrets titel till standard</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3395"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3402"/>
       <source>Edit the game window title</source>
       <translation>Redigera spelfönstrets titel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3398"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3405"/>
       <source>Edit</source>
       <translation>Redigera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3414"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3421"/>
       <source>Performance Overlay</source>
       <translation>Prestandaöverlägg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3420"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3427"/>
       <source>Enable performance overlay</source>
       <translation>Aktivera prestandaöverlägg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3427"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3434"/>
       <source>Show framerate graph</source>
       <translation>Visa graf över bildfrekvens</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3434"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3441"/>
       <source>Show frametime graph</source>
       <translation>Visa graf över bildtid</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3456"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3463"/>
       <source>Detail Level:</source>
       <translation>Detaljnivå:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3484"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3491"/>
       <source>Position:</source>
       <translation>Position:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3497"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3504"/>
       <source>Horizontal Margin:</source>
       <translation>Horisontell marginal:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3506"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3527"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3513"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3534"/>
       <source>Centered</source>
       <translation>Centrerad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3518"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3525"/>
       <source>Vertical Margin:</source>
       <translation>Vertikal marginal:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3554"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3561"/>
       <source>Update Interval:</source>
       <translation>Uppdateringsintervall:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3592"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3599"/>
       <source>Font Size: </source>
       <translation>Typsnittsstorlek: </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3624"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3631"/>
       <source>Opacity:</source>
       <translation>Opacitet:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3653"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3660"/>
       <source>Framerate datapoints:</source>
       <translation>Datapunkter för bildfrekvens:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3682"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3689"/>
       <source>Frametime datapoints:</source>
       <translation>Datapunkter för bildtid:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3767"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3774"/>
       <source>GUI</source>
       <translation>Grafiskt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3777"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3784"/>
       <source>UI Stylesheets</source>
       <translation>Stilmallar för grafiskt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3786"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3793"/>
       <source>Apply</source>
       <translation>Tillämpa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3796"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3803"/>
       <source>UI Colors</source>
       <translation>Färger för grafiskt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3814"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3821"/>
       <source>Use custom UI Colors</source>
       <translation>Använd anpassade färger för grafikt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3821"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3828"/>
       <source>Gamelist icons</source>
       <translation>Ikoner för spellista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3828"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3835"/>
       <source>Save manager icons</source>
       <translation>Spara hanterarikoner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3835"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3842"/>
       <source>Trophy manager icons</source>
       <translation>Ikoner för troféhanterare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3865"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3872"/>
       <source>Log</source>
       <translation>Logg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3892"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3899"/>
       <source>Maximum log blocks (0 = no limit)</source>
       <translation>Maximalt antal loggblock (0 = ingen begränsning)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3927"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3934"/>
       <source>Maximum TTY blocks (0 = no limit)</source>
       <translation>Maximalt antal TTY-block (0 = ingen begränsning)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3947"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3954"/>
       <source>Pad Input</source>
       <translation>Kontrollerinmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3953"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3960"/>
       <source>Enable Pad Navigation</source>
       <translation>Aktivera kontrollernavigering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3960"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3967"/>
       <source>Allow Global Pad Navigation</source>
       <translation>Tillåt global kontrollernavigering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3990"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3997"/>
       <source>UI Options</source>
       <translation>Alternativ för grafiskt gränssnitt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3996"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4003"/>
       <source>Show Welcome Screen</source>
       <translation>Visa välkomstskärm</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4003"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4010"/>
       <source>Show Exit Game Dialog</source>
       <translation>Visa dialog för avsluta spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4010"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4017"/>
       <source>Show Boot Game Dialog</source>
       <translation>Visa dialog för starta upp spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4017"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4024"/>
       <source>Show PKG Installation Dialog</source>
       <translation>Visa dialog för PKG-installation</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4024"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4031"/>
       <source>Show PUP Installation Dialog</source>
       <translation>Visa dialog för PUP-installation</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4031"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4038"/>
       <source>Show Obsolete Settings Dialog</source>
       <translation>Visa föråldrad inställningsdialog</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4038"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4045"/>
       <source>Show Duplicate Buttons Dialog</source>
       <translation>Visa dialog för dubbletta knappar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4045"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4052"/>
       <source>Show Restart Dialog</source>
       <translation>Visa omstartsdialog</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4071"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4078"/>
       <source>Check for updates on startup</source>
       <translation>Leta efter uppdateringar vid uppstart</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4083"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4090"/>
       <source>Discord</source>
       <translation>Discord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4089"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4096"/>
       <source>Use Discord Rich Presence</source>
       <translation>Använd Discord Rich Presence</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4096"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4103"/>
       <source>Discord Status:</source>
       <translation>Discord-status:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4119"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4126"/>
       <source>Installation ID</source>
       <translation>Installations-ID</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4125"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4132"/>
       <source>UUID-placeholder</source>
       <translation>UUID-platshållare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4135"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4142"/>
       <source>Create new ID</source>
       <translation>Skapa nytt id</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4194"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4201"/>
       <source>Debug</source>
       <translation>Felsök</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4214"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4221"/>
       <source>Debug Output</source>
       <translation>Felsökningsutdata</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4221"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4228"/>
       <source>Debug Overlay</source>
       <translation>Felsökningsöverlägg</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4228"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4235"/>
       <source>Disable FIFO Reordering</source>
       <translation>Inaktivera FIFO-omordning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4235"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4242"/>
       <source>Disable Video Output</source>
       <translation>Inaktivera videoutmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4242"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4249"/>
       <source>Disable Vulkan Memory Allocator</source>
       <translation>Inaktivera Vulkan Memory Allocator</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4249"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4256"/>
       <source>Disable ZCull Occlusion Queries</source>
       <translation>Inaktivera ZCull Occlusion Queries</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4256"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4263"/>
       <source>Force CPU Blit Emulation</source>
       <translation>Tvinga CPU Blit-emulering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4263"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4270"/>
       <source>Force GPU Texture Scaling</source>
       <translation>Tvinga fram GPU-texturskalning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4270"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4277"/>
       <source>Log Shader Programs</source>
       <translation>Logga shader-program</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4280"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4287"/>
       <source>Renderdoc Compatibility Mode</source>
       <translation>Kompatibilitetsläge för Renderdoc</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4287"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4294"/>
       <source>Strict Texture Flushing</source>
       <translation>Strikt spolning av textur</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4294"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4301"/>
       <source>Use High Precision Z-Buffer</source>
       <translation>Använd Z-buffert med hög precision</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4301"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4308"/>
       <source>Disable Asynchronous Memory Manager</source>
       <translation>Inaktivera asynkron minneshanterare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4308"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4315"/>
       <source>Disable On-Disk Shader Cache</source>
       <translation>Inaktivera Shader-cache på disk</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4340"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4347"/>
       <source>Automatically start games after boot</source>
       <translation>Starta automatiskt spel efter uppstart</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4347"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4354"/>
       <source>Enable performance report</source>
       <translation>Aktivera prestandarapport</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4354"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4361"/>
       <source>Hook static functions</source>
       <translation>Hook statiska funktioner</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4361"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4368"/>
       <source>PPU Debug</source>
       <translation>PPU-felsökning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4368"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4375"/>
       <source>SPU Debug</source>
       <translation>SPU-felsökning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4375"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4382"/>
       <source>MFC Debug</source>
       <translation>MFC-felsökning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4382"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4389"/>
       <source>Set DAZ and FTZ</source>
       <translation>Ställ in DAZ och FTZ</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4389"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4396"/>
       <source>Accurate PPU Saturation Bit</source>
       <translation>Exakt PPU Saturation-bit</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4396"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4403"/>
       <source>Accurate PPU Non-Java Mode</source>
       <translation>Exakt PPU icke-Java-läge</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4403"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4410"/>
       <source>Accurate PPU Vector NaN Handling</source>
       <translation>Noggrann PPU-vektor NaN-hantering</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4410"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4417"/>
       <source>Accurate PPU Float Condition Control</source>
       <translation>Noggrann PPU Float Condition Control</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4417"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4424"/>
       <source>Accurate Cache Line Stores</source>
       <translation>Exakta cache line stores</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4424"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4431"/>
       <source>PPU Vector NaN Fixup</source>
       <translation>PPU Vektor NaN Fixup</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4431"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4438"/>
       <source>SPU Profiler</source>
       <translation>SPU-profilerare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4472"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4479"/>
       <source>Accurate PPU 128 Reservations</source>
       <translation>Exakta PPU 128-reservationer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4484"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4491"/>
       <source>PPU Thread Count</source>
       <translation>PPU trådantal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4496"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4503"/>
       <source>LOD Bias Offset</source>
       <translation>LOD Förskjutning av förspänning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4532"/>
       <source>Vulkan Queue Scheduler</source>
       <translation>Schemaläggare för Vulkan-köer</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4543"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4550"/>
       <source>Debug Overlay For Pad Input</source>
       <translation>Felsökningsöverlägg för kontrollerinmatning</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4550"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4557"/>
       <source>Debug Overlay For Mouse Input</source>
       <translation>Felsökningsöverlägg för musinmatning</translation>
     </message>
@@ -16428,162 +16827,162 @@ Varje alternativ beror i hög grad på spelet och på din CPU, det rekommenderas
       <translation>Maximal storlek: %0 MB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1556"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1561"/>
       <source>Unlimited (Default)</source>
       <comment>Max SPURS threads</comment>
       <translation>Obegränsat (standard)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1583"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1588"/>
       <source>%0 Hz</source>
       <comment>VBlank rate</comment>
       <translation>%0 Hz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1592"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1597"/>
       <source>%0 %</source>
       <comment>Clocks scale</comment>
       <translation>%0 %</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1657"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1662"/>
       <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
       <translation>Rör inte libsysutil-biblioteken, endast för utvecklingsändamål, kommer att orsaka spelkrascher.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1664"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1669"/>
       <source>Search libraries</source>
       <comment>Library search box</comment>
       <translation>Sök bibliotek</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1776"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1781"/>
       <source>All (%1)</source>
       <comment>Max LLVM Compile Threads</comment>
       <translation>Alla (%1)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1780"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1785"/>
       <source>Auto</source>
       <comment>Max Shader Compile Threads</comment>
       <translation>Automatiskt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1918"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1923"/>
       <source>Update Interval: %0 ms</source>
       <comment>Performance overlay update interval</comment>
       <translation>Uppdateringsintervall: %0 ms</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1921"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1926"/>
       <source>Font Size: %0 px</source>
       <comment>Performance overlay font size</comment>
       <translation>Typsnittsstorlek: %0 px</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1924"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1929"/>
       <source>Opacity: %0 %</source>
       <comment>Performance overlay opacity</comment>
       <translation>Opacitet: %0 %</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1927"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1932"/>
       <source>Framerate datapoints: %0</source>
       <comment>Framerate graph datapoints</comment>
       <translation>Datapunkter för bildfrekvens: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1930"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1935"/>
       <source>Frametime datapoints: %0</source>
       <comment>Frametime graph datapoints</comment>
       <translation>Datapunkter för bildtid: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1933"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1938"/>
       <source>Background darkening: %0 %</source>
       <comment>Shader load background darkening</comment>
       <translation>Mörkare bakgrund: %0 %</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1936"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1941"/>
       <source>Background blur: %0 %</source>
       <comment>Shader load background blur</comment>
       <translation>Bakgrundsoskärpa: %0 %</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1941"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1946"/>
       <source>px</source>
       <comment>Performance overlay margin x</comment>
       <translation>px</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1944"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1949"/>
       <source>px</source>
       <comment>Performance overlay margin y</comment>
       <translation>px</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2057"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2062"/>
       <source>My Game</source>
       <comment>Game window title</comment>
       <translation>Mitt spel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2092"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2097"/>
       <source>GPU Model</source>
       <comment>Game window title</comment>
       <translation>GPU-modell</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2093"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2098"/>
       <source>CPU Model</source>
       <comment>Game window title</comment>
       <translation>CPU-modell</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2094"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2099"/>
       <source>Thread Count</source>
       <comment>Game window title</comment>
       <translation>Trådantal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2095"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2100"/>
       <source>System Memory</source>
       <comment>Game window title</comment>
       <translation>Systemminne</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2096"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2101"/>
       <source>Framerate</source>
       <comment>Game window title</comment>
       <translation>Bildfrekvens</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2097"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2102"/>
       <source>Renderer</source>
       <comment>Game window title</comment>
       <translation>Renderare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2098"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2103"/>
       <source>Title</source>
       <comment>Game window title</comment>
       <translation>Titel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2099"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2104"/>
       <source>Title ID</source>
       <comment>Game window title</comment>
       <translation>Titel-id</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2100"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2105"/>
       <source>RPCS3 Version</source>
       <comment>Game window title</comment>
       <translation>RPCS3-version</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2110"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2115"/>
       <source>Glossary:
 
 %0
@@ -16601,100 +17000,100 @@ Förhandsvisa:
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2117"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2122"/>
       <source>Game Window Title Format</source>
       <comment>Game window title</comment>
       <translation>Format för spelfönstertitel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2212"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2217"/>
       <source>Error</source>
       <translation>Fel</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2212"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2217"/>
       <source>Failed to create new installation ID!</source>
       <translation>Misslyckades med att skapa nytt installations-id!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2275"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2280"/>
       <source>Yes</source>
       <comment>Updates</comment>
       <translation>Ja</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2276"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2281"/>
       <source>Background</source>
       <comment>Updates</comment>
       <translation>Bakgrund</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2277"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2282"/>
       <source>Automatic</source>
       <comment>Updates</comment>
       <translation>Automatiskt</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2278"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2283"/>
       <source>No</source>
       <comment>Updates</comment>
       <translation>Nej</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2359"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2364"/>
       <source>Choose gamelist icon color</source>
       <comment>Settings: color dialog</comment>
       <translation>Välj ikonfärg för spellista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2363"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2368"/>
       <source>Choose save manager icon color</source>
       <comment>Settings: color dialog</comment>
       <translation>Välj ikonfärg för sparhanterare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2367"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2372"/>
       <source>Choose trophy manager icon color</source>
       <comment>Settings: color dialog</comment>
       <translation>Välj ikonfärg för troféhanterare</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2482"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2487"/>
       <source>Always Enabled</source>
       <comment>Accurate PPU 128 Reservations</comment>
       <translation>Alltid aktiverad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2483"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2488"/>
       <source>Disabled</source>
       <comment>Accurate PPU 128 Reservations</comment>
       <translation>Inaktiverad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2562"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2567"/>
       <source>None</source>
       <comment>Stylesheets</comment>
       <translation>Ingen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2567"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2572"/>
       <source>Native (%0)</source>
       <comment>Stylesheets</comment>
       <translation>Inbyggd (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2570"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2575"/>
       <source>Default (Bright)</source>
       <comment>Stylesheets</comment>
       <translation>Standard (Ljust)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2626"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2631"/>
       <source>Remove obsolete settings?</source>
       <translation>Ta bort föråldrade inställningar?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2627"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2632"/>
       <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
       <translation>Din konfigurationsfil innehåller en eller flera föråldrade poster.&lt;br&gt;Överväg att ta bort dem för de kan skapa problem för andra versioner av RPCS3.&lt;br&gt;&lt;br&gt;Vill du att programmet ska ta bort dem åt dig nu?&lt;br&gt;Denna ändring kommer genomföras när du sparar konfigurationen.</translation>
     </message>
