@@ -415,7 +415,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="972"/>
+        <location filename="rpcs3/rpcs3.cpp" line="977"/>
         <source>RPCS3 should never be run from a temporary location!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -426,7 +426,7 @@ Posizione attuale:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="985"/>
+        <location filename="rpcs3/rpcs3.cpp" line="990"/>
         <source>RPCS3 should never be run from an archive!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -437,7 +437,7 @@ Posizione corrente:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="999"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1004"/>
         <source>RPCS3 should never be run from a OneDrive path!
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
@@ -448,22 +448,22 @@ Posizione attuale:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1124"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1129"/>
         <source>Invalid command-line arguments!</source>
         <translation>Argomenti a riga di comando non validi!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1124"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1129"/>
         <source>Cannot perform multiple installations at the same time!</source>
         <translation>Impossibile portare a termine più installazioni al tempo stesso!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1318"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1323"/>
         <source>Missing command-line arguments!</source>
         <translation>Argomenti a riga di comando mancanti!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1318"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1323"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
         <translation>Impossibile eseguire la modalità no-gui senza una destinazione per l&apos;avvio.
