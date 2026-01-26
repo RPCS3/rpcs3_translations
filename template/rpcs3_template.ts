@@ -6583,49 +6583,18 @@ File was too small.</source>
 <context>
     <name>kamen_rider_creator_dialog</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="106"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="154"/>
         <source>Kamen Rider Creator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="121"/>
-        <source>--Unknown--</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="140"/>
-        <source>ID:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="141"/>
-        <source>Type:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="154"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="180"/>
         <source>Create</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="155"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="181"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="182"/>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="188"/>
-        <source>Error converting value</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="182"/>
-        <source>ID entered is invalid!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="188"/>
-        <source>Variant entered is invalid!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6653,74 +6622,74 @@ File was too small.</source>
 <context>
     <name>kamen_rider_dialog</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="261"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="263"/>
         <source>Kamen Rider Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="276"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="278"/>
         <source>Active Kamen Riders:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="287"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="289"/>
         <source>Kamen Rider %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="291"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="293"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="292"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="294"/>
         <source>Create</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="293"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="295"/>
         <source>Load</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="359"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="361"/>
         <source>Select Kamen Rider File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="359"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="361"/>
         <source>Kamen Rider (*.bin);;All Files (*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="375"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="377"/>
         <source>Failed to open the kamen rider file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="375"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="377"/>
         <source>Failed to open the kamen rider file(%1)!
 File may already be in use on the portal.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="382"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="384"/>
         <source>Failed to read the kamen rider file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="382"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="384"/>
         <source>Failed to read the kamen rider file(%1)!
 File was too small.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="412"/>
-        <source>Unknown (Id:%1 Type:%2)</source>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="413"/>
+        <source>Unknown (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="417"/>
+        <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="418"/>
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8962,153 +8931,158 @@ Subject:</source>
 <context>
     <name>log_frame</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="113"/>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="154"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="114"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="155"/>
         <source>Log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="139"/>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="322"/>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="328"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="140"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="323"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="329"/>
         <source>Channel %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="143"/>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="311"/>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="317"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="144"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="312"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="318"/>
         <source>All user channels</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="155"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="156"/>
         <source>TTY</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="239"/>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="247"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="240"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="248"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="254"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="255"/>
         <source>Go-To on Debugger</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="261"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="262"/>
         <source>Show in Memory Viewer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="269"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="270"/>
         <source>Invalid Hex</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="269"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="270"/>
         <source>“%0” is not a valid 32-bit hex value.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="276"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="277"/>
         <source>Show Thread on Debugger</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="283"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="284"/>
         <source>Stack Mode (TTY)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="291"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="292"/>
         <source>ANSI Code (TTY)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="334"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="335"/>
         <source>Nothing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="336"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
         <source>Fatal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="339"/>
         <source>Todo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="339"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="341"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="341"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="342"/>
         <source>Notice</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="342"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="343"/>
         <source>Trace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="344"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="345"/>
         <source>Stack Mode (Log)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="352"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="353"/>
         <source>Stack Cell Errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="360"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="361"/>
         <source>Show Thread Prefix</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="368"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="369"/>
+        <source>Print Log/TTY while hidden</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="381"/>
         <source>Enable TTY</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="398"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="411"/>
         <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="399"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="412"/>
         <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="400"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="413"/>
         <source>Jump to the selected hexadecimal address from the log text on the memory viewer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="423"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="437"/>
         <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="424"/>
+        <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="438"/>
         <source>Jump to the selected hexadecimal address from the TTY text on the memory viewer.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11482,6 +11456,8 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="494"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="512"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2142"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1804"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1806"/>
         <source>Up</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11514,6 +11490,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2381"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2459"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2706"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1808"/>
         <source>Right</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11527,6 +11504,8 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="635"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="653"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2283"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1805"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1807"/>
         <source>Down</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11644,6 +11623,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1271"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1809"/>
         <source>L1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11654,6 +11634,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1302"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1810"/>
         <source>L2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11694,6 +11675,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1514"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1812"/>
         <source>R1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11714,6 +11696,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1641"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1811"/>
         <source>L3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11724,6 +11707,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1672"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1813"/>
         <source>R3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11759,6 +11743,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1905"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1803"/>
         <source>Triangle</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11769,6 +11754,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1954"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1802"/>
         <source>Square</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11779,6 +11765,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1985"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1801"/>
         <source>Circle</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11789,6 +11776,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2046"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1800"/>
         <source>Cross</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11909,7 +11897,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="169"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2065"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2170"/>
         <source>Skateboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11969,289 +11957,412 @@ Tip: SPU floats are commented along forming instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="198"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="203"/>
         <source>Relative</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="199"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="204"/>
         <source>Absolute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="348"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1386"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="353"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1391"/>
         <source>[ Waiting %1 ]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1551"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1556"/>
         <source>Custom Controller</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1605"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1610"/>
         <source>No Device Detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1716"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1721"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1721"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1726"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1726"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1731"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1731"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1736"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1736"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1741"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1741"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1746"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1746"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1751"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1751"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1756"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1756"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1761"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1761"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1766"/>
         <source>PS Move Navigation</source>
         <comment>PS Move Navigation Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1766"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1771"/>
         <source>RIDE Skateboard</source>
         <comment>Tony Hawk RIDE Skateboard Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1771"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1776"/>
         <source>GunCon 3</source>
         <comment>GunCon 3 Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1776"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1781"/>
         <source>Top Shot Elite</source>
         <comment>Top Shot Elite Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1781"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1786"/>
         <source>Top Shot Fearmaster</source>
         <comment>Top Shot Fearmaster Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1786"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1791"/>
         <source>uDraw GameTablet</source>
         <comment>uDraw GameTablet Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1796"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1819"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1831"/>
+        <source>Green Fret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1820"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1832"/>
+        <source>Red Fret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1821"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1834"/>
+        <source>Yellow Fret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1822"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1833"/>
+        <source>Blue Fret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1823"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1835"/>
+        <source>Strum Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1824"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1836"/>
+        <source>Strum Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1825"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
+        <source>Whammy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1826"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1840"/>
+        <source>Orange Fret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1837"/>
+        <source>Pickup Switch Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1838"/>
+        <source>Pickup Switch Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1841"/>
+        <source>Solo Modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
+        <source>Tilt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1847"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1857"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1866"/>
+        <source>Green Pad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1848"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1858"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1867"/>
+        <source>Red Pad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1849"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1859"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1868"/>
+        <source>Blue Pad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1850"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1860"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1869"/>
+        <source>Yellow Pad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1851"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1861"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1870"/>
+        <source>Foot Pedal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1852"/>
+        <source>Orange Pad</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1871"/>
+        <source>Pad Modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1872"/>
+        <source>Double Bass Pedal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1873"/>
+        <source>Cymbal Modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1901"/>
         <source>Choose a unique name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1797"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1902"/>
         <source>Configuration Name: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1806"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1811"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1816"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1911"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1916"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1921"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1806"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1911"/>
         <source>Name cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1811"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1916"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1816"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1921"/>
         <source>Please choose a non-existing name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1835"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1848"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1940"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1953"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2122"/>
         <source>Warning!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1835"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1940"/>
         <source>Can&apos;t remove default configuration &apos;%0&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1944"/>
         <source>Remove Configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1839"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1944"/>
         <source>Do you really want to remove the configuration &apos;%0&apos;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1848"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1953"/>
         <source>Failed to remove &apos;%0&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1863"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1968"/>
         <source>Removed Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1863"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1968"/>
         <source>Removed configuration &apos;%0&apos;.
 The selected configuration is now &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1876"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1981"/>
         <source>Reserved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2018"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2123"/>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2060"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2165"/>
         <source>Null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2061"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2086"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2166"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2191"/>
         <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2062"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2167"/>
         <source>DualShock 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2063"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2168"/>
         <source>DualShock 4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2064"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2169"/>
         <source>DualSense</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2066"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2171"/>
         <source>PS Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2068"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2173"/>
         <source>XInput</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2069"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2174"/>
         <source>MMJoystick</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2072"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2177"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2075"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2180"/>
         <source>Evdev</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2085"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2190"/>
         <source>Default Null Device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2087"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2192"/>
         <source>DS3 Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2088"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2193"/>
         <source>DS4 Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2089"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2194"/>
         <source>DualSense Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2090"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2195"/>
         <source>Skateboard #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2091"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2196"/>
         <source>PS Move #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2093"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2198"/>
         <source>XInput Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2094"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2199"/>
         <source>Joystick #%0</source>
         <translation type="unfinished"></translation>
     </message>
