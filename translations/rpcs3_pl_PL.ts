@@ -13890,11 +13890,6 @@ No graphics will be rendered.</source>
         <translation>Sprawdź połączenie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="188"/>
-        <source>Disable IPv6</source>
-        <translation>Wyłącz IPv6</translation>
-    </message>
-    <message>
         <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>Current ID: %0</source>
         <translation>Aktualne ID: %0</translation>

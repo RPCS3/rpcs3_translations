@@ -13325,11 +13325,6 @@ No graphics will be rendered.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="188"/>
-        <source>Disable IPv6</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>Current ID: %0</source>
         <translation type="unfinished"></translation>

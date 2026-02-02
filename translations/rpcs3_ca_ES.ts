@@ -13834,11 +13834,6 @@ No es renderitzaran els gràfics.</translation>
         <translation>Prova el compte</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="188"/>
-        <source>Disable IPv6</source>
-        <translation>Deshabilita IPv6</translation>
-    </message>
-    <message>
         <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>Current ID: %0</source>
         <translation>ID actual: %0</translation>

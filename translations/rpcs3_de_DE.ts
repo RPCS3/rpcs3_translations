@@ -13837,11 +13837,6 @@ Es werden keine Grafiken dargestellt.</translation>
         <translation>Account testen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="188"/>
-        <source>Disable IPv6</source>
-        <translation>IPv6 deaktivieren</translation>
-    </message>
-    <message>
         <location filename="rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194"/>
         <source>Current ID: %0</source>
         <translation>Aktuelle ID: %0</translation>
