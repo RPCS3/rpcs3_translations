@@ -6568,33 +6568,33 @@ Notas:
   <context>
     <name>gs_frame</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="469"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="479"/>
       <source>Recording saved: %0</source>
       <translation>Grabación guardada: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="544"/>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="557"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="554"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="567"/>
       <source>Recording not possible</source>
       <translation>No es posible grabar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="570"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="580"/>
       <source>Recording started</source>
       <translation>Grabación iniciada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1093"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1103"/>
       <source>Screenshot saved: %0</source>
       <translation>Pantalla capturada: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1177"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1187"/>
       <source>Exit Game?</source>
       <translation>¿Abandonar juego?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1178"/>
+      <location filename="./rpcs3/rpcs3qt/gs_frame.cpp" line="1188"/>
       <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
       <translation>¿Seguro que quieres abandonar el juego?&lt;br&gt;&lt;br&gt;¡Se perderán todos los avances no guardados!&lt;br&gt;</translation>
     </message>
@@ -9568,143 +9568,168 @@ Asunto:</translation>
   <context>
     <name>log_viewer</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="31"/>
-      <source>Log Viewer</source>
-      <translation>Visualizador de registros</translation>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="69"/>
+      <source> | Filter &apos;%0&apos;</source>
+      <translation> | Filtrar «%0»</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="65"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="74"/>
+      <source> | Exclude &apos;%0&apos;</source>
+      <translation> | Excluir «%0»</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="77"/>
+      <source>Log Viewer%0</source>
+      <translation>Visualizador de registros%0</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="83"/>
       <source>&amp;Clear</source>
       <translation>&amp;Borrar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="66"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="84"/>
       <source>&amp;Copy</source>
       <translation>&amp;Copiar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="67"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="85"/>
       <source>&amp;Open log file</source>
       <translation>&amp;Abrir archivo de registro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="68"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="86"/>
       <source>&amp;Save filtered log</source>
       <translation>&amp;Guardar registro filtrado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="69"/>
-      <source>&amp;Filter log</source>
-      <translation>&amp;Filtrar registro</translation>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="87"/>
+      <source>&amp;Filter log%0</source>
+      <translation>&amp;Filtrar registro%0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="70"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="88"/>
+      <source>&amp;Exclude%0</source>
+      <translation>%Excluir%0</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="89"/>
       <source>&amp;Check config</source>
       <translation>&amp;Comprobar archivo de configuración</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="72"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="91"/>
       <source>&amp;Show Timestamps</source>
       <translation>&amp;Mostrar marcas de tiempo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="76"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="95"/>
       <source>&amp;Show Threads</source>
       <translation>&amp;Mostrar subprocesos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="80"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="99"/>
       <source>&amp;Last actions only</source>
       <translation>&amp;Solo mostrar las últimas acciones</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="85"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="104"/>
       <source>Fatal</source>
       <translation>Fatal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="86"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="105"/>
       <source>Error</source>
       <translation>Error</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="87"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="106"/>
       <source>Todo</source>
       <translation>Pendiente</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="88"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="107"/>
       <source>Success</source>
       <translation>Completado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="89"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="108"/>
       <source>Warning</source>
       <translation>Advertencia</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="90"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="109"/>
       <source>Notice</source>
       <translation>Aviso</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="91"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="110"/>
       <source>Trace</source>
       <translation>Seguimiento</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="144"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="164"/>
       <source>Select log file</source>
       <translation>Seleccionar archivo de registro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="144"/>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="153"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="164"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="173"/>
       <source>Log files (*.log *.gz);;All files (*.*)</source>
       <translation>Archivos de registro (*.log *.gz);;Todos los archivos (*.*)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="153"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="173"/>
       <source>Save to file</source>
       <translation>Guardar a archivo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="190"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="211"/>
       <source>Filter log</source>
       <translation>Filtrar registro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="190"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="211"/>
       <source>Enter text</source>
       <translation>Introducir texto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="239"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="221"/>
+      <source>Exclude</source>
+      <translation>Excluir</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="221"/>
+      <source>Enter text (comma separated)</source>
+      <translation>Introducir texto (separado por comas)</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="274"/>
       <source>Loading file...</source>
       <translation>Cargando archivo...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="272"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="307"/>
       <source>Failed to open &apos;%0&apos;</source>
       <translation>Error al abrir «%0»</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="285"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="320"/>
       <source>Pasting...</source>
       <translation>Pegando...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="301"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="336"/>
       <source>Filtering...</source>
       <translation>Filtrando...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="406"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="446"/>
       <source>Ooops!</source>
       <translation>¡Vaya, hombre!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="406"/>
+      <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="446"/>
       <source>Cannot find any game boot!</source>
       <translation>¡No se ha podido encontrar ningún arranque de juegos!</translation>
     </message>
@@ -12621,13 +12646,13 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1823"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1835"/>
       <source>Strum Up</source>
-      <translation>Barra de toque hacia arriba</translation>
+      <translation>Rasguear/Toque arriba</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1824"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1836"/>
       <source>Strum Down</source>
-      <translation>Barra de toque hacia abajo</translation>
+      <translation>Rasguear/Toque abajo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1825"/>
@@ -12644,12 +12669,12 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1837"/>
       <source>Pickup Switch Up</source>
-      <translation>Subir interruptor de 5 entradas</translation>
+      <translation>Interruptor/Control de efectos arriba</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1838"/>
       <source>Pickup Switch Down</source>
-      <translation>Bajar interruptor de 5 entradas</translation>
+      <translation>Interruptor/Control de efectos abajo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1841"/>
@@ -14638,7 +14663,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1283"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1280"/>
       <source>Friend request cancelled!</source>
       <translation>¡Solicitud de amistad cancelada!</translation>
     </message>
@@ -14659,89 +14684,99 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
-      <source>Error adding a friend!</source>
-      <translation>¡Error al añadir amigo!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
-      <source>An error occurred while trying to add a friend!</source>
-      <translation>¡Se ha producido un error al añadir a un amigo!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1351"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
       <source>Friend added!</source>
       <translation>¡Amigo añadido!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1271"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267"/>
       <source>You&apos;ve successfully added a friend!</source>
       <translation>¡Has añadido a un amigo!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1279"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276"/>
       <source>Error rejecting friend request!</source>
       <translation>¡Error al rechazar la solicitud de amistad!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1279"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276"/>
       <source>An error occurred while trying to reject the friend request!</source>
       <translation>¡Se ha producido un error al rechazar la solicitud de amistad!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1283"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1280"/>
       <source>You&apos;ve successfully rejected the friend request!</source>
       <translation>¡Has rechazado la solicitud de amistad!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1303"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1300"/>
       <source>&amp;Send Friend Request</source>
       <translation>&amp;Enviar solicitud de amistad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1309"/>
-      <source>Error sending a friend request!</source>
-      <translation>¡Error al enviar la solicitud de amistad!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1309"/>
-      <source>An error occurred while trying to send a friend request!</source>
-      <translation>¡Se ha producido un error al enviar la solicitud de amistad!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1328"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1322"/>
       <source>Add a friend</source>
       <translation>Añadir amigo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1328"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1322"/>
       <source>Friend&apos;s username:</source>
       <translation>Nombre del amigo:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1335"/>
       <source>Error validating username!</source>
       <translation>¡Error al validar el nombre de usuario!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1335"/>
       <source>The username you entered is invalid!</source>
       <translation>¡El nombre de usuario no es válido!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1346"/>
-      <source>Error adding friend!</source>
-      <translation>¡Error al añadir amigo!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1346"/>
-      <source>An error occurred while adding a friend!</source>
-      <translation>¡Se ha producido un error al añadir a un amigo!</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1351"/>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
       <source>Friend was successfully added!</source>
       <translation>¡Has añadido a un amigo!</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1366"/>
+      <source>The specified username does not exist.</source>
+      <translation>El nombre de usuario indicado no existe.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1367"/>
+      <source>You cannot add yourself as a friend.</source>
+      <translation>No puedes añadirte a ti mismo como amigo.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1368"/>
+      <source>You or the other user have the other blocked.</source>
+      <translation>El otro usuario o tú os habéis bloqueado.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1369"/>
+      <source>You are already friends with this user.</source>
+      <translation>Este usuario ya está en tu lista de amigos.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1370"/>
+      <source>A database error occurred. Please try again later.</source>
+      <translation>Se ha producido un error en la base de datos. Vuelve a intentarlo más tarde.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1371"/>
+      <source>An unexpected error occurred.</source>
+      <translation>Se ha producido un error inesperado.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1377"/>
+      <source>Failed to send the friend request.</source>
+      <translation>Error al enviar la solicitud de amistad.</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1382"/>
+      <source>Friend Request Failed</source>
+      <translation>Error al solicitar amistad</translation>
     </message>
   </context>
   <context>
@@ -17228,111 +17263,116 @@ Previsualización:
   <context>
     <name>shortcut_settings</name>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="64"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="65"/>
       <source>Start</source>
       <translation>Ejecutar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="65"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="66"/>
       <source>Stop</source>
       <translation>Detener</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="66"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="67"/>
       <source>Pause</source>
       <translation>Pausar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="67"/>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="83"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="68"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="84"/>
       <source>Restart</source>
       <translation>Reiniciar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="68"/>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="71"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="69"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="72"/>
       <source>Toggle Fullscreen</source>
       <translation>Alternar pantalla completa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="69"/>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="72"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="70"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="73"/>
       <source>Exit Fullscreen</source>
       <translation>Salir de pantalla completa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="70"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="71"/>
       <source>Refresh</source>
       <translation>Actualizar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="73"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="74"/>
       <source>Add Log Mark</source>
       <translation>Añadir marca en registro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="74"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="75"/>
       <source>Mouse lock</source>
       <translation>Restringir ratón</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="75"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="76"/>
       <source>Start/Stop Recording</source>
       <translation>Iniciar/Detener grabación</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="76"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="77"/>
       <source>Screenshot</source>
       <translation>Capturar pantalla</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="77"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="78"/>
       <source>Pause/Play</source>
       <translation>Pausar/Reproducir</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="78"/>
       <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="79"/>
       <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="80"/>
       <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="81"/>
       <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="82"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="83"/>
       <source>Savestate</source>
       <translation>Guardado rápido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="84"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="85"/>
       <source>RSX Capture</source>
       <translation>Capturar RSX</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="85"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="86"/>
       <source>Toggle Framelimit</source>
       <translation>Alternar limitador de fotogramas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="86"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="87"/>
       <source>Toggle Keyboard</source>
       <translation>Alternar teclado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="87"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="88"/>
       <source>Open Home Menu</source>
       <translation>Abrir menú de inicio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="88"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="89"/>
       <source>Mute/Unmute Audio</source>
       <translation>Activar/Desactivar audio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="89"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="90"/>
       <source>Volume Up</source>
       <translation>Subir volumen</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="90"/>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="91"/>
       <source>Volume Down</source>
       <translation>Bajar volumen</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="92"/>
+      <source>Toggle Mouse-based Gyro</source>
+      <translation>Alternar mover el giroscopio con el ratón</translation>
     </message>
   </context>
   <context>
