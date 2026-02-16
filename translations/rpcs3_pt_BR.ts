@@ -9413,15 +9413,15 @@ Assunto:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="140"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="323"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="329"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="318"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="324"/>
       <source>Channel %0</source>
       <translation>Canal %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="144"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="312"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="318"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="307"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="313"/>
       <source>All user channels</source>
       <translation>Todos os canais de usuário</translation>
     </message>
@@ -9431,133 +9431,133 @@ Assunto:</translation>
       <translation>TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="240"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="248"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="235"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="243"/>
       <source>Clear</source>
       <translation>Limpar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="255"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="250"/>
       <source>Go-To on Debugger</source>
       <translation>Ir Para no Depurador</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="262"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="257"/>
       <source>Show in Memory Viewer</source>
       <translation>Mostrar no Visualizador de Memória</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="265"/>
       <source>Invalid Hex</source>
       <translation>Hexadecimal Inválido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="265"/>
       <source>“%0” is not a valid 32-bit hex value.</source>
       <translation>“%0” não é um valor hexadecimal de 32 bits válido.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="272"/>
       <source>Show Thread on Debugger</source>
       <translation>Mostrar Thread no Depurador</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="284"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="279"/>
       <source>Stack Mode (TTY)</source>
       <translation>Modo Pilha (TTY)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="292"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="287"/>
       <source>ANSI Code (TTY)</source>
       <translation>Codificação ANSI (TTY)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="335"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="330"/>
       <source>Nothing</source>
       <translation>Nada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="332"/>
       <source>Fatal</source>
       <translation>Fatal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="333"/>
       <source>Error</source>
       <translation>Erro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="339"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="334"/>
       <source>Todo</source>
       <translation>Pendente</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="335"/>
       <source>Success</source>
       <translation>Sucesso</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="341"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="336"/>
       <source>Warning</source>
       <translation>Aviso</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="342"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
       <source>Notice</source>
       <translation>Aviso</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="343"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
       <source>Trace</source>
       <translation>Rastrear</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="345"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
       <source>Stack Mode (Log)</source>
       <translation>Modo Pilha (Registro)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="353"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="348"/>
       <source>Stack Cell Errors</source>
       <translation>Pilha de Erros Cell</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="361"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="356"/>
       <source>Show Thread Prefix</source>
       <translation>Mostrar Prefixo de Thread</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="369"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="364"/>
       <source>Print Log/TTY while hidden</source>
       <translation>Imprimir Registro/TTY quando oculto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="381"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="376"/>
       <source>Enable TTY</source>
       <translation>Habilitar TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="411"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="406"/>
       <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
       <translation>Acesse o endereço hexadecimal selecionado a partir do texto de registro no depurador.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="412"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="407"/>
       <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
       <translation>Mostrar a thread que corresponde ao ID de thread presente no texto do registro do depurador.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="413"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="408"/>
       <source>Jump to the selected hexadecimal address from the log text on the memory viewer.</source>
       <translation>Acesse o endereço hexadecimal selecionado a partir do texto de registro no visualizador de memória.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="437"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="432"/>
       <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
       <translation>Acesse o endereço hexadecimal selecionado a partir do texto TTY no depurador.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="438"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="433"/>
       <source>Jump to the selected hexadecimal address from the TTY text on the memory viewer.</source>
       <translation>Acesse o endereço hexadecimal selecionado a partir do texto TTY no visualizador de memória.</translation>
     </message>

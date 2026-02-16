@@ -9409,15 +9409,15 @@ Subject:</source>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="140"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="323"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="329"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="318"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="324"/>
       <source>Channel %0</source>
       <translation>频道 %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="144"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="312"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="318"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="307"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="313"/>
       <source>All user channels</source>
       <translation>所有用户频道</translation>
     </message>
@@ -9427,133 +9427,133 @@ Subject:</source>
       <translation>TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="240"/>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="248"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="235"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="243"/>
       <source>Clear</source>
       <translation>删除</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="255"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="250"/>
       <source>Go-To on Debugger</source>
       <translation>Go-To on Debugger</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="262"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="257"/>
       <source>Show in Memory Viewer</source>
       <translation>在内存查看器中显示</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="265"/>
       <source>Invalid Hex</source>
       <translation>无效的十六进制</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="265"/>
       <source>“%0” is not a valid 32-bit hex value.</source>
       <translation>“%0” 不是一个有效的 32 位十六进制值。</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="272"/>
       <source>Show Thread on Debugger</source>
       <translation>Show Thread on Debugger</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="284"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="279"/>
       <source>Stack Mode (TTY)</source>
       <translation>堆栈模式 (TTY)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="292"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="287"/>
       <source>ANSI Code (TTY)</source>
       <translation>ANSI码 (TTY)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="335"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="330"/>
       <source>Nothing</source>
       <translation>无</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="332"/>
       <source>Fatal</source>
       <translation>致命错误</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="333"/>
       <source>Error</source>
       <translation>错误</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="339"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="334"/>
       <source>Todo</source>
       <translation>待办</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="335"/>
       <source>Success</source>
       <translation>成功</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="341"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="336"/>
       <source>Warning</source>
       <translation>警告</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="342"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="337"/>
       <source>Notice</source>
       <translation>通知</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="343"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="338"/>
       <source>Trace</source>
       <translation>轨迹</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="345"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="340"/>
       <source>Stack Mode (Log)</source>
       <translation>堆栈模式 (日志)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="353"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="348"/>
       <source>Stack Cell Errors</source>
       <translation>堆栈单元错误</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="361"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="356"/>
       <source>Show Thread Prefix</source>
       <translation>显示线程前缀</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="369"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="364"/>
       <source>Print Log/TTY while hidden</source>
       <translation>隐藏时打印日志 / 终端</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="381"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="376"/>
       <source>Enable TTY</source>
       <translation>启用TTY</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="411"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="406"/>
       <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
       <translation>从调试器的日志文本中跳转到所选的十六进制地址。</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="412"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="407"/>
       <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
       <translation>在调试器的日志文本中显示对应线程ID的线程。</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="413"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="408"/>
       <source>Jump to the selected hexadecimal address from the log text on the memory viewer.</source>
       <translation>跳转至内存查看器日志文本中的选定十六进制地址。</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="437"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="432"/>
       <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
       <translation>从调试器的TTY文本跳转到所选的十六进制地址。</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="438"/>
+      <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="433"/>
       <source>Jump to the selected hexadecimal address from the TTY text on the memory viewer.</source>
       <translation>从内存查看器的TTY文本跳转至所选的十六进制地址。</translation>
     </message>
