@@ -1092,9 +1092,9 @@ Si vous ne savez pas quoi choisir, utilisez cette option.</translation>
       <source>Searches the game&apos;s directory and precompiles extra PPU and SPU modules during boot.
 If disabled, these modules will only be compiled when needed. Depending on the game, this might interrupt the gameplay unexpectedly and possibly frequently.
 Only disable this if you want to get ingame more quickly.</source>
-      <translation>Recherche le répertoire du jeu et précompile les modules PPU et SPU supplémentaires au démarrage.
-Si désactivé, ces modules ne seront compilés que lorsque nécessaire. En fonction du jeu, cela peut interrompre le jeu de façon inattendue et parfoisfréquente.
-Ne le désactiver que si vous voulez jouer plus rapidement.</translation>
+      <translation>Précompile les modules PPU et SPU supplémentaires au démarrage.
+Si désactivé, ils seront compilés à la demande, causant des interruptions fréquentes en jeu.
+Ne désactiver que pour accélérer le démarrage.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="87"/>
