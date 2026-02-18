@@ -735,7 +735,7 @@ Faz com que alguns softwares se comportem de maneira diferente do que em hardwar
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="31"/>
       <source>Legacy option. Fixup result vector values in Non-Java Mode in PPU LLVM.
 If unsure, do not modify this setting.</source>
-      <translation>Opção legada. Ajusta os valores do vetor de resultados no Modo Não-Java PPU LLVM.
+      <translation>Opção legada. Ajusta os valores do vetor de resultados no Modo Não-Java LLVM da PPU.
 Em caso de dúvida, não modifique esta configuração.</translation>
     </message>
     <message>
@@ -743,7 +743,7 @@ Em caso de dúvida, não modifique esta configuração.</translation>
       <source>Use accurate double-precision FMA instructions in PPU and SPU backends.
 While disabling it might give a decent performance boost if your CPU doesn&apos;t support FMA, it may also introduce subtle bugs that otherwise do not occur.
 You shouldn&apos;t disable it if your CPU supports FMA.</source>
-      <translation>Utiliza instruções FMA de dupla precisão nos backends PPU e SPU.
+      <translation>Utiliza instruções FMA de dupla precisão nos backends da PPU e SPU.
 Embora desativá-las possa proporcionar um aumento de desempenho considerável se sua CPU não suportar FMA, isso também pode introduzir bugs sutis que, de outra forma, não ocorreriam.
 Você não deve desativá-las se sua CPU suportar FMA.</translation>
     </message>
@@ -751,7 +751,7 @@ Você não deve desativá-las se sua CPU suportar FMA.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="33"/>
       <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Ajuste de resultados NaN nas instruções de vetores nos backends PPU.
+      <translation>Ajuste de resultados NaN nas instruções de vetores nos backends da PPU.
 Em caso de dúvida, não modifique esta configuração.</translation>
     </message>
     <message>
@@ -1109,7 +1109,7 @@ Desative isso apenas se quiser entrar no jogo mais rapidamente.</translation>
 This is the fast option with very good compatibility.
 If unsure, use this option.</source>
       <translation>Recompila o código SPU do jogo usando o Recompilador ASMJIT.
-Esta é a opção rápida com compatibilidade muito boa.
+Esta é a opção rápida com excelente compatibilidade.
 Se não tiver certeza, use esta opção.</translation>
     </message>
     <message>
@@ -1144,7 +1144,7 @@ A alteração do escalonador de threads não é suportada em CPUs com menos de 1
       <source>Try to detect loop conditions in SPU kernels and use them as scheduling hints.
 Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
-      <translation>Tente detectar condições de loop nos kernels SPU e use-as como dicas de agendamento.
+      <translation>Tenta detectar condições de loop nos kernels SPU e usá-las como sugestões de escalonamento.
 Melhora o desempenho e reduz o uso da CPU.
 Pode causar graves falhas de áudio em casos raros.</translation>
     </message>
@@ -1222,21 +1222,21 @@ Nunca use isto.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="105"/>
       <source>Accurately set Saturation Bit values in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Define com precisão os valores de bits de saturação nos backends PPU.
+      <translation>Define com precisão os valores de bits de saturação nos backends da PPU.
 Se não tiver certeza, não modifique essa configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="106"/>
       <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Respeita os valores de Bit no Modo Não-Java para operações vetoriais em backends PPU.
+      <translation>Respeita os valores de Bit no Modo Não-Java para operações vetoriais em backends da PPU.
 Se não tiver certeza, não modifique essa configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="107"/>
       <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Define com precisão os valores de bits de saturação nos backends PPU.
+      <translation>Define com precisão os valores de bits de saturação nos backends da PPU.
 Se não tiver certeza, não modifique essa configuração.</translation>
     </message>
     <message>
@@ -2618,7 +2618,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
       <location filename="./rpcs3/rpcs3qt/breakpoint_list.cpp" line="178"/>
       <source>Cannot set breakpoints on a thread not an PPU/SPU currently, sorry.</source>
-      <translation>Atualmente, não é possível definir breakpoints em uma thread que não seja uma PPU/SPU.</translation>
+      <translation>Atualmente, não é possível definir breakpoints em uma thread que não seja PPU/SPU.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/breakpoint_list.cpp" line="184"/>
@@ -6010,7 +6010,7 @@ Progresso: %1/%2 caches compilados</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="297"/>
       <source>&amp;Edit Tooltip Notes</source>
-      <translation>&amp;Editar Observações de Dica</translation>
+      <translation>&amp;Editar Observações do Balão de Ajuda</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="298"/>
@@ -6041,7 +6041,7 @@ Progresso: %1/%2 caches compilados</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="312"/>
       <source>&amp;Remove Custom Icon</source>
-      <translation>&amp;Remove Ícone Personalizado</translation>
+      <translation>&amp;Remover Ícone Personalizado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="317"/>
@@ -6246,7 +6246,7 @@ Você pode apagar a linha para usar o título original.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="692"/>
       <source>Edit Tooltip Notes</source>
-      <translation>Editar Observações de Dica</translation>
+      <translation>Editar Observações do Balão de Ajuda</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="692"/>
@@ -6907,12 +6907,12 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="114"/>
       <source>Failed to parse PPU instruction.</source>
-      <translation>Falha ao analisar instrução PPU.</translation>
+      <translation>Falha ao analisar instrução da PPU.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="124"/>
       <source>Failed to patch PPU instruction.</source>
-      <translation>Falha ao corrigir instrução PPU.</translation>
+      <translation>Falha ao corrigir instrução da PPU.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="163"/>
@@ -8972,7 +8972,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="264"/>
       <source>Show PPU Compilation Hint</source>
       <comment>Overlays</comment>
-      <translation>Mostrar Sugestão de Compilação PPU</translation>
+      <translation>Mostrar Sugestão de Compilação da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="265"/>
@@ -9055,7 +9055,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="278"/>
       <source>Frametime Datapoints</source>
       <comment>Performance Overlay</comment>
-      <translation>Ponto de Dados do Tempo dos Quadros</translation>
+      <translation>Ponto de Dados do Tempo de Quadros</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="279"/>
@@ -16068,12 +16068,12 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2462"/>
       <source>PPU Non-Java Mode Fixup</source>
-      <translation>Ajuste do Modo Não-Java PPU</translation>
+      <translation>Ajuste do Modo Não-Java da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2469"/>
       <source>PPU/SPU LLVM Precompilation</source>
-      <translation>Pré-compilação PPU/SPU LLVM</translation>
+      <translation>Pré-compilação LLVM da PPU/SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2476"/>
@@ -16253,7 +16253,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3006"/>
       <source>Show PPU compilation hint</source>
-      <translation>Mostrar sugestão de compilação PPU</translation>
+      <translation>Mostrar sugestão de compilação da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3013"/>
@@ -16474,7 +16474,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3689"/>
       <source>Frametime datapoints:</source>
-      <translation>Ponto de dados do tempo dos quadros:</translation>
+      <translation>Ponto de dados do tempo de quadros:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3774"/>
@@ -17035,7 +17035,7 @@ Cada opção depende muito do jogo e da sua CPU; recomenda-se testar cada opçã
       <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1935"/>
       <source>Frametime datapoints: %0</source>
       <comment>Frametime graph datapoints</comment>
-      <translation>Ponto de dados do tempo dos quadros: %0</translation>
+      <translation>Ponto de dados do tempo de quadros: %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="1938"/>
