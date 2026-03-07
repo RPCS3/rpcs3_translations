@@ -751,7 +751,7 @@ Você não deve desativá-las se sua CPU suportar FMA.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="33"/>
       <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Ajuste de resultados NaN nas instruções de vetores nos backends da PPU.
+      <translation>Ajusta resultados NaN nas instruções de vetores dos backends da PPU.
 Em caso de dúvida, não modifique esta configuração.</translation>
     </message>
     <message>
@@ -6659,7 +6659,7 @@ Alguma thread provavelmente entrou no modo de bloqueio mútuo. Abortando.</trans
     <message>
       <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="860"/>
       <source>PS3 Game/Application Is Unresponsive</source>
-      <translation>O Jogo/Aplicativo do PS3 não responde</translation>
+      <translation>O Jogo/Aplicativo do PS3 Não Responde</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="864"/>
@@ -16772,7 +16772,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4417"/>
       <source>Accurate PPU Vector NaN Handling</source>
-      <translation>Manipulação PPU Vetor NaN Precisa</translation>
+      <translation>Manipulação de Vetores NaN Preciso da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4424"/>
@@ -16787,7 +16787,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4438"/>
       <source>PPU Vector NaN Fixup</source>
-      <translation>Ajuste de PPU Vetor NaN</translation>
+      <translation>Ajuste de Vetores NaN da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4445"/>
