@@ -2206,8 +2206,8 @@ Atualmente, apenas os leiautes Americano, Japonês e Alemão são totalmente com
       <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
-      <translation>O botão usado para entrar/aceitar/confirmar em diálogos do sistema.
-Altere para usar o botão Círculo, que é a configuração padrão em sistemas japoneses e em muitos jogos japoneses.
+      <translation>O botão usado para entrar/aceitar/confirmar em caixa de diálogos do sistema.
+Altere isto para usar o botão Círculo que é a configuração padrão em sistemas japoneses e em muitos jogos nipônicos.
 Nesses casos, ter o botão cruz (X) atribuído pode causar confusão.</translation>
     </message>
     <message>
@@ -6435,7 +6435,7 @@ Será usado o banco de dados local.
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="248"/>
       <source>Space On Disk</source>
-      <translation>Espaço Em Disco</translation>
+      <translation>Espaço em Disco</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_frame.cpp" line="258"/>
@@ -13147,7 +13147,7 @@ O deslocamento deve ser um número hexadecimal com no máximo 8 dígitos.</trans
       <location filename="./rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="456"/>
       <source>The patch validation failed.
 The export of invalid patches is not allowed.</source>
-      <translation>A validação da correção falhou.
+      <translation>Falha na validação da correção.
 A exportação de correções inválidas não é permitida.</translation>
     </message>
     <message>
@@ -13529,7 +13529,7 @@ Registro:
 
 %0</source>
       <comment>Changelog info</comment>
-      <translation>Alterações:
+      <translation>Histórico de Alterações:
 
 %0</translation>
     </message>
@@ -14452,7 +14452,7 @@ Observe que o token de redefinição de senha é diferente do token de verifica�
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586"/>
       <source>The two emails you entered don&apos;t match!</source>
-      <translation>Os dois e-mails que você digitou não correspondem!</translation>
+      <translation>Os dois e-mails que você inseriu não correspondem!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592"/>
@@ -14500,7 +14500,7 @@ Observe que o token de redefinição de senha é diferente do token de verifica�
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529"/>
       <source>The two passwords you entered don&apos;t match!</source>
-      <translation>As duas senhas que você digitou não correspondem!</translation>
+      <translation>As duas senhas que você inseriu não correspondem!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
@@ -14812,7 +14812,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1335"/>
       <source>The username you entered is invalid!</source>
-      <translation>O nome de usuário digitou é inválido!</translation>
+      <translation>O nome de usuário inserido é inválido!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341"/>
@@ -17507,7 +17507,7 @@ Pré-visualização:
     <message>
       <location filename="./rpcs3/rpcs3qt/skylander_dialog.cpp" line="608"/>
       <source>ID entered is invalid!</source>
-      <translation>O ID digitado é inválido!</translation>
+      <translation>O ID inserido é inválido!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/skylander_dialog.cpp" line="614"/>
@@ -18212,14 +18212,14 @@ Confira o registro para obter mais informações.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="378"/>
       <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-      <translation>Para ver as alterações, clique em &quot;Mostrar Detalhes&quot;.</translation>
+      <translation>Para ver o histórico de alterações, clique em &quot;Mostrar Detalhes&quot;.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="379"/>
       <source>Changelog:
 
 %0</source>
-      <translation>Alterações:
+      <translation>Histórico de Alterações:
 
 %0</translation>
     </message>
