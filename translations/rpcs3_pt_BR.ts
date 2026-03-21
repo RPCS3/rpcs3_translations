@@ -593,19 +593,22 @@ Menos</translation>
       <source>R4
 Dial CW</source>
       <translation>R4
-Seletor Rotativo SH</translation>
+Seletor Rotativo
+SH</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
       <source>R5
 Dial CCW</source>
       <translation>R5
-Seletor Rotativo SAH</translation>
+Seletor Rotativo
+SAH</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105"/>
       <source>Dial Center</source>
-      <translation>Seletor Rotativo no Centro</translation>
+      <translation>Seletor Rotativo
+no Centro</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106"/>
@@ -834,7 +837,7 @@ Isso aumenta o uso da CPU, mas essa configuração é benéfica para CPUs com mu
 · Precise is the most accurate to PS3 behaviour. Required for accurate visuals in some titles such as Demon&apos;s Souls and The Darkness.
 · Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
 · Relaxed changes the synchronization method completely and can greatly improve performance in some games or completely break others.</source>
-      <translation>Altera o comportamento de sincronização do relatório ZCULL. Experimente para encontrar a melhor opção para o seu jogo. O modo aproximado é recomendado para a maioria dos jogos.
+      <translation>Altera o comportamento de sincronização reportado pelo ZCULL. Experimente para encontrar a melhor opção para o seu jogo. O modo aproximado é recomendado para a maioria dos jogos.
 · O modo Rigoroso é o mais fiel ao comportamento do PS3. Necessário para imagens precisas em alguns títulos, como Demon&apos;s Souls e The Darkness.
 · O modo Aproximado é uma maneira muito mais rápida de gerar dados de oclusão, que podem nem sempre corresponder ao que o PS3 geraria. Funciona bem com a maioria dos jogos de PS3.
 · o modo Atenuado altera completamente o método de sincronização e pode melhorar muito o desempenho em alguns jogos ou causar problemas em outros.</translation>
@@ -864,7 +867,7 @@ Pode afetar o desempenho de maneiras inesperadas.</translation>
       <source>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic&quot; benefits stability greatly in many games with little performance penalty.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
-      <translation>&quot;Rápido&quot; é a configuração menos precisa, o RSX não emula o buffer FIFO atômico.
+      <translation>&quot;Rápido&quot; é a configuração menos precisa, o RSX não emula o buffer do FIFO atômico.
 &quot;Atômico&quot; beneficia muito a estabilidade em muitos jogos, com pouca perda de desempenho.
 &quot;Atômico e ordenado&quot; é o mais preciso, mas é o mais lento e não oferece muitos benefícios de estabilidade nos jogos.</translation>
     </message>
@@ -1367,7 +1370,7 @@ Essa configuração substitui a opção &apos;Escalonamento de textura da GPU&ap
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="124"/>
       <source>Disables RSX FIFO optimizations completely. Draws are processed as they are received by the DMA puller.</source>
-      <translation>Desativa completamente as otimizações RSX FIFO. Os dados são processados ​​à medida que são recebidos pelo pulsor de DMA.</translation>
+      <translation>Desativa completamente as otimizações do FIFO RSX. Os dados são processados ​​à medida que são recebidos pelo pulsor de DMA.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="125"/>
@@ -1865,7 +1868,7 @@ Automatic will let the driver choose an appropriate mode, while the other option
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
       <translation>Controla qual modo de tela cheia o RPCS3 solicita aos drivers ao usar o renderizador Vulkan.
 A opção Automático permite que o driver escolha um modo apropriado, enquanto as outras opções indicam aos drivers se devem usar tela cheia exclusiva ou sem bordas.
-Usar a opção Preferir tela cheia sem bordas pode ajudar se você tiver problemas com a transmissão de jogos do RPCS3 ou se o seu sistema ativar incorretamente o modo HDR ao usar a tela cheia.</translation>
+Usar a opção Optar por tela cheia sem bordas pode ajudar se você tiver problemas com a transmissão de jogos do RPCS3 ou se o seu sistema ativar incorretamente o modo HDR ao usar a tela cheia.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="208"/>
@@ -3216,7 +3219,7 @@ Clique Duplo: Define breakpoints.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/dimensions_dialog.cpp" line="583"/>
       <source>Active Dimensions Figures:</source>
-      <translation>Ativar Colecionável da Dimensions:</translation>
+      <translation>Colecionáveis da Dimensions Ativos:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/dimensions_dialog.cpp" line="627"/>
@@ -3740,7 +3743,7 @@ Esta alteração somente terá efeito quando as configurações forem salvas.</t
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1114"/>
       <source>FidelityFX Super Resolution 1</source>
       <comment>Output Scaling Mode</comment>
-      <translation>Super Resolução FidelityFX 1</translation>
+      <translation>FidelityFX Super Resolution 1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1120"/>
@@ -6759,7 +6762,7 @@ Alguma thread provavelmente entrou no modo de bloqueio mútuo. Abortando.</trans
     <message>
       <location filename="./rpcs3/rpcs3qt/infinity_dialog.cpp" line="733"/>
       <source>Active Infinity Figures:</source>
-      <translation>Ativar Colecionável da Infinity:</translation>
+      <translation>Colecionáveis da Infinity Ativos:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/infinity_dialog.cpp" line="736"/>
@@ -7010,7 +7013,7 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="278"/>
       <source>Active Kamen Riders:</source>
-      <translation>Ativar Kamen Riders:</translation>
+      <translation>Kamen Riders Ativos:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="289"/>
@@ -7253,7 +7256,7 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="852"/>
       <source>Zcull Bindings</source>
-      <translation>Associações Zcull</translation>
+      <translation>Associações do Zcull</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="853"/>
@@ -7266,22 +7269,22 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="9"/>
       <source>D-Pad Up</source>
-      <translation>Direcional Para Cima</translation>
+      <translation>Para Cima no Direcional</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="10"/>
       <source>D-Pad Down</source>
-      <translation>Direcional Para Baixo</translation>
+      <translation>Para Baixo no Direcional</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="11"/>
       <source>D-Pad Left</source>
-      <translation>Direcional Esquerda</translation>
+      <translation>Esquerda no Direcional</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="12"/>
       <source>D-Pad Right</source>
-      <translation>Direcional Direita</translation>
+      <translation>Direita no Direcional</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="13"/>
@@ -10321,7 +10324,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="879"/>
       <source>Tiny</source>
-      <translation>Muito pequeno</translation>
+      <translation>Muito Pequeno</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="890"/>
@@ -12772,28 +12775,28 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1857"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1866"/>
       <source>Green Pad</source>
-      <translation>Almofada Verde</translation>
+      <translation>Pad Verde</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1848"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1858"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1867"/>
       <source>Red Pad</source>
-      <translation>Almofada Vermelha</translation>
+      <translation>Pad Vermelho</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1849"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1859"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1868"/>
       <source>Blue Pad</source>
-      <translation>Almofada Azul</translation>
+      <translation>Pad Azul</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1850"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1860"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1869"/>
       <source>Yellow Pad</source>
-      <translation>Almofada Amarela</translation>
+      <translation>Pad Amarelo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1851"/>
@@ -12805,12 +12808,12 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1852"/>
       <source>Orange Pad</source>
-      <translation>Almofada Laranja</translation>
+      <translation>Pad Laranja</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1871"/>
       <source>Pad Modifier</source>
-      <translation>Modificador de Almofada</translation>
+      <translation>Modificador de Pad</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1872"/>
@@ -15511,7 +15514,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="71"/>
       <source>PPU Decoder</source>
-      <translation>Decodificador PPU</translation>
+      <translation>Decodificador da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="94"/>
@@ -15639,7 +15642,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="490"/>
       <source>ZCULL Accuracy</source>
-      <translation>Precisão ZCULL</translation>
+      <translation>Precisão do ZCULL</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="502"/>
@@ -16242,7 +16245,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2726"/>
       <source>RSX FIFO Accuracy</source>
-      <translation>Precisão RSX FIFO</translation>
+      <translation>Precisão do FIFO RSX</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2744"/>
@@ -16728,7 +16731,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4228"/>
       <source>Disable ZCull Occlusion Queries</source>
-      <translation>Desabilitar Consultas de Oclusão ZCull</translation>
+      <translation>Desabilitar Consultas de Oclusão do ZCull</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4235"/>
@@ -16958,7 +16961,7 @@ Cada opção depende muito do jogo e da sua CPU; recomenda-se testar cada opçã
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="534"/>
       <source>Precise (Slowest)</source>
-      <translation>Rigoroso (Mais lento)</translation>
+      <translation>Rigoroso (Mais Lento)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="535"/>
@@ -16968,7 +16971,7 @@ Cada opção depende muito do jogo e da sua CPU; recomenda-se testar cada opçã
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="536"/>
       <source>Relaxed (Fastest)</source>
-      <translation>Atenuado (Mais rápido)</translation>
+      <translation>Atenuado (Mais Rápido)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="661"/>
@@ -17547,7 +17550,7 @@ Pré-visualização:
     <message>
       <location filename="./rpcs3/rpcs3qt/skylander_dialog.cpp" line="696"/>
       <source>Active Portal Skylanders:</source>
-      <translation>Ativar Portal Skylanders:</translation>
+      <translation>Portal Skylanders Ativos:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/skylander_dialog.cpp" line="707"/>

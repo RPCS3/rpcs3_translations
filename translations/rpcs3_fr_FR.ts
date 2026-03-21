@@ -18199,7 +18199,7 @@ Check the log for more information.</source>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="378"/>
       <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-      <translation>Pour voir le journal des modifications, veuillez cliquer sur &quot;Afficher les détails&quot;.</translation>
+      <translation>Pour voir le journal des modifications, veuillez cliquer sur &quot;Montrer les détails&quot;.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="379"/>
