@@ -592,24 +592,22 @@ Menos</translation>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="103"/>
       <source>R4
 Dial CW</source>
-      <translation>R4
-Seletor
+      <translation>R4 Seletor
 Rotativo SH</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104"/>
       <source>R5
 Dial CCW</source>
-      <translation>R5
-Seletor
+      <translation>R5 Seletor
 Rotativo SAH</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105"/>
       <source>Dial Center</source>
-      <translation>Seletor
-Rotativo
-Centralizado</translation>
+      <translation>Centro do 
+Seletor
+Rotativo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106"/>
@@ -11110,7 +11108,7 @@ Assunto:</translation>
       <source>Installing package (%0/%1), please wait...
 
 %2</source>
-      <translation>Instalando pacote (%0/%1), por favor aguarde...
+      <translation>Instalando pacote (%0/%1). Por favor, aguarde...
 
 %2</translation>
     </message>
