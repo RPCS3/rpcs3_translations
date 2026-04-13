@@ -419,7 +419,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="991"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1006"/>
         <source>RPCS3 should never be run from a temporary location!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -430,7 +430,7 @@ Trenutna lokacija:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1004"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1019"/>
         <source>RPCS3 should never be run from an archive!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -441,7 +441,7 @@ Trenutna lokacija:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1018"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1033"/>
         <source>RPCS3 should never be run from a OneDrive path!
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
@@ -452,22 +452,22 @@ Trenutna lokacija:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1143"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1158"/>
         <source>Invalid command-line arguments!</source>
         <translation>Nevažeći argumenti naredbenog-retka!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1143"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1158"/>
         <source>Cannot perform multiple installations at the same time!</source>
         <translation>Ne mogu instalirati više instalacija odjednom!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1337"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1352"/>
         <source>Missing command-line arguments!</source>
         <translation>Nedostaju argumenti naredbenog-retka!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1337"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1352"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
         <translation>Ne mogu pokretat van-gui načina rada bez cilja pokretanja.
@@ -736,14 +736,14 @@ Uzročno neke se aplikacije ponašaju drugačije nego na retail(maloprodajnom) h
         <translation>Točno procesira SPU DMA operacije.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="31"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="32"/>
         <source>Legacy option. Fixup result vector values in Non-Java Mode in PPU LLVM.
 If unsure, do not modify this setting.</source>
         <translation>Legacy opcije. Fixup rezultirane vektorske vrijednosti u Ne-Jave Modu u PPU LLVM.
 Ako niste sigurni, ne mijenjrajte ovu postavku.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="32"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="31"/>
         <source>Use accurate double-precision FMA instructions in PPU and SPU backends.
 While disabling it might give a decent performance boost if your CPU doesn&apos;t support FMA, it may also introduce subtle bugs that otherwise do not occur.
 You shouldn&apos;t disable it if your CPU supports FMA.</source>
@@ -6384,32 +6384,32 @@ You can clear the line in order to use the original title.</translation>
 <context>
     <name>game_list_frame</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="38"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="39"/>
         <source>Game List</source>
         <translation>Popis Igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="116"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="117"/>
         <source>Loading games</source>
         <translation>Učitavanje igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="116"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="117"/>
         <source>Loading games, please wait...</source>
         <translation>Učitavanje igara, molim pričekajte...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="116"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="117"/>
         <source>Cancel</source>
         <translation>Poništi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="199"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="200"/>
         <source>Warning!</source>
         <translation>Upozorenje!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="199"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="200"/>
         <source>Failed to retrieve the online compatibility database!
 Falling back to local database.
 
@@ -6420,152 +6420,152 @@ Povratak na lokalnu bazu podataka.
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="237"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="238"/>
         <source>Icon</source>
         <translation>Ikona</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="238"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="239"/>
         <source>Name</source>
         <translation>Ime</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="239"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="240"/>
         <source>Serial</source>
         <translation>Serijski broj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="240"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="241"/>
         <source>Firmware</source>
         <translation>Firmware</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="241"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="242"/>
         <source>Version</source>
         <translation>Verzija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="242"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="243"/>
         <source>Category</source>
         <translation>Kategorija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="243"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="244"/>
         <source>Path</source>
         <translation>Putanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="244"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="245"/>
         <source>PlayStation Move</source>
         <translation>PlayStation Move</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="245"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="246"/>
         <source>Supported Resolutions</source>
         <translation>Podržane Rezolucije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="246"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="247"/>
         <source>Sound Formats</source>
         <translation>Zvučni Formati</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="247"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="248"/>
         <source>Parental Level</source>
         <translation>Roditeljska Razina</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="248"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="249"/>
         <source>Last Played</source>
         <translation>Zadnje igrano</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="249"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="250"/>
         <source>Time Played</source>
         <translation>Vrijeme igranja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="250"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="251"/>
         <source>Compatibility</source>
         <translation>Kompatibilnost</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="251"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="252"/>
         <source>Space On Disk</source>
         <translation>Prostor Na Disku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="261"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="262"/>
         <source>Show Icons</source>
         <translation>Prikaz Ikona</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="262"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="263"/>
         <source>Show Names</source>
         <translation>Prikaži Imena</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="263"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="264"/>
         <source>Show Serials</source>
         <translation>Prikaži Serijske Brojeve</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="264"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="265"/>
         <source>Show Firmwares</source>
         <translation>Prikaži Firmware-e</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="265"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="266"/>
         <source>Show Versions</source>
         <translation>Prikaži Verzije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="266"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="267"/>
         <source>Show Categories</source>
         <translation>Prikaži kategorije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="267"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="268"/>
         <source>Show Paths</source>
         <translation>Prikaz Putanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="268"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="269"/>
         <source>Show PlayStation Move</source>
         <translation>Prikaži PlayStation Move</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="269"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="270"/>
         <source>Show Supported Resolutions</source>
         <translation>Prikaži Podržane Rezolucije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="270"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="271"/>
         <source>Show Sound Formats</source>
         <translation>Prikaži Zvučne Formate</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="271"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="272"/>
         <source>Show Parental Levels</source>
         <translation>Prikaži Roditeljske Razine</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="272"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="273"/>
         <source>Show Last Played</source>
         <translation>Prikaz Zadnjeg Igranja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="273"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="274"/>
         <source>Show Time Played</source>
         <translation>Prikaz Duljine Igranja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="274"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="275"/>
         <source>Show Compatibility</source>
         <translation>Prikaži Kompatibilnost</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="275"/>
+        <location filename="rpcs3/rpcs3qt/game_list_frame.cpp" line="276"/>
         <source>Show Space On Disk</source>
         <translation>Prikaz Prostora Na Disku</translation>
     </message>
@@ -13629,31 +13629,31 @@ Zapisnik:
 <context>
     <name>pkg_install_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="66"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="74"/>
         <source>DLC</source>
         <comment>Package type info (DLC)</comment>
         <translation>DLC</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="70"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="78"/>
         <source>Update</source>
         <comment>Package type info (Update)</comment>
         <translation>Ažuriraj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="82"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="88"/>
         <source>v.%0</source>
         <comment>Version info</comment>
         <translation>v.%0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="87"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="93"/>
         <source>No info</source>
         <comment>Changelog info placeholder</comment>
         <translation>Nema informacija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="91"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="97"/>
         <source>Changelog:
 
 %0</source>
@@ -13663,85 +13663,90 @@ Zapisnik:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="97"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="102"/>
         <source>&lt;b&gt;%0&lt;/b&gt; (%1) - %2</source>
         <comment>Package text</comment>
         <translation>&lt;b&gt;%0&lt;/b&gt; (%1) - %2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="120"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="134"/>
+        <source>Can not install packages. The following packages seem to be corrupt:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="148"/>
         <source>Install</source>
         <translation>Instaliraj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="154"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="178"/>
         <source>Move selected item up</source>
         <translation>Pomakni izabrano prema gore</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="159"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="183"/>
         <source>Move selected item down</source>
         <translation>Pomakni izabrano prema dolje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="169"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="193"/>
         <source>Do you want to install this package?</source>
         <translation>Želite li instalirati ovaj paket?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="170"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="194"/>
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
         <translation>Instalirat ćete više paketa.
 Promijenite njihov redoslijed i/ili ih isključite ako je potrebno, a zatim kliknite &quot;Instaliraj&quot; za nastavak.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="172"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="196"/>
         <source>Would you like to precompile caches and install shortcuts to the installed software?</source>
         <translation>Želite li predkompajlirati predmemorije i instalirati prečace za instalirani softver?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="174"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="198"/>
         <source>Precompile caches</source>
         <translation>Predkompajliranje predmemorije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="178"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="202"/>
         <source>Add desktop shortcut(s)</source>
         <translation>Dodaj prečac(e) na radnu površinu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="182"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="206"/>
         <source>Add Start menu shortcut(s)</source>
         <translation>Dodajte prečace na Startni izbornik</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="184"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="208"/>
         <source>Add dock shortcut(s)</source>
         <translation>Dodajte prečac(e) na dock</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="186"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="210"/>
         <source>Add launcher shortcut(s)</source>
         <translation>Dodaj prečac(e) pokretača</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="202"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="226"/>
         <source>Add Steam Shortcut(s) (Steam must be closed)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="202"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="226"/>
         <source>Add Steam shortcut(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="213"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="32"/>
         <source>PKG Installation</source>
         <translation>Instalacija PKG-a</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="238"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="260"/>
         <source>Installation path: %0
 Available disk space: %1%2
 Required disk space: %3</source>
@@ -13750,7 +13755,7 @@ Dostupan prostor na disku: %1%2
 Potreban prostor na disku: %3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="241"/>
+        <location filename="rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="263"/>
         <source> - &lt;b&gt;NOT ENOUGH SPACE&lt;/b&gt;</source>
         <translation> - &lt;b&gt;NEMA DOVOLJNO PROSTORA&lt;b&gt;</translation>
     </message>
@@ -15880,13 +15885,13 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
         <translation>SPU Block Size</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="921"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1778"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="933"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1790"/>
         <source>Additional Settings</source>
         <translation>Dodatne Postavke</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2476"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2488"/>
         <source>Enable SPU loop detection</source>
         <translation>Enable SPU loop detekciju</translation>
     </message>
@@ -15897,23 +15902,23 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="214"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="659"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="796"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="827"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="671"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="808"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="839"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="224"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="669"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="730"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="837"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2574"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2649"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2810"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2853"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3418"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4615"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="681"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="742"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="849"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2586"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2661"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2822"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2865"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3430"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4652"/>
         <source>Reset</source>
         <translation>Resetiraj</translation>
     </message>
@@ -15929,29 +15934,29 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="328"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1004"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1552"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1856"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2164"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2376"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2905"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3789"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4252"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4737"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1016"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1564"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1868"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2176"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2388"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2917"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3801"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4264"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4774"/>
         <source>Description</source>
         <translation>Opis</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="334"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1010"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1558"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1862"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2170"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2382"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2911"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3795"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4258"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4743"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1022"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1570"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1874"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2182"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2394"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2923"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3807"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4270"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4780"/>
         <source>Point your mouse at an option to display a description in here.
 
 
@@ -15963,8 +15968,8 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="357"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2671"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4292"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2683"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4304"/>
         <source>GPU</source>
         <translation>GPU</translation>
     </message>
@@ -16014,620 +16019,615 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
         <translation>Omogući 3D Podršku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="586"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="563"/>
+        <source>Screen Size (Inch)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="598"/>
         <source>Default Resolution</source>
         <translation>Zadana Rezolucija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="606"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="618"/>
         <source>Resolution Scale (Disable Strict Mode)</source>
         <translation>Rezolucijska Skala (Onemogući strogi način rada)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="630"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="642"/>
         <source>25</source>
         <translation>25</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="647"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="659"/>
         <source>800</source>
         <translation>800</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="681"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="693"/>
         <source>Resolution Scale Threshold</source>
         <translation>Rezolucijska Skala Prag</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="692"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="704"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="709"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="721"/>
         <source>1024</source>
         <translation>1024</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="720"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="732"/>
         <source>1x1</source>
         <translation>1x1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="744"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="756"/>
         <source>Output Scaling</source>
         <translation>Skaliranje Izlaza</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="781"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="793"/>
         <source>RCAS Sharpening Strength</source>
         <translation>RCAS Sharpening Strength</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="816"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="828"/>
         <source>100</source>
         <translation>100</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="884"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="896"/>
         <source>Shader Mode</source>
         <translation>Shader Mod</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="930"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="942"/>
         <source>Write Color Buffers</source>
         <translation>Write Color Buffers</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="937"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="949"/>
         <source>Strict Rendering Mode</source>
         <translation>Strict Rendering Mode</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="944"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="956"/>
         <source>Stretch To Display Area</source>
         <translation>Rastegni Na Područje Prikaza</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="951"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="963"/>
         <source>Multithreaded RSX</source>
         <translation>Multithreaded RSX</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="958"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="970"/>
         <source>Asynchronous Texture Streaming</source>
         <translation>Asynchronous Texture Streaming</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1033"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1045"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1043"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1055"/>
         <source>Audio Out</source>
         <translation>Zvuk Izlaz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1055"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1067"/>
         <source>Audio Format</source>
         <translation>Zvuk Format</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1080"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1092"/>
         <source>Audio Settings</source>
         <translation>Postavke Zvuka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1086"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1098"/>
         <source>Convert to 16-bit</source>
         <translation>Konvertiraj u 16-bita</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1093"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1105"/>
         <source>Dump to File</source>
         <translation>Izbaci u Datoteku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1139"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1151"/>
         <source>Audio Device</source>
         <translation>Zvučni Uređaj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1151"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1163"/>
         <source>Audio Output Format</source>
         <translation>Format Zvuka Izlaza</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1163"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1175"/>
         <source>Audio Provider</source>
         <translation>Pružatelj Audio Usluga</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1175"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1187"/>
         <source>RSXAudio Avport</source>
         <translation>RSXAudio Avport</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1187"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1199"/>
         <source>Music Handler</source>
         <translation>Music Handler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1199"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4021"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1211"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4033"/>
         <source>Volume</source>
         <translation>Glasnoća</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1220"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1232"/>
         <source>Master: 0%</source>
         <translation>Master: 0%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1266"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1278"/>
         <source>Buffering</source>
         <translation>Učitavanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1272"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1284"/>
         <source>Enable Buffering</source>
         <translation>Omogući Međuspremnik</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1294"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1306"/>
         <source>Audio Buffer Duration: 0ms</source>
         <translation>Trajanje Zvučnog Međuspremnika: 0 ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1317"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1329"/>
         <source>Enable Time Stretching</source>
         <translation>Omogući Vremensko Rastezanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1339"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1351"/>
         <source>Time Stretching Threshold: 0%</source>
         <translation>PragVremenskog Rastezanja: 0%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1385"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1397"/>
         <source>Microphone Settings</source>
         <translation>Postavke Mikrofona</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1393"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1405"/>
         <source>Microphone Type:</source>
         <translation>Tip Mikrofona:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1431"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1443"/>
         <source>Mic1:</source>
         <translation>Mik1:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1444"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1456"/>
         <source>Mic3:</source>
         <translation>Mik3:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1485"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1497"/>
         <source>Mic2:</source>
         <translation>Mik1:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1498"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1510"/>
         <source>Mic4:</source>
         <translation>Mik4:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1581"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4661"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1593"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4698"/>
         <source>I/O</source>
         <translation>I/O</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1589"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1601"/>
         <source>Guitar Hero Live Emulated Guitar</source>
         <translation>Guitar Hero Live Emulated Guitar</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1601"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1613"/>
         <source>Move Handler</source>
         <translation>Move Handler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1613"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1625"/>
         <source>DJ Hero Emulated Turntable</source>
         <translation>DJ Hero Emulated Turntable</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1625"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1637"/>
         <source>Mouse Handler</source>
         <translation>Rukovatelj Miša</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1637"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1649"/>
         <source>Buzz! Emulated Controller</source>
         <translation>Buzz! Emulated Controller</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1649"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1661"/>
         <source>Keyboard Handler</source>
         <translation>Rukovatelj Tipkovnice</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1661"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1673"/>
         <source>Pad Handler Mode</source>
         <translation>Postoljem Mod Rukovanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1673"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1685"/>
         <source>Camera Input</source>
         <translation>Ulaz Kamere</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1685"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1697"/>
         <source>Camera Flip</source>
         <translation>Kamera Okretanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1697"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1709"/>
         <source>Camera</source>
         <translation>Kamera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1709"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1721"/>
         <source>Camera Handler</source>
         <translation>Rukovatelj Kamerom</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1721"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1733"/>
         <source>Emulated MIDI Device 1</source>
         <translation>Emulirani MIDI Uređaj 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1740"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1752"/>
         <source>Emulated MIDI Device 3</source>
         <translation>Emulirani MIDI Uređaj 3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1759"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1771"/>
         <source>Emulated MIDI Device 2</source>
         <translation>Emulirani MIDI Uređaj 2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1784"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1796"/>
         <source>Enable Background Input</source>
         <translation>Omogući Unos u Pozadini</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1791"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1803"/>
         <source>Keep Pads Connected</source>
         <translation>Keep Pads Connected</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1798"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1810"/>
         <source>Show PS Move Cursor</source>
         <translation>Prikaži PS Move pokazivač</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1805"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1817"/>
         <source>Lock Overlay Input To Player One</source>
         <translation>Lock Overlay Input To Player One</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1812"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1824"/>
         <source>Use SDL GameController Database</source>
         <translation>Koristite SDL GameController bazu podataka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1885"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1897"/>
         <source>System</source>
         <translation>Sustav</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1895"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1907"/>
         <source>Console Language</source>
         <translation>Jezik Konzole</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1907"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1919"/>
         <source>Console Region</source>
         <translation>Regija Konzole</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1919"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1931"/>
         <source>Enter Button Assignment</source>
         <translation>Unesite Dodjelu Gumba</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1942"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1954"/>
         <source>Disk Cache</source>
         <translation>Predmemorija Diska</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1948"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1960"/>
         <source>Clear cache automatically</source>
         <translation>Automatsko brisanje predmemorije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1955"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1967"/>
         <source>Cache size: 3072 MB</source>
         <translation>Veličina predmemorije: 3072 MB</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1998"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2010"/>
         <source>Keyboard Type</source>
         <translation>Vrsta Tipkovnice</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2010"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2022"/>
         <source>Date Format</source>
         <translation>Format Datuma</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2022"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2034"/>
         <source>Time Format</source>
         <translation>Format Vremena</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2034"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2046"/>
         <source>Console Time</source>
         <translation>Vrijeme konzole</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2079"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2091"/>
         <source>Set to Now</source>
         <translation>Postavi na sad</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2108"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2120"/>
         <source>Homebrew</source>
         <translation>Homebrew</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2114"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2126"/>
         <source>Enable /host_root/</source>
         <translation>Omogući /host_root/</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2121"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2133"/>
         <source>Empty /dev_hdd0/tmp/</source>
         <translation>Prazan /dev_hdd0/tmp/</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2193"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2205"/>
         <source>Network</source>
         <translation>Mreža</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2201"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2213"/>
         <source>Network Configuration</source>
         <translation>Mrežna Konfiguracija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2207"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2219"/>
         <source>Network Status</source>
         <translation>Mrežni Status</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2219"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2231"/>
         <source>DNS</source>
         <translation>DNS</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2238"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2250"/>
         <source>IP/Hosts switches</source>
         <translation>IP/Hosts switches</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2257"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2269"/>
         <source>Bind address</source>
         <translation>Bind address</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2276"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2288"/>
         <source>Enable UPNP</source>
         <translation>Enable UPNP</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2302"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2314"/>
         <source>PSN Configuration</source>
         <translation>PSN Configuration</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2308"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2320"/>
         <source>PSN Status</source>
         <translation>PSN Status</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2320"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2332"/>
         <source>Country</source>
         <translation>Država</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2332"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2344"/>
         <source>Enable Clans</source>
         <translation>Enable Clans</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2405"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2417"/>
         <source>Advanced</source>
         <translation>Napredno</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2421"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4428"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2433"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4440"/>
         <source>Core</source>
         <translation>Core</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2427"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2439"/>
         <source>Accurate RSX Reservation Access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2448"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2460"/>
         <source>Debug Console Mode</source>
         <translation>Debug Console Mode</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2497"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2509"/>
         <source>SPU Compatible Savestates Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2705"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2717"/>
         <source>Handle RSX Memory Tiling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2712"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2724"/>
         <source>Read Depth Buffer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2733"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2745"/>
         <source>Write Depth Buffer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3009"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3021"/>
         <source>Overlay Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3015"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3027"/>
         <source>Play music during boot sequence</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3022"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
         <source>Record and screenshot with overlays</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3050"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3062"/>
         <source>Show fatal error hints</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3064"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3076"/>
         <source>Show netplay popups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3583"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3595"/>
         <source>Use Window Space</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4104"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4116"/>
         <source>Show Exit Game Confirmation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4111"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4123"/>
         <source>Show PKG/PUP Installation Result</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4434"/>
-        <source>Accurate DFMA</source>
-        <translation>Accurate DFMA</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2434"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2446"/>
         <source>Accurate SPU DMA</source>
         <translation>Accurate SPU DMA</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2462"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2474"/>
         <source>Disable SPU GETLLAR Spin Optimization</source>
         <translation>Disable SPU GETLLAR Spin Optimization</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2469"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2481"/>
         <source>Enable SPU Events Busy Loop</source>
         <translation>Enable SPU Events Busy Loop</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4504"/>
-        <source>PPU Non-Java Mode Fixup</source>
-        <translation>PPU Non-Java Mode Fixup</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2483"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2495"/>
         <source>PPU/SPU LLVM Precompilation</source>
         <translation>PPU/SPU LLVM Precompilation</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2455"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2467"/>
         <source>Delay each odd MFC Command</source>
         <translation>Delay each odd MFC Command</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2441"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2453"/>
         <source>Anti-Cheat Savestates Mode</source>
         <translation>Anti-Cheat Savestates Mode</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2490"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2502"/>
         <source>Silence All Logs</source>
         <translation>Silence All Logs</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2513"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2525"/>
         <source>Sleep Timers Accuracy</source>
         <translation>Sleep Timers Accuracy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2531"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2543"/>
         <source>Maximum Number of SPURS Threads</source>
         <translation>Maximum Number of SPURS Threads</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2549"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2561"/>
         <source>Clocks Scale</source>
         <translation>Clocks Scale</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2564"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2576"/>
         <source>100%</source>
         <translation>100%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2606"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2618"/>
         <source>Firmware Libraries</source>
         <translation>Firmware Libraries</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2719"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2731"/>
         <source>Read Color Buffers</source>
         <translation>Read Color Buffers</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2691"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2703"/>
         <source>Disable Vertex Cache</source>
         <translation>Disable Vertex Cache</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2677"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2689"/>
         <source>Allow Host GPU Labels (Experimental)</source>
         <translation>Allow Host GPU Labels (Experimental)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2698"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2710"/>
         <source>Force Hardware MSAA Resolve</source>
         <translation>Force Hardware MSAA Resolve</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2726"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2738"/>
         <source>Use Re-BAR memory for GPU uploads</source>
         <translation>Use Re-BAR memory for GPU uploads</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2684"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2696"/>
         <source>Disable MSL Fast Math</source>
         <translation>Disable MSL Fast Math</translation>
     </message>
@@ -16637,127 +16637,127 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2749"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2761"/>
         <source>RSX FIFO Accuracy</source>
         <translation>RSX FIFO Accuracy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2767"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2779"/>
         <source>Exclusive Fullscreen Mode</source>
         <translation>Exclusive Fullscreen Mode</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2785"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2797"/>
         <source>Driver Wake-Up Delay</source>
         <translation>Driver Wake-Up Delay</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2800"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2812"/>
         <source>1 µs</source>
         <translation>1 µs</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2828"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2840"/>
         <source>VBlank Frequency</source>
         <translation>VBlank Frequency</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2843"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2855"/>
         <source>60 Hz</source>
         <translation>60 Hz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2862"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2874"/>
         <source>VBlank NTSC Fixup</source>
         <translation>VBlank NTSC Fixup</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2934"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2946"/>
         <source>Emulator</source>
         <translation>Emulator</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2944"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2956"/>
         <source>Emulator Settings</source>
         <translation>Postavke Emulatora</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2957"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2969"/>
         <source>Exit RPCS3 when process finishes</source>
         <translation>Izlaz iz RPCS3 kada se proces završi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2978"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2990"/>
         <source>Pause emulation on RPCS3 focus loss</source>
         <translation>Pauziraj RPCS3 emulaciju pri gubitku fokusa</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2964"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2976"/>
         <source>Pause emulation after loading savestates</source>
         <translation>Pauziraj emulaciju nakon učitavanja spremljenih stanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2971"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2983"/>
         <source>Pause emulation during home menu</source>
         <translation>Pauziraj emulaciju tijekom početnog izbornika</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2985"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2997"/>
         <source>Prevent display sleep while running games</source>
         <translation>Sprječavanje mirovanja zaslona tijekom pokretanja igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3092"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3104"/>
         <source>Show trophy popups</source>
         <translation>Prikaži skočne prozore s trofejima</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3085"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3097"/>
         <source>Show shader compilation hint</source>
         <translation>Prikaži savjet za kompajliranje shadera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3078"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3090"/>
         <source>Show PPU compilation hint</source>
         <translation>Prikaži savjet za kompajliranje PPU-a</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3036"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3048"/>
         <source>Show autosave/autoload hint</source>
         <translation>Prikaži Savjet za Automatsko Spremanje/Učitavanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3029"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
         <source>Show analog limiter toggle hint</source>
         <translation>Prikaži savjet za uključivanje/isključivanje analognog limitera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3071"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3083"/>
         <source>Show pressure intensity toggle hint</source>
         <translation>Prikaži savjet za uključivanje/isključivanje intenziteta pritiska</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3057"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3069"/>
         <source>Show mouse and keyboard toggle hint</source>
         <translation>Prikaži savjet za prebacivanje miša i tipkovnice</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3043"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3055"/>
         <source>Show capture hints</source>
         <translation>Prikaži savjete za snimanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2992"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3004"/>
         <source>Start games in fullscreen mode</source>
         <translation>Pokretanje igara u načinu rada preko cijelog zaslona</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2999"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3011"/>
         <source>Use native user interface</source>
         <translation>Koristite izvorno korisničko sučelje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2950"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2962"/>
         <source>Enable GameMode</source>
         <translation>Omogući GameMode</translation>
     </message>
@@ -16767,503 +16767,518 @@ Za potvrdu upišite svoje korisničko ime u nastavku i kliknite &quot;Da&quot;.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3118"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3130"/>
         <source>Max LLVM Compile Threads</source>
         <translation>Max LLVM Compile Threads</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3130"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3142"/>
         <source>Max Shader Compile Threads</source>
         <translation>Max Shader Compile Threads</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3146"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3158"/>
         <source>Viewport</source>
         <translation>Viewport</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3152"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3164"/>
         <source>Ignore doubleclicks for Fullscreen</source>
         <translation>Zanemari dvostruke klikove za Cijeloekranski prikaz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3159"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3171"/>
         <source>Ignore keyboard hotkeys</source>
         <translation>Ignoriraj prečace na tipkovnici</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3166"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3178"/>
         <source>Show mouse cursor in Fullscreen</source>
         <translation>Prikaži pokazivač miša u Cijeloekranskom prikazu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3173"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3185"/>
         <source>Lock mouse cursor in Fullscreen</source>
         <translation>Zaključavanje pokazivača miša u Cijeloekranskom prikazu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3195"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3207"/>
         <source>Hide mouse cursor if idle</source>
         <translation>Sakrij pokazivač miša ako je neaktivan</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3211"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3223"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3248"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3260"/>
         <source>Resize game window on boot</source>
         <translation>Promjena veličine prozora igre pri pokretanju</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3255"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3267"/>
         <source>Resize manually</source>
         <translation>Promjena veličine prozora ručno</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3264"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3276"/>
         <source>Width</source>
         <translation>Širina</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3295"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3307"/>
         <source>Height</source>
         <translation>Visina</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3337"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3349"/>
         <source>Shader Loading Screen</source>
         <translation>Shader Loading Screen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3343"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3355"/>
         <source>Allow custom background</source>
         <translation>Dopusti prilagođenu pozadinu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3350"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3362"/>
         <source>Background darkening:</source>
         <translation>Zatamnjenje pozadine:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3364"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3376"/>
         <source>Background blur:</source>
         <translation>Zamućenje pozadine:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3397"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3409"/>
         <source>Game Window Title</source>
         <translation>Naslov Prozora Igre</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3415"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3427"/>
         <source>Reset the game window title to default</source>
         <translation>Vrati naslov prozora igre na zadane vrijednosti</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3425"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3437"/>
         <source>Edit the game window title</source>
         <translation>Uredite naslov prozora igre</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3428"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3440"/>
         <source>Edit</source>
         <translation>Uredi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3444"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3456"/>
         <source>Performance Overlay</source>
         <translation>Prekrivanje performansi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3450"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3462"/>
         <source>Enable performance overlay</source>
         <translation>Omogući performance overlay</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3457"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3469"/>
         <source>Show framerate graph</source>
         <translation>Prikaži graf broja sličica u sekundi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3464"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3476"/>
         <source>Show frametime graph</source>
         <translation>Prikaži graf vremena uz sličice u sekundi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3486"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3498"/>
         <source>Detail Level:</source>
         <translation>Razina Detalja:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3514"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3526"/>
         <source>Position:</source>
         <translation>Položaj:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3527"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3539"/>
         <source>Horizontal Margin:</source>
         <translation>Horizontalna Margina:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3536"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3564"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3548"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3576"/>
         <source>Centered</source>
         <translation>Centrirano</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3555"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3567"/>
         <source>Vertical Margin:</source>
         <translation>Vertikalna Margina:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3605"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3617"/>
         <source>Update Interval:</source>
         <translation>Interval ažuriranja:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3643"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3655"/>
         <source>Font Size: </source>
         <translation>Veličina Fonta: </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3675"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3687"/>
         <source>Opacity:</source>
         <translation>Neprozirnost:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3704"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3716"/>
         <source>Framerate datapoints:</source>
         <translation>Podatkovne točke brzine sličica u sekundi:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3733"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3745"/>
         <source>Frametime datapoints:</source>
         <translation>Podatkovne točke vremena po sličici:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3818"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3830"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3828"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3840"/>
         <source>UI Stylesheets</source>
         <translation>UI Stylesheets</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3837"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3849"/>
         <source>Apply</source>
         <translation>Primijeni</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3847"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3859"/>
         <source>UI Colors</source>
         <translation>UI Boje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3865"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3877"/>
         <source>Use custom UI Colors</source>
         <translation>Koristite prilagođene boje korisničkog sučelja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3872"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3884"/>
         <source>Gamelist icons</source>
         <translation>Ikone Popisa Igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3879"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3891"/>
         <source>Save manager icons</source>
         <translation>Ikone upravitelja spremanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3886"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3898"/>
         <source>Trophy manager icons</source>
         <translation>Ikone Upravitelja Trofeja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3916"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3928"/>
         <source>Log</source>
         <translation>Zapisnik</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3943"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3955"/>
         <source>Maximum log blocks (0 = no limit)</source>
         <translation>Maximum log blocks (0 = bez limita)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3978"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3990"/>
         <source>Maximum TTY blocks (0 = no limit)</source>
         <translation>Maximum TTY blocks (0 = bez limita)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3998"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4010"/>
         <source>Pad Input</source>
         <translation>Unos Podloge</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4004"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4016"/>
         <source>Enable Pad Navigation</source>
         <translation>Omogući Navigaciju Podloge</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4011"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4023"/>
         <source>Allow Global Pad Navigation</source>
         <translation>Omogući Globalnu Navigaciju Podloge</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4042"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4054"/>
         <source>GUI: 0%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4091"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4103"/>
         <source>UI Options</source>
         <translation>Opcije Korisničkog Sučelja (UI)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4097"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4109"/>
         <source>Show Welcome Screen</source>
         <translation>Prikaži Ekran Dobrodošlice</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4118"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4130"/>
         <source>Show Obsolete Settings Dialog</source>
         <translation>Prikaži Dijalog Zastarjelih Postavki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4125"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4137"/>
         <source>Show Duplicate Buttons Dialog</source>
         <translation>Dijalog za Prikaz Duplih gumbova</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4132"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4144"/>
         <source>Show Restart Dialog</source>
         <translation>Prikaži Dijalog Ponovnog Pokretanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4158"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4170"/>
         <source>Check for updates on startup</source>
         <translation>Provjeri ažuriranja pri pokretanju</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4170"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4182"/>
         <source>Discord</source>
         <translation>Discord</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4176"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4188"/>
         <source>Use Discord Rich Presence</source>
         <translation>Koristite Discord Rich Presence</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4183"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4195"/>
         <source>Discord Status:</source>
         <translation>Discord Status:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4206"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4218"/>
         <source>Installation ID</source>
         <translation>Installacijski ID</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4212"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4224"/>
         <source>UUID-placeholder</source>
         <translation>UUID-privremeno rezervirano mjesto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4222"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4234"/>
         <source>Create new ID</source>
         <translation>Izradi novi ID</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4281"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4293"/>
         <source>Debug</source>
         <translation>Debugiranje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4301"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4313"/>
         <source>Debug Output</source>
         <translation>Debug Output</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4308"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4320"/>
         <source>Debug Overlay</source>
         <translation>Debug Overlay</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4315"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4334"/>
         <source>Disable FIFO Reordering</source>
         <translation>Onemogući FIFO Reordering</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4322"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4355"/>
         <source>Disable Video Output</source>
         <translation>Onemogući Video Izlaz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4329"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4362"/>
         <source>Disable Vulkan Memory Allocator</source>
         <translation>Onemogući Vulkan Memorijski Alokator</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4336"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4369"/>
         <source>Disable ZCull Occlusion Queries</source>
         <translation>Onemogući ZCull Occlusion Queries</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4343"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4376"/>
         <source>Force CPU Blit Emulation</source>
         <translation>Forsiraj CPU Blit Emulation</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4350"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4383"/>
         <source>Force GPU Texture Scaling</source>
         <translation>Forsiraj GPU Teksturno Skaliranje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4357"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4390"/>
         <source>Log Shader Programs</source>
         <translation>Zapisnik Shader Programa</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4367"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4400"/>
         <source>Renderdoc Compatibility Mode</source>
         <translation>Renderdoc Kompatibilni Mod</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4374"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4407"/>
         <source>Strict Texture Flushing</source>
         <translation>Strict Texture Flushing</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4381"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4414"/>
         <source>Use High Precision Z-Buffer</source>
         <translation>Use High Precision Z-Buffer</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4388"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4327"/>
         <source>Disable Asynchronous Memory Manager</source>
         <translation>Onemogući Asynchronous Memory Manager</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4395"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4348"/>
         <source>Disable On-Disk Shader Cache</source>
         <translation>Onemogući On-Disk Shader Cache</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4402"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4341"/>
         <source>Disable Hardware ColorSpace Remapping</source>
         <translation>Onemogući hardversko ponovno mapiranje prostora boja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4441"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4446"/>
         <source>Automatically start games after boot</source>
         <translation>Automatsko pokretanje igara nakon bootanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4448"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4453"/>
         <source>Enable performance report</source>
         <translation>Omogući izvješće o izvedbi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4455"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4460"/>
         <source>Hook static functions</source>
         <translation>Hook static functions</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4462"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4474"/>
         <source>PPU Debug</source>
         <translation>PPU Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4469"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4481"/>
+        <source>PPU Set DAZ and FTZ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4488"/>
         <source>SPU Debug</source>
         <translation>SPU Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4476"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4467"/>
         <source>MFC Debug</source>
         <translation>MFC Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4483"/>
-        <source>Set DAZ and FTZ</source>
-        <translation>Postavi DAZ i FTZ</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4490"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4545"/>
         <source>Accurate PPU Saturation Bit</source>
         <translation>Accurate PPU Saturation Bit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4497"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4552"/>
         <source>Accurate PPU Non-Java Mode</source>
         <translation>Accurate PPU Non-Java Mode</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4511"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4559"/>
         <source>Accurate PPU Vector NaN Handling</source>
         <translation>Accurate PPU Vector NaN Handling</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4518"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4538"/>
         <source>Accurate PPU Float Condition Control</source>
         <translation>Accurate PPU Float Condition Control</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
-        <source>Accurate Cache Line Stores</source>
-        <translation>Accurate Cache Line Stores</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4532"/>
-        <source>PPU Vector NaN Fixup</source>
-        <translation>PPU Vector NaN Fixup</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4539"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4495"/>
         <source>SPU Profiler</source>
         <translation>SPU Profiler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4580"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4518"/>
+        <source>CPU Accuracy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4524"/>
+        <source>Accurate PPU/SPU Double-Precision FMA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4531"/>
+        <source>Accurate PPU/SPU Cache Line Stores</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4566"/>
+        <source>Approximate PPU Non-Java Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4573"/>
+        <source>Approximate PPU Vector NaN Handling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4617"/>
         <source>Accurate PPU 128 Reservations</source>
         <translation>Accurate PPU 128 Reservations</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4592"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4629"/>
         <source>PPU Thread Count</source>
         <translation>PPU Thread Count</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4604"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4641"/>
         <source>LOD Bias Offset</source>
         <translation>LOD Bias Offset</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4633"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4670"/>
         <source>Vulkan Queue Scheduler</source>
         <translation>Vulkan Queue Scheduler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4645"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4682"/>
         <source>Log Levels</source>
         <translation>Razina zapisnika</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4651"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4688"/>
         <source>Configure</source>
         <translation>Konfiguriraj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4667"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4704"/>
         <source>Debug Overlay For Pad Input</source>
         <translation>Debug Overlay For Pad Input</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4674"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4711"/>
         <source>Debug Overlay For Mouse Input</source>
         <translation>Debug Overlay For Mouse Input</translation>
     </message>
@@ -17342,253 +17357,253 @@ Svaka opcija uvelike ovisi o igri i vašem procesoru, preporučuje se isprobati 
         <translation>Relaxed (Fastest)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="661"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="663"/>
         <source>100% (1280x720) (Default)</source>
         <comment>Resolution scale</comment>
         <translation>100% (1280x720) (Default)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="663"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="665"/>
         <source>%1% (%2x%3)</source>
         <comment>Resolution scale</comment>
         <translation>%1% (%2x%3)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="689"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="691"/>
         <source>%1x%1 (Default)</source>
         <comment>Minimum scalable dimension</comment>
         <translation>%1x%1 (Zadano)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="691"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="693"/>
         <source>%1x%1</source>
         <comment>Minimum scalable dimension</comment>
         <translation>%1x%1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="713"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="715"/>
         <source>%1% (Default)</source>
         <translation>%1% (Zadano)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="715"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="717"/>
         <source>%1%</source>
         <translation>%1%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="785"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="787"/>
         <source>Not needed for %0 renderer</source>
         <comment>Graphics adapter</comment>
         <translation>Nije potrebno za %0 renderer</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="954"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="956"/>
         <source>Default</source>
         <translation>Zadano</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="972"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="974"/>
         <source>Unknown device</source>
         <translation>Nepoznati uređaj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1133"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1135"/>
         <source>Master: %0 %</source>
         <comment>Master volume</comment>
         <translation>Glavni: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1136"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1138"/>
         <source>Audio Buffer Duration: %0 ms</source>
         <comment>Audio buffer duration</comment>
         <translation>Trajanje zvuka međuspremnika: %0 ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1139"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1141"/>
         <source>Time Stretching Threshold: %0 %</source>
         <comment>Time stretching threshold</comment>
         <translation>Prag Vremenskog Rastezanja: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1169"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1171"/>
         <source>None</source>
         <comment>Camera Device</comment>
         <translation>Ništa</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1170"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1172"/>
         <source>Default</source>
         <comment>Camera Device</comment>
         <translation>Zadano</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1380"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1382"/>
         <source>dd MMM yyyy HH:mm</source>
         <translation>dd MMM yyyy HH:mm</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1389"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1391"/>
         <source>Maximum size: %0 MB</source>
         <comment>Maximum cache size</comment>
         <translation>Maksimalna veličina: %0 MB</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1564"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1566"/>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
         <translation>Unlimited (Default)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1591"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1593"/>
         <source>%0 Hz</source>
         <comment>VBlank rate</comment>
         <translation>%0 Hz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1600"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1602"/>
         <source>%0 %</source>
         <comment>Clocks scale</comment>
         <translation>%0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1665"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1667"/>
         <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
         <translation>Ne dirajte libsysutil libs, samo za razvojne svrhe, uzrokovat će rušenje igre.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1672"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1674"/>
         <source>Search libraries</source>
         <comment>Library search box</comment>
         <translation>Pretraži biblioteke</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1784"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1786"/>
         <source>All (%1)</source>
         <comment>Max LLVM Compile Threads</comment>
         <translation>Sve (%1)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1788"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1790"/>
         <source>Auto</source>
         <comment>Max Shader Compile Threads</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1936"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1938"/>
         <source>Update Interval: %0 ms</source>
         <comment>Performance overlay update interval</comment>
         <translation>Interval ažuriranja: %0 ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1939"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1941"/>
         <source>Font Size: %0 px</source>
         <comment>Performance overlay font size</comment>
         <translation>Veličina Fonta: %0 px</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1942"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1944"/>
         <source>Opacity: %0 %</source>
         <comment>Performance overlay opacity</comment>
         <translation>Neprozirnost: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1945"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1947"/>
         <source>Framerate datapoints: %0</source>
         <comment>Framerate graph datapoints</comment>
         <translation>Podatkovne točke brzine sličica u sekundi: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1948"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1950"/>
         <source>Frametime datapoints: %0</source>
         <comment>Frametime graph datapoints</comment>
         <translation>Podatkovne točke vremena po sličici: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1951"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1953"/>
         <source>Background darkening: %0 %</source>
         <comment>Shader load background darkening</comment>
         <translation>Zatamnjenje pozadine: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1954"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1956"/>
         <source>Background blur: %0 %</source>
         <comment>Shader load background blur</comment>
         <translation>Zamućenje pozadine: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1959"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1961"/>
         <source>%</source>
         <comment>Performance overlay margin x</comment>
         <translation type="unfinished">%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1962"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1964"/>
         <source>%</source>
         <comment>Performance overlay margin y</comment>
         <translation type="unfinished">%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2075"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2077"/>
         <source>My Game</source>
         <comment>Game window title</comment>
         <translation>Moja igra</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2110"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2112"/>
         <source>GPU Model</source>
         <comment>Game window title</comment>
         <translation>GPU Model</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2111"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2113"/>
         <source>CPU Model</source>
         <comment>Game window title</comment>
         <translation>CPU Model</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2112"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2114"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
         <translation>Broj Dretve</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2113"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2115"/>
         <source>System Memory</source>
         <comment>Game window title</comment>
         <translation>Sistemska Memorija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2114"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2116"/>
         <source>Framerate</source>
         <comment>Game window title</comment>
         <translation>Broj Slič/Sek</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2115"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2117"/>
         <source>Renderer</source>
         <comment>Game window title</comment>
         <translation>Render</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2116"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2118"/>
         <source>Title</source>
         <comment>Game window title</comment>
         <translation>Naslov</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2117"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2119"/>
         <source>Title ID</source>
         <comment>Game window title</comment>
         <translation>Naslov ID</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2118"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2120"/>
         <source>RPCS3 Version</source>
         <comment>Game window title</comment>
         <translation>RPCS3 Verzija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2128"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2130"/>
         <source>Glossary:
 
 %0
@@ -17606,106 +17621,106 @@ Pregled:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2135"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2137"/>
         <source>Game Window Title Format</source>
         <comment>Game window title</comment>
         <translation>Format Naslova Prozora Igre</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2203"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2205"/>
         <source>User Interface: %0 %</source>
         <comment>GUI volume</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2234"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2236"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2234"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2236"/>
         <source>Failed to create new installation ID!</source>
         <translation>Nije uspjelo stvaranje novog ID-a instalacije!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2295"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2297"/>
         <source>Yes</source>
         <comment>Updates</comment>
         <translation>Da</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2296"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2298"/>
         <source>Background</source>
         <comment>Updates</comment>
         <translation>Pozadina</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2297"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2299"/>
         <source>Automatic</source>
         <comment>Updates</comment>
         <translation>Automatski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2298"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2300"/>
         <source>No</source>
         <comment>Updates</comment>
         <translation>Ne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2373"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2375"/>
         <source>Choose gamelist icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>Odaberite boju ikone popisa igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2377"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2379"/>
         <source>Choose save manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>Odaberite boju ikone upravitelja spremanja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2381"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2383"/>
         <source>Choose trophy manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>Odaberite boju ikone upravitelja trofeja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2496"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2498"/>
         <source>Always Enabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
         <translation>Uvijek Omogućeno</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2497"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2499"/>
         <source>Disabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
         <translation>Onemogućeno</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2584"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2586"/>
         <source>None</source>
         <comment>Stylesheets</comment>
         <translation>Ništa</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2589"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2591"/>
         <source>Native (%0)</source>
         <comment>Stylesheets</comment>
         <translation>Izvorno (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2592"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2594"/>
         <source>Default (Bright)</source>
         <comment>Stylesheets</comment>
         <translation>Zadano (Svijetlo)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2648"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2650"/>
         <source>Remove obsolete settings?</source>
         <translation>Ukloniti zastarjele postavke?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2649"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2651"/>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
         <translation>Vaša konfiguracijska datoteka sadrži jedan ili više zastarjelih unosa.&lt;br&gt;Uzmite u obzir da bi uklanjanje moglo učiniti te unose nevažećima za druge verzije RPCS3.&lt;br&gt;&lt;br&gt;Želite li da ih program sada ukloni umjesto vas?&lt;br&gt;Ova promjena bit će konačna tek kada spremite konfiguraciju.</translation>
     </message>
