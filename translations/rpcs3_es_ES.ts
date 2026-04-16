@@ -12891,12 +12891,12 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1933"/>
       <source>Pickup Switch Up</source>
-      <translation>Interruptor/Control de efectos arriba</translation>
+      <translation>Palanca de efectos arriba</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1934"/>
       <source>Pickup Switch Down</source>
-      <translation>Interruptor/Control de efectos abajo</translation>
+      <translation>Palanca de efectos abajo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1937"/>
