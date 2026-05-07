@@ -3658,7 +3658,7 @@ Este cambio solo hará efecto al guardar la configuración.</translation>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1075"/>
       <source>Async Recompiler with Shader Interpreter</source>
       <comment>Shader Mode</comment>
-      <translation>Recompilador asíncrono con intérprete de shaders</translation>
+      <translation>Recomp. asíncrono con intérprete de shaders</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1076"/>
@@ -16714,12 +16714,12 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2474"/>
       <source>Disable SPU GETLLAR Spin Optimization</source>
-      <translation>Desactivar optimización de SPU GETLLAR Spin</translation>
+      <translation>Desactivar optim. de SPU GETLLAR Spin</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2481"/>
       <source>Enable SPU Events Busy Loop</source>
-      <translation>Activar bucle de eventos ocupados de la SPU</translation>
+      <translation>Act. bucle de eventos ocupados de SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2488"/>
@@ -16909,7 +16909,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
       <source>Play music during boot sequence</source>
-      <translation>Reproduce música durante la secuencia de arranque</translation>
+      <translation>Reproducir música durante el arranque</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
