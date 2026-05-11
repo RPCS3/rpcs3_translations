@@ -2211,25 +2211,30 @@ To automatycznie przekaże porty związane z 0.0.0.0, jeśli twój router ma wł
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="268"/>
+        <source>Derive the MAC address from the PSID.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="269"/>
         <source>Changes the RPCN country.</source>
         <translation>Zmienia kraj RPCN.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="269"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="270"/>
         <source>Enable connection to the Clans server.
 Only affects games supporting the Clans feature.</source>
         <translation>Włącz połączenie z serwerem Clans.
 Dotyczy wyłącznie gier wspierających funkcję&#xa0;Clans.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="273"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="274"/>
         <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
         <translation>Region konsoli określa obszar licencyjny PS3.
 W zależności od regionu licencyjnego, niektóre gry mogą nie działać.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="274"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="275"/>
         <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
@@ -2238,24 +2243,24 @@ Inne gry automatycznie zmienią język na wybrany tutaj.
 Zaleca się ustawienie języka obsługiwanego przez grę.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="275"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="276"/>
         <source>Select the PS3&apos;s date format.</source>
         <translation>Wybierz format daty systemu PS3.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="276"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="277"/>
         <source>Select the PS3&apos;s time format.</source>
         <translation>Wybierz format czasu systemu PS3.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="277"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="278"/>
         <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
         <translation>Ustawia używany układ klawiatury.
 Obecnie tylko w USA, Japonii i Niemczech są w pełni obsługiwane.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="278"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="279"/>
         <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
@@ -2264,21 +2269,21 @@ Zmień to, aby zamiast tego użyć kółka, który jest domyślną konfiguracją
 W takich przypadkach przypisanie krzyżyka może często prowadzić do dezorientacji.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="279"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="280"/>
         <source>Required for some Homebrew.
 If unsure, do not use this option.</source>
         <translation>Wymagane dla niektórych Homebrew.
 Jeśli nie jesteś pewien, nie używaj tej opcji.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="280"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="281"/>
         <source>Required for some Homebrew or Game Mods.
 If unsure, do not use this option</source>
         <translation>Wymagane dla niektórych Homebrew lub Modów.
 Jeśli nie jesteś pewien, nie używaj tej opcji</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="281"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="282"/>
         <source>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.
 
@@ -2289,133 +2294,133 @@ Gry mogą wykorzystywać folder cache do tymczasowego przechowywania danych poza
 To ustawienie jest dostępne tylko w konfiguracji globalnej.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="282"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="283"/>
         <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</source>
         <translation>Ustawia czas używany w konsoli. Zostanie zastosowany jako przesunięcie śledzące rzeczywisty czas.
 Aby zresetować do aktualnego czasu, kliknij &quot;Ustaw na teraz&quot;.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="287"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="288"/>
         <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
         <translation>Ten kontroler jest wyłączony i będzie widziany jako rozłączony przez oprogramowanie. Aby go włączyć, wybierz inny handler.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="288"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="289"/>
         <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
         <translation>Ten port jest obecnie przypisany do kontrolera niestandardowego przez aplikację i nie może zostać zmieniony.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="289"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="290"/>
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
         <translation>Chociaż możliwe jest użycie klawiatury jako kontrolera w RPCS3, zdecydowanie zaleca się użycie prawdziwego kontrolera.&lt;br&gt;Aby przypisać ruch myszy do przycisku lub joysticka:
 Kliknij żądany przycisk, aby go aktywować,
 Przytrzymaj kliknięcie i przeciągnij mysz w wybranym kierunku.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="290"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="291"/>
         <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation>Aby korzystać z DualShock 3, musisz najpierw zainstalować oficjalny sterownik DualShock 3.&lt;br&gt;Zobacz instrukcje &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="291"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="292"/>
         <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation>Aby korzystać z DualShock 3, być może będziesz musiał dodać reguły udev, aby umożliwić RPCS3 dostęp do kontrolera.&lt;br&gt;Zobacz instrukcje &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="292"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="293"/>
         <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
         <translation>Dla oficjalnych kontrolerów DualShock 3 zaleca się Handler DualShock 3.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="293"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="294"/>
         <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
         <translation>Jeśli masz jakiekolwiek problemy z Handlerem DualShock 4, może to być spowodowane przez narzędzia innych firm, takie jak DS4Windows. Rekomendowane jest, abyś je wyłączył podczas korzystania z tego Handlera.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="294"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="295"/>
         <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation>Aby korzystać z DualShock 4, konieczne może być dodanie reguł udev, aby umożliwić RPCS3 dostęp do kontrolera.&lt;br&gt;Zobacz instrukcje &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="295"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="296"/>
         <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
         <translation>Dla oficjalnych kontrolerów DualShock 4 zaleca się Handler DualShock 4.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="296"/>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="297"/>
         <location filename="rpcs3/rpcs3qt/tooltips.h" line="298"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="299"/>
         <source>The DualSense handler is recommended for official DualSense controllers.</source>
         <translation>Dla oficjalnych kontrolerów DualSense zaleca się Handler DualSense.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="299"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="300"/>
         <source>The Skateboard handler is recommended for official RIDE skateboard controllers.</source>
         <translation>Dla oficjalnych kontrolerów RIDE zaleca się Handler Skateboard.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="300"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="301"/>
         <source>The PS Move handler is recommended for official PS Move controllers.</source>
         <translation>Dla oficjalnych kontrolerów PS Move zaleca się Handler PS Move.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="301"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="302"/>
         <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP&apos;s XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</source>
         <translation>Handler XInput obsługuje kontrolery Xbox oraz wiele kontrolerów innych firm zgodnych z PC. Przyciski czułe na nacisk (SCP) są wspierane, pod warunkiem umieszczenia pliku XInput1_3.dll z SCP w głównym folderze RPCS3. Więcej szczegółów znajdziesz na &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;Wiki RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="302"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="303"/>
         <source>The evdev handler should work with any controller that has Linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
         <translation>Handler evdev powinien działać z dowolnym kontrolerem obsługiwanym w Linuxie.&lt;br&gt;Jeśli twój joystick nie jest prawidłowo wyśrodkowany, przeczytaj &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;Wiki RPCS3&lt;/a&gt; aby uzyskać instrukcje.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="303"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="304"/>
         <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
         <translation>Handler MMJoystick powinien działać z niemal każdym kontrolerem rozpoznawanym przez Windows. Jednak zaleca się użycie bardziej specjalizowanych handlerów, jeśli twój kontroler je obsługuje.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="304"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="305"/>
         <source>The SDL handler supports a variety of controllers across different platforms.</source>
         <translation>Handler SDL obsługuje różne kontrolery na różnych platformach.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="306"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="307"/>
         <source>Resets the sensor orientation when pressed.&lt;br&gt;Toggle the checkbox to enable or disable the orientation feature.&lt;br&gt;Currently only used for PS Move interactions.</source>
         <translation>Resetuje orientację czujnika po naciśnięciu.&lt;br&gt;Zaznacz pole wyboru, aby włączyć lub wyłączyć funkcję orientacji.&lt;br&gt;Obecnie używane tylko do interakcji z PS Move.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="307"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="308"/>
         <source>Applies the stick multipliers while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the analog limiter on button press instead.&lt;br&gt;If no button has been assigned, the stick multipliers are always applied.</source>
         <translation>Zastosowuje mnożniki drążków, gdy ten specjalny przycisk jest wciśnięty.&lt;br&gt;Włącz &quot;Przełącznik&quot;, jeśli chcesz, aby ogranicznik analogowy był przełączany po naciśnięciu przycisku.&lt;br&gt;Jeśli nie przypisano żadnego przycisku, mnożniki drążków są zawsze aktywne.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="308"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="309"/>
         <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
         <translation>Kontroluje intensywność przycisków czułych na nacisk podczas przytrzymania tego specjalnego przycisku.&lt;br&gt;Włącz &quot;Przełącz&quot;, jeśli chcesz przełączać intensywność po naciśnięciu przycisku.&lt;br&gt;Użyj procentów, aby zmienić siłę nacisku przycisku.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="309"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="310"/>
         <source>Controls the deadzone of pressure sensitive buttons. It determines how far the button has to be pressed until it is recognized by the game. The resulting range will be projected onto the full button sensitivity range.</source>
         <translation>Kontroluje martwą strefę przycisków czułych na nacisk. Określa, jak mocno należy przycisnąć przycisk, zanim zostanie rozpoznany przez grę. Wynikowy zakres zostanie odwzorowany na pełną czułość przycisku.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="310"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="311"/>
         <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 4000 is usually recommended.</source>
         <translation>Rzeczywisty zakres ruchu drążków w kontrolerze DualShock 3 nie jest okrągły, lecz ma kształt zaokrąglonego kwadratu (tzw. squircle), który reprezentuje maksymalny zasięg emulowanych drążków. Możesz użyć wartości „squircling”, aby zmodyfikować sygnał wejściowy, jeśli Twoje drążki nie są w stanie dotrzeć do rogów tego zakresu. Wartość 0 oznacza brak jakiejkolwiek modyfikacji kształtu (squircling), natomiast zazwyczaj zalecaną wartością jest 4000.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="311"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="312"/>
         <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
         <translation>Mnożniki drążków pozwalają zmienić czułość ich ruchów.&lt;br&gt;Wartość domyślna to 1 i odpowiada normalnemu wejściu.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="312"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="313"/>
         <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is simulated using the anti-deadzone slider (default is 13%), so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
         <translation>Martwa strefa drążka określa, jak daleko należy go przesunąć, zanim ruch zostanie w pełni rozpoznany przez grę. Wynikowy zakres jest odwzorowywany na pełny zakres wejścia, aby zapewnić płynne działanie. Ruch w obrębie martwej strefy jest symulowany przy użyciu suwaka &apos;anty-martwa strefa&apos; (domyślnie 13%), więc nie martw się, jeśli w podglądzie emulowanego drążka widać jeszcze ruch.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="313"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="314"/>
         <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.&lt;br&gt;The game sends values from 0-255 to activate the motors.&lt;br&gt;Any value smaller or equal the threshold will be set to 0. This is 63 by default for pad handlers other than DualShock3 in order to emulate the DualShock3&apos;s behavior.</source>
         <translation>PS3 aktywuje dwa silniki (duży i mały) do obsługi wibracji kontrolera.
 Tutaj możesz włączyć, wyłączyć lub nawet zamienić te sygnały dla aktualnie wybranego pada.
@@ -2423,42 +2428,42 @@ Gra wysyła wartości od 0 do 255, aby aktywować silniki.
 Każda wartość mniejsza lub równa progowi zostanie ustawiona na 0. Domyślnie jest to 63 dla obsługi padów innych niż DualShock 3, aby emulować zachowanie DualShock 3.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="314"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="315"/>
         <source>Use this to configure the gamepad motion controls.</source>
         <translation>Użyj tego, aby skonfigurować sterowanie ruchem.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="315"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="316"/>
         <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
         <translation>Emulowane wartości drążków (czerwone kropki) w podglądzie reprezentują rzeczywiste pozycje drążków widoczne dla gry. Faktyczny zakres drążków DualShock 3 nie jest okrągły, lecz ma kształt zaokrąglonego kwadratu (tzw. &apos;squircle&apos;), co określa maksymalny zakres emulowanych drążków. Niebieskie regularne kropki reprezentują surowe wartości drążków (uwzględniając mnożniki) przed konwersją do użycia w grze.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="316"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="317"/>
         <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
         <translation>Martwa strefa triggera określa, jak mocno należy go nacisnąć, zanim ruch zostanie rozpoznany przez grę. Wynikowy zakres jest odwzorowywany na pełny zakres wejścia, zapewniając płynne działanie.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="317"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="318"/>
         <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
         <translation>W przypadku klawiatury jesteś ograniczony do 8 kierunków drążka (4 proste + 4 ukośne). Dodatkowo, drążek natychmiast skacze do maksymalnej wartości wybranego kierunku po naciśnięciu klawisza. Interpolacja drążka pozwala obejść oba te problemy, wygładzając zmiany kierunku. Im niższa wartość, tym dłużej trzeba przytrzymać lub zwolnić klawisz, aby osiągnąć maksymalną amplitudę.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="318"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="319"/>
         <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
         <translation>Martwe strefy myszy reprezentują własne martwe strefy gry na osiach X i Y. Gry zwykle wymuszają własne martwe strefy, aby filtrować niechciane, drobne ruchy drążka. W rezultacie, wprowadzanie danych myszą wydaje się nienaturalne, ponieważ opiera się na natychmiastowej reaktywności. Możesz tymczasowo zmieniać te wartości podczas rozgrywki, aby znaleźć optymalne wartości dla swojej gry (Alt+T i Alt+Y dla osi X, Alt+U i Alt+I dla osi Y).</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="319"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="320"/>
         <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
         <translation>Przyspieszenie myszy może wzmacniać jej ruchy na osiach X i Y. Zwiększ te wartości, jeśli ruchy myszą wydają się zbyt wolne podczas gry. Możesz tymczasowo zmieniać te wartości w trakcie rozgrywki, aby znaleźć optymalne ustawienia (Alt+G i Alt+H dla osi X, Alt+J i Alt+K dla osi Y). Pamiętaj, że nowoczesne myszy zwykle oferują różne tryby i ustawienia, które również mogą zmieniać prędkość ruchu myszy.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="320"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="321"/>
         <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
         <translation>Tryb ruchu myszy określa, jak ruch myszy jest tłumaczony na input kontrolera.&lt;br&gt;Użyj trybu względnego dla tradycyjnego ruchu myszy.&lt;br&gt;Użyj trybu absolutnego, aby używać odległości myszy od środka ekranu jako wartości wejściowej.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/tooltips.h" line="321"/>
+        <location filename="rpcs3/rpcs3qt/tooltips.h" line="322"/>
         <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Ctrl + Left-click: Create a combo by adding a button to the last mapping.&lt;br&gt;Alt + Left-click: differentiate between trigger press and release (only XInput for now).&lt;br&gt;Right-click: clear this button mapping.</source>
         <translation>LPM: zmień przypisanie tego przycisku.&lt;br&gt;Shift + LPM: dodaj dodatkowe przypisanie przycisku.&lt;br&gt;Ctrl + LPM: stwórz combo, dodając przycisk do ostatniego mapowania.&lt;br&gt;Alt + LPM: rozróżnij naciśnięcie i zwolnienie spustu (obecnie tylko XInput).&lt;br&gt;PPM: wyczyść przypisanie tego przycisku.</translation>
     </message>
@@ -2541,6 +2546,114 @@ There are still plenty of implementations to make and optimizations to do.</sour
 Jest napisany w C++ dla Windows, Linux, FreeBSD i MacOS, finansowany z %0.
 Nasi deweloperzy i współtwórcy zawsze ciężko pracują, aby zapewnić, żeby ten projekt był jak najlepszy.
 Wciąż istnieje wiele implementacji i optymalizacji do zrobienia.</translation>
+    </message>
+</context>
+<context>
+    <name>anaglyph_settings_dialog</name>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="104"/>
+        <source>Anaglyph Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="139"/>
+        <source>Apply Custom Matrices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="147"/>
+        <source>Live Preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="154"/>
+        <source>Disabled</source>
+        <translation type="unfinished">Wył.</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="155"/>
+        <source>Red-Green</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="156"/>
+        <source>Red-Blue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="157"/>
+        <source>Red-Cyan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="158"/>
+        <source>Magenta-Cyan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="159"/>
+        <source>Trioscopic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="160"/>
+        <source>Amber-Blue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="161"/>
+        <source>Custom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="193"/>
+        <source>Left matrix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="194"/>
+        <source>Right matrix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="197"/>
+        <source>Reference</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="198"/>
+        <source>Anaglyph</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="212"/>
+        <source>R in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="212"/>
+        <source>G in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="212"/>
+        <source>B in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="213"/>
+        <source>R out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="213"/>
+        <source>G out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="213"/>
+        <source>B out</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3575,12 +3688,12 @@ Plik: %0
 Błąd: %1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1018"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1020"/>
         <source>Fix invalid settings?</source>
         <translation>Naprawić nieprawidłowe ustawienia?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1019"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1021"/>
         <source>Your config file contained one or more unrecognized values for settings.
 Their default value will be used until they are corrected.
 Consider that a correction might render them invalid for other versions of RPCS3.
@@ -3595,1389 +3708,1395 @@ Czy chcesz pozwolić programowi na poprawienie ich dla Ciebie?
 Ta zmiana będzie zakończona tylko wtedy, gdy zapiszesz konfigurację.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1049"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1051"/>
         <source>Safe</source>
         <comment>SPU block size</comment>
         <translation>Bezpieczny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1050"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1052"/>
         <source>Mega</source>
         <comment>SPU block size</comment>
         <translation>Mega</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1051"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1053"/>
         <source>Giga</source>
         <comment>SPU block size</comment>
         <translation>Giga</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1057"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1059"/>
         <source>RPCS3 Scheduler</source>
         <comment>Thread Scheduler Mode</comment>
         <translation>Harmonogram RPCS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1058"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1060"/>
         <source>RPCS3 Alternative Scheduler</source>
         <comment>Thread Scheduler Mode</comment>
         <translation>Alternatywny harmonogram RPCS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1059"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1061"/>
         <source>Operating System</source>
         <comment>Thread Scheduler Mode</comment>
         <translation>System Operacyjny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1065"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1067"/>
         <source>Disable Video Output</source>
         <comment>Video renderer</comment>
         <translation>Wyłącz Wyjście Wideo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1066"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1068"/>
         <source>OpenGL</source>
         <comment>Video renderer</comment>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1067"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1069"/>
         <source>Vulkan</source>
         <comment>Video renderer</comment>
         <translation>Vulkan</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1073"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1075"/>
         <source>Legacy Recompiler (single-threaded)</source>
         <comment>Shader Mode</comment>
         <translation>Rekompilator Legacy (jednowątkowy)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1074"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1076"/>
         <source>Async Recompiler (multi-threaded)</source>
         <comment>Shader Mode</comment>
         <translation>Rekompilator Async (wielowątkowy)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1075"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1077"/>
         <source>Async Recompiler with Shader Interpreter</source>
         <comment>Shader Mode</comment>
         <translation>Rekompilator Async z interpreterem shaderów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1076"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1078"/>
         <source>Shader Interpreter only</source>
         <comment>Shader Mode</comment>
         <translation>Tylko interpreter shaderów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1082"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1084"/>
         <source>1080p</source>
         <comment>Resolution</comment>
         <translation>1080p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1083"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1085"/>
         <source>1080i</source>
         <comment>Resolution</comment>
         <translation>1080i</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1084"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1086"/>
         <source>720p</source>
         <comment>Resolution</comment>
         <translation>720p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1085"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1087"/>
         <source>480p</source>
         <comment>Resolution</comment>
         <translation>480p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1086"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1088"/>
         <source>480i</source>
         <comment>Resolution</comment>
         <translation>480i</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1087"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1089"/>
         <source>576p</source>
         <comment>Resolution</comment>
         <translation>576p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1088"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1090"/>
         <source>576i</source>
         <comment>Resolution</comment>
         <translation>576i</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1089"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1091"/>
         <source>1600x1080p</source>
         <comment>Resolution</comment>
         <translation>1600x1080p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1090"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1092"/>
         <source>1440x1080p</source>
         <comment>Resolution</comment>
         <translation>1440x1080p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1091"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1093"/>
         <source>1280x1080p</source>
         <comment>Resolution</comment>
         <translation>1280x1080p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1092"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1094"/>
         <source>960x1080p</source>
         <comment>Resolution</comment>
         <translation>960x1080p</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1098"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1100"/>
         <source>Off</source>
         <comment>Frame limit</comment>
         <translation>Wył.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1099"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1101"/>
         <source>30</source>
         <comment>Frame limit</comment>
         <translation>30</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1100"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1102"/>
         <source>50</source>
         <comment>Frame limit</comment>
         <translation>50</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1101"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1103"/>
         <source>60</source>
         <comment>Frame limit</comment>
         <translation>60</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1102"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1104"/>
         <source>120</source>
         <comment>Frame limit</comment>
         <translation>120</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1103"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1105"/>
         <source>Display</source>
         <comment>Frame limit</comment>
         <translation>Ekran</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1104"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1106"/>
         <source>Auto</source>
         <comment>Frame limit</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1105"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1107"/>
         <source>PS3 Native</source>
         <comment>Frame limit</comment>
         <translation>Natywny PS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1106"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1108"/>
         <source>Infinite</source>
         <comment>Frame limit</comment>
         <translation>Nieskończony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1112"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1114"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
         <translation>Wył.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1113"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1115"/>
         <source>Auto</source>
         <comment>MSAA</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1119"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1121"/>
         <source>Auto</source>
         <comment>Framebuffer Aliasing Heuristic Bias</comment>
         <translation type="unfinished">Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1120"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1122"/>
         <source>Prefer Color</source>
         <comment>Framebuffer Aliasing Heuristic Bias</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1121"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1123"/>
         <source>Prefer Depth</source>
         <comment>Framebuffer Aliasing Heuristic Bias</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1127"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1129"/>
         <source>Auto</source>
         <comment>Shader Precision</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1128"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1130"/>
         <source>Ultra</source>
         <comment>Shader Precision</comment>
         <translation>Ultra</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1129"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1131"/>
         <source>High</source>
         <comment>Shader Precision</comment>
         <translation>Wysokie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1130"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1132"/>
         <source>Low</source>
         <comment>Shader Precision</comment>
         <translation>Niskie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1136"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1138"/>
         <source>Nearest</source>
         <comment>Output Scaling Mode</comment>
         <translation>Najbliższy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1137"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1139"/>
         <source>Bilinear</source>
         <comment>Output Scaling Mode</comment>
         <translation>Dwuliniowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1138"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1140"/>
         <source>FidelityFX Super Resolution 1</source>
         <comment>Output Scaling Mode</comment>
         <translation>FidelityFX Super Resolution 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1144"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1146"/>
         <source>Disable Audio Output</source>
         <comment>Audio renderer</comment>
         <translation>Wyłącz Wyjście Audio</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1146"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1148"/>
         <source>XAudio2</source>
         <comment>Audio renderer</comment>
         <translation>XAudio2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1148"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1150"/>
         <source>Cubeb</source>
         <comment>Audio renderer</comment>
         <translation>Cubeb</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1150"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1152"/>
         <source>FAudio</source>
         <comment>Audio renderer</comment>
         <translation>FAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1157"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1159"/>
         <source>Disabled</source>
         <comment>Microphone handler</comment>
         <translation>Wył.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1158"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1160"/>
         <source>Standard</source>
         <comment>Microphone handler</comment>
         <translation>Standardowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1159"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1161"/>
         <source>SingStar</source>
         <comment>Microphone handler</comment>
         <translation>SingStar</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1160"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1162"/>
         <source>Real SingStar</source>
         <comment>Microphone handler</comment>
         <translation>Prawdziwy SingStar</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1161"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1163"/>
         <source>Rocksmith</source>
         <comment>Microphone handler</comment>
         <translation>Rocksmith</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1167"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1169"/>
         <source>Null</source>
         <comment>Keyboard handler</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1168"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1170"/>
         <source>Basic</source>
         <comment>Keyboard handler</comment>
-        <translation>Podstawowy</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1174"/>
-        <source>Null</source>
-        <comment>Mouse handler</comment>
-        <translation>Brak</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1175"/>
-        <source>Basic</source>
-        <comment>Mouse handler</comment>
         <translation>Podstawowy</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1176"/>
+        <source>Null</source>
+        <comment>Mouse handler</comment>
+        <translation>Brak</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1177"/>
+        <source>Basic</source>
+        <comment>Mouse handler</comment>
+        <translation>Podstawowy</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1178"/>
         <source>Raw</source>
         <comment>Mouse handler</comment>
         <translation>Surowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1182"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1184"/>
         <source>Unknown</source>
         <comment>Camera type</comment>
         <translation>Nieznane</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1183"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1185"/>
         <source>EyeToy</source>
         <comment>Camera type</comment>
         <translation>EyeToy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1184"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1186"/>
         <source>PS Eye</source>
         <comment>Camera type</comment>
         <translation>PS Eye</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1185"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1187"/>
         <source>UVC 1.1</source>
         <comment>Camera type</comment>
         <translation>UVC 1.1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1191"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1193"/>
         <source>No</source>
         <comment>Camera flip</comment>
         <translation>Nie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1192"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1194"/>
         <source>Flip horizontally</source>
         <comment>Camera flip</comment>
         <translation>Odwróć poziomo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1193"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1195"/>
         <source>Flip vertically</source>
         <comment>Camera flip</comment>
         <translation>Odwróć pionowo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1194"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1196"/>
         <source>Flip both axes</source>
         <comment>Camera flip</comment>
         <translation>Odwróć obie osie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1200"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1202"/>
         <source>Null</source>
         <comment>Camera handler</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1201"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1203"/>
         <source>Fake</source>
         <comment>Camera handler</comment>
         <translation>Fałszywy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1202"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1204"/>
         <source>Qt</source>
         <comment>Camera handler</comment>
         <translation>Qt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1204"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1206"/>
         <source>SDL</source>
         <comment>Camera handler</comment>
         <translation>SDL</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1211"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1213"/>
         <source>Null</source>
         <comment>Music handler</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1212"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1214"/>
         <source>Qt</source>
         <comment>Music handler</comment>
         <translation>Qt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1218"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1220"/>
         <source>Single-threaded</source>
         <comment>Pad handler mode</comment>
         <translation>Jednowątkowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1219"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1221"/>
         <source>Multi-threaded</source>
         <comment>Pad handler mode</comment>
         <translation>Wielowątkowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1225"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1227"/>
         <source>Null</source>
         <comment>Move handler</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1226"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1228"/>
         <source>Real</source>
         <comment>Move handler</comment>
         <translation>Prawdziwy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1227"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1229"/>
         <source>Fake</source>
         <comment>Move handler</comment>
         <translation>Fałszywy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1228"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1230"/>
         <source>Mouse</source>
         <comment>Move handler</comment>
         <translation>Myszka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1229"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1231"/>
         <source>Raw Mouse</source>
         <comment>Move handler</comment>
         <translation>Surowa myszka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1231"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1233"/>
         <source>Gun</source>
         <comment>Gun handler</comment>
         <translation>Gun</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1238"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1240"/>
         <source>Null (use real Buzzers)</source>
         <comment>Buzz handler</comment>
         <translation>Null (użyj prawdziwych Buzzerów)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1239"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1241"/>
         <source>1 controller (1-4 players)</source>
         <comment>Buzz handler</comment>
         <translation>1 kontroler (1-4 graczy)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1240"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1242"/>
         <source>2 controllers (5-7 players)</source>
         <comment>Buzz handler</comment>
         <translation>2 kontrolery (5-7 graczów)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1246"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1248"/>
         <source>Null</source>
         <comment>Turntable handler</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1247"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1249"/>
         <source>1 controller</source>
         <comment>Turntable handler</comment>
         <translation>1 kontroler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1248"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1250"/>
         <source>2 controllers</source>
         <comment>Turntable handler</comment>
         <translation>2 kontrolery</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1254"/>
-        <source>Null</source>
-        <comment>GHLtar handler</comment>
-        <translation>Brak</translation>
-    </message>
-    <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1255"/>
-        <source>1 controller</source>
-        <comment>GHLtar handler</comment>
-        <translation>1 kontroler</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1256"/>
+        <source>Null</source>
+        <comment>GHLtar handler</comment>
+        <translation>Brak</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1257"/>
+        <source>1 controller</source>
+        <comment>GHLtar handler</comment>
+        <translation>1 kontroler</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1258"/>
         <source>2 controllers</source>
         <comment>GHLtar handler</comment>
         <translation>2 kontrolery</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1262"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1264"/>
         <source>Disconnected</source>
         <comment>Internet Status</comment>
         <translation>Rozłączony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1263"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1265"/>
         <source>Connected</source>
         <comment>Internet Status</comment>
         <translation>Połączony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1269"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1271"/>
         <source>Disconnected</source>
         <comment>PSN Status</comment>
         <translation>Rozłączony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1270"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1272"/>
         <source>Simulated</source>
         <comment>PSN Status</comment>
         <translation>Symulowany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1271"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1273"/>
         <source>RPCN</source>
         <comment>PSN Status</comment>
         <translation>RPCN</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1277"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1279"/>
         <source>As Host</source>
         <comment>Sleep timers accuracy</comment>
         <translation>Jako Host</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1278"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1280"/>
         <source>Usleep Only</source>
         <comment>Sleep timers accuracy</comment>
         <translation>Tylko uSleep</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1279"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1281"/>
         <source>All Timers</source>
         <comment>Sleep timers accuracy</comment>
         <translation>Wszystkie timery</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1285"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1287"/>
         <source>Fast</source>
         <comment>RSX FIFO Fetch Accuracy</comment>
         <translation>Szybki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1286"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1288"/>
         <source>Atomic</source>
         <comment>RSX FIFO Fetch Accuracy</comment>
         <translation>Atomowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1287"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1289"/>
         <source>Ordered &amp; Atomic</source>
         <comment>RSX FIFO Fetch Accuracy</comment>
         <translation>Uporządkowany i Atomowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1288"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1290"/>
         <source>PS3</source>
         <comment>RSX FIFO Fetch Accuracy</comment>
         <translation>PS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1294"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1296"/>
         <source>None</source>
         <comment>Detail Level</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1295"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1297"/>
         <source>Minimal</source>
         <comment>Detail Level</comment>
         <translation>Minimalny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1296"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1298"/>
         <source>Low</source>
         <comment>Detail Level</comment>
         <translation>Niski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1297"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1299"/>
         <source>Medium</source>
         <comment>Detail Level</comment>
         <translation>Średni</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1298"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1300"/>
         <source>High</source>
         <comment>Detail Level</comment>
         <translation>Wysoki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1305"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1307"/>
         <source>Minimal</source>
         <comment>Perf Graph Detail Level</comment>
         <translation>Minimalny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1306"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1308"/>
         <source>Show Min And Max</source>
         <comment>Perf Graph Detail Level</comment>
         <translation>Pokaż Min. i Maks.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1307"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1309"/>
         <source>Show 1% Low And Average</source>
         <comment>Perf Graph Detail Level</comment>
         <translation>Pokaż 1% niski i przeciętny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1308"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1310"/>
         <source>Show All</source>
         <comment>Perf Graph Detail Level</comment>
         <translation>Pokaż wszystko</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1314"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1316"/>
         <source>Top Left</source>
         <comment>Performance overlay position</comment>
         <translation>Lewy górny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1315"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1317"/>
         <source>Top Right</source>
         <comment>Performance overlay position</comment>
         <translation>Prawy górny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1316"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1318"/>
         <source>Bottom Left</source>
         <comment>Performance overlay position</comment>
         <translation>Lewy dolny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1317"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1319"/>
         <source>Bottom Right</source>
         <comment>Performance overlay position</comment>
         <translation>Prawy dolny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1323"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1325"/>
         <source>Interpreter (static)</source>
         <comment>PPU decoder</comment>
         <translation>Interpreter (statyczny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1324"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1326"/>
         <source>Recompiler (LLVM)</source>
         <comment>PPU decoder</comment>
         <translation>Rekompilator (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1330"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1332"/>
         <source>Interpreter (static)</source>
         <comment>SPU decoder</comment>
         <translation>Interpreter (statyczny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1331"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1333"/>
         <source>Interpreter (dynamic)</source>
         <comment>SPU decoder</comment>
         <translation>Interpreter (dynamiczny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1332"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1334"/>
         <source>Recompiler (ASMJIT)</source>
         <comment>SPU decoder</comment>
         <translation>Rekompilator (ASMJIT)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1333"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1335"/>
         <source>Recompiler (LLVM)</source>
         <comment>SPU decoder</comment>
         <translation>Rekompilator (LLVM)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1339"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1341"/>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
         <translation>Wprowadź kółkiem</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1340"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1342"/>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
         <translation>Wprowadź krzyżykiem</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1346"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1348"/>
         <source>Stereo</source>
         <comment>Audio format</comment>
         <translation>Stereo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1347"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1349"/>
         <source>Surround 5.1</source>
         <comment>Audio format</comment>
         <translation>Dźwięk przestrzenny 5.1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1348"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1350"/>
         <source>Surround 7.1</source>
         <comment>Audio format</comment>
         <translation>Dźwięk przestrzenny 7.1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1349"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1351"/>
         <source>Manual</source>
         <comment>Audio format</comment>
         <translation>Własny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1350"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1352"/>
         <source>Automatic</source>
         <comment>Audio format</comment>
         <translation>Automatyczny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1356"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1358"/>
         <source>Linear PCM 2 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
         <translation>Liniowy PCM 2-kanałowy 48 kHz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1357"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1359"/>
         <source>Linear PCM 5.1 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
         <translation>Liniowy PCM 5.1 kanałowy 48 kHz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1358"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1360"/>
         <source>Linear PCM 7.1 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
         <translation>Liniowy PCM 7.1 kanałowy 48 kHz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1359"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1361"/>
         <source>Dolby Digital 5.1 Ch.</source>
         <comment>Audio format flag</comment>
         <translation>Dolby Digital 5.1 kanałowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1360"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1362"/>
         <source>DTS 5.1 Ch.</source>
         <comment>Audio format flag</comment>
         <translation>DTS 5.1 kanał</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1366"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1368"/>
         <source>None</source>
         <comment>Audio Provider</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1367"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1369"/>
         <source>CellAudio</source>
         <comment>Audio Provider</comment>
         <translation>CellAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1368"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1370"/>
         <source>RSXAudio</source>
         <comment>Audio Provider</comment>
         <translation>RSXAudio</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1374"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1376"/>
         <source>HDMI 0</source>
         <comment>Audio Avport</comment>
         <translation>HDMI 0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1375"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1377"/>
         <source>HDMI 1</source>
         <comment>Audio Avport</comment>
         <translation>HDMI 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1376"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1378"/>
         <source>AV multiout</source>
         <comment>Audio Avport</comment>
         <translation>Wyjście AV multiout</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1377"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1379"/>
         <source>SPDIF 0</source>
         <comment>Audio Avport</comment>
         <translation>SPDIF 0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1378"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1380"/>
         <source>SPDIF 1</source>
         <comment>Audio Avport</comment>
         <translation>SPDIF 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1384"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1386"/>
         <source>Auto</source>
         <comment>Audio Channel Layout</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1385"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1387"/>
         <source>Mono</source>
         <comment>Audio Channel Layout</comment>
         <translation>Mono</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1386"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1388"/>
         <source>Stereo</source>
         <comment>Audio Channel Layout</comment>
         <translation>Stereo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1387"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1389"/>
         <source>Stereo LFE</source>
         <comment>Audio Channel Layout</comment>
         <translation>Stereo LFE</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1388"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1390"/>
         <source>Quadraphonic</source>
         <comment>Audio Channel Layout</comment>
         <translation>Kwadrofoniczny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1389"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1391"/>
         <source>Quadraphonic LFE</source>
         <comment>Audio Channel Layout</comment>
         <translation>Kwadrofoniczny LFE</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1390"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1392"/>
         <source>Surround 5.1</source>
         <comment>Audio Channel Layout</comment>
         <translation>Dźwięk przestrzenny 5.1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1391"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1393"/>
         <source>Surround 7.1</source>
         <comment>Audio Channel Layout</comment>
         <translation>Dźwięk przestrzenny 7.1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1397"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1399"/>
         <source>Japan</source>
         <comment>License Area</comment>
         <translation>Japonia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1398"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1400"/>
         <source>America</source>
         <comment>License Area</comment>
         <translation>Ameryka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1399"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1401"/>
         <source>Europe, Oceania, Middle East, Russia</source>
         <comment>License Area</comment>
         <translation>Europa, Oceania, Bliski Wschód, Rosja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1400"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1402"/>
         <source>Southeast Asia</source>
         <comment>License Area</comment>
         <translation>Azja Południowo-Wschodnia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1401"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1403"/>
         <source>Korea</source>
         <comment>License Area</comment>
         <translation>Korea</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1402"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1404"/>
         <source>China</source>
         <comment>License Area</comment>
         <translation>Chiny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1403"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1405"/>
         <source>Other</source>
         <comment>License Area</comment>
         <translation>Inne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1409"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1411"/>
         <source>Safe</source>
         <comment>Asynchronous Queue Scheduler</comment>
         <translation>Bezpieczny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1410"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1412"/>
         <source>Fast</source>
         <comment>Asynchronous Queue Scheduler</comment>
         <translation>Szybki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1416"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1418"/>
         <source>Year/Month/Day</source>
         <comment>Date Format</comment>
         <translation>Rok/Miesiąc/Dzień</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1417"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1419"/>
         <source>Day/Month/Year</source>
         <comment>Date Format</comment>
         <translation>Dzień/Miesiąc/Rok</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1418"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1420"/>
         <source>Month/Day/Year</source>
         <comment>Date Format</comment>
         <translation>Miesiąc/Dzień/Rok</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1424"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1426"/>
         <source>12-hour clock</source>
         <comment>Time Format</comment>
         <translation>Zegar 12-godzinny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1425"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1427"/>
         <source>24-hour clock</source>
         <comment>Time Format</comment>
         <translation>Zegar 24-godzinny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1431"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1433"/>
         <source>Japanese</source>
         <comment>System Language</comment>
         <translation>Japoński</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1432"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1434"/>
         <source>English (US)</source>
         <comment>System Language</comment>
         <translation>Angielski (USA)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1433"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1435"/>
         <source>French</source>
         <comment>System Language</comment>
         <translation>Francuski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1434"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1436"/>
         <source>Spanish</source>
         <comment>System Language</comment>
         <translation>Hiszpański</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1435"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1437"/>
         <source>German</source>
         <comment>System Language</comment>
         <translation>Niemiecki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1436"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1438"/>
         <source>Italian</source>
         <comment>System Language</comment>
         <translation>Włoski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1437"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1439"/>
         <source>Dutch</source>
         <comment>System Language</comment>
         <translation>Holenderski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1438"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1440"/>
         <source>Portuguese (Portugal)</source>
         <comment>System Language</comment>
         <translation>Portugalski (Portugalia)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1439"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1441"/>
         <source>Russian</source>
         <comment>System Language</comment>
         <translation>Rosyjski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1440"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1442"/>
         <source>Korean</source>
         <comment>System Language</comment>
         <translation>Koreański</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1441"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1443"/>
         <source>Chinese (Traditional)</source>
         <comment>System Language</comment>
         <translation>Chiński (Tradycyjny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1442"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1444"/>
         <source>Chinese (Simplified)</source>
         <comment>System Language</comment>
         <translation>Chiński (Uproszczony)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1443"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1445"/>
         <source>Finnish</source>
         <comment>System Language</comment>
         <translation>Fiński</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1444"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1446"/>
         <source>Swedish</source>
         <comment>System Language</comment>
         <translation>Szwedzki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1445"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1447"/>
         <source>Danish</source>
         <comment>System Language</comment>
         <translation>Duński</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1446"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1448"/>
         <source>Norwegian</source>
         <comment>System Language</comment>
         <translation>Norweski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1447"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1449"/>
         <source>Polish</source>
         <comment>System Language</comment>
         <translation>Polski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1448"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1450"/>
         <source>English (UK)</source>
         <comment>System Language</comment>
         <translation>Angielski (UK)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1449"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1451"/>
         <source>Portuguese (Brazil)</source>
         <comment>System Language</comment>
         <translation>Portugalski (Brazylia)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1450"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1452"/>
         <source>Turkish</source>
         <comment>System Language</comment>
         <translation>Turecki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1458"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1460"/>
         <source>English keyboard (US standard)</source>
         <comment>Keyboard Type</comment>
         <translation>Angielski (US)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1459"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1461"/>
         <source>Japanese keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Japoński</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1460"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1462"/>
         <source>Japanese keyboard (Kana state)</source>
         <comment>Keyboard Type</comment>
         <translation>Japoński (stan Kana)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1461"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1463"/>
         <source>German keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Niemiecki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1462"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1464"/>
         <source>Spanish keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Hiszpański</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1463"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1465"/>
         <source>French keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Francuski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1464"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1466"/>
         <source>Italian keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Włoski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1465"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1467"/>
         <source>Dutch keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Holenderski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1466"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1468"/>
         <source>Portuguese keyboard (Portugal)</source>
         <comment>Keyboard Type</comment>
         <translation>Portugalski (Portugalia)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1467"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1469"/>
         <source>Russian keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Rosyjski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1468"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1470"/>
         <source>English keyboard (UK standard)</source>
         <comment>Keyboard Type</comment>
         <translation>Angielski (UK)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1469"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1471"/>
         <source>Korean keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Koreański</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1470"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1472"/>
         <source>Norwegian keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Norweski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1471"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1473"/>
         <source>Finnish keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Fiński</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1472"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1474"/>
         <source>Danish keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Duński</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1473"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1475"/>
         <source>Swedish keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Szwedzki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1474"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1476"/>
         <source>Chinese keyboard (Traditional)</source>
         <comment>Keyboard Type</comment>
         <translation>Chiński (Tradycyjny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1475"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1477"/>
         <source>Chinese keyboard (Simplified)</source>
         <comment>Keyboard Type</comment>
         <translation>Chiński (Uproszczony)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1476"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1478"/>
         <source>French keyboard (Switzerland)</source>
         <comment>Keyboard Type</comment>
         <translation>Francuski (Szwajcaria)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1477"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1479"/>
         <source>German keyboard (Switzerland)</source>
         <comment>Keyboard Type</comment>
         <translation>Niemiecki (Szwajcaria)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1478"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1480"/>
         <source>French keyboard (Canada)</source>
         <comment>Keyboard Type</comment>
         <translation>Francuski (Kanada)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1479"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1481"/>
         <source>French keyboard (Belgium)</source>
         <comment>Keyboard Type</comment>
         <translation>Francuski (Belgia)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1480"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1482"/>
         <source>Polish keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Polski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1481"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1483"/>
         <source>Portuguese keyboard (Brazil)</source>
         <comment>Keyboard Type</comment>
         <translation>Portugalski (Brazylia)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1482"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1484"/>
         <source>Turkish keyboard</source>
         <comment>Keyboard Type</comment>
         <translation>Turecki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1488"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1490"/>
         <source>Automatic (Default)</source>
         <comment>Exclusive Fullscreen Mode</comment>
         <translation>Automatyczny (domyślny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1489"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1491"/>
         <source>Prefer borderless fullscreen</source>
         <comment>Exclusive Fullscreen Mode</comment>
         <translation>Preferuj tryb pełnoekranowy bez ramek</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1490"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1492"/>
         <source>Prefer exclusive fullscreen</source>
         <comment>Exclusive Fullscreen Mode</comment>
         <translation>Preferuj ekskluzywny pełnoekranowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1496"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1498"/>
         <source>Disabled</source>
         <comment>3D Display Mode</comment>
         <translation>Wył.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1497"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1499"/>
         <source>Side-by-side</source>
         <comment>3D Display Mode</comment>
         <translation>Obok siebie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1498"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1500"/>
         <source>Over-under</source>
         <comment>3D Display Mode</comment>
         <translation>Nad-pod</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1499"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1501"/>
         <source>Interlaced</source>
         <comment>3D Display Mode</comment>
         <translation>Przeplatany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1500"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1502"/>
         <source>Anaglyph Red-Green</source>
         <comment>3D Display Mode</comment>
         <translation>Anaglif czerwono-zielony</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1501"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1503"/>
         <source>Anaglyph Red-Blue</source>
         <comment>3D Display Mode</comment>
         <translation>Anaglif Czerwono-Niebieski</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1502"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1504"/>
         <source>Anaglyph Red-Cyan</source>
         <comment>3D Display Mode</comment>
         <translation>Anaglif Czerwono-Cyjanowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1503"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1505"/>
         <source>Anaglyph Magenta-Cyan</source>
         <comment>3D Display Mode</comment>
         <translation>Anaglif Magenta-Cyjan</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1504"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1506"/>
         <source>Anaglyph Green-Magenta (Trioscopic)</source>
         <comment>3D Display Mode</comment>
         <translation>Anaglif Zielono-Magenta (Trioskopowy)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1505"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1507"/>
         <source>Anaglyph Amber-Blue (ColorCode 3D)</source>
         <comment>3D Display Mode</comment>
         <translation>Anaglif Bursztynowo-Niebieski (ColorCode 3D)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1511"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1508"/>
+        <source>Anaglyph Custom</source>
+        <comment>3D Display Mode</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1514"/>
         <source>Guitar (17 frets)</source>
         <comment>Midi Device Type</comment>
         <translation>Gitara (17 progów)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1512"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1515"/>
         <source>Guitar (22 frets)</source>
         <comment>Midi Device Type</comment>
         <translation>Gitara (22 progów)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1513"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1516"/>
         <source>Keyboard</source>
         <comment>Midi Device Type</comment>
         <translation>Keyboard</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1514"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1517"/>
         <source>Drums</source>
         <comment>Midi Device Type</comment>
         <translation>Perkusja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1520"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1523"/>
         <source>Accurate XFloat</source>
         <translation>Dokładny XFloat</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1521"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1524"/>
         <source>Approximate XFloat</source>
         <translation>Przybliżony XFloat</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1522"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1525"/>
         <source>Relaxed XFloat</source>
         <translation>Złagodzony XFloat</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1523"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1526"/>
         <source>Inaccurate XFloat</source>
         <translation>Niedokładny XFloat</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1529"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1532"/>
         <source>Disabled</source>
         <comment>VSync Mode</comment>
         <translation>Wył.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1530"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1533"/>
         <source>Adaptive</source>
         <comment>VSync Mode</comment>
         <translation>Adaptacyjny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1531"/>
+        <location filename="rpcs3/rpcs3qt/emu_settings.cpp" line="1534"/>
         <source>Full</source>
         <comment>VSync Mode</comment>
         <translation>Pełny</translation>
@@ -6124,109 +6243,109 @@ Postęp: %1/%2 cache&apos;y skompilowanych</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="198"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="834"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="833"/>
         <source>&amp;Create LLVM Cache</source>
         <translation>&amp;Utwórz cache LLVM</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="201"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="841"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="840"/>
         <source>&amp;Remove</source>
         <translation>&amp;Usuń</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="205"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="843"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="842"/>
         <source>&amp;Remove Custom Configuration</source>
         <translation>&amp;Usuń niestandardową konfigurację</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="216"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="849"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="848"/>
         <source>&amp;Remove Custom Gamepad Configuration</source>
         <translation>&amp;Usuń niestandardową konfigurację kontrolera</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="234"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="857"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="856"/>
         <source>&amp;Remove Shader Cache</source>
         <translation>&amp;Usuń cache Shaderów</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="241"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="863"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="862"/>
         <source>&amp;Remove PPU Cache</source>
         <translation>&amp;Usuń cache PPU</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="248"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="869"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="868"/>
         <source>&amp;Remove SPU Cache</source>
         <translation>&amp;Usuń cache SPU</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="258"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="875"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="874"/>
         <source>&amp;Remove HDD1 Cache</source>
         <translation>&amp;Usuń cache HDD1</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="268"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="881"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="880"/>
         <source>&amp;Remove All Caches</source>
         <translation>&amp;Usuń wszystkie cache&apos;e</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="280"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="889"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="888"/>
         <source>&amp;Remove Savestates</source>
         <translation>&amp;Usuń zapisane Stany Gry</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="295"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="902"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="901"/>
         <source>&amp;Manage Game</source>
         <translation>&amp;Zarządzaj grą</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="298"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="905"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="904"/>
         <source>&amp;Create Desktop Shortcut</source>
         <translation>&amp;Utwórz skrót na Pulpicie</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="305"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="915"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="914"/>
         <source>&amp;Create Start Menu Shortcut</source>
         <translation>&amp;Utwórz skrót w Menu Start</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="307"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="917"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="916"/>
         <source>&amp;Create Launchpad Shortcut</source>
         <translation>&amp;Utwórz skrót w Launchpad</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="309"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="919"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="918"/>
         <source>&amp;Create Application Menu Shortcut</source>
         <translation>&amp;Utwórz skrót Menu Aplikacji</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="319"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="932"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="931"/>
         <source>&amp;Create Steam Shortcut (Steam must be closed)</source>
         <translation>&amp;Utwórz Skrót Steam (Steam musi być zamknięty)</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="319"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="932"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="931"/>
         <source>&amp;Create Steam Shortcut</source>
         <translation>&amp;Utwórz Skrót Steam</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="330"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="946"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="945"/>
         <source>&amp;Hide In Game List</source>
         <translation>&amp;Ukryj z Listy Gier</translation>
     </message>
@@ -6242,7 +6361,7 @@ Postęp: %1/%2 cache&apos;y skompilowanych</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="337"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="977"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="976"/>
         <source>&amp;Reset Time Played</source>
         <translation>&amp;Zresetuj czas gry</translation>
     </message>
@@ -6433,51 +6552,51 @@ Postęp: %1/%2 cache&apos;y skompilowanych</translation>
         <translation>&amp;Kopiuj serial</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="618"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="617"/>
         <source>&amp;Check ISO Integrity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="633"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="632"/>
         <source>&amp;Download Integrity Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="641"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="640"/>
         <source>&amp;Check Game Compatibility</source>
         <translation>&amp;Sprawdź kompatybilność gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="642"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1005"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="641"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1004"/>
         <source>&amp;Download Compatibility Database</source>
         <translation>&amp;Pobierz bazę danych kompatybilności</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="643"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1011"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="642"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1010"/>
         <source>&amp;Download Config Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="648"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1020"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="647"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1019"/>
         <source>&amp;Disk Usage</source>
         <translation>&amp;Użycie dysku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="655"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1027"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="654"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="1026"/>
         <source>&amp;Game Info</source>
         <translation>&amp;Informacje o grze</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="751"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="750"/>
         <source>Rename Title</source>
         <translation>Zmień nazwę tytułu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="751"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="750"/>
         <source>%0
 %1
 
@@ -6488,25 +6607,25 @@ You can clear the line in order to use the original title.</source>
 Możesz wyczyścić ten wiersz, aby użyć oryginalnego tytułu.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="775"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="774"/>
         <source>Edit Tooltip Notes</source>
         <translation>Edytuj notkę</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="775"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="774"/>
         <source>%0
 %1</source>
         <translation>%0
 %1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="794"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="980"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="793"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="979"/>
         <source>Confirm Reset</source>
         <translation>Potwierdź zresetowanie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="794"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="793"/>
         <source>Reset time played?
 
 %0 [%1]</source>
@@ -6515,49 +6634,49 @@ Możesz wyczyścić ten wiersz, aby użyć oryginalnego tytułu.</translation>
 %0 [%1]</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="908"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="923"/>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="935"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="907"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="922"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="934"/>
         <source>Confirm Creation</source>
         <translation>Potwierdź utworzenie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="908"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="907"/>
         <source>Create desktop shortcut?</source>
         <translation>Stworzyć skrót na pulpicie?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="923"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="922"/>
         <source>Create shortcut?</source>
         <translation>Stworzyć skrót?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="935"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="934"/>
         <source>Create Steam shortcut?</source>
         <translation>Utworzyć skrót Steam?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="949"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="948"/>
         <source>Confirm Hiding</source>
         <translation>Potwierdź ukrycie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="949"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="948"/>
         <source>Hide in game list?</source>
         <translation>Ukryć na liście gier?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="962"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="961"/>
         <source>&amp;Show In Game List</source>
         <translation>&amp;Pokaż na liście gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="980"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="979"/>
         <source>Reset time played?</source>
         <translation>Zresetować czas gry?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="997"/>
+        <location filename="rpcs3/rpcs3qt/game_list_context_menu.cpp" line="996"/>
         <source>&amp;Remove Game</source>
         <translation>&amp;Usuń grę</translation>
     </message>
@@ -10656,62 +10775,62 @@ Temat:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="939"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2009"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3641"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3664"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3649"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3672"/>
         <source>Restart</source>
         <translation>Zresetuj</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="947"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3406"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3414"/>
         <source>HDD Games</source>
         <translation>HDD</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="955"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3407"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3415"/>
         <source>Disc Games</source>
         <translation>Płyta PS3</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="963"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3408"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3416"/>
         <source>PS1 Games</source>
         <translation>Gry PS1</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="971"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3409"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3417"/>
         <source>PS2 Games</source>
         <translation>Gry PS2</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="979"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3410"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3418"/>
         <source>PSP Games</source>
         <translation>Gry PSP</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="987"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3411"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3419"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="995"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3412"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3420"/>
         <source>Audio/Video</source>
         <translation>Audio/Wideo</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1003"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3413"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3421"/>
         <source>Game Data</source>
         <translation>Dane Gry</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1011"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3415"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3423"/>
         <source>Unknown</source>
         <translation>Nieznane</translation>
     </message>
@@ -10793,7 +10912,7 @@ Temat:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1139"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3416"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
         <source>Other</source>
         <translation>Inne</translation>
     </message>
@@ -11089,7 +11208,7 @@ Temat:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3414"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3422"/>
         <source>Operating System</source>
         <translation>System operacyjny</translation>
     </message>
@@ -11142,9 +11261,9 @@ Temat:</translation>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="222"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1990"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2052"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3645"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3655"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3668"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3653"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3663"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3676"/>
         <source>Play %0</source>
         <translation>Uruchom %0</translation>
     </message>
@@ -11153,7 +11272,7 @@ Temat:</translation>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1975"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2000"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2059"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3648"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3656"/>
         <source>Play</source>
         <translation>Uruchom</translation>
     </message>
@@ -11302,7 +11421,7 @@ Temat:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="762"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2634"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2642"/>
         <source>ISO files (*.iso);;All files (*.*)</source>
         <translation>Pliki ISO (*.iso);;Wszystkie pliki (*.*)</translation>
     </message>
@@ -11361,7 +11480,7 @@ Temat:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1228"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1722"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4037"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4045"/>
         <source>Success!</source>
         <translation>Sukces!</translation>
     </message>
@@ -11657,8 +11776,8 @@ I jest zapisany przy użyciu kilku funkcji sceNpDrm* gdy gra/aplikacja posiadaj�
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1930"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1953"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2005"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3638"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3661"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3646"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3669"/>
         <source>Restart %0</source>
         <translation>Uruchom ponownie %0</translation>
     </message>
@@ -11697,32 +11816,32 @@ I jest zapisany przy użyciu kilku funkcji sceNpDrm* gdy gra/aplikacja posiadaj�
         <translation>&amp;Uruchom</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2406"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2414"/>
         <source>Precompile caches</source>
         <translation>Prekompiluj pamięci podręczne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2408"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2416"/>
         <source>Add desktop shortcut(s)</source>
         <translation>Dodaj skróty na pulpicie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2410"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2418"/>
         <source>Add Start menu shortcut(s)</source>
         <translation>Dodaj skróty menu startowego</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2412"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2420"/>
         <source>Add dock shortcut(s)</source>
         <translation>Dodaj skrót doku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2414"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2422"/>
         <source>Add launcher shortcut(s)</source>
         <translation>Dodaj skróty launchera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2417"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2425"/>
         <source>%1
 Would you like to precompile caches and install shortcuts to the installed software? (%2 new software detected)
 
@@ -11733,85 +11852,85 @@ Czy chciałbyś prekompilować cache&apos;e i zainstalować skróty do zainstalo
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2432"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2440"/>
         <source>Add Steam Shortcut(s) (Steam must be closed)</source>
         <translation>Dodaj skrót(y) Steam (Steam musi być zamknięty)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2432"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2440"/>
         <source>Add Steam shortcut(s)</source>
         <translation>Dodaj skrót(y) Steam</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2616"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2624"/>
         <source>Select a folder containing one or more games</source>
         <translation>Wybierz folder zawierający jedną lub więcej gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2634"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2642"/>
         <source>Select ISO files to add</source>
         <translation>Wybierz pliki ISO do dodania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2735"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2743"/>
         <source>Failed to locate log</source>
         <translation>Nie udało się zlokalizować dziennika</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2735"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2743"/>
         <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
         <translation>Nie udało się zlokalizować plików dziennika.
 Upewnij się, że RPCS3.log i RPCS3.log.gz są zapisywalne i mogą być tworzone bez problemów z uprawnieniami.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2792"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2815"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2800"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2823"/>
         <source>Select RPCS3&apos;s log saving location (saving %0)</source>
         <translation>Wybierz lokalizację zapisywania logów RPCS3 (zapisuje %0).</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2908"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2916"/>
         <source>Select Disc Game Folder</source>
         <translation>Wybierz folder płyty PS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2919"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2927"/>
         <source>Failed to insert disc</source>
         <translation>Nie udało się włożyć płyty</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2919"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2927"/>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
         <translation>Upewnij się, że emulacja jest uruchomiona i że wybrana ścieżka należy do prawidłowej płyty PS3.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3071"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3079"/>
         <source>Error: Emulation Running</source>
         <translation>Błąd: Emulacja w trakcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3071"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3079"/>
         <source>You need to stop the emulator before editing Clans connection information!</source>
         <translation>Musisz zatrzymać emulator przed edycją informacji o połączeniu Clans!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3210"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3218"/>
         <source>Select rpcs3.log or config.yml</source>
         <translation>Wybierz rpcs3.log lub config.yml</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3210"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3218"/>
         <source>Log or Config files (*.log *.gz *.txt *.yml);;Log files (*.log *.gz);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
         <translation>Pliki dziennika lub konfiguracji (*.log *.gz *.txt *.yml);Pliki dzienników (*.log *.gz);Pliki konfiguracyjne (*.yml);Pliki tekstowe (*.txt);;Wszystkie pliki (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3221"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3229"/>
         <source>Weird file!</source>
         <translation>Dziwny plik!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3221"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3229"/>
         <source>This file seems to have an unexpected type:
 %0
 
@@ -11822,72 +11941,72 @@ Check anyway?</source>
 Sprawdź mimo to?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3253"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3261"/>
         <source>Failed to open file</source>
         <translation>Nie udało się otworzyć pliku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3253"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3261"/>
         <source>The file could not be opened:
 %0</source>
         <translation>Nie można otworzyć pliku:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3432"/>
         <source>Auto-updater</source>
         <translation>Asystent Aktualizacji</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3432"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
         <translation>Automatyczna aktualizacja nie jest obecnie dostępna dla twojego systemu operacyjnego.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3822"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3862"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3830"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3870"/>
         <source>Confirm Removal</source>
         <translation>Potwierdź usunięcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3822"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3830"/>
         <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
         <translation>Usunąć niepoprawne ścieżki gry z listy gier?
 Niewykrywalne gry (zombies) oraz uszkodzone gry zostaną usunięte z pliku listy gier (games.yml)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3852"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3860"/>
         <source>Summary</source>
         <translation>Podsumowanie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3852"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3860"/>
         <source>%0 game(s) removed from game list</source>
         <translation>%0 gier usuniętych z listy gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3862"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3870"/>
         <source>Remove firmware cache?</source>
         <translation>Usunąć pamięć podręczną oprogramowania PS3?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4033"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4041"/>
         <source>Nothing to add!</source>
         <translation>Nie ma niczego do dodania!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4033"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4041"/>
         <source>Could not find any new software.</source>
         <translation>Nie można znaleźć żadnego nowego oprogramowania.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4037"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4045"/>
         <source>Successfully added software to game list from path(s)!</source>
         <translation>Pomyślnie dodano oprogramowanie do listy gier ze ścieżek!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4212"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4220"/>
         <source>PARAM.SFO Information</source>
         <translation>Informacje PARAM.SFO</translation>
     </message>
@@ -12428,9 +12547,6 @@ Wskazówka: Floats SPU są komentowane przy tworzeniu instrukcji.</translation>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="543"/>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="561"/>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2191"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2351"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2432"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2676"/>
         <source>Left</source>
         <translation>Lewo</translation>
     </message>
@@ -12444,9 +12560,6 @@ Wskazówka: Floats SPU są komentowane przy tworzeniu instrukcji.</translation>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="574"/>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="592"/>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2222"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2381"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2459"/>
-        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2706"/>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1904"/>
         <source>Right</source>
         <translation>Prawo</translation>
@@ -12771,6 +12884,22 @@ Wskazówka: Floats SPU są komentowane przy tworzeniu instrukcji.</translation>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2333"/>
         <source>Squircle Values</source>
         <translation>Wartości squircle</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2351"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2432"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2676"/>
+        <source>Left</source>
+        <comment>Analog stick</comment>
+        <translation type="unfinished">Lewo</translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2381"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2459"/>
+        <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2706"/>
+        <source>Right</source>
+        <comment>Analog stick</comment>
+        <translation type="unfinished">Prawo</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2414"/>
@@ -16098,23 +16227,23 @@ Aby potwierdzić, wpisz nazwę użytkownika poniżej i kliknij &quot;Tak&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="214"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="671"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="808"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="839"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="687"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="824"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="855"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="224"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="681"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="742"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="849"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2586"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2661"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2822"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2865"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3437"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4659"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="697"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="758"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="865"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2609"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2684"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2845"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2888"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3460"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4682"/>
         <source>Reset</source>
         <translation>Resetuj</translation>
     </message>
@@ -16130,29 +16259,29 @@ Aby potwierdzić, wpisz nazwę użytkownika poniżej i kliknij &quot;Tak&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="328"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1016"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1564"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1868"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2176"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2388"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2917"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3808"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4271"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4793"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1032"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1580"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1884"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2192"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2411"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2940"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3831"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4294"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4816"/>
         <source>Description</source>
         <translation>Opis</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="334"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1022"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1570"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1874"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2182"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2394"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2923"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3814"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4277"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4799"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1038"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1586"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1890"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2198"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2417"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2946"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3837"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4300"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4822"/>
         <source>Point your mouse at an option to display a description in here.
 
 
@@ -16164,8 +16293,8 @@ Aby potwierdzić, wpisz nazwę użytkownika poniżej i kliknij &quot;Tak&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="357"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2683"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4311"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2706"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4334"/>
         <source>GPU</source>
         <translation>GPU</translation>
     </message>
@@ -16226,1299 +16355,1310 @@ Aby potwierdzić, wpisz nazwę użytkownika poniżej i kliknij &quot;Tak&quot;.
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="563"/>
+        <source>Anaglyph Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="579"/>
         <source>Screen Size (Inch)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="598"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="614"/>
         <source>Default Resolution</source>
         <translation>Domyślna Rozdzielczość</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="618"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="634"/>
         <source>Resolution Scale (Disable Strict Mode)</source>
         <translation>Skala Rozdzielczości (Wyłącz Tryb Ścisły)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="642"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="658"/>
         <source>25</source>
         <translation>25</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="659"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="675"/>
         <source>800</source>
         <translation>800</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="693"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="709"/>
         <source>Resolution Scale Threshold</source>
         <translation>Próg Skali Rozdzielczości</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="704"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="720"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="721"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="737"/>
         <source>1024</source>
         <translation>1024</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="732"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="748"/>
         <source>1x1</source>
         <translation>1x1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="756"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="772"/>
         <source>Output Scaling</source>
         <translation>Skalowanie Wyjściowe</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="793"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="809"/>
         <source>RCAS Sharpening Strength</source>
         <translation>Siła ostrzenia RCAS</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="828"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="844"/>
         <source>100</source>
         <translation>100</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="896"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="912"/>
         <source>Shader Mode</source>
         <translation>Model shadera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="933"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1790"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="949"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1806"/>
         <source>Additional Settings</source>
         <translation>Dodatkowe Ustawienia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="942"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="958"/>
         <source>Write Color Buffers</source>
         <translation>Zapis Buforów Kolorów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="949"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="965"/>
         <source>Strict Rendering Mode</source>
         <translation>Tryb Ścisły Renderowania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="956"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="972"/>
         <source>Stretch To Display Area</source>
         <translation>Rozciągnij Do Obszaru Wyświetlania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="963"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="979"/>
         <source>Multithreaded RSX</source>
         <translation>Wielowątkowy RSX</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="970"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="986"/>
         <source>Asynchronous Texture Streaming</source>
         <translation>Asynchroniczne Strumieniowanie Tekstur</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1045"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1061"/>
         <source>Audio</source>
         <translation>Dźwięk</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1055"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1071"/>
         <source>Audio Out</source>
         <translation>Silnik Dźwięku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1067"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1083"/>
         <source>Audio Format</source>
         <translation>Format Dźwięku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1092"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1108"/>
         <source>Audio Settings</source>
         <translation>Ustawienia Dźwięku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1098"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1114"/>
         <source>Convert to 16-bit</source>
         <translation>Konwertuj na 16-bitowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1105"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1121"/>
         <source>Dump to File</source>
         <translation>Zrzuć do pliku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1151"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1167"/>
         <source>Audio Device</source>
         <translation>Urządzenie Audio</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1163"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1179"/>
         <source>Audio Output Format</source>
         <translation>Format Wyjściowy Dźwięku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1175"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1191"/>
         <source>Audio Provider</source>
         <translation>Dostawca Dźwięku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1187"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1203"/>
         <source>RSXAudio Avport</source>
         <translation>RSXAudio Avport</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1199"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1215"/>
         <source>Music Handler</source>
         <translation>Handler Muzyki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1211"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4040"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1227"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4063"/>
         <source>Volume</source>
         <translation>Głośność</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1232"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1248"/>
         <source>Master: 0%</source>
         <translation>Główna: 0%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1278"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1294"/>
         <source>Buffering</source>
         <translation>Buforowanie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1284"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1300"/>
         <source>Enable Buffering</source>
         <translation>Włącz Buforowanie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1306"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1322"/>
         <source>Audio Buffer Duration: 0ms</source>
         <translation>Czas Trwania Buforu Dźwięku: 0 ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1329"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1345"/>
         <source>Enable Time Stretching</source>
         <translation>Włącz Rozciąganie Czasu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1351"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1367"/>
         <source>Time Stretching Threshold: 0%</source>
         <translation>Próg Rozciągania Czasu: 0%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1397"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1413"/>
         <source>Microphone Settings</source>
         <translation>Ustawienia Mikrofonu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1405"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1421"/>
         <source>Microphone Type:</source>
         <translation>Typ Mikrofonu:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1443"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1459"/>
         <source>Mic1:</source>
         <translation>Mikro1:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1456"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1472"/>
         <source>Mic3:</source>
         <translation>Mikro3:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1497"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1513"/>
         <source>Mic2:</source>
         <translation>Mikro2:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1510"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1526"/>
         <source>Mic4:</source>
         <translation>Mikro4:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1593"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4717"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1609"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4740"/>
         <source>I/O</source>
         <translation>Wejście/Wyjście</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1601"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1617"/>
         <source>Guitar Hero Live Emulated Guitar</source>
         <translation>Guitar Hero Live Emulowana Gitara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1613"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1629"/>
         <source>Move Handler</source>
         <translation>Handler Move</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1625"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1641"/>
         <source>DJ Hero Emulated Turntable</source>
         <translation>DJ Hero Emulowany Turntable</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1637"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1653"/>
         <source>Mouse Handler</source>
         <translation>Handler Myszy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1649"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1665"/>
         <source>Buzz! Emulated Controller</source>
         <translation>Buzz! Emulowany Kontroler</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1661"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1677"/>
         <source>Keyboard Handler</source>
         <translation>Handler Klawiatury</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1673"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1689"/>
         <source>Pad Handler Mode</source>
         <translation>Tryb obsługi kontrolerów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1685"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1701"/>
         <source>Camera Input</source>
         <translation>Wejście Kamery</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1697"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1713"/>
         <source>Camera Flip</source>
         <translation>Odwrócenie Kamery</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1709"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1725"/>
         <source>Camera</source>
         <translation>Kamera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1721"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1737"/>
         <source>Camera Handler</source>
         <translation>Handler Kamery</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1733"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1749"/>
         <source>Emulated MIDI Device 1</source>
         <translation>Emulowane urządzenie MIDI 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1752"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1768"/>
         <source>Emulated MIDI Device 3</source>
         <translation>Emulowane urządzenie MIDI 3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1771"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1787"/>
         <source>Emulated MIDI Device 2</source>
         <translation>Emulowane urządzenie MIDI 2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1796"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1812"/>
         <source>Enable Background Input</source>
         <translation>Włącz Wprowadzanie w tle</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1803"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1819"/>
         <source>Keep Pads Connected</source>
         <translation>Utrzymuj Kontrolery w Połączeniu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1810"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1826"/>
         <source>Show PS Move Cursor</source>
         <translation>Pokaż wskaźnik PS Move</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1817"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1833"/>
         <source>Lock Overlay Input To Player One</source>
         <translation>Zablokuj nakładkę dla gracza 1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1824"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1840"/>
         <source>Use SDL GameController Database</source>
         <translation>Użyj bazy danych SDL GameController</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1897"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1913"/>
         <source>System</source>
         <translation>System</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1907"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1923"/>
         <source>Console Language</source>
         <translation>Język Konsoli</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1919"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1935"/>
         <source>Console Region</source>
         <translation>Region Konsoli</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1931"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1947"/>
         <source>Enter Button Assignment</source>
         <translation>Przypisanie Przycisku Wprowadzenia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1954"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1970"/>
         <source>Disk Cache</source>
         <translation>Pamięć Podręczna Dysku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1960"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1976"/>
         <source>Clear cache automatically</source>
         <translation>Automatycznie czyść pamięć podręczną</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1967"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="1983"/>
         <source>Cache size: 3072 MB</source>
         <translation>Rozmiar pamięci podręcznej: 3072 MB</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2010"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2026"/>
         <source>Keyboard Type</source>
         <translation>Typ Klawiatury</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2022"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2038"/>
         <source>Date Format</source>
         <translation>Format daty</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2034"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2050"/>
         <source>Time Format</source>
         <translation>Format czasu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2046"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2062"/>
         <source>Console Time</source>
         <translation>Czas Konsoli</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2091"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2107"/>
         <source>Set to Now</source>
         <translation>Ustaw na Teraz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2120"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2136"/>
         <source>Homebrew</source>
         <translation>Homebrew</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2126"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2142"/>
         <source>Enable /host_root/</source>
         <translation>Włącz /host_root/</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2133"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2149"/>
         <source>Empty /dev_hdd0/tmp/</source>
         <translation>Opróżnij /dev_hdd0/tmp/</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2205"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2221"/>
         <source>Network</source>
         <translation>Sieć</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2213"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2229"/>
         <source>Network Configuration</source>
         <translation>Konfiguracja Sieci</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2219"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2235"/>
         <source>Network Status</source>
         <translation>Stan Sieci</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2231"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2247"/>
         <source>DNS</source>
         <translation>DNS</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2250"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2266"/>
         <source>IP/Hosts switches</source>
         <translation>Przełączniki IP/Hosts</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2269"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2285"/>
         <source>Bind address</source>
         <translation>Powiąż adres</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2288"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2304"/>
         <source>Enable UPNP</source>
         <translation>Włącz UPnP</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2314"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2311"/>
+        <source>Derive ethernet address from PSID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2337"/>
         <source>PSN Configuration</source>
         <translation>Konfiguracja PSN</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2320"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2343"/>
         <source>PSN Status</source>
         <translation>Status PSN</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2332"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2355"/>
         <source>Country</source>
         <translation>Kraj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2344"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2367"/>
         <source>Enable Clans</source>
         <translation>Włącz Clans</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2417"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2440"/>
         <source>Advanced</source>
         <translation>Zaawansowane</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2433"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4447"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2456"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4470"/>
         <source>Core</source>
         <translation>Główne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2439"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2462"/>
         <source>Accurate RSX Reservation Access</source>
         <translation>Dokładny dostęp do rezerwacji RSX</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2446"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2469"/>
         <source>Accurate SPU DMA</source>
         <translation>Dokładny SPU DMA</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2453"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2476"/>
         <source>Anti-Cheat Savestates Mode</source>
         <translation>Tryb Anti-Cheat dla Zapisów stanu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2460"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2483"/>
         <source>Debug Console Mode</source>
         <translation>Tryb Konsoli Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2467"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2490"/>
         <source>Delay each odd MFC Command</source>
         <translation>Opóźnij każdą nieparzystą komendę MFC</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2474"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2497"/>
         <source>Disable SPU GETLLAR Spin Optimization</source>
         <translation>Wyłącz optymalizację SPU GETLLAR Spin</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2481"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2504"/>
         <source>Enable SPU Events Busy Loop</source>
         <translation>Włącz Zajętą Pętlę Zdarzeń SPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2488"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2511"/>
         <source>Enable SPU loop detection</source>
         <translation>Włącz wykrywanie pętli SPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2495"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2518"/>
         <source>PPU/SPU LLVM Precompilation</source>
         <translation>Prekompilacja PPU/SPU LLVM</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2502"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2525"/>
         <source>Silence All Logs</source>
         <translation>Wycisz Wszystkie Logi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2509"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2532"/>
         <source>SPU Compatible Savestates Mode</source>
         <translation>Tryb zapisów stanu zgodny z SPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2525"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2548"/>
         <source>Sleep Timers Accuracy</source>
         <translation>Dokładność Timerów Uśpienia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2543"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2566"/>
         <source>Maximum Number of SPURS Threads</source>
         <translation>Maksymalna liczba wątków SPURS</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2561"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2584"/>
         <source>Clocks Scale</source>
         <translation>Skala Zegarów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2576"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2599"/>
         <source>100%</source>
         <translation>100%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2618"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2641"/>
         <source>Firmware Libraries</source>
         <translation>Biblioteki Oprogramowania PS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2689"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2712"/>
         <source>Allow Host GPU Labels (Experimental)</source>
         <translation>Zezwól na etykiety GPU hosta (eksperymentalne)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2696"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2719"/>
         <source>Disable MSL Fast Math</source>
         <translation>Wyłącz MSL Fast Math</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2703"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2726"/>
         <source>Disable Vertex Cache</source>
         <translation>Wyłącz pamięć podręczną wierzchołków</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2710"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2733"/>
         <source>Force Hardware MSAA Resolve</source>
         <translation>Wymuś rozwiązanie sprzętowe MSAA</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2717"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2740"/>
         <source>Handle RSX Memory Tiling</source>
         <translation>Obsługuj układanie pamięci RSX</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2724"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2747"/>
         <source>Read Depth Buffer</source>
         <translation>Odczytuj Głębokość Buforu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2731"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2754"/>
         <source>Read Color Buffers</source>
         <translation>Odczytuj Bufory Kolorów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2738"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2761"/>
         <source>Use Re-BAR memory for GPU uploads</source>
         <translation>Użyj pamięci re-BAR dla przesyłania GPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2745"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2768"/>
         <source>Write Depth Buffer</source>
         <translation>Zapisz Głębokość Buforu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2761"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2784"/>
         <source>RSX FIFO Accuracy</source>
         <translation>Dokładność RSX FIFO</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2779"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2802"/>
         <source>Exclusive Fullscreen Mode</source>
         <translation>Ekskluzywny tryb pełnoekranowy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2797"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2820"/>
         <source>Driver Wake-Up Delay</source>
         <translation>Opóźnienie Wybudzenia Sterownika</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2812"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2835"/>
         <source>1 µs</source>
         <translation>1 ds</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2840"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2863"/>
         <source>VBlank Frequency</source>
         <translation>Częstotliwość VBlank</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2855"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2878"/>
         <source>60 Hz</source>
         <translation>60 Hz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2874"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2897"/>
         <source>VBlank NTSC Fixup</source>
         <translation>Poprawka VBlank NTSC</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2946"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2969"/>
         <source>Emulator</source>
         <translation>Emulator</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2956"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2979"/>
         <source>Emulator Settings</source>
         <translation>Ustawienia Emulatora</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2962"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2985"/>
         <source>Enable GameMode</source>
         <translation>Włącz GameMode</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2969"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2992"/>
         <source>Exit RPCS3 when process finishes</source>
         <translation>Wyjdź z RPCS3 po zakończeniu procesu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2976"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2999"/>
         <source>Pause emulation after loading savestates</source>
         <translation>Zatrzymaj emulację po wczytywaniu zapisanego stanu gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2983"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3006"/>
         <source>Pause emulation during home menu</source>
         <translation>Wstrzymaj emulację podczas Home Menu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2990"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3013"/>
         <source>Pause emulation on RPCS3 focus loss</source>
         <translation>Wstrzymaj emulację po utracie fokusu RPCS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="2997"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3020"/>
         <source>Prevent display sleep while running games</source>
         <translation>Zapobiegaj usypianiu ekranu podczas uruchamiania gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3004"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3027"/>
         <source>Start games in fullscreen mode</source>
         <translation>Uruchamiaj Gry w Trybie Pełnoekranowym</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3011"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
         <source>Use native user interface</source>
         <translation>Użyj natywnego interfejsu użytkownika</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3018"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
         <source>Use recursive scan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3028"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3051"/>
         <source>Overlay Settings</source>
         <translation>Ustawienia nakładki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3057"/>
         <source>Play music during boot sequence</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3064"/>
         <source>Record and screenshot with overlays</source>
         <translation>Nagrywanie i zrzuty ekranu z nakładkami</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3048"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3071"/>
         <source>Show analog limiter toggle hint</source>
         <translation>Pokaż powiadomienie ogranicznika analogowego</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3055"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3078"/>
         <source>Show autosave/autoload hint</source>
         <translation>Pokaż powiadomienie Auto zapisu/Auto ładowania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3062"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3085"/>
         <source>Show capture hints</source>
         <translation>Pokaż wskazówki przechwytywania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3069"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3092"/>
         <source>Show fatal error hints</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3076"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3099"/>
         <source>Show mouse and keyboard toggle hint</source>
         <translation>Pokaż powiadomienie myszy i klawiatury</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3083"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3106"/>
         <source>Show netplay popups</source>
         <translation>Pokaż powiadomienia sieciowe</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3090"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3113"/>
         <source>Show pressure intensity toggle hint</source>
         <translation>Pokaż powiadomienie o intensywności nacisku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3097"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3120"/>
         <source>Show PPU compilation hint</source>
         <translation>Pokaż powiadomienie o kompilacji PPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3104"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3127"/>
         <source>Show shader compilation hint</source>
         <translation>Pokaż powiadomienie o kompilacji shaderów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3111"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3134"/>
         <source>Show trophy popups</source>
         <translation>Pokaż powiadomienia trofeów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3137"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3160"/>
         <source>Max LLVM Compile Threads</source>
         <translation>Maks. ilość wątków kompilacji LLVM</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3149"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3172"/>
         <source>Max Shader Compile Threads</source>
         <translation>Maks. ilość wątków kompilacji Shaderów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3165"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3188"/>
         <source>Viewport</source>
         <translation>Widok</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3171"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3194"/>
         <source>Ignore doubleclicks for Fullscreen</source>
         <translation>Ignoruj podwójne kliknięcia dla pełnego ekranu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3178"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3201"/>
         <source>Ignore keyboard hotkeys</source>
         <translation>Ignoruj skróty klawiszowe</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3185"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3208"/>
         <source>Show mouse cursor in Fullscreen</source>
         <translation>Pokaż kursor myszy na pełnym ekranie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3192"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3215"/>
         <source>Lock mouse cursor in Fullscreen</source>
         <translation>Zablokuj kursor myszy na pełnym ekranie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3214"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3237"/>
         <source>Hide mouse cursor if idle</source>
         <translation>Ukryj kursor myszy podczas bezczynności</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3230"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3253"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3267"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3290"/>
         <source>Resize game window on boot</source>
         <translation>Zmień rozmiar okna gry przy starcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3274"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3297"/>
         <source>Resize manually</source>
         <translation>Zmień rozmiar ręcznie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3283"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3306"/>
         <source>Width</source>
         <translation>Szerokość</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3314"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3337"/>
         <source>Height</source>
         <translation>Wysokość</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3356"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3379"/>
         <source>Shader Loading Screen</source>
         <translation>Ekran wczytywania shaderów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3362"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3385"/>
         <source>Allow custom background</source>
         <translation>Zezwól na niestandardowe tło</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3369"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3392"/>
         <source>Background darkening:</source>
         <translation>Przyciemnienie tła:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3383"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3406"/>
         <source>Background blur:</source>
         <translation>Rozmycie tła:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3416"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3439"/>
         <source>Game Window Title</source>
         <translation>Tytuł okna gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3434"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3457"/>
         <source>Reset the game window title to default</source>
         <translation>Przywróć domyślny tytuł okna gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3444"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3467"/>
         <source>Edit the game window title</source>
         <translation>Edytuj tytuł okna gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3447"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3470"/>
         <source>Edit</source>
         <translation>Edytuj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3463"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3486"/>
         <source>Performance Overlay</source>
         <translation>Nakładka Wydajności</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3469"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3492"/>
         <source>Enable performance overlay</source>
         <translation>Włącz Nakładkę Wydajności</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3476"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3499"/>
         <source>Show framerate graph</source>
         <translation>Pokaż wykres FPS</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3483"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3506"/>
         <source>Show frametime graph</source>
         <translation>Pokaż wykres Frametime</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3505"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3528"/>
         <source>Detail Level:</source>
         <translation>Poziom Szczegółów:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3533"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3556"/>
         <source>Position:</source>
         <translation>Pozycja:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3546"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3569"/>
         <source>Horizontal Margin:</source>
         <translation>Margines poziomu:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3555"/>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3583"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3578"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3606"/>
         <source>Centered</source>
         <translation>Wyśrodkowany</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3574"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3597"/>
         <source>Vertical Margin:</source>
         <translation>Margines pionowy:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3602"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3625"/>
         <source>Use Window Space</source>
         <translation>Użyj przestrzeni okna</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3624"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3647"/>
         <source>Update Interval:</source>
         <translation>Interwał aktualizacji:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3662"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3685"/>
         <source>Font Size: </source>
         <translation>Rozmiar Czcionki: </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3694"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3717"/>
         <source>Opacity:</source>
         <translation>Przezroczystość:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3723"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3746"/>
         <source>Framerate datapoints:</source>
         <translation>Punkty danych FPS:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3752"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3775"/>
         <source>Frametime datapoints:</source>
         <translation>Punkty danych Frametime:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3837"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3860"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3847"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3870"/>
         <source>UI Stylesheets</source>
         <translation>Style Interfejsu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3856"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3879"/>
         <source>Apply</source>
         <translation>Zastosuj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3866"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3889"/>
         <source>UI Colors</source>
         <translation>Kolory Interfejsu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3884"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3907"/>
         <source>Use custom UI Colors</source>
         <translation>Użyj własnych kolorów UI</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3891"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3914"/>
         <source>Gamelist icons</source>
         <translation>Ikony Listy Gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3898"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3921"/>
         <source>Save manager icons</source>
         <translation>Ikony Menedżera Zapisanych Danych</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3905"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3928"/>
         <source>Trophy manager icons</source>
         <translation>Ikony Menedżera Trofeów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3935"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3958"/>
         <source>Log</source>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3962"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3985"/>
         <source>Maximum log blocks (0 = no limit)</source>
         <translation>Maksymalna liczba bloków logów (0 = brak limitu)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="3997"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4020"/>
         <source>Maximum TTY blocks (0 = no limit)</source>
         <translation>Maksymalna liczba bloków TTY (0 = brak limitu)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4017"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4040"/>
         <source>Pad Input</source>
         <translation>Wejście kontrolera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4023"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4046"/>
         <source>Enable Pad Navigation</source>
         <translation>Włącz nawigację kontrolerem</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4030"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4053"/>
         <source>Allow Global Pad Navigation</source>
         <translation>Zezwól na globalną nawigację kontrolerem</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4061"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4084"/>
         <source>GUI: 0%</source>
         <translation>GUI: 0%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4110"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4133"/>
         <source>UI Options</source>
         <translation>Opcje interfejsu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4116"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4139"/>
         <source>Show Welcome Screen</source>
         <translation>Pokaż dialog powitalny</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4123"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4146"/>
         <source>Show Exit Game Confirmation</source>
         <translation>Pokaż potwierdzenie wyjścia z gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4130"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4153"/>
         <source>Show PKG/PUP Installation Result</source>
         <translation>Pokaż wynik instalacji PKG/PUP</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4137"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4160"/>
         <source>Show Obsolete Settings Dialog</source>
         <translation>Pokaż dialog ustawień nieaktualnych</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4144"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4167"/>
         <source>Show Duplicate Buttons Dialog</source>
         <translation>Pokaż dialog duplikujących się przycisków</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4151"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4174"/>
         <source>Show Restart Dialog</source>
         <translation>Pokaż dialog ponownego uruchomienia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4177"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4200"/>
         <source>Check for updates on startup</source>
         <translation>Sprawdzaj aktualizacje przy starcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4189"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4212"/>
         <source>Discord</source>
         <translation>Discord</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4195"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4218"/>
         <source>Use Discord Rich Presence</source>
         <translation>Użyj Discord Rich Presence</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4202"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4225"/>
         <source>Discord Status:</source>
         <translation>Status Discorda:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4225"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4248"/>
         <source>Installation ID</source>
         <translation>ID instalacji</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4231"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4254"/>
         <source>UUID-placeholder</source>
         <translation>UUID-placeholder</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4241"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4264"/>
         <source>Create new ID</source>
         <translation>Utwórz nowy ID</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4300"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4323"/>
         <source>Debug</source>
         <translation>Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4320"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4343"/>
         <source>Debug Output</source>
         <translation>Wyniki debugowania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4327"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4350"/>
         <source>Debug Overlay</source>
         <translation>Nakładka Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4341"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4364"/>
         <source>Disable FIFO Reordering</source>
         <translation>Wyłącz reordering FIFO</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4362"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4385"/>
         <source>Disable Video Output</source>
         <translation>Wyłącz wyjście wideo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4369"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4392"/>
         <source>Disable Vulkan Memory Allocator</source>
         <translation>Wyłącz alokator pamięci Vulkan</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4376"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4399"/>
         <source>Disable ZCull Occlusion Queries</source>
         <translation>Wyłącz zapytania o occlusion ZCull</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4383"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4406"/>
         <source>Force CPU Blit Emulation</source>
         <translation>Wymuś emulację CPU Blit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4390"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4413"/>
         <source>Force GPU Texture Scaling</source>
         <translation>Wymuś skalowanie tekstur GPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4397"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4420"/>
         <source>Log Shader Programs</source>
         <translation>Loguj programy shaderów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4407"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4430"/>
         <source>Renderdoc Compatibility Mode</source>
         <translation>Tryb kompatybilności Renderdoc</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4414"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4437"/>
         <source>Strict Texture Flushing</source>
         <translation>Ścisłe opróżnianie tekstur</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4421"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4444"/>
         <source>Use High Precision Z-Buffer</source>
         <translation>Użyj precyzyjnego bufora Z</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4334"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4357"/>
         <source>Disable Asynchronous Memory Manager</source>
         <translation>Wyłącz asynchroniczny menedżer pamięci</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4355"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4378"/>
         <source>Disable On-Disk Shader Cache</source>
         <translation>Wyłącz pamięć podręczną shaderów na dysku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4348"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4371"/>
         <source>Disable Hardware ColorSpace Remapping</source>
         <translation>Wyłącz sprzętowe remapowanie przestrzeni barw</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4453"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4476"/>
         <source>Automatically start games after boot</source>
         <translation>Automatycznie uruchamiaj gry po starcie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4460"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4483"/>
         <source>Enable performance report</source>
         <translation>Włącz raport wydajności</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4467"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4490"/>
         <source>Hook static functions</source>
         <translation>Hook statycznych funkcji</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4481"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4504"/>
         <source>PPU Debug</source>
         <translation>PPU Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4488"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4511"/>
         <source>PPU Set DAZ and FTZ</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4495"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4518"/>
         <source>SPU Debug</source>
         <translation>SPU Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4474"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4497"/>
         <source>MFC Debug</source>
         <translation>MFC Debug</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4552"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4575"/>
         <source>Accurate PPU Saturation Bit</source>
         <translation>Dokładna saturacja PPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4559"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4582"/>
         <source>Accurate PPU Non-Java Mode</source>
         <translation>Dokładny tryb PPU Non-Java</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4566"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4589"/>
         <source>Accurate PPU Vector NaN Handling</source>
         <translation>Dokładne obsługiwanie NaN w wektorach PPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4545"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4568"/>
         <source>Accurate PPU Float Condition Control</source>
         <translation>Dokładna kontrola warunków zmiennoprzecinkowych PPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4502"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
         <source>SPU Profiler</source>
         <translation>Profiler SPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4548"/>
         <source>CPU Accuracy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4531"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4554"/>
         <source>Accurate PPU/SPU Double-Precision FMA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4538"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4561"/>
         <source>Accurate PPU/SPU Cache Line Stores</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4573"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4596"/>
         <source>Approximate PPU Non-Java Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4580"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4603"/>
         <source>Approximate PPU Vector NaN Handling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4624"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4647"/>
         <source>Accurate PPU 128 Reservations</source>
         <translation>Dokładne rezerwacje PPU 128</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4636"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4659"/>
         <source>PPU Thread Count</source>
         <translation>Liczba wątków PPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4648"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4671"/>
         <source>LOD Bias Offset</source>
         <translation>Przesunięcie LOD Bias</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4677"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4700"/>
         <source>Vulkan Queue Scheduler</source>
         <translation>Harmonogram kolejek Vulkan</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4689"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4712"/>
         <source>Framebuffer Aliasing Heuristic Bias</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4701"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4724"/>
         <source>Log Levels</source>
         <translation>Poziom logowania</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4707"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="569"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4730"/>
         <source>Configure</source>
         <translation>Konfiguruj</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4723"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4746"/>
         <source>Debug Overlay For Pad Input</source>
         <translation>Nakładka debugowania dla wejścia kontrolera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4730"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.ui" line="4753"/>
         <source>Debug Overlay For Mouse Input</source>
         <translation>Nakładka debugowania dla wejścia myszy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="112"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="113"/>
         <source>Save custom configuration</source>
         <comment>Settings dialog</comment>
         <translation>Zapisać niestandardową konfigurację</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="136"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="137"/>
         <source>Settings: [%0] %1</source>
         <comment>Settings dialog</comment>
         <translation>Ustawienia: [%0] %1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="141"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="142"/>
         <source>Settings</source>
         <comment>Settings dialog</comment>
         <translation>Ustawienia</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="275"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="276"/>
         <source>Changing the thread scheduler is not supported on CPUs with less than %0 threads.
 
 Control how RPCS3 utilizes the threads of your system.
@@ -17529,298 +17669,298 @@ Kontroluj, jak RPCS3 wykorzystuje wątki w twoim systemie.
 Każda opcja zależy w dużym stopniu od gry oraz od twojego procesora, zaleca się wypróbowanie każdej opcji, aby sprawdzić, która daje najlepszą wydajność.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="289"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="290"/>
         <source>Auto</source>
         <comment>Preferred SPU threads</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="461"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="462"/>
         <source>720p (Recommended)</source>
         <comment>Resolution</comment>
         <translation>720p (Zalecany)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="499"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="500"/>
         <source>Display (%1)</source>
         <comment>Frame Limit</comment>
         <translation>Wyświetlacz (%1)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="519"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="520"/>
         <source>Auto</source>
         <comment>Anisotropic filter override</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="525"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="526"/>
         <source>%1x</source>
         <comment>Anisotropic filter override</comment>
         <translation>%1x</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="537"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="538"/>
         <source>Precise (Slowest)</source>
         <translation>Dokładny (Najwolniejszy)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="538"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="539"/>
         <source>Approximate (Fast)</source>
         <translation>Przybliżony (Szybki)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="539"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="540"/>
         <source>Relaxed (Fastest)</source>
         <translation>Zrelaksowany (Najszybszy)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="663"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="671"/>
         <source>100% (1280x720) (Default)</source>
         <comment>Resolution scale</comment>
         <translation>100% (1280x720) (Domyślnie)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="665"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="673"/>
         <source>%1% (%2x%3)</source>
         <comment>Resolution scale</comment>
         <translation>%1% (%2x%3)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="691"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="699"/>
         <source>%1x%1 (Default)</source>
         <comment>Minimum scalable dimension</comment>
         <translation>%1x%1 (Domyślnie)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="693"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="701"/>
         <source>%1x%1</source>
         <comment>Minimum scalable dimension</comment>
         <translation>%1x%1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="715"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="723"/>
         <source>%1% (Default)</source>
         <translation>%1% (Domyślnie)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="717"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="725"/>
         <source>%1%</source>
         <translation>%1%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="787"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="795"/>
         <source>Not needed for %0 renderer</source>
         <comment>Graphics adapter</comment>
         <translation>Niepotrzebne dla renderera %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="956"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="964"/>
         <source>Default</source>
         <translation>Domyślne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="974"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="982"/>
         <source>Unknown device</source>
         <translation>Nieznane urządzenie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1135"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1143"/>
         <source>Master: %0 %</source>
         <comment>Master volume</comment>
         <translation>Główna: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1138"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1146"/>
         <source>Audio Buffer Duration: %0 ms</source>
         <comment>Audio buffer duration</comment>
         <translation>Czas Trwania Buforu Dźwięku: %0 ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1141"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1149"/>
         <source>Time Stretching Threshold: %0 %</source>
         <comment>Time stretching threshold</comment>
         <translation>Próg Rozciągania Czasu: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1171"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1179"/>
         <source>None</source>
         <comment>Camera Device</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1172"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1180"/>
         <source>Default</source>
         <comment>Camera Device</comment>
         <translation>Domyślne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1382"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1390"/>
         <source>dd MMM yyyy HH:mm</source>
         <translation>dd MMM yyyy HH:mm</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1391"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1399"/>
         <source>Maximum size: %0 MB</source>
         <comment>Maximum cache size</comment>
         <translation>Maksymalny rozmiar: %0 MB</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1566"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1579"/>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
         <translation>Nieograniczona (domyślnie)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1593"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1606"/>
         <source>%0 Hz</source>
         <comment>VBlank rate</comment>
         <translation>%0 Hz</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1602"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1615"/>
         <source>%0 %</source>
         <comment>Clocks scale</comment>
         <translation>%0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1667"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1680"/>
         <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
         <translation>Nie dotykaj bibliotek libsysutil, tylko do celów deweloperskich, może powodować awarie gier.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1674"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1687"/>
         <source>Search libraries</source>
         <comment>Library search box</comment>
         <translation>Wyszukaj biblioteki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1786"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1799"/>
         <source>All (%1)</source>
         <comment>Max LLVM Compile Threads</comment>
         <translation>Wszystkie (%1)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1790"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1803"/>
         <source>Auto</source>
         <comment>Max Shader Compile Threads</comment>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1941"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1954"/>
         <source>Update Interval: %0 ms</source>
         <comment>Performance overlay update interval</comment>
         <translation>Interwał aktualizacji: %0 ms</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1944"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1957"/>
         <source>Font Size: %0 px</source>
         <comment>Performance overlay font size</comment>
         <translation>Rozmiar czcionki: %0 px</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1947"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1960"/>
         <source>Opacity: %0 %</source>
         <comment>Performance overlay opacity</comment>
         <translation>Nieprzezroczystość: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1950"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1963"/>
         <source>Framerate datapoints: %0</source>
         <comment>Framerate graph datapoints</comment>
         <translation>Punkty danych FPS: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1953"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1966"/>
         <source>Frametime datapoints: %0</source>
         <comment>Frametime graph datapoints</comment>
         <translation>Punkty danych Frametime: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1956"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1969"/>
         <source>Background darkening: %0 %</source>
         <comment>Shader load background darkening</comment>
         <translation>Przyciemnienie tła: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1959"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1972"/>
         <source>Background blur: %0 %</source>
         <comment>Shader load background blur</comment>
         <translation>Rozmycie tła: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1964"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1977"/>
         <source>%</source>
         <comment>Performance overlay margin x</comment>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1967"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="1980"/>
         <source>%</source>
         <comment>Performance overlay margin y</comment>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2080"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2093"/>
         <source>My Game</source>
         <comment>Game window title</comment>
         <translation>Moja Gra</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2115"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2128"/>
         <source>GPU Model</source>
         <comment>Game window title</comment>
         <translation>Model GPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2116"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2129"/>
         <source>CPU Model</source>
         <comment>Game window title</comment>
         <translation>Model CPU</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2117"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2130"/>
         <source>Thread Count</source>
         <comment>Game window title</comment>
         <translation>Liczba Wątków</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2118"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2131"/>
         <source>System Memory</source>
         <comment>Game window title</comment>
         <translation>Pamięć Systemowa</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2119"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2132"/>
         <source>Framerate</source>
         <comment>Game window title</comment>
         <translation>Liczba kl./s</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2120"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2133"/>
         <source>Renderer</source>
         <comment>Game window title</comment>
         <translation>Silnik Renderujący</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2121"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2134"/>
         <source>Title</source>
         <comment>Game window title</comment>
         <translation>Tytuł</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2122"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2135"/>
         <source>Title ID</source>
         <comment>Game window title</comment>
         <translation>Tytuł ID</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2123"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2136"/>
         <source>RPCS3 Version</source>
         <comment>Game window title</comment>
         <translation>Wersja RPCS3</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2133"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2146"/>
         <source>Glossary:
 
 %0
@@ -17838,106 +17978,106 @@ Podgląd:
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2140"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2153"/>
         <source>Game Window Title Format</source>
         <comment>Game window title</comment>
         <translation>Format tytułu okna gry</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2208"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2221"/>
         <source>User Interface: %0 %</source>
         <comment>GUI volume</comment>
         <translation>Interfejs użytkownika: %0%</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2239"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2252"/>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2239"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2252"/>
         <source>Failed to create new installation ID!</source>
         <translation>Nie udało się utworzyć nowego ID instalacji!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2300"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2313"/>
         <source>Yes</source>
         <comment>Updates</comment>
         <translation>Tak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2301"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2314"/>
         <source>Background</source>
         <comment>Updates</comment>
         <translation>W Tle</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2302"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2315"/>
         <source>Automatic</source>
         <comment>Updates</comment>
         <translation>Automatyczne</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2303"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2316"/>
         <source>No</source>
         <comment>Updates</comment>
         <translation>Nie</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2378"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2391"/>
         <source>Choose gamelist icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>Wybierz kolor ikony listy gier</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2382"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2395"/>
         <source>Choose save manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>Wybierz kolor ikony menedżera zapisu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2386"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2399"/>
         <source>Choose trophy manager icon color</source>
         <comment>Settings: color dialog</comment>
         <translation>Wybierz kolor ikony menedżera trofeów</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2504"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2517"/>
         <source>Always Enabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
         <translation>Zawsze włączone</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2505"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2518"/>
         <source>Disabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
         <translation>Wył.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2592"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2605"/>
         <source>None</source>
         <comment>Stylesheets</comment>
         <translation>Brak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2597"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2610"/>
         <source>Native (%0)</source>
         <comment>Stylesheets</comment>
         <translation>Natywny (%0)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2600"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2613"/>
         <source>Default (Bright)</source>
         <comment>Stylesheets</comment>
         <translation>Domyślny (Jasny)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2656"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2669"/>
         <source>Remove obsolete settings?</source>
         <translation>Usunąć przestarzałe ustawienia?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2657"/>
+        <location filename="rpcs3/rpcs3qt/settings_dialog.cpp" line="2670"/>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
         <translation>Twój plik konfiguracyjny zawierał jedną lub więcej nierozpoznanych wartości dla ustawień.&lt;br&gt;Należy wziąć pod uwagę, że korekta może spowodować niepoprawność dla innych wersji RPCS3.&lt;br&gt;Czy chcesz pozwolić programowi na poprawienie ich dla Ciebie?&lt;br&gt;Ta zmiana będzie zakończona tylko wtedy, gdy zapiszesz konfigurację.</translation>
     </message>
