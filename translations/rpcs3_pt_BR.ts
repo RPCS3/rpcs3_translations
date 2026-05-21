@@ -828,9 +828,9 @@ Essa opção é necessária apenas para um número seleto de jogos.</translation
       <source>Emulate depth comparison operations where desktop hardware behavior differs from PS3, usually EQUAL comparison modes.
 Fixes excessive shadow flickering and Z-fighting in some games.
 This is most obvious in some games where the Z prepass depth format is different from the rasterization depth format, a scenario that will never work out correctly on compliant desktop hardware.</source>
-      <translation>Emula operações de comparação de profundidade onde o comportamento do hardware do desktop difere do PS3. Geralmente, é IGUAL aos modos de comparação.
-Corrige a oscilação excessiva de sombras e a sobreposição do Z em alguns jogos.
-Isso é mais evidente em alguns jogos onde o formato de profundidade de pré-passagem do Z é diferente do formato de profundidade da rasterização, um cenário que nunca funcionará corretamente em hardware do desktop compatível.</translation>
+      <translation>Emula operações de comparação de profundidade onde o comportamento do hardware do PC difere do PS3. Geralmente, é IGUAL aos modos de comparação.
+Corrige a oscilação excessiva de sombras e a sobreposição do eixo Z em alguns jogos.
+Isso é mais evidente em alguns jogos onde o formato de profundidade de pré-passagem do eixo Z é diferente do formato de profundidade da rasterização, um cenário que nunca funcionará corretamente em hardware do PC compatível.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="46"/>
@@ -9352,7 +9352,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="263"/>
       <source>Handle RSX Memory Tiling</source>
       <comment>Advanced</comment>
-      <translation>Manipulação de Mosaico da Memória RSX</translation>
+      <translation>Manipular Mosaico da Memória RSX</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="264"/>
@@ -16934,7 +16934,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2733"/>
       <source>Emulate Special Depth Comparison</source>
-      <translation>Comparação de Profundidade Especial Emulada</translation>
+      <translation>Emular Comparação de Profundidade Especial</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2740"/>
@@ -16944,7 +16944,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2747"/>
       <source>Handle RSX Memory Tiling</source>
-      <translation>Manipulação de Mosaico da Memória RSX</translation>
+      <translation>Manipular Mosaico da Memória RSX</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2754"/>
