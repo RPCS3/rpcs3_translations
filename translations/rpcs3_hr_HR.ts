@@ -5737,8 +5737,8 @@ Trajno ukloniti odabrani (neobavezni) sadržaj s pogona?
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="538"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="562"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="631"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1203"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1215"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1255"/>
         <source>Confirm Removal</source>
         <translation>Potvrdi uklanjanje</translation>
     </message>
@@ -5853,7 +5853,7 @@ Korištenje predmemorije: %0</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="618"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="659"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1577"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
         <source>Warning!</source>
         <translation>Upozorenje!</translation>
     </message>
@@ -5871,7 +5871,7 @@ Vaša će se konfiguracija vratiti na globalne postavke kontrolera.</translation
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="633"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1255"/>
         <source>Remove custom gamepad configuration?</source>
         <translation>Ukloniti prilagođenu konfiguraciju gamepada?</translation>
     </message>
@@ -5881,215 +5881,215 @@ Vaša će se konfiguracija vratiti na globalne postavke kontrolera.</translation
         <translation>Nije uspjelo potpuno uklanjanje direktorija konfiguracije gamepada!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1062"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1100"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1070"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1112"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1124"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
         <source>Confirm Creation</source>
         <translation>Potvrdi Izradu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1124"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
         <source>Create LLVM cache?</source>
         <translation>Stvoriti LLVM predmemoriju?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1145"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1156"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1157"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1168"/>
         <source>LLVM Cache Batch Creation</source>
         <translation>Serijsko stvaranje predmemorije LLVM-a</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1145"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1157"/>
         <source>No titles found</source>
         <translation>Nisu pronađeni naslovi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1154"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1166"/>
         <source>Creating all LLVM caches</source>
         <translation>Izrada svih LLVM predmemorija</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="430"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1156"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1226"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1266"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1308"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1350"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1393"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1436"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1479"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1528"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1168"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1278"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1320"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1362"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1405"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1448"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1491"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1540"/>
         <source>Cancel</source>
         <translation>Poništi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1169"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1181"/>
         <source>%0
 Progress: %1/%2 caches compiled</source>
         <translation>%0
 Napredak: %1/%2 predmemorija kompilira se</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1203"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1215"/>
         <source>Remove custom configuration?</source>
         <translation>Ukloniti prilagođenu konfiguraciju?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1222"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1226"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1234"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
         <source>Custom Configuration Batch Removal</source>
         <translation>Uklanjanje serije prilagođene konfiguracije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1222"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1262"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1304"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1346"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1389"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1432"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1522"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1234"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1274"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1316"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1358"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1401"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1444"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1534"/>
         <source>No files found</source>
         <translation>Nema pronađenih datoteka</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1226"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
         <source>Removing all custom configurations</source>
         <translation>Uklanjanje svih prilagođenih konfiguracija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1231"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
         <source>%0/%1 custom configurations cleared</source>
         <translation>%0/%1 prilagođenih konfiguracija izbrisano</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1262"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1266"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1274"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1278"/>
         <source>Custom Gamepad Configuration Batch Removal</source>
         <translation>Grupno uklanjanje prilagođene konfiguracije igraćeg kontrolera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1266"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1278"/>
         <source>Removing all custom gamepad configurations</source>
         <translation>Uklanjanje svih prilagođenih konfiguracija kontrolera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1271"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1283"/>
         <source>%0/%1 custom gamepad configurations cleared</source>
         <translation>%0/%1 konfiguracije prilagođenih kontrolera izbrisane</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1304"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1308"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1316"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1320"/>
         <source>Shader Cache Batch Removal</source>
         <translation>Uklanjanje skupa predmemorija Shadera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1308"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1320"/>
         <source>Removing all shader caches</source>
         <translation>Uklanjanje svih predmemorija shadera</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1313"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1325"/>
         <source>%0/%1 shader caches cleared</source>
         <translation>%0/%1 predmemorija shadera izbrisana</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1346"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1350"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1358"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1362"/>
         <source>PPU Cache Batch Removal</source>
         <translation>Uklanjanje skupa PPU predmemorije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1350"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1362"/>
         <source>Removing all PPU caches</source>
         <translation>Uklanjanje svih PPU predmemorija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1355"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1367"/>
         <source>%0/%1 PPU caches cleared</source>
         <translation>%0/%1 PPU predmemorije su obrisane</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1389"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1393"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1401"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1405"/>
         <source>SPU Cache Batch Removal</source>
         <translation>Uklanjanje SPU skupa predmemorija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1393"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1405"/>
         <source>Removing all SPU caches</source>
         <translation>Uklanjanje svih SPU predmemorija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1398"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1410"/>
         <source>%0/%1 SPU caches cleared</source>
         <translation>%0/%1 SPU predmemorije su obrisane</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1432"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1436"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1444"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1448"/>
         <source>HDD1 Cache Batch Removal</source>
         <translation>HDD1 Cache Batch Removal</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1436"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1448"/>
         <source>Removing all HDD1 caches</source>
         <translation>Uklanjanje svih predmemorija HDD1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1441"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1453"/>
         <source>%0/%1 HDD1 caches cleared</source>
         <translation>%0/%1 HDD1 predmemorija izbrisana</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1479"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1491"/>
         <source>Cache Batch Removal</source>
         <translation>Uklanjanje skupa predmemorije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1479"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1491"/>
         <source>Removing all caches</source>
         <translation>Uklanjanje svih predmemorija</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1484"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1496"/>
         <source>%0/%1 caches cleared</source>
         <translation>%0/%1 predmemorija je obrisano</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1522"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1528"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1534"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1540"/>
         <source>Content Batch Removal</source>
         <translation>Uklanjanje skupa sadržaja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1528"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1540"/>
         <source>Removing all contents</source>
         <translation>Uklanjanje svih sadržaja</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1533"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1545"/>
         <source>%0/%1 contents cleared</source>
         <translation>Sadržaj %0/%1 obrisan</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1585"/>
         <source>Success!</source>
         <translation>Uspjeh!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1585"/>
         <source>Successfully created shortcut(s).</source>
         <translation>Uspješno stvoreni preč(a)c(i).</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1577"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
         <source>Failed to create one or more shortcuts!</source>
         <translation>Nije uspjelo stvaranje jednog ili više prečaca!</translation>
     </message>
@@ -10754,62 +10754,62 @@ Predmet:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="939"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2009"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3650"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3673"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3652"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3675"/>
         <source>Restart</source>
         <translation>Restart</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="947"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3414"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3416"/>
         <source>HDD Games</source>
         <translation>HDD Igre</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="955"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3415"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3417"/>
         <source>Disc Games</source>
         <translation>Disk Igre</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="963"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3416"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3418"/>
         <source>PS1 Games</source>
         <translation>PS1 Igre</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="971"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3417"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3419"/>
         <source>PS2 Games</source>
         <translation>PS2 Igre</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="979"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3418"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3420"/>
         <source>PSP Games</source>
         <translation>PSP Igre</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="987"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3419"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3421"/>
         <source>Home</source>
         <translation>Početna</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="995"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3420"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3422"/>
         <source>Audio/Video</source>
         <translation>Zvuk/Video</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1003"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3421"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3423"/>
         <source>Game Data</source>
         <translation>Podaci o igri</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1011"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3423"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3425"/>
         <source>Unknown</source>
         <translation>Nepoznato</translation>
     </message>
@@ -10891,7 +10891,7 @@ Predmet:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1139"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3426"/>
         <source>Other</source>
         <translation>Ostalo</translation>
     </message>
@@ -11187,7 +11187,7 @@ Predmet:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3422"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
         <source>Operating System</source>
         <translation>Operativni sustav</translation>
     </message>
@@ -11239,10 +11239,10 @@ Predmet:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="222"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1990"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2052"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3654"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3664"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3677"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2053"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3656"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3666"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3679"/>
         <source>Play %0</source>
         <translation>Pokreni %0</translation>
     </message>
@@ -11250,8 +11250,8 @@ Predmet:</translation>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="222"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1975"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2000"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2059"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3657"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2060"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3659"/>
         <source>Play</source>
         <translation>Pokreni</translation>
     </message>
@@ -11400,7 +11400,7 @@ Predmet:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="762"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2642"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2644"/>
         <source>ISO files (*.iso);;All files (*.*)</source>
         <translation>ISO datoteke (*.iso);;Sve datoteke (*.*)</translation>
     </message>
@@ -11459,7 +11459,7 @@ Predmet:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1228"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1722"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4046"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4048"/>
         <source>Success!</source>
         <translation>Uspjeh!</translation>
     </message>
@@ -11755,8 +11755,8 @@ I zapisuje se s nekim funkcijama sceNpDrm* kada se izvodi igra/aplikacija koja p
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1930"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1953"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2005"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3647"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3670"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3649"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3672"/>
         <source>Restart %0</source>
         <translation>Restart %0</translation>
     </message>
@@ -11790,37 +11790,37 @@ I zapisuje se s nekim funkcijama sceNpDrm* kada se izvodi igra/aplikacija koja p
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1992"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2056"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2057"/>
         <source>&amp;Play</source>
         <translation>&amp;Pokreni</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2414"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2416"/>
         <source>Precompile caches</source>
         <translation>Predkompajliranje predmemorije</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2416"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2418"/>
         <source>Add desktop shortcut(s)</source>
         <translation>Dodaj prečac(e) na radnu površinu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2418"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2420"/>
         <source>Add Start menu shortcut(s)</source>
         <translation>Dodajte prečace na Startni izbornik</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2420"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2422"/>
         <source>Add dock shortcut(s)</source>
         <translation>Dodajte prečac(e) na dock</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2422"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2424"/>
         <source>Add launcher shortcut(s)</source>
         <translation>Dodaj prečac(e) pokretača</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2425"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2427"/>
         <source>%1
 Would you like to precompile caches and install shortcuts to the installed software? (%2 new software detected)
 
@@ -11831,85 +11831,85 @@ Would you like to precompile caches and install shortcuts to the installed softw
 </translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2440"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2442"/>
         <source>Add Steam Shortcut(s) (Steam must be closed)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2440"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2442"/>
         <source>Add Steam shortcut(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2624"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2626"/>
         <source>Select a folder containing one or more games</source>
         <translation>Odaberite mapu koja sadrži jednu ili više igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2642"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2644"/>
         <source>Select ISO files to add</source>
         <translation>Odaberite ISO datoteke za dodavanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2743"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2745"/>
         <source>Failed to locate log</source>
         <translation>Nije moguće pronaći zapisnik</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2743"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2745"/>
         <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
         <translation>Nije moguće pronaći datoteke zapisnika.
 Provjerite jesu li datoteke RPCS3.log i RPCS3.log.gz zapisive i mogu li se stvoriti bez problema s dopuštenjima.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2800"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2823"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2802"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2825"/>
         <source>Select RPCS3&apos;s log saving location (saving %0)</source>
         <translation>Odaberite lokaciju za spremanje zapisnika RPCS3 (spremanje %0)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2916"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2918"/>
         <source>Select Disc Game Folder</source>
         <translation>Odaberite Mapu s Igrom na Disku</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2927"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2929"/>
         <source>Failed to insert disc</source>
         <translation>Umetanje diska nije uspjelo</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2927"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2929"/>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
         <translation>Provjerite je li emulacija pokrenuta i pripada li odabrana putanja valjanoj igri na disku.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3079"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3081"/>
         <source>Error: Emulation Running</source>
         <translation>Greška: Emulacija u Izvođenju</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3079"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3081"/>
         <source>You need to stop the emulator before editing Clans connection information!</source>
         <translation>Morate zaustaviti emulator prije uređivanja informacija o vezi Klanova!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3218"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3220"/>
         <source>Select rpcs3.log or config.yml</source>
         <translation>Odaberite rpcs3.log ili config.yml</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3218"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3220"/>
         <source>Log or Config files (*.log *.gz *.txt *.yml);;Log files (*.log *.gz);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
         <translation>Datoteke zapisnika ili Konfiguracije (*.log *.gz *.txt *.yml);;Datoteke zapisnika (*.log *.gz);;Konfig datoteke (*.yml);;Tekst datoteke (*.txt);;Sve datoteke (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3229"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3231"/>
         <source>Weird file!</source>
         <translation>Čudna datoteka!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3229"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3231"/>
         <source>This file seems to have an unexpected type:
 %0
 
@@ -11920,72 +11920,72 @@ Check anyway?</source>
 Želim li svejedno provjeriti?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3261"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3263"/>
         <source>Failed to open file</source>
         <translation>Neuspješno otvaranje datoteke</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3261"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3263"/>
         <source>The file could not be opened:
 %0</source>
         <translation>Datoteka se nije mogla otvoriti:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3432"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3434"/>
         <source>Auto-updater</source>
         <translation>Automatsko ažuriranje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3432"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3434"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
         <translation>Automatsko ažuriranje trenutno nije dostupno za vaš OS.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3831"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3871"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3833"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3873"/>
         <source>Confirm Removal</source>
         <translation>Potvrdi Uklanjanje</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3831"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3833"/>
         <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
         <translation>Ukloniti nevažeće putanje igre s popisa igara?
 Neotkrivene igre (zombiji), kao i oštećene igre bit će uklonjene iz datoteke popisa igara (games.yml)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3861"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3863"/>
         <source>Summary</source>
         <translation>Sažetak</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3861"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3863"/>
         <source>%0 game(s) removed from game list</source>
         <translation>%0 igara uklonjeno s popisa igara</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3871"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3873"/>
         <source>Remove firmware cache?</source>
         <translation>Ukloni Predmemoriju Firmvera?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4042"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4044"/>
         <source>Nothing to add!</source>
         <translation>Ništa za dodat!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4042"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4044"/>
         <source>Could not find any new software.</source>
         <translation>Nisam mogao pronaći nijedan novi softver.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4046"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4048"/>
         <source>Successfully added software to game list from path(s)!</source>
         <translation>Softver uspješno dodan na popis igara iz putanje(a)!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4221"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4223"/>
         <source>PARAM.SFO Information</source>
         <translation>PARAM.SFO Informacije</translation>
     </message>

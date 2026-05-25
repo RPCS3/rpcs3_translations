@@ -5746,8 +5746,8 @@ Ausgewählte (optionale) Inhalte dauerhaft vom Laufwerk löschen?
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="538"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="562"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="631"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1203"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1215"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1255"/>
         <source>Confirm Removal</source>
         <translation>Löschen bestätigen</translation>
     </message>
@@ -5862,7 +5862,7 @@ Match found on DB:
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="618"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="659"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1577"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
         <source>Warning!</source>
         <translation>Achtung!</translation>
     </message>
@@ -5880,7 +5880,7 @@ Die Einstellungen werden zu den globalen Einstellungen zurückgesetzt.</translat
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="633"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1255"/>
         <source>Remove custom gamepad configuration?</source>
         <translation>Benutzerdefinierte Gamepad Einstellungen löschen?</translation>
     </message>
@@ -5890,215 +5890,215 @@ Die Einstellungen werden zu den globalen Einstellungen zurückgesetzt.</translat
         <translation>Fehler beim vollständigen Entfernen des Ordners für Gamepad Einstellungen!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1062"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1100"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1070"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1112"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1124"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
         <source>Confirm Creation</source>
         <translation>Erstellung bestätigen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1124"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1136"/>
         <source>Create LLVM cache?</source>
         <translation>LLLVM Cache erstellen?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1145"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1156"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1157"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1168"/>
         <source>LLVM Cache Batch Creation</source>
         <translation>Alle LLVM Caches erstellen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1145"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1157"/>
         <source>No titles found</source>
         <translation>Keine Titel gefunden</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1154"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1166"/>
         <source>Creating all LLVM caches</source>
         <translation>Erstelle alle LLVM Caches</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="430"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1156"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1226"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1266"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1308"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1350"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1393"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1436"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1479"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1528"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1168"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1278"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1320"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1362"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1405"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1448"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1491"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1540"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1169"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1181"/>
         <source>%0
 Progress: %1/%2 caches compiled</source>
         <translation>%0
 Fortschritt: %1/%2 Caches kompiliert</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1203"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1215"/>
         <source>Remove custom configuration?</source>
         <translation>Benutzerdefinierte Einstellungen löschen?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1222"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1226"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1234"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
         <source>Custom Configuration Batch Removal</source>
         <translation>Alle benutzerdefinierten Einstellungen löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1222"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1262"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1304"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1346"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1389"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1432"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1522"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1234"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1274"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1316"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1358"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1401"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1444"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1534"/>
         <source>No files found</source>
         <translation>Keine Dateien gefunden</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1226"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
         <source>Removing all custom configurations</source>
         <translation>Lösche alle benutzerdefinierten Einstellungen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1231"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1243"/>
         <source>%0/%1 custom configurations cleared</source>
         <translation>%0/%1 benutzerdefinierte Einstellungen gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1262"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1266"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1274"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1278"/>
         <source>Custom Gamepad Configuration Batch Removal</source>
         <translation>Alle benutzerdefinierten Gamepad Einstellungen löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1266"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1278"/>
         <source>Removing all custom gamepad configurations</source>
         <translation>Lösche alle benutzerdefinierte Gamepad Einstellungen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1271"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1283"/>
         <source>%0/%1 custom gamepad configurations cleared</source>
         <translation>%0/%1 benutzerdefinierte Gamepad Einstellungen gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1304"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1308"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1316"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1320"/>
         <source>Shader Cache Batch Removal</source>
         <translation>Alle Shader Caches löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1308"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1320"/>
         <source>Removing all shader caches</source>
         <translation>Lösche alle Shader-Caches</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1313"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1325"/>
         <source>%0/%1 shader caches cleared</source>
         <translation>%0/%1 Shader Caches gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1346"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1350"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1358"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1362"/>
         <source>PPU Cache Batch Removal</source>
         <translation>Alle PPU Caches löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1350"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1362"/>
         <source>Removing all PPU caches</source>
         <translation>Lösche alle PPU Caches</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1355"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1367"/>
         <source>%0/%1 PPU caches cleared</source>
         <translation>%0/%1 Caches gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1389"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1393"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1401"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1405"/>
         <source>SPU Cache Batch Removal</source>
         <translation>Alle SPU Caches löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1393"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1405"/>
         <source>Removing all SPU caches</source>
         <translation>Lösche alle SPU Caches</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1398"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1410"/>
         <source>%0/%1 SPU caches cleared</source>
         <translation>%0/%1 Caches gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1432"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1436"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1444"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1448"/>
         <source>HDD1 Cache Batch Removal</source>
         <translation>HDD1 alle Caches löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1436"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1448"/>
         <source>Removing all HDD1 caches</source>
         <translation>Entferne alle HDD1-Caches</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1441"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1453"/>
         <source>%0/%1 HDD1 caches cleared</source>
         <translation>%0/%1 HDD1-Caches gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1479"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1491"/>
         <source>Cache Batch Removal</source>
         <translation>Alle Caches löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1479"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1491"/>
         <source>Removing all caches</source>
         <translation>Alle Caches löschen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1484"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1496"/>
         <source>%0/%1 caches cleared</source>
         <translation>%0/%1 Caches gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1522"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1528"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1534"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1540"/>
         <source>Content Batch Removal</source>
         <translation>Inhaltstapel entfernen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1528"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1540"/>
         <source>Removing all contents</source>
         <translation>Alle Inhalte werden entfernt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1533"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1545"/>
         <source>%0/%1 contents cleared</source>
         <translation>%0/%1 Caches gelöscht</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1585"/>
         <source>Success!</source>
         <translation>Erfolg!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1585"/>
         <source>Successfully created shortcut(s).</source>
         <translation>Verknüpfung(en) wurden erfolgreich erstellt.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1577"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
         <source>Failed to create one or more shortcuts!</source>
         <translation>Fehler beim Erstellen einer oder mehrerer Verknüpfungen!</translation>
     </message>
@@ -10763,62 +10763,62 @@ Betreff:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="939"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2009"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3650"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3673"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3652"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3675"/>
         <source>Restart</source>
         <translation>Neustart</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="947"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3414"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3416"/>
         <source>HDD Games</source>
         <translation>Festplattenspiele</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="955"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3415"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3417"/>
         <source>Disc Games</source>
         <translation>Disc Spiele</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="963"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3416"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3418"/>
         <source>PS1 Games</source>
         <translation>PS1 Spiele</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="971"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3417"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3419"/>
         <source>PS2 Games</source>
         <translation>PS2 Spiele</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="979"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3418"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3420"/>
         <source>PSP Games</source>
         <translation>PSP Spiele</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="987"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3419"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3421"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="995"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3420"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3422"/>
         <source>Audio/Video</source>
         <translation>Audio/Video</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1003"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3421"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3423"/>
         <source>Game Data</source>
         <translation>Spieldaten</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1011"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3423"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3425"/>
         <source>Unknown</source>
         <translation>Unbekannt</translation>
     </message>
@@ -10900,7 +10900,7 @@ Betreff:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1139"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3426"/>
         <source>Other</source>
         <translation>Sonstiges</translation>
     </message>
@@ -11196,7 +11196,7 @@ Betreff:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.ui" line="1475"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3422"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3424"/>
         <source>Operating System</source>
         <translation>Betriebssystem</translation>
     </message>
@@ -11248,10 +11248,10 @@ Betreff:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="222"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1990"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2052"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3654"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3664"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3677"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2053"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3656"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3666"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3679"/>
         <source>Play %0</source>
         <translation>Spiele %0</translation>
     </message>
@@ -11259,8 +11259,8 @@ Betreff:</translation>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="222"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1975"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2000"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2059"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3657"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2060"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3659"/>
         <source>Play</source>
         <translation>Spiele</translation>
     </message>
@@ -11409,7 +11409,7 @@ Betreff:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="762"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2642"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2644"/>
         <source>ISO files (*.iso);;All files (*.*)</source>
         <translation>ISO-Dateien (*.iso);;Alle Dateien (*.*)</translation>
     </message>
@@ -11468,7 +11468,7 @@ Betreff:</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1228"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1722"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4046"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4048"/>
         <source>Success!</source>
         <translation>Erfolg!</translation>
     </message>
@@ -11764,8 +11764,8 @@ Und wird mit einigen sceNpDrm*-Funktionen geloggt, wenn das Spiel/die Anwendung 
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1930"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1953"/>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2005"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3647"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3670"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3649"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3672"/>
         <source>Restart %0</source>
         <translation>%0 neu starten</translation>
     </message>
@@ -11799,37 +11799,37 @@ Und wird mit einigen sceNpDrm*-Funktionen geloggt, wenn das Spiel/die Anwendung 
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/main_window.cpp" line="1992"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2056"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2057"/>
         <source>&amp;Play</source>
         <translation>&amp;Spielen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2414"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2416"/>
         <source>Precompile caches</source>
         <translation>Caches vorkompilieren</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2416"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2418"/>
         <source>Add desktop shortcut(s)</source>
         <translation>Desktop-Verknüpfung(en) hinzufügen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2418"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2420"/>
         <source>Add Start menu shortcut(s)</source>
         <translation>Startmenü-Verknüpfung(en) hinzufügen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2420"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2422"/>
         <source>Add dock shortcut(s)</source>
         <translation>Dock Verknüpfung(en) hinzufügen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2422"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2424"/>
         <source>Add launcher shortcut(s)</source>
         <translation>Launcher Verknüpfung(en) hinzufügen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2425"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2427"/>
         <source>%1
 Would you like to precompile caches and install shortcuts to the installed software? (%2 new software detected)
 
@@ -11838,85 +11838,85 @@ Would you like to precompile caches and install shortcuts to the installed softw
 Möchten Sie Caches vorkompilieren und Verknüpfungen für die installierte Software installieren? (%2 neue Software entdeckt)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2440"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2442"/>
         <source>Add Steam Shortcut(s) (Steam must be closed)</source>
         <translation>Steam Verknüpfung(en) hinzufügen (Steam muss geschlossen sein)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2440"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2442"/>
         <source>Add Steam shortcut(s)</source>
         <translation>Steam Verknüpfung(en) hinzufügen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2624"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2626"/>
         <source>Select a folder containing one or more games</source>
         <translation>Wähle einen Ordner mit einem oder mehreren Spielen aus</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2642"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2644"/>
         <source>Select ISO files to add</source>
         <translation>ISO-Dateien zum Hinzufügen auswählen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2743"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2745"/>
         <source>Failed to locate log</source>
         <translation>Log konnte nicht gefunden werden</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2743"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2745"/>
         <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
         <translation>Logdateien konnten nicht gefunden werden.
 Stelle sicher, dass das RPCS3.log und das RPCS3.log.gz beschreibbar sind und ohne Berechtigungsprobleme erstellt werden können.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2800"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2823"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2802"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2825"/>
         <source>Select RPCS3&apos;s log saving location (saving %0)</source>
         <translation>Wähle den RPCS3 Log Speicherort (speichere %0)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2916"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2918"/>
         <source>Select Disc Game Folder</source>
         <translation>Wähle Disc Spieleordner</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2927"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2929"/>
         <source>Failed to insert disc</source>
         <translation>Einlegen der Disc ist fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2927"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="2929"/>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
         <translation>Stelle sicher, dass die Emulation läuft und das der ausgewählte Pfad zu einem gültigen Disc Spiel gehört.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3079"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3081"/>
         <source>Error: Emulation Running</source>
         <translation>Fehler: Emulation wird ausgeführt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3079"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3081"/>
         <source>You need to stop the emulator before editing Clans connection information!</source>
         <translation>Sie müssen den Emulator beenden, bevor Sie die Clans Verbindungsinformationen bearbeiten!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3218"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3220"/>
         <source>Select rpcs3.log or config.yml</source>
         <translation>Wähle rpcs3.log oder config.yml</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3218"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3220"/>
         <source>Log or Config files (*.log *.gz *.txt *.yml);;Log files (*.log *.gz);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
         <translation>Log- oder Konfigurationsdateien (*.log *.gz *.txt *.yml);;Logdateien (*.log *.gz);;Config Dateien (*.yml);;Text Dateien (*.txt);;Alle Dateien (*.*)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3229"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3231"/>
         <source>Weird file!</source>
         <translation>Merkwürdige Datei!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3229"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3231"/>
         <source>This file seems to have an unexpected type:
 %0
 
@@ -11927,72 +11927,72 @@ Check anyway?</source>
 Trotzdem überprüfen?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3261"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3263"/>
         <source>Failed to open file</source>
         <translation>Datei konnte nicht geöffnet werden</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3261"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3263"/>
         <source>The file could not be opened:
 %0</source>
         <translation>Die Datei konnte nicht geöffnet werden:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3432"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3434"/>
         <source>Auto-updater</source>
         <translation>Auto-Updater</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3432"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3434"/>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
         <translation>Der Auto-Updater ist derzeit leider nicht für dein Betriebssystem verfügbar.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3831"/>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3871"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3833"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3873"/>
         <source>Confirm Removal</source>
         <translation>Löschen bestätigen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3831"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3833"/>
         <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
         <translation>Ungültige Spielpfade von der Spielliste entfernen?
 Unentdeckbare Spiele (Zombies) sowie beschädigte Spiele werden aus der Spielliste entfernt (games.yml)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3861"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3863"/>
         <source>Summary</source>
         <translation>Zusammenfassung</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3861"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3863"/>
         <source>%0 game(s) removed from game list</source>
         <translation>%0 Spiel(e) aus der Spielliste entfernt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3871"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="3873"/>
         <source>Remove firmware cache?</source>
         <translation>Firmware-Cache löschen?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4042"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4044"/>
         <source>Nothing to add!</source>
         <translation>Nichts zum Hinzufügen!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4042"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4044"/>
         <source>Could not find any new software.</source>
         <translation>Es wurde keine neue Software gefunden.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4046"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4048"/>
         <source>Successfully added software to game list from path(s)!</source>
         <translation>Software wurde erfolgreich von Pfad(en) zur Spielliste hinzugefügt!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4221"/>
+        <location filename="rpcs3/rpcs3qt/main_window.cpp" line="4223"/>
         <source>PARAM.SFO Information</source>
         <translation>PARAM.SFO Information</translation>
     </message>
