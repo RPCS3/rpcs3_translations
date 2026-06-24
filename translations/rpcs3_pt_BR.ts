@@ -460,7 +460,7 @@ Localização atual:
     <message>
       <location filename="./rpcs3/rpcs3.cpp" line="1366"/>
       <source>Missing command-line arguments!</source>
-      <translation>Faltando argumentos de linha de comando!</translation>
+      <translation>Argumentos de linha de comando ausentes!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3.cpp" line="1366"/>
@@ -787,13 +787,13 @@ Isso pode corrigir a corrupção gráfica observada quando as opções Leitura d
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="40"/>
       <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-      <translation>Permite que a GPU host sincronize com CELL de modo direto. Isso acarreta uma perda de desempenho, mas expõe o verdadeiro estado dos objetos da GPU para a CPU convidada. Pode ajudar a eliminar ruídos visuais e glitching ao custo de desempenho. Use com cautela.</translation>
+      <translation>Permite que a GPU anfitriã sincronize com a CELL de modo direto. Isso acarreta uma perda de desempenho, mas expõe o verdadeiro estado dos objetos da GPU para a CPU convidada. Pode ajudar a eliminar ruídos visuais e falhas ao custo de desempenho. Use com cautela.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="41"/>
       <source>Forces MSAA to use the host GPU&apos;s resolve capabilities for all sampling operations.
 This option incurs a performance penalty as well as the risk of visual artifacts but can yield crisper visuals when MSAA is enabled.</source>
-      <translation>Força o MSAA a usar os recursos de resolução da GPU do host para todas as operações de amostragem.
+      <translation>Força o MSAA a usar os recursos de resolução da GPU do anfitrião para todas as operações de amostragem.
 Essa opção acarreta uma penalidade de desempenho, bem como o risco de artefatos visuais, mas pode produzir visuais mais nítidos quando o MSAA está ativado.</translation>
     </message>
     <message>
@@ -836,8 +836,8 @@ Isso é mais evidente em alguns jogos onde o formato de profundidade de pré-pas
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="46"/>
       <source>Enable SPU RdEventStat spin.
 This increases CPU usage, this setting is beneficial for high-threaded CPUs (12+) with select number of games.</source>
-      <translation>Habilite SPU RdEventStat spin.
-Isso aumenta o uso da CPU, mas essa configuração é benéfica para CPUs com muitos threads (12+) em determinados jogos.</translation>
+      <translation>Habilita a rotação RdEventStat da SPU.
+Isso aumenta o uso da CPU. Esta configuração é vantajosa para CPUs com muitos threads (12 ou mais) em jogos selecionados.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="47"/>
@@ -1247,28 +1247,28 @@ Nunca use isto.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="108"/>
       <source>Accurately set Saturation Bit values in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Define com precisão os valores de bits de saturação nos backends da PPU.
+      <translation>Define com precisão os valores do Bit de Saturação nos backends da PPU.
 Se não tiver certeza, não modifique essa configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="109"/>
       <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Respeita os valores de Bit no Modo Não-Java para operações vetoriais em backends da PPU.
+      <translation>Respeita os valores do Bit no Modo Não-Java para operações vetoriais em backends da PPU.
 Se não tiver certeza, não modifique essa configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="110"/>
       <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Define com precisão os valores de bits de saturação nos backends da PPU.
+      <translation>Define com precisão os resultados NaN em vetores de instruções nos backends da PPU.
 Se não tiver certeza, não modifique essa configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="111"/>
       <source>Accurately set FPCC Bits in PPU backends.
 If unsure, do not modify this setting.</source>
-      <translation>Define com precisão os bits FPCC nos backends da PPU.
+      <translation>Define com precisão os Bits FPCC nos backends da PPU.
 Em caso de dúvida, não modifique esta configuração.</translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@ Atualmente, isso pode não funcionar todas as vezes.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="160"/>
       <source>Shows fatal error hints using the native overlay.</source>
-      <translation>Exibe sugestões de erro fatal usando a sobreposição nativa.</translation>
+      <translation>Exibe sugestões para erro fatal usando a sobreposição nativa.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="161"/>
@@ -1904,7 +1904,7 @@ Só tem impacto quando o modo de shader está definido para um dos modos assínc
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="210"/>
       <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
-      <translation>Controla o nível de precisão dos shaders gerados. Baixa precisão gera código muito mais rápido, dependendo do hardware, mas às vezes pode causar pequenas falhas visuais ou oscilações na imagem.</translation>
+      <translation>Controla o nível de precisão dos shaders gerados. A baixa precisão gera código muito mais rápido, dependendo do hardware, mas por vezes pode causar pequenas falhas visuais ou oscilações na imagem.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="212"/>
@@ -3045,7 +3045,7 @@ Pode ser que esteja bloqueada por outra aplicação.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174"/>
       <source>Missing Hostname!</source>
-      <translation>Falta o Nome de host!</translation>
+      <translation>Nome de Host Ausente!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174"/>
@@ -5543,7 +5543,7 @@ Isso pode ser útil se o seu dispositivo não tiver botões regulares suficiente
     <message>
       <location filename="./rpcs3/rpcs3qt/game_compatibility.h" line="156"/>
       <source>Games that either can&apos;t be finished, have serious glitches or have insufficient performance</source>
-      <translation>Jogos que não podem ser terminados do começo ao fim, mas também tem defeitos graves ou desempenho insuficiente</translation>
+      <translation>Jogos que não podem ser terminados, apresentam falhas graves ou têm um desempenho insuficiente.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_compatibility.h" line="157"/>
@@ -5686,14 +5686,14 @@ Informação de Jogo em Disco:
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="179"/>
       <source>VFS unhosted: %0
 </source>
-      <translation>VFS não hospedado: %0
+      <translation>Não hospedado no VFS: %0
 </translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="182"/>
       <source>VFS hosted: %0
 </source>
-      <translation>VFS hospedado: %0
+      <translation>Hospedado no VFS: %0
 </translation>
     </message>
     <message>
@@ -5808,7 +5808,7 @@ Espaço livre em disco atual: %0
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="269"/>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="275"/>
       <source>Title located under auto-detection VFS &quot;games&quot; folder cannot be removed</source>
-      <translation>O título localizado com detecção automática na pasta VFS &quot;games&quot; não pode ser removido</translation>
+      <translation>O título localizado com detecção automática na pasta &quot;games&quot; do VFS não pode ser removido</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="288"/>
@@ -5967,7 +5967,7 @@ Verificação de integridade abortada</translation>
       <source>
   VFS disk usage: %0%1</source>
       <translation>
-  Uso do disco VFS: %0%1</translation>
+  Uso do disco no VFS: %0%1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="597"/>
@@ -9481,13 +9481,13 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="266"/>
       <source>VBlank Frequency</source>
       <comment>Advanced</comment>
-      <translation>Frequência de VBlank</translation>
+      <translation>Frequência do VBlank</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="267"/>
       <source>VBlank NTSC Fixup</source>
       <comment>Advanced</comment>
-      <translation>Ajuste de VBlank NTSC</translation>
+      <translation>Ajuste NTSC do VBlank</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="268"/>
@@ -9546,7 +9546,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="277"/>
       <source>Show Fatal Error Hints</source>
       <comment>Overlays</comment>
-      <translation>Mostrar Sugestões de Erro Fatal</translation>
+      <translation>Mostrar Sugestões para Erro Fatal</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="278"/>
@@ -10257,7 +10257,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="99"/>
       <source>&amp;Last actions only</source>
-      <translation>&amp;Últimas ações apenas</translation>
+      <translation>&amp;Somente últimas ações</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="104"/>
@@ -10879,7 +10879,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="896"/>
       <source>Virtual File System</source>
-      <translation>Sistemas de Arquivos Virtual</translation>
+      <translation>Sistema de Arquivo Virtual (VFS)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="901"/>
@@ -14306,12 +14306,12 @@ Espaço em disco necessário: %3</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="186"/>
       <source>Hue</source>
-      <translation>Tonalidade</translation>
+      <translation>Matiz</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="205"/>
       <source>Hue Threshold</source>
-      <translation>Limite de Tonalidade</translation>
+      <translation>Limite de Matiz</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="224"/>
@@ -14381,7 +14381,7 @@ Espaço em disco necessário: %3</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="78"/>
       <source>HSV Hue</source>
-      <translation>Tonalidade (HSV)</translation>
+      <translation>Matiz (HSV)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="79"/>
@@ -14406,7 +14406,7 @@ Espaço em disco necessário: %3</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="94"/>
       <source>Hues</source>
-      <translation>Tonalidades</translation>
+      <translation>Matizes</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="203"/>
@@ -14421,12 +14421,12 @@ Espaço em disco necessário: %3</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="320"/>
       <source>Hue: %0</source>
-      <translation>Tonalidade: %0</translation>
+      <translation>Matiz: %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="340"/>
       <source>Hue Threshold: %0</source>
-      <translation>Limite de Tonalidade: %0</translation>
+      <translation>Limite de Matiz: %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="351"/>
@@ -15199,7 +15199,7 @@ Observe que o token de redefinição de senha é diferente do token de verifica�
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425"/>
       <source>Missing Hostname!</source>
-      <translation>Nome de host ausente!</translation>
+      <translation>Nome de Host Ausente!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425"/>
@@ -15285,7 +15285,7 @@ Observe que o token de redefinição de senha é diferente do token de verifica�
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
       <source>Missing Password</source>
-      <translation>Faltando Senha</translation>
+      <translation>Senha Ausente</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535"/>
@@ -19344,7 +19344,7 @@ Parar o emulador agora?</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/vfs_dialog.cpp" line="19"/>
       <source>Virtual File System</source>
-      <translation>Sistemas de Arquivos Virtual</translation>
+      <translation>Sistema de Arquivo Virtual (VFS)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/vfs_dialog.cpp" line="50"/>
@@ -19410,7 +19410,7 @@ Parar o emulador agora?</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="46"/>
       <source>Reset all entries and file system directories?</source>
-      <translation>Redefinir todas as entradas e diretórios do sistema de arquivos?</translation>
+      <translation>Redefinir todas as entradas e diretórios do sistema de arquivo?</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="75"/>
