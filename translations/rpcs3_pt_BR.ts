@@ -6828,7 +6828,7 @@ Será usado o banco de dados local.
 Falling back to local database.
 
 %0</source>
-      <translation>Falha ao recuperar o banco de dados de configurações online!
+      <translation>Falha ao recuperar o banco de dados de configurações on-line!
 Recorrendo ao banco de dados local.
 
 %0</translation>
@@ -9156,12 +9156,12 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="212"/>
       <source>Online</source>
-      <translation>Online</translation>
+      <translation>On-line</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="213"/>
       <source>Offline</source>
-      <translation>Offline</translation>
+      <translation>Off-line</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="214"/>
@@ -10446,7 +10446,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="320"/>
       <source>Databases</source>
-      <translation>Banco de dados</translation>
+      <translation>Bancos de Dados</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="328"/>
