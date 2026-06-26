@@ -5109,7 +5109,7 @@ Esta alteração somente terá efeito quando as configurações forem salvas.</t
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1512"/>
       <source>Disabled</source>
       <comment>VSync Mode</comment>
-      <translation>Desativado</translation>
+      <translation>Desativada</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1513"/>
@@ -5121,7 +5121,7 @@ Esta alteração somente terá efeito quando as configurações forem salvas.</t
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1514"/>
       <source>Full</source>
       <comment>VSync Mode</comment>
-      <translation>Completo</translation>
+      <translation>Completa</translation>
     </message>
   </context>
   <context>
