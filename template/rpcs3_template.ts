@@ -4990,42 +4990,42 @@ This can be useful if your device does not have enough regular buttons.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="391"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="404"/>
         <source>Disconnected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="392"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="405"/>
         <source>Sharpshooter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="393"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="406"/>
         <source>Racing Wheel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="402"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="415"/>
         <source>External Device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="403"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="416"/>
         <source>Select an external device to emulate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="498"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="511"/>
         <source>Current Basic Mouse Config</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="516"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="529"/>
         <source>Current Raw Mouse Config</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="530"/>
+        <location filename="./rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="543"/>
         <source>Player %0</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7493,81 +7493,101 @@ File was too small.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="39"/>
-        <source>Mouse 1</source>
+        <source>Motion X</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="40"/>
-        <source>Mouse 2</source>
+        <source>Motion Y</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="41"/>
-        <source>Mouse 3</source>
+        <source>Motion Z</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="42"/>
-        <source>Mouse 4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="43"/>
-        <source>Mouse 5</source>
+        <source>Motion G</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="44"/>
-        <source>Mouse 6</source>
+        <source>Mouse 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="45"/>
-        <source>Mouse 7</source>
+        <source>Mouse 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="46"/>
+        <source>Mouse 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="47"/>
+        <source>Mouse 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="48"/>
+        <source>Mouse 5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="49"/>
+        <source>Mouse 6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="50"/>
+        <source>Mouse 7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="51"/>
         <source>Mouse 8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="55"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="60"/>
         <source>Button 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="56"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="61"/>
         <source>Button 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="57"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="62"/>
         <source>Button 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="58"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="63"/>
         <source>Button 4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="59"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="64"/>
         <source>Button 5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="60"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="65"/>
         <source>Button 6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="61"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="66"/>
         <source>Button 7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="62"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="67"/>
         <source>Button 8</source>
         <translation type="unfinished"></translation>
     </message>
