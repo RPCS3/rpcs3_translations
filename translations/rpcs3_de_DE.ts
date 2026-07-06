@@ -18445,76 +18445,76 @@ Vorschau:
 <context>
     <name>skylander_dialog</name>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="681"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="680"/>
         <source>Skylanders Manager</source>
         <translation>Skylanders Manager</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="696"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="695"/>
         <source>Active Portal Skylanders:</source>
         <translation>Aktive Portal Skylander:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="707"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="706"/>
         <source>Skylander %1</source>
         <translation>Skylander %1</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="711"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="710"/>
         <source>Clear</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="712"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="711"/>
         <source>Create</source>
         <translation>Erstellen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="713"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="712"/>
         <source>Load</source>
         <translation>Laden</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="770"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="769"/>
         <source>Select Skylander File</source>
         <translation>Skylander-Datei auswählen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="770"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="769"/>
         <source>Skylander (*.sky *.bin *.dmp *.dump);;All Files (*)</source>
         <translation>Skylander (*.sky *.bin *.dmp *.dump);;Alle Dateien (*)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="786"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="785"/>
         <source>Failed to open the skylander file!</source>
         <translation>Fehler beim Öffnen der Skylander-Datei!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="786"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="785"/>
         <source>Failed to open the skylander file(%1)!
 File may already be in use on the portal.</source>
         <translation>Fehler beim Öffnen der skylander Datei (%1)!
 Die Datei wird möglicherweise bereits auf dem Portal verwendet.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="793"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="792"/>
         <source>Failed to read the skylander file!</source>
         <translation>Fehler beim Lesen der Skylander-Datei!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="793"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="792"/>
         <source>Failed to read the skylander file(%1)!
 File was too small.</source>
         <translation>Fehler beim Lesen der skylander Datei(%1)!
 Datei war zu klein.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="823"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="822"/>
         <source>Unknown (Id:%1 Var:%2)</source>
         <translation>Unbekannt (Id:%1 Var:%2)</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="828"/>
+        <location filename="rpcs3/rpcs3qt/skylander_dialog.cpp" line="827"/>
         <source>None</source>
         <translation>Keine</translation>
     </message>
