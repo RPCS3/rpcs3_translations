@@ -10694,7 +10694,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="675"/>
       <source>Configure GUI settings</source>
-      <translation>Configurar definições de Interface Gráfica do Usuário</translation>
+      <translation>Configurar definições da GUI</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="683"/>
