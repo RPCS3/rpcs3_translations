@@ -8480,7 +8480,7 @@ Espaço necessário: %0 KB</translation>
       <source>Port is already connected.
 (%0)</source>
       <comment>Error code</comment>
-      <translation>Porta já está conectada.
+      <translation>A porta está conectada.
 (%0)</translation>
     </message>
     <message>
@@ -9081,7 +9081,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="194"/>
       <source>RPCN Login Error: User Already Logged In</source>
-      <translation>Erro ao Entrar no RPCN: Usuário Já Conectado</translation>
+      <translation>Erro ao Entrar no RPCN: Usuário Conectado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="195"/>
@@ -11880,7 +11880,7 @@ Continuar a instalação?</translation>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1698"/>
       <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
-      <translation>O firmware da versão %1 já está instalado.
+      <translation>O firmware da versão %1 está instalado.
 Sobrescrever a instalação atual com a versão %2?</translation>
     </message>
     <message>
@@ -14074,7 +14074,7 @@ Registro:
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1209"/>
       <source>Your patch file is already up to date.</source>
-      <translation>Seu arquivo de correção já está atualizado.</translation>
+      <translation>Seu arquivo de correção está atualizado.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1224"/>
