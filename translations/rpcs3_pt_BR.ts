@@ -477,12 +477,12 @@ Finalizando...</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="713"/>
       <source>Pause the SPU Thread!</source>
-      <translation>Pausar a Thread SPU!</translation>
+      <translation>Pausar a Thread da SPU!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="713"/>
       <source>Cannot perform SPU capture due to the thread needing manual pausing!</source>
-      <translation>Não é possível realizar a captura SPU devido à necessidade de uma pausa manual!</translation>
+      <translation>Não é possível realizar a captura da SPU devido à necessidade de uma pausa manual!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="83"/>
@@ -726,7 +726,7 @@ Faz com que alguns softwares se comportem de maneira diferente do que em hardwar
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="29"/>
       <source>Forces RSX pauses on SPU MFC_GETLLAR and SPU MFC_PUTLLUC operations.</source>
-      <translation>Força o RSX a pausar nas operações SPU MFC_GETLLAR e SPU MFC_PUTLUC.</translation>
+      <translation>Força o RSX a pausar nas operações MFC_GETLLAR e MFC_PUTLUC da SPU.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="30"/>
@@ -738,7 +738,7 @@ Faz com que alguns softwares se comportem de maneira diferente do que em hardwar
       <source>Use accurate double-precision FMA instructions in PPU and SPU backends.
 While disabling it might give a decent performance boost if your CPU doesn&apos;t support FMA, it may also introduce subtle bugs that otherwise do not occur.
 You shouldn&apos;t disable it if your CPU supports FMA.</source>
-      <translation>Utiliza instruções FMA de dupla precisão nos backends da PPU e SPU precisos.
+      <translation>Utiliza instruções FMA de dupla precisão nos backends precisos da PPU e SPU.
 Embora desativá-las possa proporcionar um aumento de desempenho considerável se sua CPU não suportar FMA, isso também pode introduzir bugs sutis que, de outra forma, não ocorreriam.
 Você não deve desativá-las se sua CPU suportar FMA.</translation>
     </message>
@@ -770,7 +770,7 @@ Em caso de dúvida, não modifique esta configuração.</translation>
       <source>Obey RSX memory tiling configuration when writing GPU data to vm memory.
 This can fix graphics corruption observed when Read Color or Read Depth options are enabled.</source>
       <translation>Respeita a configuração de mosaico de memória do RSX ao gravar dados da GPU na memória da máquina virtual.
-Isso pode corrigir a corrupção gráfica observada quando as opções Leitura de Cor ou Leitura de Profundidade estão ativadas.</translation>
+Isso pode corrigir a corrupção gráfica observada quando as opções Ler Cor ou Ler Profundidade estão ativadas.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="38"/>
@@ -1203,7 +1203,7 @@ NÃO a utilize sem orientação, devido à possível degradação do desempenho.
       <source>Creates PPU logs.
 Only useful to developers.
 Never use this.</source>
-      <translation>Cria registros de PPU.
+      <translation>Cria registros da PPU.
 Útil apenas para desenvolvedores.
 Nunca use isto.</translation>
     </message>
@@ -1221,7 +1221,7 @@ Nunca use isto.</translation>
       <source>Creates MFC logs.
 Only useful to developers.
 Never use this.</source>
-      <translation>Cria registros de MFC.
+      <translation>Cria registros do MFC.
 Útil apenas para desenvolvedores.
 Nunca use isto.</translation>
     </message>
@@ -1265,16 +1265,15 @@ Em caso de dúvida, não modifique esta configuração.</translation>
       <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
       <translation>Processa com precisão a instrução DCBZ da PPU.
-Além disso, quando combinado com o DMA Preciso da SPU, os acessos à linha de cache SPU PUT serão processados ​​atomicamente.</translation>
+Além disso, quando combinado com o DMA Preciso da SPU, os acessos à linha de cache PUT da SPU serão processados ​​atomicamente.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="112"/>
       <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
-      <translation>Força o atraso de qualquer comando MFC ímpar, aguardando pelo menos 2 comandos pendentes para executá-los em ordem aleatória.
-Deve ser usado com qualquer um dos interpretadores SPU atualmente.
-
+      <translation>Força o atraso de qualquer comando ímpar do MFC, aguardando pelo menos 2 comandos pendentes para executá-los em ordem aleatória.
+Deve ser usado com qualquer um dos interpretadores da SPU atuais.
 Degrada severamente o desempenho! Em caso de dúvida, não use esta opção.</translation>
     </message>
     <message>
@@ -1428,7 +1427,7 @@ Valores numéricos controlam se a versão precisa deve ser ativada ou não, com 
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="132"/>
       <source>Affects maximum amount of PPU threads running concurrently, the value of 1 has very low compatibility with games.
 2 is the default, if unsure do not modify this setting.</source>
-      <translation>Afeta a quantidade máxima de threads PPU executadas simultaneamente; o valor 1 tem compatibilidade muito baixa com jogos.
+      <translation>Afeta a quantidade máxima de threads da PPU executadas simultaneamente; o valor 1 tem compatibilidade muito baixa com jogos.
 2 é o padrão; em caso de dúvida, não modifique essa configuração.</translation>
     </message>
     <message>
@@ -1558,7 +1557,7 @@ Atualmente, isso pode não funcionar todas as vezes.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="154"/>
       <source>Shows &apos;Compiling PPU modules&apos; hint using the native overlay.</source>
-      <translation>Exibe sugestão &apos;Compilando módulos PPU&apos; usando a sobreposição nativa.</translation>
+      <translation>Exibe sugestão &apos;Compilando módulos da PPU&apos; usando a sobreposição nativa.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="155"/>
@@ -3325,30 +3324,30 @@ Teclas Ctrl+B: Abrir as configurações de breakpoints.
 Teclas Ctrl+C: Copiar o conteúdo da instrução.
 Teclas Ctrl+F: Localizar thread.
 Teclas Alt+S: Capturar imagens da SPU selecionada ou de forma generalizada quando usada a partir da PPU.
-Teclas Alt+S: Abrir um Visualizador de Memória apontando para a localização atual dos semáforos do RSX quando usado a partir do RSX.
+Teclas Alt+S: Abrir um Visualizador de Memória apontando para a localização atual de semáforos do RSX quando usado a partir do RSX.
 Teclas Alt+R: Carregar a última captura de estado da SPU salva.
 Teclas Alt+F5: Exibir a caixa de diálogo do disassembler da SPU.
-Tecla D: Registrador de comandos MFC da SPU; a configuração de depuração MFC deve estar habilitada.
-Tecla D: O registrador de histórico de chamadas da PPU, o interpretador e o tamanho do histórico de chamadas diferente de zero também devem estar ativados.
+Tecla D: Registrador de comandos do MFC da SPU; a configuração de depuração do MFC deve estar habilitada.
+Tecla D: Registrador de histórico de chamadas da PPU; o interpretador e o tamanho do histórico de chamadas diferente de zero também devem estar ativados.
 Tecla E: Editor de Instruções: clique na instrução que deseja modificar e pressione E.
 Tecla F: Alternar o modo de ponto flutuante dedicado para threads SPU.
 Tecla R: Editor de Registradores para a thread selecionada.
-Tecla N: Exibe a próxima instrução que a thread executará após a instrução marcada; não faz nada se o alvo não for previsível.
-Tecla M: Exibe o Visualizador de Memória com o endereço inicial apontando para a instrução marcada.
-Tecla I: Exibe os detalhes de métodos do RSX.
-Tecla F10: Executa passo a passo nas instruções (ignora chamadas de função).
-Tecla F11: Executa um passo único nas instruções.
-Tecla F1: Exibe esta caixa de diálogo de ajuda.
-Tecla Para Cima: Sobe uma instrução (o endereço é decrementado).
-Tecla Para Baixo: Desce uma instrução (o endereço é incrementado).
-Tecla Page Up: Sobe uma instrução com um número de passos igual ao número de instruções visualizadas.
-Tecla Page Down: Desce uma instrução com um número de passos igual ao número de instruções visualizadas.
-Clique Duplo: Define breakpoints.</translation>
+Tecla N: Exibir a próxima instrução que a thread executará após a instrução marcada; não faz nada se o alvo não for previsível.
+Tecla M: Exibir o Visualizador de Memória com o endereço inicial apontando para a instrução marcada.
+Tecla I: Exibir os detalhes de métodos do RSX.
+Tecla F10: Executar passo a passo as instruções (ignora chamadas de função).
+Tecla F11: Executar um passo único nas instruções.
+Tecla F1: Exibir esta caixa de diálogo de ajuda.
+Tecla Para Cima: Subir uma instrução (o endereço é decrementado).
+Tecla Para Baixo: Descer uma instrução (o endereço é incrementado).
+Tecla Page Up: Subir uma instrução com um número de passos igual ao número de instruções visualizadas.
+Tecla Page Down: Descer uma instrução com um número de passos igual ao número de instruções visualizadas.
+Clique Duplo: Definir breakpoints.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="499"/>
       <source>Max MFC cmds logged</source>
-      <translation>Máximo de comandos MFC registrados</translation>
+      <translation>Máximo de comandos registrados do MFC</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="499"/>
@@ -3359,7 +3358,7 @@ Clique Duplo: Define breakpoints.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="555"/>
       <source>Max PPU calls logged</source>
-      <translation>Máximo de chamadas PPU registradas</translation>
+      <translation>Máximo de chamadas registradas da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="1133"/>
@@ -6140,39 +6139,39 @@ Progresso: %1/%2 caches compilados</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1469"/>
       <source>%0/%1 PPU caches cleared</source>
-      <translation>%0/%1 caches PPU apagados</translation>
+      <translation>%0/%1 caches da PPU apagados</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1503"/>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1507"/>
       <source>SPU Cache Batch Removal</source>
-      <translation>Remoção em Lote de Cache SPU</translation>
+      <translation>Remoção em Lote de Cache da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1507"/>
       <source>Removing all SPU caches</source>
-      <translation>Removendo todos os caches SPU</translation>
+      <translation>Removendo todos os caches da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1512"/>
       <source>%0/%1 SPU caches cleared</source>
-      <translation>%0/%1 caches SPU apagados</translation>
+      <translation>%0/%1 caches da SPU apagados</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1546"/>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
       <source>HDD1 Cache Batch Removal</source>
-      <translation>Remoção em Lote de Cache HDD1</translation>
+      <translation>Remoção em Lote de Cache do HDD1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
       <source>Removing all HDD1 caches</source>
-      <translation>Removendo todos os caches HDD1</translation>
+      <translation>Removendo todos os caches do HDD1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1555"/>
       <source>%0/%1 HDD1 caches cleared</source>
-      <translation>%0/%1 caches HDD1 apagados</translation>
+      <translation>%0/%1 caches do HDD1 apagados</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
@@ -6383,19 +6382,19 @@ Progresso: %1/%2 caches compilados</translation>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="241"/>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="845"/>
       <source>&amp;Remove PPU Cache</source>
-      <translation>&amp;Remover Cache PPU</translation>
+      <translation>&amp;Remover Cache da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="248"/>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="851"/>
       <source>&amp;Remove SPU Cache</source>
-      <translation>&amp;Remover Cache SPU</translation>
+      <translation>&amp;Remover Cache da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="258"/>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="857"/>
       <source>&amp;Remove HDD1 Cache</source>
-      <translation>&amp;Remover Cache HDD1</translation>
+      <translation>&amp;Remover Cache do HDD1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_list_context_menu.cpp" line="268"/>
@@ -7700,17 +7699,17 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="248"/>
       <source>PPU Threads</source>
-      <translation>Threads PPU</translation>
+      <translation>Threads da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="249"/>
       <source>SPU Threads</source>
-      <translation>Threads SPU</translation>
+      <translation>Threads da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="250"/>
       <source>SPU Thread Groups</source>
-      <translation>Grupos de Thread SPU</translation>
+      <translation>Grupos de Thread da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="251"/>
@@ -8030,7 +8029,7 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="47"/>
       <source>Compiling PPU Modules</source>
-      <translation>Compilando Módulos PPU</translation>
+      <translation>Compilando Módulos da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="48"/>
@@ -9448,7 +9447,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="259"/>
       <source>Preferred SPU Threads</source>
       <comment>Advanced</comment>
-      <translation>Threads SPU Preferencial</translation>
+      <translation>Threads da SPU Preferencial</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="260"/>
@@ -9896,42 +9895,42 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="339"/>
       <source>Scanning PPU Executable...</source>
-      <translation>Verificando Executável PPU...</translation>
+      <translation>Verificando Executável da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="340"/>
       <source>Analyzing PPU Executable...</source>
-      <translation>Analisando Executável PPU...</translation>
+      <translation>Analisando Executável da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="341"/>
       <source>Scanning PPU Modules...</source>
-      <translation>Verificando Módulos PPU...</translation>
+      <translation>Verificando Módulos da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="342"/>
       <source>Loading PPU Modules...</source>
-      <translation>Carregando Módulos PPU...</translation>
+      <translation>Carregando Módulos da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="343"/>
       <source>Compiling PPU Modules...</source>
-      <translation>Carregando Módulos PPU...</translation>
+      <translation>Compilando Módulos da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="344"/>
       <source>Linking PPU Modules...</source>
-      <translation>Vinculando Módulos PPU...</translation>
+      <translation>Vinculando Módulos da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="345"/>
       <source>Applying PPU Code...</source>
-      <translation>Aplicando Código PPU...</translation>
+      <translation>Aplicando Código da PPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="346"/>
       <source>Building SPU Cache...</source>
-      <translation>Construindo Cache SPU...</translation>
+      <translation>Construindo Cache da SPU...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="347"/>
@@ -11119,7 +11118,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1226"/>
       <source>Remove PPU Caches</source>
-      <translation>Remover Cache PPU</translation>
+      <translation>Remover Cache da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1231"/>
@@ -11129,12 +11128,12 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1236"/>
       <source>Remove HDD1 Caches</source>
-      <translation>Remover Cache HDD1</translation>
+      <translation>Remover Cache do HDD1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1241"/>
       <source>Remove All Caches</source>
-      <translation>Remover Todos Caches</translation>
+      <translation>Remover Todos os Caches</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1246"/>
@@ -11466,7 +11465,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="485"/>
       <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
-      <translation>O disco não pôde ser montado corretamente. Certifique-se de que o disco não está em dev_hdd0/pasta do jogo.</translation>
+      <translation>Não foi possível montar o disco corretamente. Certifique-se de que o disco não está na pasta dev_hdd0/jogo.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="488"/>
@@ -12802,7 +12801,7 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="948"/>
       <source>Enable Vibration</source>
-      <translation>Habilitar Vibração</translation>
+      <translation>Ativar Vibração</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="971"/>
@@ -14217,7 +14216,7 @@ Reordene e/ou exclua-os, se necessário, e clique em &quot;Instalar&quot; para p
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="205"/>
       <source>Would you like to precompile caches and install shortcuts to the installed software?</source>
-      <translation>Você gostaria de pré-compilar caches e instalar atalhos para o software instalado?</translation>
+      <translation>Gostaria de pré-compilar caches e instalar atalhos para o software instalado?</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="207"/>
@@ -16393,7 +16392,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="262"/>
       <source>Preferred SPU Threads</source>
-      <translation>Threads SPU Preferencial</translation>
+      <translation>Threads da SPU Preferencial</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="280"/>
@@ -16581,7 +16580,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="958"/>
       <source>Write Color Buffers</source>
-      <translation>Gravar Buffers de Cor</translation>
+      <translation>Gravar Buffers de Cores</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="965"/>
@@ -16848,7 +16847,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1954"/>
       <source>Enter Button Assignment</source>
-      <translation>Atribuição do Botão de Entrada</translation>
+      <translation>Atribuição do Botão de Confirmação</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1977"/>
@@ -17004,7 +17003,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2504"/>
       <source>Delay each odd MFC Command</source>
-      <translation>Atrasar cada Comando MFC ímpar</translation>
+      <translation>Atrasar cada Comando ímpar do MFC</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2511"/>
@@ -17019,12 +17018,12 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2525"/>
       <source>Enable SPU loop detection</source>
-      <translation>Ativar detecção de loop da SPU</translation>
+      <translation>Habilitar detecção de loop da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2532"/>
       <source>PPU Reservation Priority</source>
-      <translation>Prioridade de Reserva da PPU</translation>
+      <translation>Prioridade de Reservas da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2539"/>
@@ -17074,7 +17073,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2740"/>
       <source>Disable MSL Fast Math</source>
-      <translation>Desabilitar MSL Fast Math</translation>
+      <translation>Desabilitar Fast Math para MSL</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2747"/>
@@ -17696,17 +17695,17 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
       <source>MFC Debug</source>
-      <translation>Depuração MFC</translation>
+      <translation>Depuração do MFC</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4532"/>
       <source>PPU Debug</source>
-      <translation>Depuração PPU</translation>
+      <translation>Depuração da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4539"/>
       <source>SPU Debug</source>
-      <translation>Depuração SPU</translation>
+      <translation>Depuração da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4546"/>
@@ -17726,32 +17725,32 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4582"/>
       <source>Accurate PPU/SPU Cache Line Stores</source>
-      <translation>Armazenamento de Linhas de Cache da PPU/SPU Preciso</translation>
+      <translation>Armazenamento Preciso de Linhas de Cache da PPU/SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4589"/>
       <source>Accurate PPU Float Condition Control</source>
-      <translation>Controle de Condição de Flutuante da PPU Preciso</translation>
+      <translation>Controle Preciso de Condição de Flutuante da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4596"/>
       <source>Accurate PPU Saturation Bit</source>
-      <translation>Bit de Saturação da PPU Preciso</translation>
+      <translation>Bit Preciso de Saturação da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4603"/>
       <source>Accurate PPU Non-Java Mode</source>
-      <translation>Modo Não-Java da PPU Preciso</translation>
+      <translation>Modo Preciso Não-Java da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4610"/>
       <source>Accurate PPU Vector NaN Handling</source>
-      <translation>Manipulação de Vetores NaN da PPU Preciso</translation>
+      <translation>Manipulação Precisa de Vetores NaN da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4617"/>
       <source>Approximate PPU Vector NaN Handling</source>
-      <translation>Manipulação de Vetores NaN da PPU Aproximado</translation>
+      <translation>Manipulação Aproximada de Vetores NaN da PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4661"/>
