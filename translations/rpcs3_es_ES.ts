@@ -744,60 +744,53 @@ Si tu CPU es compatible con FMA, no deberías desactivarla.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="32"/>
-      <source>Legacy option. Fixup result vector values in Non-Java Mode in PPU LLVM.
-If unsure, do not modify this setting.</source>
-      <translation>Opción antigua. Corrige los valores de los vectores resultantes en el modo ajeno a Java de la LLVM de la PPU.
-En caso de duda, no cambies esta opción.</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="33"/>
       <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
       <translation>Corrige resultados NaN (no es un número) en las instrucciones de los vectores de los «back-ends» de la PPU.
 En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="34"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="33"/>
       <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
       <translation>Deja de escribir registros tras arrancar un juego. No usar a menos que lo consideres necesario.</translation>
     </message>
     <message>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="34"/>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="35"/>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="36"/>
       <source>Initializes render target memory using vm memory.</source>
       <translation>Inicia la memoria del destino de renderizado mediante la memoria VM.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="37"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="36"/>
       <source>Writes depth buffer values to vm memory.</source>
       <translation>Escribe los valores del búfer de profundidad a la memoria VM.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="38"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="37"/>
       <source>Obey RSX memory tiling configuration when writing GPU data to vm memory.
 This can fix graphics corruption observed when Read Color or Read Depth options are enabled.</source>
       <translation>Obedece la configuración de mosaicos de memoria del RSX al escribir datos de la GPU a la memoria de la VM.
 Podría corregir la corrupción de gráficos que se muestra al activar las opciones de «Leer color» o «Leer profundidad».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="39"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="38"/>
       <source>Disables the loading and saving of shaders from and to the shader cache in the data directory.</source>
       <translation>Desactiva la carga y guardado de shaders desde la caché de shaders del directorio data.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="40"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="39"/>
       <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
       <translation>Permite que la GPU del host se sincronice directamente con CELL. Afecta al rendimiento, pero expondrá el estado real de los objetos de la GPU invitada. Puede ayudar a eliminar ruidos y defectos visuales a costa de perder rendimiento. Usar con cuidado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="41"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="40"/>
       <source>Forces MSAA to use the host GPU&apos;s resolve capabilities for all sampling operations.
 This option incurs a performance penalty as well as the risk of visual artifacts but can yield crisper visuals when MSAA is enabled.</source>
       <translation>Obliga al MSAA a utilizar las capacidades de resolución de la GPU anfitriona en todas las operaciones de muestreo.
 Esta opción reducirá el rendimiento y podría generar artefactos visuales, pero podría ofrecer una imagen más nítida al activar el MSAA.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="42"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="41"/>
       <source>Disables the vertex cache.
 Might resolve missing or flickering graphics output.
 May degrade performance.</source>
@@ -806,7 +799,7 @@ Podría corregir gráficos desaparecidos o parpadeantes.
 Puede reducir el rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="43"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="42"/>
       <source>Force host memory management calls to be inlined instead of handled asynchronously.
 This can cause severe performance degradation and stuttering in some games.
 This option is only needed by developers to debug problems with texture cache memory protection.</source>
@@ -815,7 +808,7 @@ Podría provocar pérdidas graves de rendimiento y tirones en algunos juegos.
 Esta opción es necesaria solo para desarrolladores que quieran depurar problemas de protección de memoria en la caché de texturas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="44"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="43"/>
       <source>Disable SPU GETLLAR spin optimization.
 This can cause severe performance degradation and stuttering in many games.
 This option is only needed for a select number of games.</source>
@@ -824,7 +817,7 @@ Esto puede causar una gran reducción de rendimiento y tirones («stuttering») 
 Solo un puñado de juegos necesitan esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="45"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="44"/>
       <source>Emulate depth comparison operations where desktop hardware behavior differs from PS3, usually EQUAL comparison modes.
 Fixes excessive shadow flickering and Z-fighting in some games.
 This is most obvious in some games where the Z prepass depth format is different from the rasterization depth format, a scenario that will never work out correctly on compliant desktop hardware.</source>
@@ -833,14 +826,14 @@ Corrige las sombras que parpadean muy rápido y el «z-fighting» (interferencia
 Es más evidente en aquellos juegos en los que el formato de prepasada de profundidad Z difiere del formato de rasterización de profundidad, un caso que no se mostrará bien en PC compatibles.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="46"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="45"/>
       <source>Enable SPU RdEventStat spin.
 This increases CPU usage, this setting is beneficial for high-threaded CPUs (12+) with select number of games.</source>
       <translation>Activa el «RdEventStat spin» de la SPU.
 Este ajuste incrementa el uso de la CPU, pero ayuda a CPUs que tengan un mayor número de hilos (12 o más) en juegos puntuales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="47"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="46"/>
       <source>Changes ZCULL report synchronization behaviour. Experiment to find the best option for your game. Approximate mode is recommended for most games.
 · Precise is the most accurate to PS3 behaviour. Required for accurate visuals in some titles such as Demon&apos;s Souls and The Darkness.
 · Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
@@ -851,7 +844,7 @@ Este ajuste incrementa el uso de la CPU, pero ayuda a CPUs que tengan un mayor n
 · «Relajada» cambia el método de sincronización y podría mejorar en gran medida el rendimiento de algunos juegos o romper otros.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="48"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="47"/>
       <source>Limits the maximum number of SPURS threads in each thread group.
 May improve performance in some cases, especially on systems with limited number of hardware threads.
 Limiting the number of threads is likely to cause crashes; it&apos;s recommended to keep this at the default value.</source>
@@ -860,7 +853,7 @@ Puede mejorar el rendimiento en algunos casos, sobre todo en aquellos sistemas q
 Limitar el número de hilos puede provocar cuelgues, se recomienda dejar esta opción con su valor predeterminado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="49"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="48"/>
       <source>Changes the sleep period accuracy.
 &apos;As Host&apos; uses default accuracy of the underlying operating system, while &apos;All Timers&apos; attempts to improve it.
 &apos;Usleep Only&apos; limits the adjustments to usleep syscall only.
@@ -871,7 +864,7 @@ Solo usleep limita los ajustes únicamente a la llamada de sistema usleep.
 Puede afectar al rendimiento de formas inesperadas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="50"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="49"/>
       <source>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic&quot; benefits stability greatly in many games with little performance penalty.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
@@ -880,28 +873,28 @@ Atómica beneficia en gran medida a la estabilidad de muchos juegos con una pér
 Atómica y ordenada es lo más preciso, pero también lo más lento y no beneficia tanto a la estabilidad de los juegos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="51"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="50"/>
       <source>Adjusts the frequency of vertical blanking signals that the emulator sends.
 Affects timing of events which rely on these signals.</source>
       <translation>Ajusta la frecuencia de las señales de supresión vertical enviadas por el emulador.
 Afecta a la sincronización de aquellos eventos que dependan de estas señales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="52"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="51"/>
       <source>Multiplies the rate of VBLANK by 1000/1001 for values like 59.94Hz.
 Known to fix the rhythm game Space Channel 5 Part 2</source>
       <translation>Multiplica la tasa de VBLANK por 1000/1001 para ciertos valores, como 59,94&#xa0;Hz.
 Corrige el juego Space Channel 5 Part 2.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="53"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="52"/>
       <source>Changes the scale of emulated system time.
 Affects software which uses system time to calculate things such as dynamic timesteps.</source>
       <translation>Cambia la escala del tiempo emulado del sistema.
 Afecta a aquellos programas que utilicen el tiempo del sistema para calcular cosas como intervalos dinámicos de tiempo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="54"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="53"/>
       <source>Controls how much time it takes for RSX to start processing after waking up by the Cell processor.
 Increasing wakeup delay improves stability, but very high values can lower RSX/GPU performance.
 It is recommend to adjust this at 20µs to 40µs increments until the best value for optimal stability is reached.</source>
@@ -910,14 +903,14 @@ Aumentar el retraso mejorará la estabilidad, pero unos valores muy altos podrí
 Se recomienda cambiar el valor en incrementos de entre 20 y 40&#xa0;µs hasta alcanzar el valor que ofrezca una estabilidad óptima.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="55"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="54"/>
       <source>Do not change this setting globally.
 Right-click a game in the game list and choose &quot;Configure&quot; instead.</source>
       <translation>No cambies esta configuración de forma global.
 Haz clic derecho sobre un título de la lista de juegos y selecciona Configurar.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="56"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="55"/>
       <source>Determines how to schedule GPU async compute jobs when using asynchronous streaming.
 Use &apos;Safe&apos; mode for more spec compliant behavior at the cost of some CPU overhead. This setting works with all devices.
 Use &apos;Fast&apos; to use a faster but hacky version. This option is internally disabled for NVIDIA GPUs due to causing GPU hangs.</source>
@@ -926,14 +919,14 @@ Elige el modo seguro para utilizar un comportamiento más fiel a las especificac
 Elige el modo rápido para utilizar una versión más rápida, pero imperfecta. Esta opción se desactivará de forma interna para las GPU de NVIDIA por provocar cuelgues en la GPU.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="57"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="56"/>
       <source>Disables Fast Math for MSL shaders, which may violate the IEEE 754 standard.
 Disabling it may fix some artifacts, especially on Apple GPUs, at the cost of performance.</source>
       <translation>Desactiva los cálculos rápidos para los shaders MSL, lo que podría infringir el estándar IEEE 754.
 Desactivar esta opción podría corregir algunos artefactos, sobre todo en GPU de Apple, a costa de perder rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="58"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="57"/>
       <source>When this mode is on, emulation exits when saving and the savestate file is concealed after its load, preventing reuse by RPCS3.
 This mode is like hibernation of emulation: if you don&apos;t want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely, just ignored by RPCS3. You can manually relaunch it if needed.</source>
@@ -942,28 +935,28 @@ Es como hibernar una emulación: si no quieres poder hacer trampas con guardados
 Ten en cuenta que el archivo de guardado rápido no desaparecerá por completo, simplemente, RPCS3 lo ignorará. Podrás volver a cargarlo manualmente si lo necesitas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="59"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="58"/>
       <source>When this mode is on, SPU emulation prioritizes savestate compatibility, however, it may reduce performance slightly.
 When this mode is off, some games may not allow making a savestate and show an SPU pause error in the log.</source>
       <translation>Al activar este modo, la emulación de la SPU dará prioridad a la compatibilidad con guardados rápidos, pero podría reducir levemente el rendimiento.
 Al desactivarlo, algunos juegos podrían no permitir la creación de guardados rápidos, mostrando un error en la pausa de la SPU dentro del registro.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="60"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="59"/>
       <source>When this mode is on, savestates are loaded and paused on the first frame.
 This allows players to prepare for gameplay without being thrown into the action immediately.</source>
       <translation>Al activar este modo, se cargarán y pausarán los guardados rápidos en el primer fotograma.
 De esta forma, los jugadores pueden prepararse sin verse metidos en la acción inmediatamente.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="61"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="60"/>
       <source>When enabled, SPU performance is measured at runtime.
 Enable only at a developer&apos;s request because when enabled it reduces performance a bit by itself.</source>
       <translation>Al activar esta opción, se medirá el rendimiento de la SPU durante la ejecución.
 Solo se debe activar a petición de un desarrollador, porque reducirá el rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="62"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="61"/>
       <source>When enabled, Vulkan will try to use PCI-e resizable bar address space for GPU uploads of timing-sensitive data.
 This yields a massive performance win on NVIDIA cards when the base framerate is low.
 For games with very high framerates, this option can result in worse performance for all GPU vendors.
@@ -975,56 +968,56 @@ Los juegos que tengan velocidades de fotogramas muy elevadas podrían rendir peo
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="63"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="62"/>
       <source>Set the minimum log levels for any log channels.</source>
       <translation>Ajusta los niveles mínimos de registro en todos sus canales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="67"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="66"/>
       <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 XAudio2 uses native Windows sounds system and is the next best alternative.</source>
       <translation>Cubeb tiene un enfoque multiplataforma y es compatible con el almacenamiento de búferes de audio, así que es la opción recomendada.
 XAudio2 utiliza un sistema de sonido de Windows y es la mejor alternativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="68"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="67"/>
       <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 If it&apos;s not available, FAudio could be used instead.</source>
       <translation>Cubeb tiene un enfoque multiplataforma y es compatible con el almacenamiento de búferes de audio, así que es la opción recomendada.
 De no estar disponible, podrías utilizar FAudio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="69"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="68"/>
       <source>Controls which PS3 audio API is used.
 Games use CellAudio, while VSH requires RSXAudio.</source>
       <translation>Selecciona la API de audio de PS3 que se utilizará.
 Los juegos utilizan CellAudio y el VSH utiliza RSXAudio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="70"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="69"/>
       <source>Controls which avport is used to sample audio data from.</source>
       <translation>Selecciona el avport que se utilizará para el muestreo de datos de audio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="71"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="70"/>
       <source>Controls which device is used by audio backend.</source>
       <translation>Selecciona el dispositivo que utilizará el «back-end» de audio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="72"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="71"/>
       <source>Saves all audio as a raw wave file. If unsure, leave this unchecked.</source>
       <translation>Guarda todo el audio en un archivo WAV en bruto.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="73"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="72"/>
       <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
       <translation>Utiliza muestras de audio a 16 bits en vez del formato predeterminado de 32 bits con coma flotante.
 Usar con controladores de audio que den problemas, si no oyes nada o si el sonido está totalmente roto.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="74"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="73"/>
       <source>Determines the sound format of the emulation.
 Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
@@ -1034,45 +1027,45 @@ Si cambias estos valores, será necesario reiniciar el juego.
 El ajuste «Manual» utilizará los formatos que hayas seleccionado, mientras que «Automático» dejará que sea el juego el que elija de entre todos los formatos disponibles.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="75"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="74"/>
       <source>Determines the sound format of RPCS3.
 Use &apos;Auto&apos; to let RPCS3 decide the best format based on the audio device and the emulated audio format.</source>
       <translation>Determina el formato de sonido de RPCS3.
 Utiliza «Automático» para que sea RPCS3 el que decida cuál es el mejor formato según el dispositivo de audio y el formato de audio emulado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="76"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="75"/>
       <source>Controls the overall volume of the emulation.
 Values above 100% might reduce the audio quality.</source>
       <translation>Controla el volumen global de la emulación.
 Cualquier valor superior al 100% podría reducir la calidad del audio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="77"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="76"/>
       <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
       <translation>Habilita el almacenamiento de búferes de audio, lo que reducirá los chasquidos o tirones de audio, pero aumentará su latencia.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="78"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="77"/>
       <source>Target buffer duration in milliseconds.
 Higher values make the buffering algorithm&apos;s job easier, but may introduce noticeable audio latency.</source>
       <translation>Indica la duración deseada del búfer en milisegundos.
 Los valores más elevados se lo pondrán más fácil al algoritmo de búfer, pero pueden provocar una latencia de audio perceptible.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="79"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="78"/>
       <source>Enables time stretching - requires buffering to be enabled.
 Reduces crackle/stutter further, but may cause a very noticeable reduction in audio quality on slower CPUs.</source>
       <translation>Activa la ampliación de tiempo; es necesario activar el búfer de audio.
 Reduce mucho los chasquidos y los saltos, pero puede provocar una reducción muy notoria de la calidad del audio en las CPU más lentas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="80"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="79"/>
       <source>Buffer fill level (in percentage) below which time stretching will start.</source>
       <translation>Indica el nivel de llenado del búfer (en porcentaje) por debajo del cual comenzará la ampliación de tiempo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="81"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="80"/>
       <source>Standard should be used for most games.
 SingStar emulates a SingStar device and should be used with SingStar games.
 Real SingStar should only be used with a REAL SingStar device with SingStar games.
@@ -1083,17 +1076,17 @@ SingStar real solo debería utilizarse con un dispositivo de SingStar REAL y jue
 Rocksmith debería utilizarse con un adaptador de Rocksmith.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="85"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="84"/>
       <source>Interpreter (slow). Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
       <translation>Intérprete (lento). Pruébalo si el recompilador de la PPU (LLVM) no funciona.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="86"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="85"/>
       <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if PPU Recompiler (LLVM) doesn&apos;t work.</source>
       <translation>Intérprete alternativo (lento). Podría ser más rápido que el intérprete estático. Pruébalo si el recompilador de la PPU (LLVM) no funciona.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="87"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="86"/>
       <source>Recompiles and caches the game&apos;s PPU code using the LLVM Recompiler once before running it for the first time.
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
@@ -1104,7 +1097,7 @@ Si tienes problemas de compatibilidad, prueba uno de los intérpretes.
 En caso de duda, selecciona esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="88"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="87"/>
       <source>Searches the game&apos;s directory and precompiles extra PPU and SPU modules during boot.
 If disabled, these modules will only be compiled when needed. Depending on the game, this might interrupt the gameplay unexpectedly and possibly frequently.
 Only disable this if you want to get ingame more quickly.</source>
@@ -1113,17 +1106,17 @@ Si desactivas esta opción, los módulos se compilarán únicamente cuando sea n
 Desactívala únicamente si quieres empezar a jugar más rápido.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="89"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="88"/>
       <source>Interpreter (slow). Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
       <translation>Intérprete (lento). Pruébalo si el recompilador de la SPU (LLVM) no funciona.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="90"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="89"/>
       <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
       <translation>Intérprete alternativo (lento). Podría ser más rápido que el intérprete estático. Pruébalo si el recompilador de la SPU (LLVM) no funciona.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="91"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="90"/>
       <source>Recompiles the game&apos;s SPU code using the ASMJIT Recompiler.
 This is the fast option with very good compatibility.
 If unsure, use this option.</source>
@@ -1132,7 +1125,7 @@ Esta es la opción rápida y con muy buena compatibilidad.
 En caso de duda, selecciona esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="92"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="91"/>
       <source>Recompiles and caches the game&apos;s SPU code using the LLVM Recompiler before running which adds extra start-up time.
 This is the fastest option with very good compatibility.
 If you experience issues, use the ASMJIT Recompiler.</source>
@@ -1141,7 +1134,7 @@ Esta es la opción más rápida y con muy buena compatibilidad.
 Si tienes problemas, utiliza el recompilador ASMJIT.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="93"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="92"/>
       <source>Control accuracy to SPU float vectors processing.
 Fixes bugs in various games at the cost of performance.
 This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</source>
@@ -1150,7 +1143,7 @@ Corrige fallos en varios juegos a costa de perder rendimiento.
 Esta opción solo se aplicará cuando el descodificador de SPU esté configurado en «Dinámico» o «LLVM».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="94"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="93"/>
       <source>Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU. It&apos;s recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</source>
@@ -1159,7 +1152,7 @@ Cada opción depende en gran medida del juego y de tu CPU. Se recomienda probar 
 No es posible cambiar el programador de subprocesos en CPUs que tengan menos de 12 hilos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="95"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="94"/>
       <source>Try to detect loop conditions in SPU kernels and use them as scheduling hints.
 Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
@@ -1168,14 +1161,14 @@ Mejora el rendimiento y reduce el consumo de la CPU.
 Puede provocar saltos graves de audio en casos muy puntuales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="96"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="95"/>
       <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
       <translation>Esta opción controla el analizador de la SPU, en concreto, el tamaño de las unidades compiladas. Los modos mega y giga pueden mejorar el rendimiento juntando unidades más pequeñas, lo que reducirá el número de unidades compiladas a costa de aumentar su tamaño.
 Utiliza el modo seguro para obtener la máxima compatibilidad.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="97"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="96"/>
       <source>Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls.
 Setting this to a smaller value might improve performance and reduce stuttering in some games.
 Leave this on auto if performance is negatively affected when setting a small value.</source>
@@ -1184,7 +1177,7 @@ Un valor reducido puede mejorar el rendimiento y reducir los saltos en ciertos j
 Deja esta opción con su ajuste automático si un valor pequeño altera el rendimiento de forma negativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="98"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="97"/>
       <source>Reduces CPU usage and power consumption, improving battery life on mobile devices. (0 means disabled)
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it&apos;s active when framerate is stable.
@@ -1195,7 +1188,7 @@ Esta opción forzará un límite de FPS porque se activará al estabilizar la ve
 Cuando menos cargante sea el juego con tu hardware, más energía ahorrarás (hasta que se alcance la barrera del recuento apropiativo).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="99"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="98"/>
       <source>Give PPUs an execution advantage when the SPUs are using reservations.
 This setting is recommended only for a few game for improving performance.
 DO NOT use it without being advised to due to potential performance degradation.</source>
@@ -1204,12 +1197,12 @@ Solo se recomienda activar esta opción en unos pocos juegos, si mejora su rendi
 NO ACTIVES ESTA OPCIÓN si no te lo han aconsejado, o podría fallar el rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="103"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="102"/>
       <source>Leave this enabled unless you are a developer.</source>
       <translation>Deja esta opción activada a menos que seas un desarrollador.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="104"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="103"/>
       <source>Creates PPU logs.
 Only useful to developers.
 Never use this.</source>
@@ -1217,7 +1210,7 @@ Never use this.</source>
 Opción solo útil para desarrolladores. No usar nunca.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="105"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="104"/>
       <source>Creates SPU logs.
 Only useful to developers.
 Never use this.</source>
@@ -1225,7 +1218,7 @@ Never use this.</source>
 Opción solo útil para desarrolladores. No usar nunca.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="106"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="105"/>
       <source>Creates MFC logs.
 Only useful to developers.
 Never use this.</source>
@@ -1234,52 +1227,49 @@ Solo son útiles para desarrolladores.
 No utilices esta opción nunca.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="107"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="106"/>
       <source>Sets special MXCSR flags to debug errors in SSE operations.
-Only used in PPU thread when it&apos;s not precise.
-Only useful to developers.
-Never use this.</source>
-      <translation>Activa unos indicadores especiales MXCSR para depurar errores en las operaciones SSE.
-Solo se utiliza en los hilos de la PPU cuando no sean precisos.
-Opción solo útil para desarrolladores. No usar nunca.</translation>
+Accelerates PPU performance at the cost of accuracy.</source>
+      <translation>Activa marcadores especiales en el MXCSR para depurar errores en operaciones de las SSE.
+Acelera el rendimiento de la PPU a costa de perder precisión.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="108"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="107"/>
       <source>Accurately set Saturation Bit values in PPU backends.
 If unsure, do not modify this setting.</source>
       <translation>Establece los valores de los bits de saturación de forma precisa en los «back-ends» de la PPU.
 En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="109"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="108"/>
       <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
       <translation>Respeta los valores de los bits del modo ajeno a Java en las operaciones con vectores de los «back-ends» de la PPU.
 En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="110"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="109"/>
       <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
       <translation>Establece resultados NaN (no es un número) de forma precisa en las instrucciones de los vectores de los «back-ends» de la PPU.
 En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="111"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="110"/>
       <source>Accurately set FPCC Bits in PPU backends.
 If unsure, do not modify this setting.</source>
       <translation>Establece los bits FPCC de forma precisa en los «back-ends» de la PPU.
 En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="112"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="111"/>
       <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
       <translation>Procesa de forma precisa la instrucción DCBZ de la PPU.
 Además, si se utiliza conjuntamente con DMA de la SPU preciso, los accesos a la línea de la caché PUT de la SPU se procesarán de forma atómica.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="113"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="112"/>
       <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
@@ -1288,13 +1278,13 @@ En estos momentos, es imprescindible utilizar esta opción con ambos intérprete
 ¡Reduce en gran medida el rendimiento! En caso de duda, no uses esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="114"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="113"/>
       <source>Allows to hook some functions like &apos;memcpy&apos; replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
       <translation>Permite sustituir ciertas funciones, como «memcpy», con implementaciones de alto nivel.
 Puede romper cosas o no cambiar nada. Experimental.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="115"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="114"/>
       <source>Enables use of classic OpenGL buffers which allows capturing tools to work with RPCS3 e.g RenderDoc.
 Also allows Vulkan to use debug markers for nicer Renderdoc captures.
 If unsure, don&apos;t use this option.</source>
@@ -1303,7 +1293,7 @@ También permite que Vulkan utilice marcadores de depuración para que RenderDoc
 En caso de duda, no uses esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="116"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="115"/>
       <source>Only useful when debugging differences in GPU hardware.
 Not necessary for average users.
 If unsure, don&apos;t use this option.</source>
@@ -1312,7 +1302,7 @@ No es necesario para los usuarios comunes.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="117"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="116"/>
       <source>Enables the selected API&apos;s inbuilt debugging functionality.
 Will cause severe performance degradation especially with Vulkan.
 Only useful to developers.
@@ -1323,14 +1313,14 @@ Solo para desarrolladores.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="118"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="117"/>
       <source>Provides a graphical overlay of various debugging information.
 If unsure, don&apos;t use this option.</source>
       <translation>Muestra una superposición gráfica con diversa información de depuración.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="119"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="118"/>
       <source>Provides a graphical overlay with pad input values for player 1.
 This is only shown if the debug overlay is disabled.
 If unsure, don&apos;t use this option.</source>
@@ -1339,7 +1329,7 @@ Solo se mostrará si la superposición de depuración está desactivada.
 En caso de duda, no uses esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="120"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="119"/>
       <source>Provides a graphical overlay with mouse input values.
 This is only shown if the other debug overlays are disabled.
 If unsure, don&apos;t use this option.</source>
@@ -1348,21 +1338,21 @@ Solo se mostrará si el resto de superposiciones de depuración están desactiva
 En caso de duda, no uses esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="121"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="120"/>
       <source>Dump game shaders to file. Only useful to developers.
 If unsure, don&apos;t use this option.</source>
       <translation>Vuelca los shaders del juego a un archivo. Solo para desarrolladores.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="122"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="121"/>
       <source>Disables running occlusion queries. Minor to moderate performance boost.
 Might introduce issues with broken occlusion e.g missing geometry and extreme pop-in.</source>
       <translation>Desactiva la ejecución de las consultas de oclusión. Produce una mejora leve o intermedia de rendimiento.
 Puede provocar problemas de oclusión defectuosa, p. ej.: geometría desaparecida, elementos apareciendo de repente.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="123"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="122"/>
       <source>Controls how RPCS3 resolves render targets where color and depth alias the same memory. Auto is recommended for most games.
 · Auto is the existing behavior, biased toward depth.
 · Prefer Color keeps the color binding when color-write is enabled and depth-write is not. Fixes missing geometry in some deferred renderers (e.g. Starhawk) at the cost of skipping depth test for that draw.
@@ -1373,14 +1363,14 @@ Puede provocar problemas de oclusión defectuosa, p. ej.: geometría desaparecid
 · «Priorizar profundidad» hace lo mismo que «Automático» por el momento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="124"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="123"/>
       <source>Disables all video output and PS3 graphical rendering.
 Its only use case is to evaluate performance on CELL for development.</source>
       <translation>Desactiva toda la salida de vídeo y el renderizado de gráficos de PS3.
 Solo es necesario para evaluar el rendimiento del procesador CELL con fines de desarrollo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="125"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="124"/>
       <source>Forces emulation of all blit and image manipulation operations on the CPU.
 Requires &apos;Write Color Buffers&apos; option to also be enabled in most cases to avoid missing graphics.
 Significantly degrades performance but is more accurate in some cases.
@@ -1391,30 +1381,30 @@ Reduce significativamente el rendimiento, pero en algunos casos mejora la precis
 Esta opción anulará el ajuste «Utilizar escalado de texturas mediante GPU».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="126"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="125"/>
       <source>Disables the custom Vulkan memory allocator and reverts to direct calls to VkAllocateMemory/VkFreeMemory.</source>
       <translation>Desactiva el asignador de memoria personalizado de Vulkan y pasa a dirigir las llamadas a VkAllocateMemory/VkFreeMemory.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="127"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="126"/>
       <source>Disables RSX FIFO optimizations completely. Draws are processed as they are received by the DMA puller.</source>
       <translation>Desactiva todas las optimizaciones FIFO del RSX. Las llamadas de dibujado se procesarán a medida que lleguen del extractor de DMA.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="128"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="127"/>
       <source>Force all texture transfer, scaling and conversion operations on the GPU.
 May cause texture corruption in some cases.</source>
       <translation>Obliga a la GPU a realizar todas las operaciones de transferencia, escalado y conversión de texturas.
 Puede provocar corrupción de texturas en algunos casos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="129"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="128"/>
       <source>Forces texture flushing even in situations where it is not necessary/correct. Known to cause visual artifacts, but useful for debugging certain texture cache issues.</source>
       <translation>Fuerza la descarga de texturas incluso en aquellas situaciones en las que no sea necesario o correcto.
 Provoca defectos visuales, pero es útil para depurar ciertos problemas con la caché de texturas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="130"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="129"/>
       <source>Sets the 3D stereo rendering mode (only available in custom configurations with a default resolution of 720p).
 Anaglyph uses different colors for each eye, which can then be filtered with certain glasses.
 Side-by-Side is more commonly supported by VR viewer apps.
@@ -1425,40 +1415,40 @@ En paralelo es el formato más admitido por los visualizadores de VR.
 Por encima/por debajo se aproxima más a la salida estereoscópica nativa, pero es menos compatible.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="131"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="130"/>
       <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation&apos;s length.</source>
       <translation>Al activar esta opción, las operaciones atómicas de la PPU se producirán en todos los datos de la línea de la caché, y al desactivarla se producirán en un bloque de memora de 64 bits.
 Los valores numéricos controlan si se debe aplicar o no la versión precisa en función de la longitud de la operación atómica.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="132"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="131"/>
       <source>Measure certain events and print a chart after the emulator is stopped. Don&apos;t enable if not asked to.</source>
       <translation>Mide eventos concretos y presenta una tabla de los mismos tras detener el emulador. No activar a menos que alguien te lo pida.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="133"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="132"/>
       <source>Affects maximum amount of PPU threads running concurrently, the value of 1 has very low compatibility with games.
 2 is the default, if unsure do not modify this setting.</source>
       <translation>Afecta al número máximo de subprocesos de la PPU que se ejecutarán al mismo tiempo, un valor de 1 es muy poco compatible con los juegos.
 2 es el valor predeterminado. En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="134"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="133"/>
       <source>Disables use of hardware-native color-space remapping formats such as _sRGB and _SNORM suffixes.
 Disabling this option increases accuracy compared to PS3 but can also introduce some noise due to how the software emulation works.</source>
       <translation>Desactiva el uso de formatos de reasignación de espacios de color nativos para hardware, tales como los sufijos _sRGB y _SNORM.
 Si desactivas esta opción, aumentarás la fidelidad respecto a PS3, pero también se podría mostrar ruido debido a la emulación por software.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="138"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="137"/>
       <source>Activate Feral Interactive&apos;s GameMode.
 This is a series of CPU and GPU optimizations and can potentially benefit game performance on some systems.</source>
       <translation>Activa el GameMode de Feral Interactive.
 Es un conjunto de optimizaciones para CPU y GPU que podrían ser beneficiosas para el rendimiento de los juegos en algunos sistemas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="139"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="138"/>
       <source>This requires Feral Interactive&apos;s GameMode to be installed.
 GameMode is a series of CPU and GPU optimizations and can potentially benefit game performance on some systems.
 To install GameMode for your specific Linux distribution, go to the GitHub page:https://github.com/FeralInteractive/gamemode.</source>
@@ -1467,12 +1457,12 @@ Es un conjunto de optimizaciones para CPU y GPU que podrían ser beneficiosas pa
 Para instalar el GameMode específico para tu distribución de Linux, visita la página de GitHub: https://github.com/FeralInteractive/gamemode .</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="140"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="139"/>
       <source>Automatically close RPCS3 when closing a game, or when a game closes itself.</source>
       <translation>Cierra automáticamente RPCS3 al cerrar un juego o cuando este se cierre solo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="141"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="140"/>
       <source>Automatically pause emulation when RPCS3 loses its focus or the application is inactive in order to save power and reduce CPU usage.
 Do note that emulation pausing in general is not perfect and may not be compatible with all games.
 Although it currently also pauses gameplay, it is not recommended to rely on it as this behavior may be changed in the future and it is not the purpose of this setting.</source>
@@ -1480,14 +1470,14 @@ Although it currently also pauses gameplay, it is not recommended to rely on it 
 Aunque también pausa el juego, no se recomienda usar esta opción, ya que su comportamiento podría cambiar después y esta opción no está pensada para ello.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="142"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="141"/>
       <source>Automatically puts the game window in fullscreen.
 Double click on the game window or press Alt+Enter to toggle fullscreen and windowed mode.</source>
       <translation>Pasa automáticamente la ventana del juego a pantalla completa.
 Haz doble clic en la ventana del juego o pulsa Alt+Intro para cambiar entre los modos a pantalla completa y en ventana.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="143"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="142"/>
       <source>Prevent the display from sleeping while a game is running.
 This requires the org.freedesktop.ScreenSaver D-Bus service on Linux.
 This option will be disabled if the current platform does not support display sleep control.</source>
@@ -1496,38 +1486,38 @@ Necesita el servicio org.freedesktop.ScreenSaver D-Bus en Linux.
 Esta opción será desactivada si la plataforma actual no es compatible con el soporte de apagado de pantalla.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="144"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="143"/>
       <source>Configure the game window title.
 Changing this and/or adding the framerate may cause buggy or outdated recording software to not notice RPCS3.</source>
       <translation>Configura el título de la ventana del juego.
 Cambiar el título o añadir la cuenta de fotogramas puede provocar que los programas de grabación anticuados o con fallos no reconozcan a RPCS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="145"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="144"/>
       <source>Automatically resizes the game window on boot.
 This does not change the internal game resolution.</source>
       <translation>Cambia automáticamente el tamaño de la ventana del juego al ejecutar uno.
 Esta opción no cambiará la resolución interna del juego.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="146"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="145"/>
       <source>Show trophy pop-ups when a trophy is unlocked.</source>
       <translation>Muestra una ventana emergente al ganar un trofeo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="147"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="146"/>
       <source>Show RPCN friend list pop-ups.</source>
       <translation>Muestra mensajes emergentes de la lista de amigos de RPCN.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="148"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="147"/>
       <source>Disables the activation of fullscreen mode per double-click while the game screen is active.
 Check this if you want to play with mouse and keyboard (for example with UCR).</source>
       <translation>Impide que se active el modo a pantalla completa cuando se haga doble clic sobre la ventana del juego.
 Activa esta opción si quieres jugar con teclado y ratón (por ejemplo, con UCR).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="149"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="148"/>
       <source>Disables keyboard hotkeys such as Ctrl+S, Ctrl+E, Ctrl+R, Ctrl+P while the game screen is active.
 This does not include Ctrl+L (hide and lock mouse) and Alt+Enter (toggle fullscreen).
 Check this if you want to play with mouse and keyboard.</source>
@@ -1536,7 +1526,7 @@ Esta opción no afecta a Ctrl+L (ocultar y bloquear el ratón) y Alt+Intro (alte
 Activa esta opción si deseas jugar con ratón y teclado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="150"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="149"/>
       <source>Limits the maximum number of threads used for the initial PPU and SPU module compilation.
 Lower this in order to increase performance of other open applications.
 The default uses all available threads.</source>
@@ -1545,64 +1535,64 @@ Reduce este valor para aumentar el rendimiento de otras aplicaciones en funciona
 El ajuste por defecto utilizará todos los hilos disponibles.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="151"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="150"/>
       <source>Shows the mouse cursor when the fullscreen mode is active.
 Currently this may not work every time.</source>
       <translation>Muestra el cursor del ratón estando en el modo a pantalla completa.
 Actualmente este ajuste puede no funcionar de vez en cuando.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="152"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="151"/>
       <source>Locks the mouse cursor to the center when the fullscreen mode is active.</source>
       <translation>Restringe el cursor del ratón al centro de la imagen cuando el modo a pantalla completa esté activo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="153"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="152"/>
       <source>Hides the mouse cursor if no mouse movement is detected for the configured time.</source>
       <translation>Oculta el cursor del ratón si no se detecta movimiento en el mismo durante el tiempo asignado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="154"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="153"/>
       <source>Shows &apos;Compiling shaders&apos; hint using the native overlay.</source>
       <translation>Muestra el mensaje «Compilando shaders» mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="155"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="154"/>
       <source>Shows &apos;Compiling PPU modules&apos; hint using the native overlay.</source>
       <translation>Muestra el mensaje «Compilando módulos de la PPU» mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="156"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="155"/>
       <source>Shows autosave/autoload hint using the native overlay.</source>
       <translation>Muestra el mensaje de carga/guardado automáticos mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="157"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="156"/>
       <source>Shows pressure intensity toggle hint using the native overlay.</source>
       <translation>Muestra el mensaje del cambio de intensidad de presión mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="158"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="157"/>
       <source>Shows analog limiter toggle hint using the native overlay.</source>
       <translation>Muestra el mensaje del cambio del limitador analógico mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="159"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="158"/>
       <source>Shows mouse and keyboard toggle hint using the native overlay.</source>
       <translation>Muestra el mensaje del cambio del ratón y teclado mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="160"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="159"/>
       <source>Shows fatal error hints using the native overlay.</source>
       <translation>Muestra mensajes de errores fatales mediante la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="161"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="160"/>
       <source>Shows screenshot and recording hints using the native overlay.</source>
       <translation>Muestra las indicaciones sobre capturas de pantalla y grabaciones en la superposición nativa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="162"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="161"/>
       <source>Enables use of native HUD within the game window that can interact with game controllers.
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
@@ -1611,21 +1601,21 @@ Si se desactiva esta opción, se utilizarán las ventanas Qt.
 El teclado en pantalla solo es compatible actualmente con el esquema de teclado inglés.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="163"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="162"/>
       <source>Enables use of recursive scan on subfolders when scanning games from the selected folder.
 When disabled, games are scanned only on the selected folder.</source>
       <translation>Al buscar juegos en la carpeta seleccionada, permite buscar de forma recursiva en sus subcarpetas.
 Si desactivas esta opción, solo se buscarán los juegos que se encuentren en la carpeta seleccionada.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="164"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="163"/>
       <source>Enables recording with overlays.
 This also affects screenshots.</source>
       <translation>Permite grabar incluyendo las superposiciones.
 También afecta a las capturas de pantalla.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="165"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="164"/>
       <source>When enabled, opening the home menu will also pause emulation.
 While most games pause themselves while the home menu is shown, some do not.
 In that case it can be helpful to pause the emulation whenever the home menu is open.</source>
@@ -1634,47 +1624,47 @@ Aunque la mayoría de juegos se pausan solos cuando se muestra el menú de inici
 En este último caso, podría ser útil pausar la emulación cada vez que se abra el menú de inicio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="166"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="165"/>
       <source>Play music during boot sequence if available.</source>
       <translation>Reproduce música durante la secuencia de arranque (si está disponible).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="168"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="167"/>
       <source>Enables or disables the performance overlay.</source>
       <translation>Activa o desactiva la superposición de rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="169"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="168"/>
       <source>Enables or disables the framerate graph.</source>
       <translation>Activa o desactiva la gráfica de velocidad de fotogramas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="170"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="169"/>
       <source>Enables or disables the frametime graph.</source>
       <translation>Activa o desactiva la gráfica de duración de fotogramas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="171"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="170"/>
       <source>Sets the amount of datapoints used in the framerate graph.</source>
       <translation>Establece la cantidad de puntos de datos que utilizará la gráfica de la velocidad de fotogramas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="172"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="171"/>
       <source>Sets the amount of datapoints used in the frametime graph.</source>
       <translation>Establece la cantidad de puntos de datos que utilizará la gráfica de la duración de fotogramas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="173"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="172"/>
       <source>Sets the on-screen position (quadrant) of the performance overlay.</source>
       <translation>Sitúa la posición en pantalla (por cuadrantes) de la superposición de rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="174"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="173"/>
       <source>Controls the amount of information displayed on the performance overlay.</source>
       <translation>Controla la cantidad de información mostrada en la superposición de rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="175"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="174"/>
       <source>Sets the time interval in which the performance overlay is being updated (measured in milliseconds).
 Setting this to 16 milliseconds will refresh the performance overlay at roughly 60Hz.
 The performance overlay refresh rate does not affect the frame graph statistics and can only be as fast as the current game allows.</source>
@@ -1683,70 +1673,70 @@ The performance overlay refresh rate does not affect the frame graph statistics 
 La frecuencia de actualización de la superposición no afectará a las estadísticas de la gráfica de fotogramas y solo podrá ir tan rápida como lo haga el juego.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="176"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="175"/>
       <source>Sets the font size of the performance overlay (measured in pixels).</source>
       <translation>Ajusta el tamaño de la fuente de la superposición de rendimiento (en píxeles).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="177"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="176"/>
       <source>Sets the opacity of the performance overlay (measured in %).</source>
       <translation>Ajusta la opacidad de la superposición de rendimiento (en porcentaje).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="178"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="177"/>
       <source>Sets the horizontal distance to the screen border relative to the screen quadrant (measured in %).</source>
       <translation>Ajusta la distancia horizontal al borde de la pantalla, según el cuadrante de la misma (en porcentaje).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="179"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="178"/>
       <source>Sets the vertical distance to the screen border relative to the screen quadrant (measured in %).</source>
       <translation>Ajusta la distancia vertical al borde de la pantalla, según el cuadrante de la misma (en porcentaje).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="180"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="179"/>
       <source>Centers the performance overlay horizontally and overrides the horizontal margin.</source>
       <translation>Centra horizontalmente la superposición de rendimiento y anula el margen horizontal.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="181"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="180"/>
       <source>Centers the performance overlay vertically and overrides the vertical margin.</source>
       <translation>Centra verticalmente la superposición de rendimiento y anula el margen vertical.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="182"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="181"/>
       <source>Position overlay relative to the full window surface, enabling placement outside game&apos;s render area.</source>
       <translation>Indica dónde se colocará la superposición en relación a la superficie total de la ventana, permitiendo colocar elementos fuera de la zona de renderizado del juego.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="184"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="183"/>
       <source>Shows a background image during the native shader loading dialog/loading screen.
 By default the used image will be &lt;gamedir&gt;/PS3_GAME/PIC1.PNG.</source>
       <translation>Muestra una imagen de fondo en la pantalla nativa de carga del juego o de shaders.
 La imagen predeterminada será la que se encuentre en &lt;gamedir&gt;/PS3_GAME/PIC1.PNG.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="185"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="184"/>
       <source>Changes the background image darkening effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
       <translation>Ajusta el efecto de oscurecimiento de la imagen de fondo en la pantalla nativa de carga de shaders.
 Puede ayudar con la legibilidad o la estética.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="186"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="185"/>
       <source>Changes the background image blur effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
       <translation>Ajusta el efecto de desenfoque de la imagen de fondo en la pantalla nativa de carga de shaders.
 Puede ayudar con la legibilidad o la estética.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="190"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="189"/>
       <source>Vulkan is the fastest renderer. OpenGL is the most accurate renderer.
 If unsure, use Vulkan. Should you have any compatibility issues, fall back to OpenGL.</source>
       <translation>Vulkan es el renderizador más rápido y OpenGL es el más preciso.
 En caso de duda, elige Vulkan. Si tienes problemas de compatibilidad, recurre a OpenGL.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="191"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="190"/>
       <source>This setting will be ignored if the Resolution Scale is set to anything other than 100%!
 Leave this on 1280x720. Every PS3 game is compatible with this resolution.
 Only use 1920x1080 if the game supports it.
@@ -1757,19 +1747,19 @@ Solo debes utilizar 1920×1080 si el juego es compatible con dicha resolución.
 En muy pocos casos, debido a fallos de emulación, ciertos juegos solo se renderizarán a resoluciones bajas, como 480p.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="192"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="191"/>
       <source>On multi GPU systems select which GPU to use in RPCS3 when using Vulkan.
 This is not needed when using OpenGL.</source>
       <translation>Selecciona la GPU que utilizará RPCS3 a través de Vulkan en aquellos sistemas con varias GPU.
 Este ajuste no es necesario en OpenGL.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="193"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="192"/>
       <source>Leave this on 16:9 unless you have a 4:3 monitor.</source>
       <translation>Deja este ajuste en 16:9 a menos que tengas un monitor 4:3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="194"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="193"/>
       <source>Off is the fastest option.
 Using the frame limiter will add extra overhead and slow down the game. However, some games will crash if the framerate is too high.
 PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.
@@ -1782,7 +1772,7 @@ Solo se debe utilizar «Nativo de PS3» si la opción «Automático» no funcion
 Los usuarios con más experiencia y que necesiten otros límites de fotogramas deberían utilizar el ajuste «Second Frame Limit (segundo límite de fotogramas)» dentro del archivo de configuración.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="195"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="194"/>
       <source>Emulate PS3 multisampling layout.
 Can fix some otherwise difficult to solve graphics glitches.
 Low to moderate performance hit depending on your GPU hardware.</source>
@@ -1791,7 +1781,7 @@ Puede arreglar defectos gráficos no solucionables de otra forma.
 Puede provocar una pérdida leve o moderada de rendimiento en función de la GPU.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="196"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="195"/>
       <source>Higher values increase sharpness of textures on sloped surfaces at the cost of GPU resources.
 Modern GPUs can handle this setting just fine, even at 16x.
 Keep this on Automatic if you want to use the original setting used by a real PS3.</source>
@@ -1800,7 +1790,7 @@ Las GPU modernas aguantan perfectamente este ajuste, incluso a ×16.
 Mantén el ajuste automático si quieres utilizar la configuración original de una PS3 real.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="197"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="196"/>
       <source>Scales the game&apos;s resolution by the given percentage.
 The base resolution is always 1280x720.
 Set this value to 100% if you want to use the normal Resolution options.
@@ -1811,7 +1801,7 @@ Selecciona 100&#xa0;% si quieres utilizar las opciones para la resolución norma
 Los valores inferiores al 100&#xa0;% no suelen mejorar el rendimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="198"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="197"/>
       <source>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 If unsure, don&apos;t change this option.</source>
@@ -1820,7 +1810,7 @@ Aumentar este valor puede corregir problemas de gráficos desaparecidos por el e
 En caso de duda, no cambies esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="199"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="198"/>
       <source>Enable this option if you get missing graphics or broken lighting ingame.
 Might degrade performance and introduce stuttering in some cases.
 Required for Demon&apos;s Souls.</source>
@@ -1829,7 +1819,7 @@ Puede reducir el rendimiento e introducir saltos en ciertos casos.
 Necesario para ejecutar Demon&apos;s Souls.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="200"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="199"/>
       <source>Enables vertical synchronization to eliminate tearing.
 Adaptive Mode - Prefers keeping up performance. It may skip frames or even tear to avoid reducing the game&apos;s framerate.
 Full Mode - No tearing allowed even if performance is reduced. This mode will by default limit your framerate to the display&apos;s refresh rate unless overriden in the driver control panel.</source>
@@ -1838,7 +1828,7 @@ Adaptativa: Da prioridad al rendimiento. Podría omitir fotogramas o mostrar la 
 Completa: No se permitirá la fragmentación de la imagen aunque esto reduzca el rendimiento. Este modo limitará por defecto la velocidad de fotogramas a la frecuencia de actualización de tu pantalla, a menos que lo anules en el panel de control del controlador de la tarjeta gráfica.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="201"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="200"/>
       <source>Enforces strict compliance to the API specification.
 Might result in degraded performance in some games.
 Can resolve rare cases of missing graphics and flickering.
@@ -1849,12 +1839,12 @@ Tal vez resuelva casos muy puntuales de gráficos desaparecidos y parpadeos.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="202"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="201"/>
       <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
       <translation>Ignora la relación de aspecto y estira la imagen para que abarque todo el área de visualización.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="203"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="202"/>
       <source>Offloads some RSX operations to a secondary thread.
 Improves performance for high-core processors.
 May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
@@ -1863,7 +1853,7 @@ Mejora el rendimiento en procesadores con un gran número de núcleos.
 Podría provocar ralentizaciones en CPUs de baja potencia por los subprocesos de trabajo extra.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="205"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="204"/>
       <source>Disables asynchronous shader compilation.
 Fixes missing graphics while shaders are compiling but introduces severe stuttering or lag.
 Use this if you do not want to deal with graphics pop-in, or for testing before filing any bug reports.</source>
@@ -1872,7 +1862,7 @@ Corrige la desaparición de gráficos mientras se compilan los shaders, pero pro
 Desactiva esta opción si no quieres que los gráficos aparezcan de repente o si vas a hacer pruebas antes de enviar cualquier informe de fallos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="206"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="205"/>
       <source>This is the recommended option.
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
@@ -1881,34 +1871,34 @@ Si no se encuentra un shader en la caché, este shader no renderizará nada hast
 Puede provocar que los gráficos aparezcan de repente.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="207"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="206"/>
       <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
       <translation>Modo de renderizado híbrido.
 Si no se encuentra un shader en la caché, se utilizará el intérprete para renderizar una aproximación de los gráficos usados con este shader hasta que sea compilado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="208"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="207"/>
       <source>All rendering is handled by the interpreter with no attempt to compile native shaders.
 This mode is very slow and experimental.</source>
       <translation>Todo el renderizado es administrado por el intérprete sin compilar los shaders nativos.
 Este modo es muy lento y experimental.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="209"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="208"/>
       <source>Number of threads to use for the shader compiler backend.
 Only has an impact when shader mode is set to one of the asynchronous modes.</source>
       <translation>Establece el número de subprocesos a utilizar en el «back-end» del compilador de shaders.
 Solo afectará si el modo de shaders es uno de los modos asíncronos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="210"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="209"/>
       <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
       <translation>Controla el grado de precisión de los shaders generados.
 Una precisión baja generará el código con mayor rapidez en función del hardware, pero a veces podría generar defectos visuales o parpadeos menores.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="212"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="211"/>
       <source>Stream textures to GPU in parallel with 3D rendering using asynchronous compute.
 Can improve performance on more powerful GPUs that have spare headroom.
 Only works with Vulkan renderer and greatly benefits from having MTRSX enabled if you have a capable CPU.</source>
@@ -1917,7 +1907,7 @@ Puede mejorar el rendimiento en GPUs más potentes que no estén saturadas de tr
 Solo funciona con el renderizador de Vulkan y, si tienes una CPU compatible, se beneficia mucho de tener habilitado el RSX multihilo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="213"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="212"/>
       <source>Controls which fullscreen mode RPCS3 requests from drivers when using Vulkan renderer.
 Automatic will let the driver choose an appropriate mode, while the other options will hint the drivers on whether they should use exclusive or borderless fullscreen.
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
@@ -1926,7 +1916,7 @@ Using Prefer borderless fullscreen option can help if you have issues with strea
 «Preferir pantalla completa sin bordes» podría ser de ayuda si tienes problemas a la hora de retransmitir partidas en RPCS3 o si tu sistema habilita por error el modo HDR a pantalla completa.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="215"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="214"/>
       <source>Final image filtering. Nearest applies no filtering, Bilinear smooths the image, and FidelityFX Super Resolution enhances upscaled images.
 If the game is rendering at an internal resolution lower than your window resolution, FidelityFX will handle the upscale.
 FidelityFX can cause visual artifacts.
@@ -1937,12 +1927,12 @@ FidelityFx puede provocar artefactos visuales.
 Por el momento, FidelityFX no funciona con la imagen en 3D estereoscópico.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="216"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="215"/>
       <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
       <translation>Controla la fuerza del efecto de realzado que aplicará FidelityFX Super Resolution. Un valor elevado producirá una imagen más definida, pero podría introducir artefactos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="218"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="217"/>
       <source>Changes Texture sampling accuracy. (Small changes have a big effect.)
 Avoid using values outside the range of -12 to +12 if you&apos;re unsure.
 -3 to +3 is plenty for most usecases</source>
@@ -1951,7 +1941,7 @@ En caso de duda, evita los valores que se salgan del rango entre -12 y +12.
 -3 y +3 es suficiente para la mayoría de casos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="222"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="221"/>
       <source>Sets the maximum amount of blocks that the log can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
@@ -1960,7 +1950,7 @@ Esta cifra suele ser la misma que el número de líneas.
 Selecciona 0 para quitar el límite.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="223"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="222"/>
       <source>Sets the maximum amount of blocks that the TTY can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
@@ -1969,44 +1959,44 @@ Esta cifra suele ser la misma que el número de líneas.
 Selecciona 0 para quitar el límite.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="224"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="223"/>
       <source>Changes the overall look of RPCS3.
 Choose a stylesheet and click Apply to change between styles.</source>
       <translation>Cambia el aspecto de RPCS3.
 Selecciona una hoja de estilo y haz clic en Aplicar para cambiarlo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="225"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="224"/>
       <source>Shows the initial welcome screen upon starting RPCS3.</source>
       <translation>Muestra la ventana de bienvenida inicial al ejecutar RPCS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="226"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="225"/>
       <source>Shows a confirmation dialog when the game window is being closed and when a game was booted while another game is running.</source>
       <translation>Muestra una ventana de confirmación al cerrar la ventana del juego y al ejecutar un juego teniendo otro ya en marcha.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="227"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="226"/>
       <source>Shows a dialog when packages and firmware were installed successfully.</source>
       <translation>Muestra una ventana cuando se instalen paquetes y firmwares correctamente.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="228"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="227"/>
       <source>Shows a dialog when obsolete settings were found.</source>
       <translation>Muestra una ventana cuando se detecten ajustes obsoletos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="229"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="228"/>
       <source>Shows a dialog in the game pad configuration when the same button was assigned twice.</source>
       <translation>Muestra una ventana en la configuración de mandos al asignar el mismo botón dos veces.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="230"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="229"/>
       <source>Shows a dialog when RPCS3 is ready to restart after an update.</source>
       <translation>Muestra una ventana cuando RPCS3 esté preparado para reiniciarse tras una actualización.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="231"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="230"/>
       <source>Checks if an update is available on startup and asks if you want to update.
 If &quot;Automatic&quot; is selected, the update will run automatically without user confirmation.
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</source>
@@ -2015,46 +2005,46 @@ Si seleccionas «Automático», la actualización se llevará a cabo sin pedir c
 Si seleccionas «En segundo plano», se comprobará si hay actualizaciones en segundo plano y, en caso de encontrarlas, se mostrará una opción de descarga en la esquina superior derecha del menú.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="232"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="231"/>
       <source>Enables use of Discord Rich Presence to show what game you are playing on Discord.
 Requires a restart of RPCS3 to completely close the connection.</source>
       <translation>Activa el uso de Discord Rich Presence para mostrar a qué estás jugando en Discord.
 Es necesario reiniciar RPCS3 para cerrar la conexión.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="233"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="232"/>
       <source>Tell your friends what you are doing.</source>
       <translation>Dile a tus amigos lo que estás haciendo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="234"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="233"/>
       <source>Prioritize custom user interface colors over properties set in stylesheet.</source>
       <translation>Da prioridad a los colores personalizados de la interfaz sobre las propiedades indicadas en la hoja de estilo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="235"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="234"/>
       <source>This is the ID used for hardware statistics.
 It should only be reset if you change your hardware configuration or if you copied RPCS3 to another PC.</source>
       <translation>El código de identificación que se utilizará para las estadísticas de hardware.
 Solo se debe reiniciar si cambias tu configuración de hardware o si has copiado RPCS3 a otro PC.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="236"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="235"/>
       <source>Use the game pad that is configured for player 1 to navigate in the GUI.</source>
       <translation>Utilizar el mando configurado para el jugador 1 para navegar por la interfaz.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="237"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="236"/>
       <source>Keep control over pad navigation if RPCS3 is not the active window.</source>
       <translation>Si RPCS3 no es la ventana activa, mantener el control sobre la navegación con mando.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="238"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="237"/>
       <source>Set the audio volume of the user interface. This does not affect the ingame audio.</source>
       <translation>Ajusta el volumen de audio de la interfaz de usuario. No afecta al audio de los juegos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="242"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="241"/>
       <source>Single-threaded: All pad handlers run on the same thread sequentially.
 Multi-threaded: Each pad handler has its own thread.
 Only use multi-threaded if you can spare the extra threads.</source>
@@ -2063,26 +2053,26 @@ Multihilo: cada controlador de mandos tendrá un hilo independiente.
 Utiliza solo la opción multihilo si tienes hilos de sobra.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="243"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="242"/>
       <source>Shows all configured pads as always connected ingame even if they are physically disconnected.</source>
       <translation>Muestra todos los mandos que estén configurados como conectados en todo momento dentro del juego, aunque estén físicamente desconectados.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="244"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="243"/>
       <source>Some games support native keyboard input.
 Basic will work in these cases.</source>
       <translation>Algunos juegos tienen soporte nativo para teclados.
 Para estos casos, selecciona Básico.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="245"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="244"/>
       <source>Some games support native mouse input.
 Basic or Raw will work in these cases.</source>
       <translation>Algunos juegos son compatibles de forma nativa con la entrada de ratón.
 En dichos casos, las opciones «Básico» o «En bruto» funcionarán.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="246"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="245"/>
       <source>Currently only used for cellMusic emulation.
 Select Qt to use the default output device of your operating system.
 This may not be able to play all audio formats.</source>
@@ -2091,27 +2081,27 @@ Selecciona «Qt» para utilizar el dispositivo de salida predeterminado de tu si
 Es posible que no sea capaz de reproducir todos los formatos de audio.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="247"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="246"/>
       <source>Select Qt Camera to use the default camera device of your operating system.</source>
       <translation>Selecciona «Cámara Qt» para utilizar el dispositivo de cámara predeterminado de tu sistema operativo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="248"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="247"/>
       <source>Depending on the game, you may need to select a specific camera type.</source>
       <translation>Es posible que necesites elegir un tipo de cámara concreto en función de cada juego.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="249"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="248"/>
       <source>Flips the camera image either horizontally, vertically, or on both axes.</source>
       <translation>Voltea la imagen de la cámara de forma horizontal, vertical o sobre ambos ejes.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="250"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="249"/>
       <source>Select the camera that you want to use during gameplay.</source>
       <translation>Selecciona la cámara que quieras utilizar durante la partida.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="251"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="250"/>
       <source>PlayStation Move support.
 Fake: Experimental! This maps Move controls to DS3 controller mappings.
 Mouse: Emulate PSMove with Mouse handler.
@@ -2122,7 +2112,7 @@ Ratón: Emula un PSMove con el controlador de ratón.
 Ratón en bruto: Emula un PSMove con el controlador de ratón en bruto.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="252"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="251"/>
       <source>Buzz! support.
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don&apos;t have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
@@ -2131,7 +2121,7 @@ Selecciona 1 o 2 mandos si el juego necesita mandos Buzz! y no tienes mandos rea
 Selecciona Nulo si el juego es compatible con DualShock o si tienes mandos Buzz! reales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="253"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="252"/>
       <source>DJ Hero Turntable controller support.
 Select 1 or 2 controllers if the game requires DJ Hero Turntable controllers and you don&apos;t have real turntable controllers.
 Select Null if the game has support for DualShock or if you have real turntable controllers.
@@ -2142,7 +2132,7 @@ Selecciona Nulo si el juego es compatible con DualShock o si tienes mesas de mez
 Una mesa de mezclas real puede utilizarse a la vez que una emulada.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="254"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="253"/>
       <source>Guitar Hero Live (GHL) Guitar controller support.
 Select 1 or 2 controllers if the game requires GHL Guitar controllers and you don&apos;t have real guitar controllers.
 Select Null if the game has support for DualShock or if you have real guitar controllers.
@@ -2153,46 +2143,46 @@ Selecciona Nulo si el juego es compatible con DualShock o si tienes guitarras GH
 Una guitarra GHL real puede utilizarse a la vez que una emulada.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="255"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="254"/>
       <source>Allows pad and keyboard input while the game window is unfocused.</source>
       <translation>Permite el uso de entrada de mandos y teclados mientras la ventana del juego esté en segundo plano.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="256"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="255"/>
       <source>Shows the raw position of the PS Move input.
 This can be very helpful during calibration screens.</source>
       <translation>Muestra la posición en bruto de la señal de entrada de PS Move.
 Puede ser de gran ayuda en las pantallas de calibración.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="257"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="256"/>
       <source>Select up to 3 emulated MIDI devices and their types.</source>
       <translation>Selecciona hasta tres dispositivos MIDI emulados y sus tipos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="258"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="257"/>
       <source>Loads the SDL GameController database for improved gamepad compatibility. Only used in the SDL pad handler.</source>
       <translation>Carga la base de datos GameController de SDL para mejorar la compatibilidad con mandos. Solo será utilizada por el controlador de mandos de SDL.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="259"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="258"/>
       <source>Enables mouse-based gyro emulation at game startup. It can also be toggled at any time with the associated hotkey.
 Hold the right mouse button to activate gyro input: moving the mouse maps to the X and Z motion axes, and the scroll wheel maps to the Y axis. Release the button to reset the motion values.</source>
       <translation>Activa la emulación del giroscopio con el ratón al arrancar un juego. También puedes activar esta opción con el atajo de teclado correspondiente.
 Mantén pulsado el botón derecho del ratón para activar el modo giroscopio: el movimiento del ratón equivale a los ejes X y Z, y la rueda del ratón equivale al eje Y. Suelta el botón derecho para restablecer los valores de movimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="261"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="260"/>
       <source>Locks the native overlay input to the first player.</source>
       <translation>Restringe las entradas de la superposición nativa al primer jugador.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="265"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="264"/>
       <source>If set to Connected, RPCS3 will allow programs to use your internet connection.</source>
       <translation>Si seleccionas Conectado, RPCS3 permitirá que los programas utilicen tu conexión a Internet.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="266"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="265"/>
       <source>If set to RPCN, RPCS3 will use the RPCN server as PSN connection if the game is supported.
 If set to Simulated, RPCS3 will try to fake the PSN connection, but any actual attempt at using the PSN functionality may result in errors or crashes.
 Simulated is only available in custom configurations.</source>
@@ -2201,57 +2191,57 @@ Si seleccionas «Simulada», RPCS3 intentará simular la conexión a PSN, pero c
 La opción «Simulada» solo está disponible en configuraciones personalizadas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="267"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="266"/>
       <source>DNS used to resolve hostnames by applications.</source>
       <translation>Asigna la DNS utilizada para la asignación de anfitriones por parte de las aplicaciones.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="268"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="267"/>
       <source>DNS Swap List.
 Only available in custom configurations.</source>
       <translation>Lista de intercambio de DNS.
 Solo está disponible en configuraciones personalizadas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="269"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="268"/>
       <source>Interface IP Address to bind to.
 Only available in custom configurations.</source>
       <translation>La dirección IP de la interfaz de asignación.
 Solo está disponible en configuraciones personalizadas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="269"/>
       <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
       <translation>Activar UPNP.
 Si tu router tiene habilitado UPNP, redirigirá automáticamente los puertos asignados a 0.0.0.0.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="271"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="270"/>
       <source>Derive the MAC address from the PSID.</source>
       <translation>Deduce la dirección MAC a partir del PSID.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="272"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="271"/>
       <source>Changes the RPCN country.</source>
       <translation>Cambia el país de RPCN.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="273"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="272"/>
       <source>Enable connection to the Clans server.
 Only affects games supporting the Clans feature.</source>
       <translation>Activa la conexión con el servidor de clanes.
 Solo afecta a juegos compatibles con la característica de clanes.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="276"/>
       <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
       <translation>La región de la consola define el área de licencia de PS3.
 Algunos juegos podrían no funcionar según el área de licencia.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="278"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="277"/>
       <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
@@ -2260,24 +2250,24 @@ Otros juegos cambiarán de idioma automáticamente según esta opción.
 Se recomienda dejar una opción compatible con el juego.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="279"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="278"/>
       <source>Select the PS3&apos;s date format.</source>
       <translation>Selecciona el formato de fecha de PS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="280"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="279"/>
       <source>Select the PS3&apos;s time format.</source>
       <translation>Selecciona el formato de hora de PS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="281"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="280"/>
       <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
       <translation>Configura la distribución de teclado.
 Actualmente solo hay soporte para las distribuciones estadounidense, japonesa y alemana.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="282"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="281"/>
       <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
@@ -2286,21 +2276,21 @@ Cámbialo al botón Círculo para utilizar la configuración predeterminada en s
 Utilizar el botón Cruz/Equis para estos casos puede llevar a confusiones.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="283"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="282"/>
       <source>Required for some Homebrew.
 If unsure, do not use this option.</source>
       <translation>Opción necesaria para ciertos programas «homebrew».
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="284"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="283"/>
       <source>Required for some Homebrew or Game Mods.
 If unsure, do not use this option</source>
       <translation>Opción necesaria para ciertos programas «homebrew» o mods para juegos.
 En caso de duda, no actives esta opción.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="285"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="284"/>
       <source>Automatically removes older files from disk cache on boot if it grows larger than the specified value.
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.
 
@@ -2311,174 +2301,174 @@ Los juegos pueden utilizar la carpeta «cache» para almacenar datos de forma te
 Esta opción solo está disponible en configuraciones personalizadas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="286"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="285"/>
       <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</source>
       <translation>Ajusta la fecha que se utilizará dentro de la consola. Este valor se aplicará como corrección del reloj interno del sistema.
 Puede reiniciarse al valor actual del reloj interno seleccionando «Fecha actual».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="291"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="290"/>
       <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
       <translation>Este mando está desactivado y aparecerá como desconectado en el software. Selecciona otro controlador para activarlo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="292"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="291"/>
       <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
       <translation>La aplicación ha asignado este puerto a un mando personalizado y no se puede cambiar la asignación.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="293"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="292"/>
       <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
       <translation>Aunque se puede utilizar un teclado como mando en RPCS3, se recomienda encarecidamente el uso de un mando real.&lt;br&gt;Para vincular el movimiento del ratón a un botón o joystick, haz clic en el botón deseado para activarlo y luego haz clic y manten el botón pulsado mientras arrastras el ratón hacia la dirección deseada.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="294"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="293"/>
       <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>Para utilizar el controlador de DualShock 3 es necesario instalar el controlador oficial de DualShock 3.&lt;br&gt;Puedes ir a la &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;wiki de RPCS3&lt;/a&gt; para saber más.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="295"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="294"/>
       <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>Para utilizar el controlador de DualShock 3 podrías tener que añadir reglas udev para que RPCS3 pueda acceder al mando.
 Puedes ir a la &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;wiki de RPCS3&lt;/a&gt; para saber más.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="296"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="295"/>
       <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
       <translation>Se recomienda seleccionar el controlador de DualShock 3 para usar mandos DualShock 3 oficiales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="297"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="296"/>
       <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It&apos;s recommended that you disable them while using this handler.</source>
       <translation>Si tienes cualquier problema con el controlador de DualShock 4, podrían estar provocados por herramientas de terceros, como DS4Windows. Se recomienda desactivarlos para poder utilizar este controlador.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="298"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="297"/>
       <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>Para utilizar el controlador de DualShock 4 es necesario añadir reglas udev para que RPCS3 pueda acceder al mando.
 Puedes ir a la &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;wiki de RPCS3&lt;/a&gt; para saber más.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="299"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="298"/>
       <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
       <translation>Se recomienda seleccionar el controlador de DualShock 4 para usar mandos DualShock 4 oficiales.</translation>
     </message>
     <message>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="299"/>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="300"/>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="301"/>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="302"/>
       <source>The DualSense handler is recommended for official DualSense controllers.</source>
       <translation>El controlador DualSense está recomendado para mandos DualSense oficiales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="303"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="302"/>
       <source>The Skateboard handler is recommended for official RIDE skateboard controllers.</source>
       <translation>El controlador Skateboard está recomendado para las tablas oficiales de RIDE.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="304"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="303"/>
       <source>The PS Move handler is recommended for official PS Move controllers.</source>
       <translation>El controlador PS Move está recomendado para mandos PS Move oficiales.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="305"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="304"/>
       <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP&apos;s XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt;.</source>
       <translation>El controlador XInput funcionará con mandos de Xbox y muchos mandos para PC de terceros. Los botones con sensores de presión de SCP son compatibles si se copia el archivo XInput1_3.dll de SCP en el directorio principal de RPCS3. Para más información, acude a la &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;wiki de RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="306"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="305"/>
       <source>The evdev handler should work with any controller that has Linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
       <translation>El controlador evdev debería funcionar con cualquier mando compatible con Linux.&lt;br&gt;Si tu joystick no se centra correctamente, lee las instrucciones de la &lt;a %0 href=&quot;https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration&quot;&gt;wiki de RPCS3&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="307"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="306"/>
       <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
       <translation>El controlador MMJoystick debería funcionar con cualquier mando compatible con Windows.
 No obstante, si tienes un mando compatible con controladores más concretos, se recomienda usar estos últimos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="308"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="307"/>
       <source>The SDL handler supports a variety of controllers across different platforms.</source>
       <translation>El controlador SDL es compatible con todo tipo de mandos en múltiples plataformas.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="310"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="309"/>
       <source>Resets the sensor orientation when pressed.&lt;br&gt;Toggle the checkbox to enable or disable the orientation feature.&lt;br&gt;Currently only used for PS Move interactions.</source>
       <translation>Reinicia la orientación del sensor al pulsar este botón.&lt;br&gt;Activa o desactiva la casilla para hacer lo mismo con la característica de orientación.&lt;br&gt;Actualmente solo se utiliza para las interacciones con PS Move.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="311"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="310"/>
       <source>Applies the stick multipliers while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the analog limiter on button press instead.&lt;br&gt;If no button has been assigned, the stick multipliers are always applied.</source>
       <translation>Aplica los multiplicadores de sticks al pulsar el botón especial.&lt;br&gt;Si prefieres que el botón alterne el limitador de sticks analógicos, selecciona la opción «Alternar».&lt;br&gt;Si no se asigna un botón, se aplicarán los multiplicadores en todo momento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="312"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="311"/>
       <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable &quot;Toggle&quot; if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
       <translation>Controla la intensidad de los botones sensibles a la presión al pulsar este botón especial.&lt;br&gt;Selecciona «Alternar» si prefieres alternar la intensidad al pulsar el botón.&lt;br&gt;Utiliza el porcentaje para cambiar la fuerza con la que se pulsará un butón.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="313"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="312"/>
       <source>Controls the deadzone of pressure sensitive buttons. It determines how far the button has to be pressed until it is recognized by the game. The resulting range will be projected onto the full button sensitivity range.</source>
       <translation>Controla la zona muerta de los botones sensibles a la presión. Indica el recorrido al que debe llegar el botón para que sea reconocido por el juego. El rango resultante se proyectará al rango total de la sensibilidad del botón.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="314"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="313"/>
       <source>The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can&apos;t reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 4000 is usually recommended.</source>
       <translation>El rango real de los sticks de un DualShock 3 no es circular, sino que tiene forma de rectángulo redondeado, el cual representa el rango máximo de los joysticks emulados. Puedes utilizar los valores de este rectángulo para modificar la entrada de los joysticks en el caso de que los tuyos no alcancen las esquinas del rango. Un valor de 0 no aplicará ningún recorte en los rangos. Por lo general, se recomienda un valor de 4000.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="315"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="314"/>
       <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
       <translation>Los multiplicadores de los joysticks pueden cambiar la sensibilidad de sus movimientos.&lt;br&gt;El valor predeterminado es 1 y representa una entrada normal.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="316"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="315"/>
       <source>A stick&apos;s deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is simulated using the anti-deadzone slider (default is 13%), so don&apos;t worry if there is still movement shown in the emulated stick preview.</source>
       <translation>La zona muerta de un joystick determina la distancia que debe recorrer un joystick para ser reconocida en su totalidad por el juego. El rango resultante se proyectará al rango total de la entrada para que tengas una experiencia más fluida. El movimiento dentro de la zona muerta es simulado con el deslizador antizonas muertas (el valor predeterminado es de un 13&#xa0;%), así que no te preocupes si la previsualización del joystick emulado sigue mostrando movimiento.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="317"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="316"/>
       <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.&lt;br&gt;The game sends values from 0-255 to activate the motors.&lt;br&gt;Any value smaller or equal the threshold will be set to 0. This is 63 by default for pad handlers other than DualShock3 in order to emulate the DualShock3&apos;s behavior.</source>
       <translation>La PS3 activa dos motores (grande y pequeño) para gestionar la vibración del mando.&lt;br&gt;Aquí puedes activar, desactivar o incluso intercambiar estas señales para el mando actualmente seleccionado.&lt;br&gt;El juego manda valores de 0 a 255 para activar los motores.&lt;br&gt;Cualquier valor menor o igual que el umbral se pondrá a 0. Por defecto está en 63 para los controladores de mandos distintos del DualShock 3 para imitar el comportamiento de este último.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="318"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="317"/>
       <source>Use this to configure the gamepad motion controls.</source>
       <translation>Utiliza esta opción para configurar los controles de movimiento del mando.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="319"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="318"/>
       <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3&apos;s stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
       <translation>Los valores emulados del joystick (los puntos rojos) en la previsualización del mismo representan las posiciones reales del joystick, tal y como se aplicarán en el juego. El rango real de los joysticks de un DualShock 3 no es circular, sino que tiene forma de rectángulo redondeado, el cual representa el rango máximo de los joysticks emulados. Los puntos azules representan los valores en bruto del joystick (incluyendo multiplicadores del mismo) antes de convertirlos de cara al juego.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="320"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="319"/>
       <source>A trigger&apos;s deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
       <translation>La zona muerta de un gatillo determina la distancia que debe recorrer este para ser reconocida en su totalidad por el juego. El rango resultante se proyectará al rango total de la entrada para que tengas una experiencia más cómoda.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="320"/>
       <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
       <translation>En el caso de los teclados, estarás limitado inevitablemente a ocho direcciones del joystick (cuatro rectas y cuatro en diagonal). Es más, cuando pulses una tecla, el joystick saltará inmediatamente al valor máximo de la dirección deseada. La interpolación de joysticks puede sortear ambos problemas suavizando los cambios en la dirección. Cuanto más bajo sea el valor, más tiempo tendrás que pulsar o soltar una tecla para que se alcance la amplitud máxima.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="322"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="321"/>
       <source>The mouse deadzones represent the games&apos; own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
       <translation>Las zonas muertas del ratón representan las que tiene el juego en los ejes X e Y. Los juegos suelen forzar sus propias zonas muertas para aislar movimientos leves e indeseados del joystick. En consecuencia, la entrada por ratón parece torpe, ya que depende de una respuesta inmediata. Puedes cambiar estos valores de forma temporal durante una partida para dar con los valores óptimos para el juego que estés ejecutando (Alt+T y Alt+Y para el eje X, Alt+U y Alt+I para el eje Y).</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="323"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="322"/>
       <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
       <translation>La aceleración del ratón puede amplificar los movimientos del mismo en los ejes X e Y. Aumenta estos valores si los movimientos de tu ratón parecen lentos durante una partida. Puedes cambiar estos valores de forma temporal durante una partida para dar con los valores óptimos (Alt+G y Alt+H para el eje X, Alt+J y Alt+K para el eje Y). Ten en cuenta que los ratones modernos también suelen incluir modos y configuraciones que sirven para cambiar las velocidades de movimiento del ratón.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="324"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="323"/>
       <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse&apos;s distance to the center of the screen as input value.</source>
       <translation>El modo de movimiento del ratón determina la forma en la que se traducirán los movimientos del ratón a la entrada del mando.&lt;br&gt;Utiliza el modo relativo para usar un movimiento más tradicional del ratón.&lt;br&gt;Utiliza el modo absoluto para usar la distancia entre el ratón y el centro de la pantalla como valor de entrada.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="325"/>
+      <location filename="./rpcs3/rpcs3qt/tooltips.h" line="324"/>
       <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Ctrl + Left-click: Create a combo by adding a button to the last mapping.&lt;br&gt;Alt + Left-click: differentiate between trigger press and release (only XInput for now).&lt;br&gt;Right-click: clear this button mapping.</source>
       <translation>Clic izquierdo: reasignar este botón.&lt;br&gt;Mayús + Clic izquierdo: añadir otra asignación.&lt;br&gt;Ctrl + Clic izquierdo: crear una combinación de botones añadiendo un botón nuevo a la última asignación.&lt;br&gt;Alt + Clic izquierdo: distinguir entre pulsación y liberación de gatillo (solo con XInput por el momento).&lt;br&gt;Clic derecho: borrar las asignaciones de este botón.</translation>
     </message>
@@ -12707,8 +12697,8 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="494"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="512"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2142"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1900"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1902"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1910"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1912"/>
       <source>Up</source>
       <translation>Arriba</translation>
     </message>
@@ -12735,7 +12725,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="574"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="592"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2222"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1904"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1914"/>
       <source>Right</source>
       <translation>Derecha</translation>
     </message>
@@ -12749,8 +12739,8 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="635"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="653"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2283"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1901"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1903"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1911"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1913"/>
       <source>Down</source>
       <translation>Abajo</translation>
     </message>
@@ -12868,7 +12858,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1271"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1905"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1915"/>
       <source>L1</source>
       <translation>L1</translation>
     </message>
@@ -12879,7 +12869,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1302"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1906"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1916"/>
       <source>L2</source>
       <translation>L2</translation>
     </message>
@@ -12920,7 +12910,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1514"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1908"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1918"/>
       <source>R1</source>
       <translation>R1</translation>
     </message>
@@ -12941,7 +12931,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1641"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1907"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1917"/>
       <source>L3</source>
       <translation>L3</translation>
     </message>
@@ -12952,7 +12942,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1672"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1909"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1919"/>
       <source>R3</source>
       <translation>R3</translation>
     </message>
@@ -12988,7 +12978,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1905"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1899"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1909"/>
       <source>Triangle</source>
       <translation>Triángulo</translation>
     </message>
@@ -12999,7 +12989,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1954"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1898"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1908"/>
       <source>Square</source>
       <translation>Cuadrado</translation>
     </message>
@@ -13010,7 +13000,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1985"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1897"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1907"/>
       <source>Circle</source>
       <translation>Círculo</translation>
     </message>
@@ -13021,7 +13011,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2046"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1896"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1906"/>
       <source>Cross</source>
       <translation>Cruz/Equis</translation>
     </message>
@@ -13158,7 +13148,7 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="184"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2273"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2283"/>
       <source>Skateboard</source>
       <translation>Tabla de skate</translation>
     </message>
@@ -13229,402 +13219,402 @@ Consejo: los valores en coma flotante de la SPU están comentados alrededor de l
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="368"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1487"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1497"/>
       <source>[ Waiting %1 ]</source>
       <translation>[ Esperando %1 ]</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1652"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1662"/>
       <source>Custom Controller</source>
       <translation>Mando personalizado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1706"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1716"/>
       <source>No Device Detected</source>
       <translation>No se han detectado dispositivos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1817"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1827"/>
       <source>PS3 Controller</source>
       <comment>PlayStation 3 Controller</comment>
       <translation>Mando de PS3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1822"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1832"/>
       <source>Dance Dance Revolution</source>
       <comment>Dance Dance Revolution Mat</comment>
       <translation>Alfombra de Dance Dance Revolution</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1827"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1837"/>
       <source>DJ Hero Turntable</source>
       <comment>DJ Hero Turntable</comment>
       <translation>Mesa de DJ Hero</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1832"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
       <source>Rock Band</source>
       <comment>Harmonix Rock Band Drum Kit</comment>
       <translation>Rock Band</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1837"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1847"/>
       <source>Rock Band Pro</source>
       <comment>Harmonix Rock Band Pro-Drum Kit</comment>
       <translation>Rock Band Pro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1842"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1852"/>
       <source>Rock Band</source>
       <comment>Harmonix Rock Band Guitar</comment>
       <translation>Rock Band</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1847"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1857"/>
       <source>Guitar Hero</source>
       <comment>RedOctane Guitar Hero Drum Kit</comment>
       <translation>Guitar Hero</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1852"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1862"/>
       <source>Guitar Hero</source>
       <comment>RedOctane Guitar Hero Guitar</comment>
       <translation>Guitar Hero</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1857"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1867"/>
       <source>Rock Revolution</source>
       <comment>Rock Revolution Drum Controller</comment>
       <translation>Rock Revolution</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1862"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1872"/>
       <source>PS Move Navigation</source>
       <comment>PS Move Navigation Controller</comment>
       <translation>Navegación con PS Move</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1867"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1877"/>
       <source>RIDE Skateboard</source>
       <comment>Tony Hawk RIDE Skateboard Controller</comment>
       <translation>Tabla de skate RIDE</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1872"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1882"/>
       <source>GunCon 3</source>
       <comment>GunCon 3 Controller</comment>
       <translation>GunCon 3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1877"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1887"/>
       <source>Top Shot Elite</source>
       <comment>Top Shot Elite Controller</comment>
       <translation>Top Shot Elite</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1882"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1892"/>
       <source>Top Shot Fearmaster</source>
       <comment>Top Shot Fearmaster Controller</comment>
       <translation>Top Shot Fearmaster</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1887"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1897"/>
       <source>uDraw GameTablet</source>
       <comment>uDraw GameTablet Controller</comment>
       <translation>GameTablet de uDraw</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1915"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1927"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1925"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1937"/>
       <source>Green Fret</source>
       <translation>Traste verde</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1916"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1928"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1926"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1938"/>
       <source>Red Fret</source>
       <translation>Traste rojo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1917"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1930"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1927"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1940"/>
       <source>Yellow Fret</source>
       <translation>Traste amarillo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1918"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1929"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1928"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1939"/>
       <source>Blue Fret</source>
       <translation>Traste azul</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1919"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1931"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1929"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1941"/>
       <source>Strum Up</source>
       <translation>Rasguear/Toque arriba</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1920"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1932"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1930"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1942"/>
       <source>Strum Down</source>
       <translation>Rasguear/Toque abajo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1921"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1935"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1931"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1945"/>
       <source>Whammy</source>
       <translation>Trémolo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1922"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1936"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1932"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1946"/>
       <source>Orange Fret</source>
       <translation>Traste naranja</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1933"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1943"/>
       <source>Pickup Switch Up</source>
       <translation>Palanca de efectos arriba</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1934"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1944"/>
       <source>Pickup Switch Down</source>
       <translation>Palanca de efectos abajo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1937"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1947"/>
       <source>Solo Modifier</source>
       <translation>Modificador de solo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1938"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1948"/>
       <source>Tilt</source>
       <translation>Inclinación</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1943"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1953"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1962"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1963"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1972"/>
       <source>Green Pad</source>
       <translation>Pad verde</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1944"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1954"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1963"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1964"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1973"/>
       <source>Red Pad</source>
       <translation>Pad rojo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1945"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1955"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1964"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1965"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1974"/>
       <source>Blue Pad</source>
       <translation>Pad azul</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1946"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1956"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1965"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1966"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1975"/>
       <source>Yellow Pad</source>
       <translation>Pad amarillo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1947"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1957"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1966"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1967"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1976"/>
       <source>Foot Pedal</source>
       <translation>Pedal de bombo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1948"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1958"/>
       <source>Orange Pad</source>
       <translation>Pad naranja</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1967"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1977"/>
       <source>Pad Modifier</source>
       <translation>Modificador de pads</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1968"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1978"/>
       <source>Double Bass Pedal</source>
       <translation>Pedal de doble bombo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1969"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1979"/>
       <source>Cymbal Modifier</source>
       <translation>Modificador de platillos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1997"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2007"/>
       <source>Choose a unique name</source>
       <translation>Introduce un nombre único</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1998"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2008"/>
       <source>Configuration Name: </source>
       <translation>Nombre de configuración: </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2007"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2012"/>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2022"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2027"/>
       <source>Error</source>
       <translation>Error</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2007"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
       <source>Name cannot be empty</source>
       <translation>El nombre no puede estar en blanco</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2012"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2022"/>
       <source>Must choose a name without &apos;.&apos;</source>
       <translation>El nombre no debe contener puntos (.)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2027"/>
       <source>Please choose a non-existing name</source>
       <translation>Elige un nombre que no exista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2036"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2049"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2220"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2046"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2059"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2230"/>
       <source>Warning!</source>
       <translation>¡Aviso!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2036"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2046"/>
       <source>Can&apos;t remove default configuration &apos;%0&apos;.</source>
       <translation>No se puede eliminar la configuración predeterminada «%0».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2040"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2050"/>
       <source>Remove Configuration?</source>
       <translation>¿Eliminar configuración?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2040"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2050"/>
       <source>Do you really want to remove the configuration &apos;%0&apos;?</source>
       <translation>¿Seguro que quieres eliminar la configuración «%0»?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2049"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2059"/>
       <source>Failed to remove &apos;%0&apos;.</source>
       <translation>Error al eliminar «%0».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2064"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2074"/>
       <source>Removed Configuration</source>
       <translation>Configuración eliminada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2064"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2074"/>
       <source>Removed configuration &apos;%0&apos;.
 The selected configuration is now &apos;%1&apos;.</source>
       <translation>Se ha eliminado la configuración «%0».
 La configuración seleccionada ha pasado a ser «%1».</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2077"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2087"/>
       <source>Reserved</source>
       <translation>Reservado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2221"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2231"/>
       <source>The %0 button or combo &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
       <translation>El botón o combinación %0 &lt;b&gt;%1&lt;/b&gt; del &lt;b&gt;jugador %2&lt;/b&gt; tiene al menos dos asignaciones.&lt;br&gt;Tal vez deberías reajustar la configuración.&lt;br&gt;&lt;br&gt;¿Seguir de todos modos?&lt;br&gt;</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2268"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2278"/>
       <source>Null</source>
       <translation>Nulo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2269"/>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2294"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2279"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2304"/>
       <source>Keyboard</source>
       <translation>Teclado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2270"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2280"/>
       <source>DualShock 3</source>
       <translation>DualShock 3</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2271"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2281"/>
       <source>DualShock 4</source>
       <translation>DualShock 4</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2272"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2282"/>
       <source>DualSense</source>
       <translation>DualSense</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2274"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2284"/>
       <source>PS Move</source>
       <translation>PS Move</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2276"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2286"/>
       <source>XInput</source>
       <translation>XInput</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2277"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2287"/>
       <source>MMJoystick</source>
       <translation>MMJoystick</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2280"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2290"/>
       <source>SDL</source>
       <translation>SDL</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2283"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2293"/>
       <source>Evdev</source>
       <translation>Evdev</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2293"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2303"/>
       <source>Default Null Device</source>
       <translation>Dispositivo nulo predeterminado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2295"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2305"/>
       <source>DS3 Pad #%0</source>
       <translation>Mando DS3 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2296"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2306"/>
       <source>DS4 Pad #%0</source>
       <translation>Mando DS4 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2297"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2307"/>
       <source>DualSense Pad #%0</source>
       <translation>Mando DualSense %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2298"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2308"/>
       <source>Skateboard #%0</source>
       <translation>Tabla de skate %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2299"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2309"/>
       <source>PS Move #%0</source>
       <translation>PS Move %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2301"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2311"/>
       <source>XInput Pad #%0</source>
       <translation>Mando XInput %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2302"/>
+      <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2312"/>
       <source>Joystick #%0</source>
       <translation>Joystick %0</translation>
     </message>
@@ -15948,7 +15938,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="99"/>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="673"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="683"/>
       <source>Select an item to view details</source>
       <translation>Selecciona un elemento para ver más información.</translation>
     </message>
@@ -16004,7 +15994,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="566"/>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="590"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="599"/>
       <source>Delete Confirmation</source>
       <translation>Confirmar eliminación</translation>
     </message>
@@ -16016,7 +16006,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
 %1</translation>
     </message>
     <message numerus="yes">
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="590"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="599"/>
       <source>Are you sure you want to delete these %n items?</source>
       <translation>
         <numerusform>¿Seguro que quieres eliminar %1 elemento?</numerusform>
@@ -16024,34 +16014,34 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
       </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="613"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="623"/>
       <source>&amp;Remove</source>
       <translation>&amp;Eliminar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="614"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="624"/>
       <source>&amp;Open Save Directory</source>
       <translation>&amp;Abrir directorio de datos guardados</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="668"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="678"/>
       <source>%1 items selected</source>
       <translation>%1 elementos seleccionados</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="700"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="710"/>
       <source>Last modified: %1</source>
       <translation>Última modificación: %1</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="701"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="711"/>
       <source>Details:
 </source>
       <translation>Detalles:
 </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="702"/>
+      <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="712"/>
       <source>Note:
 </source>
       <translation>Nota:
@@ -16396,12 +16386,12 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="697"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="758"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="865"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2623"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2698"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2866"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2909"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3481"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4703"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2630"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2705"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2873"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2916"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3488"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4696"/>
       <source>Reset</source>
       <translation>Reiniciar</translation>
     </message>
@@ -16422,10 +16412,10 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1891"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2199"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2418"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2961"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3852"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4315"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4837"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2968"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3859"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4322"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4830"/>
       <source>Description</source>
       <translation>Descripción</translation>
     </message>
@@ -16436,10 +16426,10 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1897"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2205"/>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2424"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2967"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3858"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4321"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4843"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2974"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3865"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4328"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4836"/>
       <source>Point your mouse at an option to display a description in here.
 
 
@@ -16451,8 +16441,8 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="357"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2720"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4355"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2727"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4362"/>
       <source>GPU</source>
       <translation>GPU</translation>
     </message>
@@ -16518,7 +16508,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="569"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4751"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4744"/>
       <source>Configure</source>
       <translation>Configurar</translation>
     </message>
@@ -16675,7 +16665,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1227"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4084"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4091"/>
       <source>Volume</source>
       <translation>Volumen</translation>
     </message>
@@ -16741,7 +16731,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1609"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4761"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4754"/>
       <source>I/O</source>
       <translation>E/S</translation>
     </message>
@@ -16987,7 +16977,7 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2463"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4491"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4498"/>
       <source>Core</source>
       <translation>Núcleo</translation>
     </message>
@@ -17013,709 +17003,709 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2497"/>
+      <source>PPU Set DAZ and FTZ</source>
+      <translation>Establecer DAZ y FTZ en la PPU</translation>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2504"/>
       <source>Delay each odd MFC Command</source>
       <translation>Retrasar comandos MFC raros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2504"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2511"/>
       <source>Disable SPU GETLLAR Spin Optimization</source>
       <translation>Desactivar optim. de SPU GETLLAR Spin</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2511"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2518"/>
       <source>Enable SPU Events Busy Loop</source>
       <translation>Act. bucle de eventos ocupados de SPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2518"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2525"/>
       <source>Enable SPU loop detection</source>
       <translation>Activar detección de bucles de la SPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2525"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2532"/>
       <source>PPU Reservation Priority</source>
       <translation>Prioridad de reserva de PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2532"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2539"/>
       <source>PPU/SPU LLVM Precompilation</source>
       <translation>Precompilar PPU/SPU para la LLVM</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2539"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2546"/>
       <source>Silence All Logs</source>
       <translation>Silenciar todos los registros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2546"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2553"/>
       <source>SPU Compatible Savestates Mode</source>
       <translation>Guard. rápidos compatibles con SPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2562"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2569"/>
       <source>Sleep Timers Accuracy</source>
       <translation>Precisión temporiz. hibernación</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2580"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2587"/>
       <source>Maximum Number of SPURS Threads</source>
       <translation>Máximo de hilos para SPURS</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2598"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2605"/>
       <source>Clocks Scale</source>
       <translation>Escala del reloj</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2613"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2620"/>
       <source>100%</source>
       <translation>100&#xa0;%</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2655"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2662"/>
       <source>Firmware Libraries</source>
       <translation>Bibliotecas del firmware</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2726"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2733"/>
       <source>Allow Host GPU Labels (Experimental)</source>
       <translation>Marcadores de GPU anfit. (experim.)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2733"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2740"/>
       <source>Disable MSL Fast Math</source>
       <translation>Desactivar cálculos rápidos del MSL</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2740"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2747"/>
       <source>Disable Vertex Cache</source>
       <translation>Desactivar caché de vértices</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2747"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2754"/>
       <source>Emulate Special Depth Comparison</source>
       <translation>Emular comparación especial de profund.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2754"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2761"/>
       <source>Force Hardware MSAA Resolve</source>
       <translation>Forzar sol. por hardware de MSAA</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2761"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2768"/>
       <source>Handle RSX Memory Tiling</source>
       <translation>Admin. mosaicos de mem. del RSX</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2768"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2775"/>
       <source>Read Depth Buffer</source>
       <translation>Leer búfer de profundidad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2775"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2782"/>
       <source>Read Color Buffers</source>
       <translation>Leer búfers de color</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2782"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2789"/>
       <source>Use Re-BAR memory for GPU uploads</source>
       <translation>Envíos a GPU mediante memoria Re-BAR</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2789"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2796"/>
       <source>Write Depth Buffer</source>
       <translation>Escribir búfer de profundidad</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2805"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2812"/>
       <source>RSX FIFO Accuracy</source>
       <translation>Precisión del FIFO del RSX</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2823"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2830"/>
       <source>Exclusive Fullscreen Mode</source>
       <translation>Pantalla completa exclusiva</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2841"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2848"/>
       <source>Driver Wake-Up Delay</source>
       <translation>Retardo para llamar al controlador</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2856"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2863"/>
       <source>1 µs</source>
       <translation>1&#xa0;µs</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2884"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2891"/>
       <source>VBlank Frequency</source>
       <translation>Frecuencia de VBLANKs</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2899"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2906"/>
       <source>60 Hz</source>
       <translation>60&#xa0;Hz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2918"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2925"/>
       <source>VBlank NTSC Fixup</source>
       <translation>Corregir VBLANKs para NTSC</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2990"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2997"/>
       <source>Emulator</source>
       <translation>Emulador</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3000"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3007"/>
       <source>Emulator Settings</source>
       <translation>Configuración del emulador</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3006"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3013"/>
       <source>Enable GameMode</source>
       <translation>Activar GameMode</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3013"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3020"/>
       <source>Exit RPCS3 when process finishes</source>
       <translation>Salir de RPCS3 al finalizar sus procesos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3020"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3027"/>
       <source>Pause emulation after loading savestates</source>
       <translation>Pausar emul. al cargar un guard. rápido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3027"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
       <source>Pause emulation during home menu</source>
       <translation>Pausar emul. en el menú de inicio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3034"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
       <source>Pause emulation on RPCS3 focus loss</source>
       <translation>Pausar emul. al pasar a segundo plano</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3041"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3048"/>
       <source>Prevent display sleep while running games</source>
       <translation>No apagar pantalla durante una partida</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3048"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3055"/>
       <source>Start games in fullscreen mode</source>
       <translation>Arrancar juegos a pantalla completa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3055"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3062"/>
       <source>Use native user interface</source>
       <translation>Utilizar interfaz nativa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3062"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3069"/>
       <source>Use recursive scan</source>
       <translation>Búsqueda recursiva</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3072"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3079"/>
       <source>Overlay Settings</source>
       <translation>Configuración de superposiciones</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3078"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3085"/>
       <source>Play music during boot sequence</source>
       <translation>Reproducir música durante el arranque</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3085"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3092"/>
       <source>Record and screenshot with overlays</source>
       <translation>Grabar y capt. pant. con superposiciones</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3092"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3099"/>
       <source>Show analog limiter toggle hint</source>
       <translation>Mensajes de alt. limitador analógico</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3099"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3106"/>
       <source>Show autosave/autoload hint</source>
       <translation>Mensajes de carga/guardado autom.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3106"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3113"/>
       <source>Show capture hints</source>
       <translation>Mostrar indicaciones de capturas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3113"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3120"/>
       <source>Show fatal error hints</source>
       <translation>Mostrar mensajes de errores fatales</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3120"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3127"/>
       <source>Show mouse and keyboard toggle hint</source>
       <translation>Mensajes de alt. ratón y teclado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3127"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3134"/>
       <source>Show netplay popups</source>
       <translation>Mostrar mensajes de juego en red</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3134"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3141"/>
       <source>Show pressure intensity toggle hint</source>
       <translation>Mensajes de alt. intensidad de presión</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3141"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3148"/>
       <source>Show PPU compilation hint</source>
       <translation>Mensajes de compilación de la PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3148"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3155"/>
       <source>Show shader compilation hint</source>
       <translation>Mensajes de compilación de shaders</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3155"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3162"/>
       <source>Show trophy popups</source>
       <translation>Mensajes de trofeos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3181"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3188"/>
       <source>Max LLVM Compile Threads</source>
       <translation>Hilos máximos para compilar LLVM</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3193"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3200"/>
       <source>Max Shader Compile Threads</source>
       <translation>Hilos máximos para compilar shaders</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3209"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3216"/>
       <source>Viewport</source>
       <translation>Ventana</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3215"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3222"/>
       <source>Ignore doubleclicks for Fullscreen</source>
       <translation>Ignorar doble clic en pantalla completa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3222"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3229"/>
       <source>Ignore keyboard hotkeys</source>
       <translation>Ignorar atajos de teclado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3229"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3236"/>
       <source>Show mouse cursor in Fullscreen</source>
       <translation>Mostrar cursor del ratón a pantalla completa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3236"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3243"/>
       <source>Lock mouse cursor in Fullscreen</source>
       <translation>Restringir ratón en pantalla completa</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3258"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3265"/>
       <source>Hide mouse cursor if idle</source>
       <translation>Ocultar cursor después de</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3274"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3281"/>
       <source>ms</source>
       <translation>&#xa0;ms</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3311"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3318"/>
       <source>Resize game window on boot</source>
       <translation>Reescalar ventana del juego al arrancar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3318"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3325"/>
       <source>Resize manually</source>
       <translation>Cambiar tamaño manualmente</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3327"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3334"/>
       <source>Width</source>
       <translation>Ancho</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3358"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3365"/>
       <source>Height</source>
       <translation>Alto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3400"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3407"/>
       <source>Shader Loading Screen</source>
       <translation>Pantalla de carga de shaders</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3406"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3413"/>
       <source>Allow custom background</source>
       <translation>Utilizar fondo personalizado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3413"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3420"/>
       <source>Background darkening:</source>
       <translation>Oscurecimiento de fondo:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3427"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3434"/>
       <source>Background blur:</source>
       <translation>Desenfoque de fondo:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3460"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3467"/>
       <source>Game Window Title</source>
       <translation>Título de la ventana del juego</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3478"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3485"/>
       <source>Reset the game window title to default</source>
       <translation>Reinicia el título de la ventana del juego a su configuración predeterminada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3488"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3495"/>
       <source>Edit the game window title</source>
       <translation>Edita el título de la ventana del juego</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3491"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3498"/>
       <source>Edit</source>
       <translation>Editar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3507"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3514"/>
       <source>Performance Overlay</source>
       <translation>Superposición de rendimiento</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3513"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3520"/>
       <source>Enable performance overlay</source>
       <translation>Activar superposición de rendimiento</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3520"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3527"/>
       <source>Show framerate graph</source>
       <translation>Gráfica de velocidad de fotogramas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3527"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3534"/>
       <source>Show frametime graph</source>
       <translation>Gráfica de duración de fotogramas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3549"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3556"/>
       <source>Detail Level:</source>
       <translation>Nivel de detalle:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3577"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3584"/>
       <source>Position:</source>
       <translation>Posición:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3590"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3597"/>
       <source>Horizontal Margin:</source>
       <translation>Margen horizontal:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3599"/>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3627"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3606"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3634"/>
       <source>Centered</source>
       <translation>Centrado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3618"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3625"/>
       <source>Vertical Margin:</source>
       <translation>Margen vertical:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3646"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3653"/>
       <source>Use Window Space</source>
       <translation>Utilizar el espacio de la ventana</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3668"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3675"/>
       <source>Update Interval:</source>
       <translation>Intervalo de actualización:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3706"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3713"/>
       <source>Font Size: </source>
       <translation>Tamaño de fuente: </translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3738"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3745"/>
       <source>Opacity:</source>
       <translation>Opacidad:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3767"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3774"/>
       <source>Framerate datapoints:</source>
       <translation>Puntos de datos de vel. fotogramas:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3796"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3803"/>
       <source>Frametime datapoints:</source>
       <translation>Puntos de datos de dur. fotogramas:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3881"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3888"/>
       <source>GUI</source>
       <translation>Interfaz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3891"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3898"/>
       <source>UI Stylesheets</source>
       <translation>Hojas de estilos de interfaz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3900"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3907"/>
       <source>Apply</source>
       <translation>Aplicar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3910"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3917"/>
       <source>UI Colors</source>
       <translation>Colores de la interfaz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3928"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3935"/>
       <source>Use custom UI Colors</source>
       <translation>Personalizar los colores de la interfaz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3935"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3942"/>
       <source>Gamelist icons</source>
       <translation>Iconos de lista de juegos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3942"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3949"/>
       <source>Save manager icons</source>
       <translation>Iconos de admin. datos guardados</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3949"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3956"/>
       <source>Trophy manager icons</source>
       <translation>Iconos de admin. de trofeos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3979"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3986"/>
       <source>Log</source>
       <translation>Registro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4006"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4013"/>
       <source>Maximum log blocks (0 = no limit)</source>
       <translation>Máx. de bloques de registro (0 = sin límite)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4041"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4048"/>
       <source>Maximum TTY blocks (0 = no limit)</source>
       <translation>Máx. de de bloques de TTY (0 = sin límite)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4061"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4068"/>
       <source>Pad Input</source>
       <translation>Entrada de mando</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4067"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4074"/>
       <source>Enable Pad Navigation</source>
       <translation>Activar navegación con mando</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4074"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4081"/>
       <source>Allow Global Pad Navigation</source>
       <translation>Activar navegación global con mando</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4105"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4112"/>
       <source>GUI: 0%</source>
       <translation>Interfaz de usuario: 0 %</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4154"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4161"/>
       <source>UI Options</source>
       <translation>Opciones de la interfaz</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4160"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4167"/>
       <source>Show Welcome Screen</source>
       <translation>Mostrar pantalla de bienvenida</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4167"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4174"/>
       <source>Show Exit Game Confirmation</source>
       <translation>Mostrar confirmación para salir del juego</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4174"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4181"/>
       <source>Show PKG/PUP Installation Result</source>
       <translation>Mostrar result. instalación de PKG/PUP</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4181"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4188"/>
       <source>Show Obsolete Settings Dialog</source>
       <translation>Mostrar aviso de config. obsoletas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4188"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4195"/>
       <source>Show Duplicate Buttons Dialog</source>
       <translation>Mostrar aviso de botones duplicados</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4195"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4202"/>
       <source>Show Restart Dialog</source>
       <translation>Mostrar aviso de reinicio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4221"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4228"/>
       <source>Check for updates on startup</source>
       <translation>Comprobar actualizaciones al arrancar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4233"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4240"/>
       <source>Discord</source>
       <translation>Discord</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4239"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4246"/>
       <source>Use Discord Rich Presence</source>
       <translation>Activar Discord Rich Presence</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4246"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4253"/>
       <source>Discord Status:</source>
       <translation>Estado de Discord:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4269"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4276"/>
       <source>Installation ID</source>
       <translation>ID de instalación</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4275"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4282"/>
       <source>UUID-placeholder</source>
       <translation>UUID temporal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4285"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4292"/>
       <source>Create new ID</source>
       <translation>Crear ID nueva</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4344"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4351"/>
       <source>Debug</source>
       <translation>Depuración</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4364"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4371"/>
       <source>Debug Output</source>
       <translation>Generar salida de depuración</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4371"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4378"/>
       <source>Debug Overlay</source>
       <translation>Superposición del depurador</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4378"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4385"/>
       <source>Disable Asynchronous Memory Manager</source>
       <translation>Desactivar admin. asíncrona de memoria</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4385"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4392"/>
       <source>Disable FIFO Reordering</source>
       <translation>Desactivar reordenamiento FIFO</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4392"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4399"/>
       <source>Disable Hardware ColorSpace Remapping</source>
       <translation>Desact. reasign. espacios de color por hardware</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4399"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4406"/>
       <source>Disable On-Disk Shader Cache</source>
       <translation>Desactivar caché de shaders en disco</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4406"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4413"/>
       <source>Disable Video Output</source>
       <translation>Desactivar salida de vídeo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4413"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4420"/>
       <source>Disable Vulkan Memory Allocator</source>
       <translation>Desactivar asignador de memoria de Vulkan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4420"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4427"/>
       <source>Disable ZCull Occlusion Queries</source>
       <translation>Desactivar peticiones de oclusión del ZCull</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4427"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4434"/>
       <source>Force CPU Blit Emulation</source>
       <translation>Forzar emul. de blits en la CPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4434"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4441"/>
       <source>Force GPU Texture Scaling</source>
       <translation>Forzar escal. texturas en la GPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4441"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4448"/>
       <source>Log Shader Programs</source>
       <translation>Registrar programas de shaders</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4451"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4458"/>
       <source>Renderdoc Compatibility Mode</source>
       <translation>Modo de compatib. con RenderDoc</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4458"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4465"/>
       <source>Strict Texture Flushing</source>
       <translation>Descarga de texturas estricta</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4465"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4472"/>
       <source>Use High Precision Z-Buffer</source>
       <translation>Utilizar Z-Buffer de alta precisión</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4497"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4504"/>
       <source>Automatically start games after boot</source>
       <translation>Ejecutar juegos autom. al arrancar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4504"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4511"/>
       <source>Enable performance report</source>
       <translation>Activar informe de rendimiento</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4511"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4518"/>
       <source>Hook static functions</source>
       <translation>Sustituir funciones estáticas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4518"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
       <source>MFC Debug</source>
       <translation>Depuración del MFC</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4532"/>
       <source>PPU Debug</source>
       <translation>Depuración de la PPU</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4532"/>
-      <source>PPU Set DAZ and FTZ</source>
-      <translation>Establecer DAZ y FTZ en la PPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4539"/>
@@ -17764,51 +17754,46 @@ Si quieres confirmar, escribe tu nombre de usuario en el cuadro de debajo y haz 
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4617"/>
-      <source>Approximate PPU Non-Java Mode</source>
-      <translation>Aproximar modo ajeno a Java de PPU</translation>
-    </message>
-    <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4624"/>
       <source>Approximate PPU Vector NaN Handling</source>
       <translation>Aproximar NaNs vectoriales en la PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4668"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4661"/>
       <source>Accurate PPU 128 Reservations</source>
       <translation>Reservas precisas de 128 bytes en PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4680"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4673"/>
       <source>PPU Thread Count</source>
       <translation>Hilos de la PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4692"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4685"/>
       <source>LOD Bias Offset</source>
       <translation>Compensación del LOD</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4721"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4714"/>
       <source>Vulkan Queue Scheduler</source>
       <translation>Programador de cola de Vulkan</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4733"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4726"/>
       <source>Framebuffer Aliasing Heuristic Bias</source>
       <translation>Sesgo heuríst. solapam. búfer de fotog.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4745"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4738"/>
       <source>Log Levels</source>
       <translation>Niveles de registro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4767"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4760"/>
       <source>Debug Overlay For Pad Input</source>
       <translation>Superp. depur. para entradas de mando</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4774"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4767"/>
       <source>Debug Overlay For Mouse Input</source>
       <translation>Superp. depur. para entradas de ratón</translation>
     </message>
@@ -18221,42 +18206,42 @@ Previsualización:
       <translation>Elegir color para los iconos del administrador de trofeos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2535"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2532"/>
       <source>Always Enabled</source>
       <comment>Accurate PPU 128 Reservations</comment>
       <translation>Activar siempre</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2536"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2533"/>
       <source>Disabled</source>
       <comment>Accurate PPU 128 Reservations</comment>
       <translation>Desactivado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2623"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2620"/>
       <source>None</source>
       <comment>Stylesheets</comment>
       <translation>Ninguna</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2628"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2625"/>
       <source>Native (%0)</source>
       <comment>Stylesheets</comment>
       <translation>Nativa (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2631"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2628"/>
       <source>Default (Bright)</source>
       <comment>Stylesheets</comment>
       <translation>Predeterminada (clara)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2687"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2684"/>
       <source>Remove obsolete settings?</source>
       <translation>¿Eliminar las configuraciones obsoletas?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2688"/>
+      <location filename="./rpcs3/rpcs3qt/settings_dialog.cpp" line="2685"/>
       <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
       <translation>Tu archivo de configuración contiene configuraciones obsoletas.&lt;br&gt;Ten en cuenta que si las eliminas, el archivo dejará de ser válido en otras versiones de RPCS3.&lt;br&gt;&lt;br&gt;¿Deseas que el programa las elimine?&lt;br&gt;El cambio se aplicará solo cuando guardes la configuración.</translation>
     </message>
