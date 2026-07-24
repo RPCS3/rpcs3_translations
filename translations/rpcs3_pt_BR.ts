@@ -226,7 +226,7 @@
     <message>
       <location filename="./rpcs3/rpcs3qt/localized.h" line="33"/>
       <source>Home</source>
-      <translation>Início</translation>
+      <translation>Página Inicial</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized.h" line="34"/>
@@ -442,8 +442,8 @@ Localização atual:
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
 %0</source>
-      <translation>RPCS3 nunca deve ser executado de um caminho do OneDrive!
-Por favor, mova RPCS3 para um local não sincronizado pelo OneDrive.
+      <translation>O RPCS3 nunca deve ser executado a partir de um caminho no OneDrive!
+Por favor, mova o RPCS3 para um local não sincronizado pelo OneDrive.
 Localização atual:
 %0</translation>
     </message>
@@ -780,7 +780,7 @@ Isso pode corrigir a corrupção gráfica observada quando as opções Ler Cor o
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="39"/>
       <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-      <translation>Permite que a GPU anfitriã sincronize com a CELL de modo direto. Isso acarreta uma perda de desempenho, mas expõe o verdadeiro estado dos objetos da GPU para a CPU convidada. Pode ajudar a eliminar ruídos visuais e falhas ao custo de desempenho. Use com cautela.</translation>
+      <translation>Permite que a GPU anfitriã sincronize com o CELL de modo direto. Isso acarreta uma perda de desempenho, mas expõe o verdadeiro estado dos objetos da GPU para a CPU convidada. Pode ajudar a eliminar ruídos visuais e falhas ao custo de desempenho. Use com cautela.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="40"/>
@@ -1161,7 +1161,7 @@ Pode causar graves travamentos do áudio em casos raros.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="95"/>
       <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
-      <translation>Esta opção controla o analisador SPU, particularmente o tamanho das unidades compiladas. Os modos Mega e Giga podem melhorar o desempenho agrupando unidades menores, diminuindo o número de unidades compiladas, mas aumentando seu tamanho.
+      <translation>Esta opção controla o analisador da SPU, particularmente o tamanho das unidades compiladas. Os modos Mega e Giga podem melhorar o desempenho agrupando unidades menores, diminuindo o número de unidades compiladas, mas aumentando seu tamanho.
 Use o modo Seguro para máxima compatibilidade.</translation>
     </message>
     <message>
@@ -1212,7 +1212,7 @@ Nunca use isto.</translation>
       <source>Creates SPU logs.
 Only useful to developers.
 Never use this.</source>
-      <translation>Cria registros de SPU.
+      <translation>Cria registros da SPU.
 Útil apenas para desenvolvedores.
 Nunca use isto.</translation>
     </message>
@@ -1339,7 +1339,7 @@ Em caso de dúvida, não use esta opção.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="120"/>
       <source>Dump game shaders to file. Only useful to developers.
 If unsure, don&apos;t use this option.</source>
-      <translation>Descarrega os shaders do jogo em arquivo. Útil apenas para desenvolvedores.
+      <translation>Despeja os shaders do jogo em arquivo. Útil apenas para desenvolvedores.
 Em caso de dúvida, não use esta opção.</translation>
     </message>
     <message>
@@ -1617,9 +1617,9 @@ Isso também afeta as capturas de tela.</translation>
       <source>When enabled, opening the home menu will also pause emulation.
 While most games pause themselves while the home menu is shown, some do not.
 In that case it can be helpful to pause the emulation whenever the home menu is open.</source>
-      <translation>Quando ativada, a abertura do menu principal também pausará a emulação.
-Embora a maioria dos jogos pause automaticamente quando o menu principal é exibido, alguns não o fazem.
-Nesse caso, pode ser útil pausar a emulação sempre que o menu principal for aberto.</translation>
+      <translation>Quando ativada, a abertura do menu inicial também pausará a emulação.
+Embora a maioria dos jogos pause automaticamente quando o menu inicial é exibido, alguns não o fazem.
+Nesse caso, pode ser útil pausar a emulação sempre que o menu inicial for aberto.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="165"/>
@@ -1872,7 +1872,7 @@ Você poderá notar o surgimento repentino de elementos gráficos.</translation>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="206"/>
       <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
-      <translation>Modo de renderização híbrido.
+      <translation>Modo de renderização híbrida.
 Se um shader não for encontrado no cache, o interpretador será usado para renderizar gráficos aproximados para esse shader até que ele seja compilado.</translation>
     </message>
     <message>
@@ -1999,7 +1999,7 @@ If &quot;Automatic&quot; is selected, the update will run automatically without 
 If &quot;Background&quot; is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</source>
       <translation>Verifica se há uma atualização disponível ao iniciar e pergunta se você deseja atualizar.
 Se &quot;Automático&quot; estiver selecionado, a atualização será executada automaticamente sem confirmação do usuário.
-Se &quot;Em Segundo Plano&quot; estiver selecionado, a verificação será feita silenciosamente em segundo plano e uma nova opção de download será exibida no canto superior direito do menu se uma nova versão for encontrada.</translation>
+Se &quot;Em Segundo Plano&quot; estiver selecionado, a verificação será realizada silenciosamente em segundo plano e uma nova opção de download será exibida no canto superior direito do menu se uma nova versão for encontrada.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="231"/>
@@ -3514,7 +3514,7 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/downloader.cpp" line="188"/>
       <source>Please wait...</source>
-      <translation>Espere, por favor...</translation>
+      <translation>Por favor, aguarde...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/downloader.cpp" line="188"/>
@@ -3527,7 +3527,7 @@ O arquivo é muito pequeno.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="23"/>
       <source>SPU ELF Dumper</source>
-      <translation>Descarregador ELF da SPU</translation>
+      <translation>Despejador ELF da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="33"/>
@@ -5011,37 +5011,37 @@ Esta alteração somente terá efeito quando as configurações forem salvas.</t
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1482"/>
       <source>Anaglyph Red-Green</source>
       <comment>3D Display Mode</comment>
-      <translation>Anáglifo Vermelho/Verde</translation>
+      <translation>Anáglifo Vermelho-Verde</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1483"/>
       <source>Anaglyph Red-Blue</source>
       <comment>3D Display Mode</comment>
-      <translation>Anáglifo Vermelho/Azul</translation>
+      <translation>Anáglifo Vermelho-Azul</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1484"/>
       <source>Anaglyph Red-Cyan</source>
       <comment>3D Display Mode</comment>
-      <translation>Anáglifo Vermelho/Ciano</translation>
+      <translation>Anáglifo Vermelho-Ciano</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1485"/>
       <source>Anaglyph Magenta-Cyan</source>
       <comment>3D Display Mode</comment>
-      <translation>Anáglifo Magenta/Ciano</translation>
+      <translation>Anáglifo Magenta-Ciano</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1486"/>
       <source>Anaglyph Green-Magenta (Trioscopic)</source>
       <comment>3D Display Mode</comment>
-      <translation>Anáglifo Verde/Magenta (Trioscópico)</translation>
+      <translation>Anáglifo Verde-Magenta (Trioscópico)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1487"/>
       <source>Anaglyph Amber-Blue (ColorCode 3D)</source>
       <comment>3D Display Mode</comment>
-      <translation>Anáglifo Âmbar/Azul (ColorCode 3D)</translation>
+      <translation>Anáglifo Âmbar-Azul (ColorCode 3D)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1488"/>
@@ -7145,7 +7145,7 @@ Alguma thread provavelmente entrou no modo de bloqueio mútuo. Abortando.</trans
     <message>
       <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="882"/>
       <source>Terminate RPCS3</source>
-      <translation>Encerrar RPCS3</translation>
+      <translation>Finalizar RPCS3</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="883"/>
@@ -9595,7 +9595,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="284"/>
       <source>Detail level</source>
       <comment>Performance Overlay</comment>
-      <translation>Nível de detalhe</translation>
+      <translation>Nível de detalhes</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="285"/>
@@ -10094,12 +10094,12 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="350"/>
       <source>Stack Cell Errors</source>
-      <translation>Pilha de Erros Cell</translation>
+      <translation>Pilha de Erros do Cell</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="358"/>
       <source>Show Thread Prefix</source>
-      <translation>Mostrar Prefixo de Thread</translation>
+      <translation>Mostrar Prefixo da Thread</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="366"/>
@@ -10973,7 +10973,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1023"/>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3521"/>
       <source>Home</source>
-      <translation>Início</translation>
+      <translation>Página Inicial</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1031"/>
@@ -11123,7 +11123,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1231"/>
       <source>Remove SPU Caches</source>
-      <translation>Remover Cache SPU</translation>
+      <translation>Remover Cache da SPU</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1236"/>
@@ -11881,7 +11881,7 @@ Por favor, aguarde...</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1747"/>
       <source>Firmware installation failed: Firmware could not be decompressed</source>
-      <translation>Falha na instalação de firmware: O firmware não pôde ser descompactado</translation>
+      <translation>Falha na instalação de firmware: Não foi possível descompactar o firmware</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1756"/>
@@ -12262,14 +12262,14 @@ image</source>
       <location filename="./rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="304"/>
       <source>When using string mode, the characters&apos; case will not matter both in string and in memory.
 Warning: this may reduce performance of the search.</source>
-      <translation>Ao usar o modo de texto, a distinção entre maiúsculas e minúsculas não será relevante, tanto na texto quanto na memória.
+      <translation>Ao usar o modo texto, a distinção entre maiúsculas e minúsculas não será relevante, tanto no texto quanto na memória.
 Aviso: isso pode reduzir o desempenho da pesquisa.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="308"/>
       <location filename="./rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="352"/>
       <source>Select search mode(s)..</source>
-      <translation>Selecionar modo(s) de busca..</translation>
+      <translation>Selecionar modo(s) de pesquisa..</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="309"/>
@@ -12544,7 +12544,7 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="88"/>
       <source>LED battery indicator brightness</source>
-      <translation>Luminosidade do LED de indicador de bateria</translation>
+      <translation>Brilho do LED de indicador de bateria</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="94"/>
@@ -13027,7 +13027,7 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2209"/>
       <source>Home</source>
-      <translation>Home</translation>
+      <translation>Página Inicial</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2240"/>
@@ -13078,7 +13078,7 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2578"/>
       <source>Stick Preview</source>
-      <translation>Pré-visualização do Analógico</translation>
+      <translation>Prévia do Analógico</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2596"/>
@@ -13460,7 +13460,7 @@ Dica: Os números de ponto flutuante SPU são comentados junto com as instruçõ
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
       <source>Name cannot be empty</source>
-      <translation>Nome não pode estar vazio</translation>
+      <translation>O nome não pode estar em branco</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2022"/>
@@ -13875,7 +13875,7 @@ Certifique-se de que todas as correções localizadas em &quot;%0&quot; contenha
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="883"/>
       <source>Show Patch File</source>
-      <translation>Selecionar Arquivo de Correção</translation>
+      <translation>Mostrar Arquivo de Correção</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="894"/>
@@ -13947,7 +13947,7 @@ Esta ação é imediata e irreversível!</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1025"/>
       <source>What do you want to do with the patch file?</source>
-      <translation>O que você quer fazer com o arquivo de correção?</translation>
+      <translation>O que deseja fazer com o arquivo de correção?</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1026"/>
@@ -14003,7 +14003,7 @@ Registro:
 
 Log:
 %0</source>
-      <translation>O arquivo de correção não pôde ser importado.
+      <translation>Não foi possível importar o arquivo de correção.
 
 Registro:
 %0</translation>
@@ -14120,7 +14120,7 @@ Registro:
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="32"/>
       <source>PKG Installation</source>
-      <translation>Instalação do PKG</translation>
+      <translation>Instalação de PKG</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="74"/>
@@ -14278,7 +14278,7 @@ Espaço em disco necessário: %3</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="30"/>
       <source>Preview</source>
-      <translation>Pré-visualizar</translation>
+      <translation>Prévia</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="49"/>
@@ -14722,8 +14722,8 @@ Espaço em disco necessário: %3</translation>
       <location filename="./rpcs3/rpcs3qt/register_editor_dialog.cpp" line="423"/>
       <source>This value could not be converted.
 No changes were made.</source>
-      <translation>Este valor não pôde ser convertido.
-Nenhuma alteração foi feita.</translation>
+      <translation>Não foi possível converter este valor.
+Nenhuma alteração foi realizada.</translation>
     </message>
   </context>
   <context>
@@ -15996,15 +15996,15 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
       <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="566"/>
       <source>Are you sure you want to delete:
 %1?</source>
-      <translation>Você tem certeza que deseja excluir:
-%1 ?</translation>
+      <translation>Tem certeza que deseja excluir:
+%1?</translation>
     </message>
     <message numerus="yes">
       <location filename="./rpcs3/rpcs3qt/save_manager_dialog.cpp" line="599"/>
       <source>Are you sure you want to delete these %n items?</source>
       <translation>
-        <numerusform>Você tem certeza que deseja excluir este item?</numerusform>
-        <numerusform>Você tem certeza que deseja excluir estes %n itens?</numerusform>
+        <numerusform>Tem certeza que deseja excluir %n item?</numerusform>
+        <numerusform>Tem certeza que deseja excluir estes %n itens?</numerusform>
       </translation>
     </message>
     <message>
@@ -16509,7 +16509,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="579"/>
       <source>Screen Size (Inch)</source>
-      <translation>Tamanho da Tela (Polegada)</translation>
+      <translation>Tamanho da Tela (Polegadas)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="614"/>
@@ -16630,7 +16630,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1121"/>
       <source>Dump to File</source>
-      <translation>Descarregar para Arquivo</translation>
+      <translation>Despejar em Arquivo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="1167"/>
@@ -17544,7 +17544,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4181"/>
       <source>Show PKG/PUP Installation Result</source>
-      <translation>Mostrar Resultado de Instalação PKG/PUP</translation>
+      <translation>Mostrar Resultado de Instalação de PKG/PUP</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4188"/>
@@ -19170,7 +19170,7 @@ Confira o registro para obter mais informações.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="521"/>
       <source>Please stop the emulation before trying to update.</source>
-      <translation>Por favor, pare a emulação antes de tentar atualizar.</translation>
+      <translation>Por favor, encerre a emulação antes de tentar atualizar.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="556"/>
@@ -19246,7 +19246,7 @@ Username: %1
 
 This will remove all files in:
 %2</source>
-      <translation>Você tem certeza que deseja excluir este usuário?
+      <translation>Tem certeza que deseja excluir este usuário?
 
 ID do Usuário: %0
 Nome do Usuário: %1
@@ -19518,7 +19518,7 @@ There are still plenty of implementations to make and optimizations to do.</sour
       <translation>O RPCS3 é um emulador e depurador de PlayStation 3 da Sony de código aberto.
 Ele é escrito em C++ para Windows, Linux, FreeBSD e MacOS financiados com %0.
 Nossos desenvolvedores e colaboradores estão sempre trabalhando duro para garantir que este projeto seja o melhor possível.
-Ainda há muitas implementações a serem feitas e otimizações a serem realizadas.</translation>
+Ainda há muitas implementações e otimizações a serem realizadas.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="32"/>
