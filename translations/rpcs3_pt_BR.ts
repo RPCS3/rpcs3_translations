@@ -752,7 +752,7 @@ Em caso de dúvida, não modifique esta configuração.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="33"/>
       <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
-      <translation>Para de gravar qualquer registro após iniciar o jogo. Não use a menos que você acredite que seja necessário.</translation>
+      <translation>Encerra a gravação de qualquer registro após iniciar o jogo. Não use a menos que você acredite que seja necessário.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="34"/>
@@ -1356,7 +1356,7 @@ Pode introduzir problemas com oclusão quebrada, como geometria ausente e aparec
 · Prefer Color keeps the color binding when color-write is enabled and depth-write is not. Fixes missing geometry in some deferred renderers (e.g. Starhawk) at the cost of skipping depth test for that draw.
 · Prefer Depth is the same as Auto for now.</source>
       <translation>Controla como o RPCS3 resolve alvos de renderização onde a cor e a profundidade compartilham a mesma memória. Automático é recomendado para a maioria dos jogos.
-· Automático é o comportamento atual, com prioridade para profundidade.
+· Automático é o comportamento atual, com tendência para profundidade.
 · Optar por Cor mantém a vinculação de cor quando a gravação de cor está habilitada e a gravação de profundidade não. Corrige a falta de geometria em alguns renderizadores diferidos (por exemplo, Starhawk) ao custo de ignorar o teste de profundidade para esse desenho.
 · Optar por Profundidade é o mesmo que Automático por enquanto.</translation>
     </message>
@@ -8524,7 +8524,7 @@ Espaço necessário: %0 KB</translation>
       <source>Math range violation.
 (%0)</source>
       <comment>Error code</comment>
-      <translation>Violação do domínio matemático.
+      <translation>Violação do alcance matemático.
 (%0)</translation>
     </message>
     <message>
@@ -8828,7 +8828,7 @@ Espaço necessário: %0 KB</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="158"/>
       <source>Error - Save data cannot be found</source>
       <comment>Savedata Error</comment>
-      <translation>Erro - Não foi possível localizar os dados salvos</translation>
+      <translation>Erro - Não é possível localizar os dados salvos</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="159"/>
@@ -9708,7 +9708,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="303"/>
       <source>Texture LOD Bias Addend</source>
       <comment>Debug</comment>
-      <translation>Adendo de Viés de Nível de Detalhe da Textura</translation>
+      <translation>Parcela de Tendência do LOD das Texturas</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="304"/>
@@ -10094,7 +10094,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="350"/>
       <source>Stack Cell Errors</source>
-      <translation>Pilha de Erros do Cell</translation>
+      <translation>Erros de Pilha do Cell</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="358"/>
@@ -10366,7 +10366,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="446"/>
       <source>Cannot find any game boot!</source>
-      <translation>Não foi possível encontrar nenhuma inicialização de jogo!</translation>
+      <translation>Não é possível encontrar nenhuma inicialização de jogo!</translation>
     </message>
   </context>
   <context>
@@ -10904,7 +10904,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="917"/>
       <source>Tiny</source>
-      <translation>Muito Pequeno</translation>
+      <translation>Minúsculo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="928"/>
@@ -15100,7 +15100,7 @@ Observe que o token de redefinição de senha é diferente do token de verifica�
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="908"/>
       <source>The username/email pair is invalid!</source>
-      <translation>O par usuário/e-mail é inválido!</translation>
+      <translation>O par nome de usuário/e-mail é inválido!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="909"/>
@@ -15620,7 +15620,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1371"/>
       <source>You or the other user have the other blocked.</source>
-      <translation>Você ou o outro usuário tem o outro bloqueado.</translation>
+      <translation>Você ou o outro usuário se bloquearam.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1372"/>
@@ -16186,7 +16186,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
       <location filename="./rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="560"/>
       <source>Are you sure you want to delete the savestates for:
 %0?</source>
-      <translation>Você tem certeza que deseja excluir os savestates para:
+      <translation>Tem certeza que deseja excluir os savestates de:
 %0?</translation>
     </message>
     <message>
@@ -17398,7 +17398,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3556"/>
       <source>Detail Level:</source>
-      <translation>Nível de Detalhe:</translation>
+      <translation>Nível de Detalhes:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3584"/>
@@ -17765,7 +17765,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4685"/>
       <source>LOD Bias Offset</source>
-      <translation>Deslocamento de Viés de Nível de Detalhe</translation>
+      <translation>Deslocamento de Tendência do LOD</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4714"/>
@@ -17775,7 +17775,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4726"/>
       <source>Framebuffer Aliasing Heuristic Bias</source>
-      <translation>Viés Heurístico de Serrilhamento no Buffer de Quadros</translation>
+      <translation>Tendência Heurística de Serrilhamento no Buffer de Quadros</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4738"/>
