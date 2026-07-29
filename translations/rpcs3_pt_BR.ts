@@ -466,8 +466,8 @@ Localização atual:
       <location filename="./rpcs3/rpcs3.cpp" line="1384"/>
       <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-      <translation>Não é possível executar o modo sem interface gráfica sem uma inicialização alvo.
-Finalizando...</translation>
+      <translation>Não é possível executar o modo sem interface gráfica do usuário (no-gui) caso não haja um destino de inicialização.
+Encerrando...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="134"/>
@@ -868,7 +868,7 @@ Pode afetar o desempenho de maneiras inesperadas.</translation>
       <source>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic&quot; benefits stability greatly in many games with little performance penalty.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
-      <translation>&quot;Rápido&quot; é a configuração menos precisa, o RSX não emula o buffer do FIFO atômico.
+      <translation>&quot;Rápido&quot; é a configuração menos precisa, o RSX não emula o buffer de FIFO atômico.
 &quot;Atômico&quot; beneficia muito a estabilidade em muitos jogos, com pouca perda de desempenho.
 &quot;Atômico &amp; Ordenado&quot; é o mais preciso, mas é o mais lento e não oferece muitos benefícios de estabilidade nos jogos.</translation>
     </message>
@@ -3242,7 +3242,7 @@ Algumas configurações parecem divergir da configuração padrão:</translation
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="101"/>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="1509"/>
       <source>Go To Address</source>
-      <translation>Ir Para o Endereço</translation>
+      <translation>Ir Para Endereço</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="102"/>
@@ -3272,7 +3272,7 @@ Algumas configurações parecem divergir da configuração padrão:</translation
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="277"/>
       <source>Pause All Threads On Hit</source>
-      <translation>Pausar Todas as Threads ao Clicar</translation>
+      <translation>Pausar Todas as Threads no Êxito</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="280"/>
@@ -8614,7 +8614,7 @@ Espaço necessário: %0 KB</translation>
       <source>Port is not connected.
 (%0)</source>
       <comment>Error code</comment>
-      <translation>Porta não está conectada.
+      <translation>A porta não está conectada.
 (%0)</translation>
     </message>
     <message>
@@ -12481,8 +12481,8 @@ RegEx: busca uma instrução que contenha o texto que corresponde à expressão 
 SPU Instruction: Search an SPU instruction contains the text of the string. For searching instructions within embedded SPU images.
 Tip: SPU floats are commented along forming instructions.</source>
       <translation>
-Instrução SPU: Pesquise uma instrução SPU que contenha o texto da string. Para pesquisar instruções dentro de imagens SPU incorporadas.
-Dica: Os números de ponto flutuante SPU são comentados junto com as instruções de formação.</translation>
+Instrução SPU: busca uma instrução SPU que contenha o texto da string. Para pesquisar instruções dentro de imagens incorporadas da SPU.
+Dica: Os números de ponto flutuantes da SPU são comentados ao longo da moldagem das instruções.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="357"/>
@@ -14324,7 +14324,7 @@ Registro:
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="153"/>
       <source>Skip</source>
-      <translation>Pular</translation>
+      <translation>Ignorar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="183"/>
@@ -17267,7 +17267,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2812"/>
       <source>RSX FIFO Accuracy</source>
-      <translation>Precisão do FIFO do RSX</translation>
+      <translation>Precisão de FIFO do RSX</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2830"/>
@@ -17768,7 +17768,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4392"/>
       <source>Disable FIFO Reordering</source>
-      <translation>Desativar Reordenação FIFO</translation>
+      <translation>Desativar Reordenação de FIFO</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4399"/>
@@ -17839,7 +17839,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4518"/>
       <source>Hook static functions</source>
-      <translation>Funções estáticas de interceptação</translation>
+      <translation>Interceptar funções estáticas</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4525"/>
