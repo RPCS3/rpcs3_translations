@@ -1135,16 +1135,16 @@ Se você tiver problemas, use o Recompilador ASMJIT.</translation>
       <source>Control accuracy to SPU float vectors processing.
 Fixes bugs in various games at the cost of performance.
 This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</source>
-      <translation>Controle a precisão do processamento de vetores flutuantes SPU.
-Corrija bugs em vários jogos, mas isso pode afetar o desempenho.
-Essa configuração só é aplicada quando o decodificador SPU está definido como Dinâmico ou LLVM.</translation>
+      <translation>Controla a precisão do processamento de vetores de ponto flutuante da SPU.
+Corrige erros em vários jogos, mas isso pode afetar o desempenho.
+Essa configuração é aplicada somente quando o decodificador da SPU está definido como Dinâmico ou LLVM.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="93"/>
       <source>Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU. It&apos;s recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</source>
-      <translation>Controle como o RPCS3 utiliza os threads do seu sistema.
+      <translation>Controla como o RPCS3 utiliza as threads do seu sistema.
 Cada opção depende muito do jogo e da sua CPU. Recomenda-se experimentar cada opção para descobrir qual tem o melhor desempenho.
 A alteração do escalonador de threads não é suportada em CPUs com menos de 12 threads.</translation>
     </message>
@@ -1500,12 +1500,12 @@ Isso não altera a resolução interna do jogo.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="145"/>
       <source>Show trophy pop-ups when a trophy is unlocked.</source>
-      <translation>Mostra notificações de troféu quando um troféu é desbloqueado.</translation>
+      <translation>Exibe notificações de troféus quando um troféu é desbloqueado.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="146"/>
       <source>Show RPCN friend list pop-ups.</source>
-      <translation>Mostrar notificações de lista de amigos do RPCN.</translation>
+      <translation>Exibe notificações da lista de amigos do RPCN.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="147"/>
@@ -1765,9 +1765,9 @@ Infinite adds a positive feedback loop which adds another vblank signal per fram
 Experienced users with need of other frame limits should use the setting &quot;Second Frame Limit&quot; in the configuration file.</source>
       <translation>A opção Desligado é a mais rápida.
 Usar o limitador de quadros adicionará sobrecarga extra e deixará o jogo mais lento. No entanto, alguns jogos podem travar se a taxa de quadros for muito alta.
-A opção nativa do PS3 só deve ser usada se a opção Automática não estiver funcionando corretamente, pois pode causar problemas de sincronização de quadros.
-A opção Infinito adiciona um loop de feedback positivo que adiciona outro sinal de vblank por quadro, permitindo que mais jogos tenham taxa de quadros ilimitada.
-Usuários experientes que precisam de outros limites de quadros devem usar a configuração &quot;Segundo Limite de Quadros&quot; no arquivo de configuração.</translation>
+Nativa do PS3 só deve ser usada se a opção Automática não estiver funcionando corretamente, pois pode causar problemas de sincronização de quadros.
+Infinito adiciona um loop de feedback positivo que adiciona outro sinal de vblank por quadro, permitindo que mais jogos tenham taxa ilimitada de quadros.
+Usuários experientes que precisam de outros limites de quadros devem usar a configuração &quot;Limite de Quadros Secundário&quot; no arquivo de configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="194"/>
@@ -1926,7 +1926,7 @@ O FidelityFX não funciona com saída 3D estereoscópica no momento.</translatio
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="215"/>
       <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
-      <translation>Controle a intensidade da nitidez aplicada pela Super Resolução FidelityFX. Valores mais altos resultarão em uma imagem mais nítida, mas podem introduzir artefatos.</translation>
+      <translation>Controla a intensidade da nitidez aplicada pela Super Resolução FidelityFX. Valores mais altos resultarão em uma imagem mais nítida, mas podem introduzir artefatos.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="217"/>
@@ -2028,7 +2028,7 @@ Ele só deve ser redefinido se você alterar a configuração do seu hardware ou
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="235"/>
       <source>Use the game pad that is configured for player 1 to navigate in the GUI.</source>
-      <translation>Use o controle configurado para o jogador 1 para navegar na interface gráfica.</translation>
+      <translation>Usa o controle configurado do jogador 1 para navegar na interface gráfica de usuário.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="236"/>
@@ -17965,9 +17965,9 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
 
 Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU, it&apos;s recommended to try each option to find out which performs the best.</source>
-      <translation>Alterar o escalonador de threads não é compatível com CPUs com menos de %0 de threads.
+      <translation>Alterar o escalonador de threads não é compatível com CPUs com menos de %0 threads.
 
-Controle como o RPCS3 utiliza as threads do seu sistema.
+Controla como o RPCS3 utiliza as threads do seu sistema.
 Cada opção depende muito do jogo e da sua CPU; recomenda-se testar cada opção para descobrir qual oferece o melhor desempenho.</translation>
     </message>
     <message>
