@@ -1764,10 +1764,10 @@ PS3 native should only be used if Auto is not working correctly as it can introd
 Infinite adds a positive feedback loop which adds another vblank signal per frame allowing more games to be fps limitless.
 Experienced users with need of other frame limits should use the setting &quot;Second Frame Limit&quot; in the configuration file.</source>
       <translation>A opção Desligado é a mais rápida.
-Usar o limitador de quadros adicionará sobrecarga extra e deixará o jogo mais lento. No entanto, alguns jogos podem travar se a taxa de quadros for muito alta.
+Usar o limitador de quadros adicionará sobrecarga adicional e deixará o jogo mais lento. No entanto, alguns jogos podem travar se a taxa de quadros for muito alta.
 Nativa do PS3 só deve ser usada se a opção Automática não estiver funcionando corretamente, pois pode causar problemas de sincronização de quadros.
 Infinito adiciona um loop de feedback positivo que adiciona outro sinal de vblank por quadro, permitindo que mais jogos tenham taxa ilimitada de quadros.
-Usuários experientes que precisam de outros limites de quadros devem usar a configuração &quot;Limite de Quadros Secundário&quot; no arquivo de configuração.</translation>
+Usuários experientes que precisam de outros limites de quadros devem usar a configuração &quot;Second Frame Limit&quot; (Limite de Quadros Secundário) no arquivo de configuração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="194"/>
