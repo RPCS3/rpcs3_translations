@@ -10641,7 +10641,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="252"/>
       <source>Mice</source>
-      <translation>Mouse</translation>
+      <translation>Mouses</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="264"/>
@@ -16008,7 +16008,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/rsx_debugger.cpp" line="149"/>
       <source>Texture Index or Address / Format Override</source>
-      <translation>Índice da Textura ou Endereço / Sobrescrever Formato</translation>
+      <translation>Índice ou Endereço da Textura / Sobrescrever Formato</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rsx_debugger.cpp" line="221"/>
@@ -16028,7 +16028,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/rsx_debugger.cpp" line="224"/>
       <source>Index Buffer</source>
-      <translation>Buffer dos Índices</translation>
+      <translation>Catalogar Buffer</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rsx_debugger.h" line="54"/>
