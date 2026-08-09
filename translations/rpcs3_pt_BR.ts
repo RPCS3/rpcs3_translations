@@ -1356,7 +1356,7 @@ Pode introduzir problemas com oclusão quebrada, como geometria ausente e aparec
 · Prefer Color keeps the color binding when color-write is enabled and depth-write is not. Fixes missing geometry in some deferred renderers (e.g. Starhawk) at the cost of skipping depth test for that draw.
 · Prefer Depth is the same as Auto for now.</source>
       <translation>Controla como o RPCS3 resolve alvos de renderização onde a cor e a profundidade compartilham a mesma memória. Automático é recomendado para a maioria dos jogos.
-· Automático é o comportamento atual, com tendência para profundidade.
+· Automático é o comportamento atual, enviesada para profundidade.
 · Optar por Cor mantém a vinculação de cor quando a gravação de cor está habilitada e a gravação de profundidade não. Corrige a falta de geometria em alguns renderizadores diferidos (por exemplo, Starhawk) ao custo de ignorar o teste de profundidade para esse desenho.
 · Optar por Profundidade é o mesmo que Automático por enquanto.</translation>
     </message>
@@ -9900,7 +9900,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="307"/>
       <source>Texture LOD Bias Addend</source>
       <comment>Debug</comment>
-      <translation>Parcela de Tendência do LOD das Texturas</translation>
+      <translation>Parcela Enviesada do LOD das Texturas</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="308"/>
@@ -18000,7 +18000,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4685"/>
       <source>LOD Bias Offset</source>
-      <translation>Deslocamento de Tendência do LOD</translation>
+      <translation>Deslocamento Enviesado do LOD</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4714"/>
@@ -18010,7 +18010,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4726"/>
       <source>Framebuffer Aliasing Heuristic Bias</source>
-      <translation>Tendência Heurística de Serrilhamento no Buffer de Quadros</translation>
+      <translation>Viés Heurístico do Serrilhamento no Buffer de Quadros</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4738"/>
