@@ -752,7 +752,7 @@ Em caso de dúvida, não modifique esta configuração.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="33"/>
       <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
-      <translation>Encerra a gravação de qualquer registro após iniciar o jogo. Não use a menos que você acredite que seja necessário.</translation>
+      <translation>Encerra a gravação de quaisquer logs após iniciar o jogo. Não use a menos que você acredite que seja necessário.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="34"/>
@@ -939,7 +939,7 @@ Observe que o arquivo de savestate não desaparece completamente, apenas é igno
       <source>When this mode is on, SPU emulation prioritizes savestate compatibility, however, it may reduce performance slightly.
 When this mode is off, some games may not allow making a savestate and show an SPU pause error in the log.</source>
       <translation>Quando este modo está ativado, a emulação da SPU prioriza a compatibilidade com o savestate, no entanto, pode reduzir ligeiramente o desempenho.
-Quando este modo está desativado, alguns jogos podem não permitir a criação de um savestate e exibir um erro de pausa da SPU no registro.</translation>
+Quando este modo está desativado, alguns jogos podem não permitir a criação de um savestate e exibir um erro de pausa da SPU no log.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="59"/>
@@ -967,7 +967,7 @@ For games with very high framerates, this option can result in worse performance
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="62"/>
       <source>Set the minimum log levels for any log channels.</source>
-      <translation>Define os níveis mínimos de registro para quaisquer canais de registro.</translation>
+      <translation>Define os níveis mínimos de logs para quaisquer canais de registro.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="66"/>
@@ -1203,7 +1203,7 @@ NÃO a utilize sem orientação, devido à possível degradação do desempenho.
       <source>Creates PPU logs.
 Only useful to developers.
 Never use this.</source>
-      <translation>Cria registros da PPU.
+      <translation>Cria logs da PPU.
 Útil apenas para desenvolvedores.
 Nunca use isto.</translation>
     </message>
@@ -1212,7 +1212,7 @@ Nunca use isto.</translation>
       <source>Creates SPU logs.
 Only useful to developers.
 Never use this.</source>
-      <translation>Cria registros da SPU.
+      <translation>Cria logs da SPU.
 Útil apenas para desenvolvedores.
 Nunca use isto.</translation>
     </message>
@@ -1221,7 +1221,7 @@ Nunca use isto.</translation>
       <source>Creates MFC logs.
 Only useful to developers.
 Never use this.</source>
-      <translation>Cria registros do MFC.
+      <translation>Cria logs do MFC.
 Útil apenas para desenvolvedores.
 Nunca use isto.</translation>
     </message>
@@ -1942,7 +1942,7 @@ De -3 a +3 é suficiente para a maioria dos casos de uso</translation>
       <source>Sets the maximum amount of blocks that the log can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
-      <translation>Define a quantidade máxima de blocos que o registro pode exibir.
+      <translation>Define a quantidade máxima de blocos que o log pode exibir.
 Isso geralmente é igual ao número de linhas.
 Defina como 0 para remover o limite.</translation>
     </message>
@@ -5571,7 +5571,7 @@ Isso pode ser útil se o seu dispositivo não tiver botões regulares suficiente
     <message>
       <location filename="./rpcs3/rpcs3qt/game_compatibility.h" line="160"/>
       <source>There is no entry for this game or application in the compatibility database yet.</source>
-      <translation>Ainda não há nenhum registro para este jogo ou aplicativo no banco de dados de compatibilidade.</translation>
+      <translation>Ainda não há registro para este jogo ou aplicativo na base de dados de compatibilidade.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/game_compatibility.h" line="161"/>
@@ -10196,7 +10196,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="114"/>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="157"/>
       <source>Log</source>
-      <translation>Registro</translation>
+      <translation>Log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="142"/>
@@ -10301,7 +10301,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="342"/>
       <source>Stack Mode (Log)</source>
-      <translation>Modo Pilha (Registro)</translation>
+      <translation>Modo Pilha (Log)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="350"/>
@@ -10316,7 +10316,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="366"/>
       <source>Print Log/TTY while hidden</source>
-      <translation>Imprimir Registro/TTY quando oculto</translation>
+      <translation>Imprimir Log/TTY quando oculto</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="378"/>
@@ -10326,17 +10326,17 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="408"/>
       <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
-      <translation>Acesse o endereço hexadecimal selecionado a partir do texto de registro no depurador.</translation>
+      <translation>Acesse o endereço hexadecimal selecionado a partir do texto do log no depurador.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="409"/>
       <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
-      <translation>Mostrar a thread que corresponde ao ID de thread presente no texto do registro do depurador.</translation>
+      <translation>Mostrar a thread que corresponde ao ID de thread presente no texto do log do depurador.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="410"/>
       <source>Jump to the selected hexadecimal address from the log text on the memory viewer.</source>
-      <translation>Acesse o endereço hexadecimal selecionado a partir do texto de registro no visualizador de memória.</translation>
+      <translation>Acesse o endereço hexadecimal selecionado a partir do texto do log no visualizador de memória.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_frame.cpp" line="434"/>
@@ -10354,7 +10354,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_level_dialog.cpp" line="17"/>
       <source>Configure minimum log levels</source>
-      <translation>Configurar níveis mínimos de registro</translation>
+      <translation>Configurar níveis mínimos de log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_level_dialog.cpp" line="30"/>
@@ -10427,7 +10427,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="77"/>
       <source>Log Viewer%0</source>
-      <translation>Visualizador de Registro%0</translation>
+      <translation>Visualizador de Log%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="83"/>
@@ -10442,17 +10442,17 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="85"/>
       <source>&amp;Open log file</source>
-      <translation>&amp;Abrir arquivo de registro</translation>
+      <translation>&amp;Abrir arquivo de log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="86"/>
       <source>&amp;Save filtered log</source>
-      <translation>&amp;Salvar registro filtrado</translation>
+      <translation>&amp;Salvar log filtrado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="87"/>
       <source>&amp;Filter log%0</source>
-      <translation>&amp;Filtrar registro%0</translation>
+      <translation>&amp;Filtrar log%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="88"/>
@@ -10517,13 +10517,13 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="164"/>
       <source>Select log file</source>
-      <translation>Selecione arquivo de registro</translation>
+      <translation>Selecione arquivo de log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="164"/>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="173"/>
       <source>Log files (*.log *.gz);;All files (*.*)</source>
-      <translation>Arquivos de registro (*.log *.gz);;Todos os arquivos (*.*)</translation>
+      <translation>Arquivos de log(*.log *.gz);;Todos os arquivos (*.*)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="173"/>
@@ -10533,7 +10533,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="211"/>
       <source>Filter log</source>
-      <translation>Filtrar registro</translation>
+      <translation>Filtrar log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="211"/>
@@ -10909,17 +10909,17 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="694"/>
       <source>Exit and Save Log</source>
-      <translation>Sair e Salvar Registro</translation>
+      <translation>Sair e Salvar Log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="697"/>
       <source>Exit RPCS3, move the log file to a custom location</source>
-      <translation>Sair do RPCS3, mover o arquivo de registro para um local personalizado</translation>
+      <translation>Sair do RPCS3, mover o arquivo de log para um local personalizado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="700"/>
       <source>Exit the application and save the log to a user-defined location</source>
-      <translation>Sair da aplicação e salvar o registro para um local definido pelo usuário</translation>
+      <translation>Sair da aplicação e salvar o log em um local definido pelo usuário</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="705"/>
@@ -11029,7 +11029,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="820"/>
       <source>Show Log/TTY</source>
-      <translation>Mostrar Registro/TTY</translation>
+      <translation>Mostrar Log/TTY</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="825"/>
@@ -11470,7 +11470,7 @@ Assunto:</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1386"/>
       <source>Log Viewer</source>
-      <translation>Visualizador de Registro</translation>
+      <translation>Visualizador de Log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.ui" line="1397"/>
@@ -12145,7 +12145,7 @@ Adicione o RPCS3 à lista de permissões do seu antivírus ou use um software an
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1873"/>
       <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with &quot;KLIC=0x&quot; from the log message)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
-      <translation>Sugestão: KLIC (chave KLicense) é uma string de 16 bytes (32 caracteres hexadecimais, pode ser precedida por &quot;KLIC=0x&quot; da mensagem de registro).
+      <translation>Sugestão: KLIC (chave KLicense) é uma string de 16 bytes (32 caracteres hexadecimais, pode ser precedida por &quot;KLIC=0x&quot; da mensagem de log).
 É registrada com algumas funções sceNpDrm* quando o jogo/aplicativo que possui &quot;%0&quot; está em execução.</translation>
     </message>
     <message>
@@ -12267,20 +12267,20 @@ Gostaria de pré-compilar caches e instalar atalhos para o software instalado? (
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2857"/>
       <source>Failed to locate log</source>
-      <translation>Falha ao localizar registro</translation>
+      <translation>Falha ao localizar log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2857"/>
       <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
-      <translation>Falha ao localizar arquivos de registros.
+      <translation>Falha ao localizar arquivos de log.
 Certifique-se de que RPCS3.log e RPCS3.log.gz são graváveis e podem ser criados sem problemas de permissão.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2914"/>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="2937"/>
       <source>Select RPCS3&apos;s log saving location (saving %0)</source>
-      <translation>Selecione a pasta para salvar o registro do RPCS3 (salvando %0)</translation>
+      <translation>Selecione a pasta para salvar o log do RPCS3 (salvando %0)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3030"/>
@@ -12315,7 +12315,7 @@ Certifique-se de que RPCS3.log e RPCS3.log.gz são graváveis e podem ser criado
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3332"/>
       <source>Log or Config files (*.log *.gz *.txt *.yml);;Log files (*.log *.gz);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
-      <translation>Arquivos de Registro ou Configuração (*.log *.gz *.txt *.yml);;Arquivos de Registro (*.log *.gz);;Arquivos de Configuração (*.yml);;Arquivos de Texto (*.txt);;Todos os Arquivos (*.*)</translation>
+      <translation>Arquivos de Log ou Configuração (*.log *.gz *.txt *.yml);;Arquivos de Log (*.log *.gz);;Arquivos de Configuração (*.yml);;Arquivos de Texto (*.txt);;Todos os Arquivos (*.*)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="3343"/>
@@ -14202,7 +14202,7 @@ Log:
 %0</source>
       <translation>
 
-Registro:
+Log:
 %0</translation>
     </message>
     <message>
@@ -14240,7 +14240,7 @@ Log:
 %0</source>
       <translation>Não foi possível importar o arquivo de correção.
 
-Registro:
+Log:
 %0</translation>
     </message>
     <message>
@@ -14269,7 +14269,7 @@ Log:
 %0</source>
       <translation>Foram encontrados erros no arquivo de correção.
 
-Registro:
+Log:
 %0</translation>
     </message>
     <message>
@@ -14281,7 +14281,7 @@ Registro:
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1099"/>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1325"/>
       <source>To see the error log, please click &quot;Show Details&quot;.</source>
-      <translation>Para visualizar o registro de erros, clique em &quot;Mostrar detalhes&quot;.</translation>
+      <translation>Para visualizar o log de erros, clique em &quot;Mostrar Detalhes&quot;.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1166"/>
@@ -14326,7 +14326,7 @@ Log:
 %0</source>
       <translation>Foram encontrados erros no arquivo de correção baixado.
 
-Registro:
+Log:
 %0</translation>
     </message>
     <message>
@@ -16460,12 +16460,12 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="37"/>
       <source>Sort by Game</source>
-      <translation>Classificar por Jogo</translation>
+      <translation>Ordenar por Jogo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="38"/>
       <source>Sort by Date</source>
-      <translation>Classificar por Data</translation>
+      <translation>Ordenar por Data</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="43"/>
@@ -16491,17 +16491,17 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="55"/>
       <source>Sort</source>
-      <translation>Classificar</translation>
+      <translation>Ordenar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="60"/>
       <source>Filter Type</source>
-      <translation>Filtrar Tipo</translation>
+      <translation>Filtrar por Tipo</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="65"/>
       <source>Filter Game</source>
-      <translation>Filtrar Jogo</translation>
+      <translation>Filtrar por Jogo</translation>
     </message>
   </context>
   <context>
@@ -17268,7 +17268,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2546"/>
       <source>Silence All Logs</source>
-      <translation>Silenciar Todos os Registros</translation>
+      <translation>Silenciar Todos os Logs</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="2553"/>
@@ -17729,12 +17729,12 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="3986"/>
       <source>Log</source>
-      <translation>Registro</translation>
+      <translation>Log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4013"/>
       <source>Maximum log blocks (0 = no limit)</source>
-      <translation>Máximo de blocos de registros (0 = sem limite)</translation>
+      <translation>Máximo de blocos de log (0 = sem limite)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4048"/>
@@ -18015,7 +18015,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4738"/>
       <source>Log Levels</source>
-      <translation>Níveis de Registro</translation>
+      <translation>Níveis de Log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="4760"/>
@@ -18538,7 +18538,7 @@ Pré-visualização:
     <message>
       <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="75"/>
       <source>Add Log Mark</source>
-      <translation>Adicionar Marcador no Registro</translation>
+      <translation>Adicionar Marcador no Log</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/shortcut_settings.cpp" line="76"/>
@@ -19317,7 +19317,7 @@ Por favor, entre em contato com um desenvolvedor.</translation>
       <source>An error occurred during the auto-updating process.
 Check the log for more information.</source>
       <translation>Ocorreu um erro durante o processo de atualização automática.
-Confira o registro para obter mais informações.</translation>
+Confira o log para obter mais informações.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/update_manager.cpp" line="118"/>
