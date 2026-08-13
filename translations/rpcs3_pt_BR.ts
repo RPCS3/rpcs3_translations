@@ -10523,7 +10523,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="164"/>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="173"/>
       <source>Log files (*.log *.gz);;All files (*.*)</source>
-      <translation>Arquivos de log(*.log *.gz);;Todos os arquivos (*.*)</translation>
+      <translation>Arquivos de log (*.log *.gz);;Todos os arquivos (*.*)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/log_viewer.cpp" line="173"/>
