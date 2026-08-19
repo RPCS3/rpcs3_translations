@@ -2769,7 +2769,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
       <location filename="./rpcs3/rpcs3qt/breakpoint_list.cpp" line="129"/>
       <source>Cannot set breakpoints on non-interpreter decoders.</source>
-      <translation>Não é possível colocar breakpoints em decodificadores que não são interpretadores.</translation>
+      <translation>Não é possível definir breakpoints em decodificadores que não são interpretadores.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/breakpoint_list.cpp" line="139"/>
@@ -8506,7 +8506,7 @@ Espaço necessário: %0 KB</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="90"/>
       <source>The game data in %0 could not be found!</source>
       <comment>Gamedata Check Error</comment>
-      <translation>Os dados do jogo em %0 não foram encontrados!</translation>
+      <translation>Não foi possível encontrar os dados do jogo em %0!</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="91"/>
@@ -12050,7 +12050,7 @@ Por favor, aguarde...</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1507"/>
       <source>The following TAR file(s) could not be extracted:</source>
-      <translation>O(s) seguinte(s) arquivo(s) TAR não puderam ser extraído(s):</translation>
+      <translation>Não foi possível extrair o(s) seguinte(s) arquivo(s) TAR:</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/main_window.cpp" line="1524"/>
