@@ -16059,7 +16059,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/rsx_debugger.cpp" line="224"/>
       <source>Index Buffer</source>
-      <translation>Catalogar Buffer</translation>
+      <translation>Buffer de Índices</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/rsx_debugger.h" line="54"/>
