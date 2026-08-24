@@ -415,7 +415,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1012"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1013"/>
         <source>RPCS3 should never be run from a temporary location!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -426,7 +426,7 @@ Nykyinen sijainti:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1025"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1026"/>
         <source>RPCS3 should never be run from an archive!
 Please install RPCS3 in a persistent location.
 Current location:
@@ -437,7 +437,7 @@ Nykyinen sijainti:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1039"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1040"/>
         <source>RPCS3 should never be run from a OneDrive path!
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
@@ -448,22 +448,22 @@ Nykyinen sijainti:
 %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1164"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1165"/>
         <source>Invalid command-line arguments!</source>
         <translation>Virheelliset komentorivin argumentit!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1164"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1165"/>
         <source>Cannot perform multiple installations at the same time!</source>
         <translation>Useita asennuksia ei voi suorittaa samanaikaisesti!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1375"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1376"/>
         <source>Missing command-line arguments!</source>
         <translation>Komentoriviargumentit puuttuvat!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3.cpp" line="1375"/>
+        <location filename="rpcs3/rpcs3.cpp" line="1376"/>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
         <translation>Ei graafista käyttöliittymää (no-gui) - tilaa ei voi suorittaa ilman käynnistyskohdetta.
@@ -658,12 +658,12 @@ Nuppi vastapäivään</translation>
         <translation>Peruutusvaihde</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="253"/>
         <source>Tracking not supported!</source>
         <translation>Seuranta ei tuettu!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="253"/>
         <source>The PS Move tracking is not yet supported on this operating system.</source>
         <translation>PS Move -seurantaa ei vielä tueta tässä käyttöjärjestelmässä.</translation>
     </message>
@@ -5821,8 +5821,8 @@ Poistetaanko valittu (valinnainen) sisältö asemalta pysyvästi?
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="640"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="664"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="733"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1317"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1357"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1340"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
         <source>Confirm Removal</source>
         <translation>Vahvista poisto</translation>
     </message>
@@ -5926,15 +5926,15 @@ Eheyden tarkistus keskeytettiin.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="531"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1270"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1340"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1422"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1464"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1507"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1593"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1642"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1293"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1363"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1403"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1445"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1530"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1616"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1665"/>
         <source>Cancel</source>
         <translation>Peruuta</translation>
     </message>
@@ -5994,7 +5994,7 @@ Eheyden tarkistus keskeytettiin.</translation>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="720"/>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="761"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1691"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1714"/>
         <source>Warning!</source>
         <translation>Varoitus!</translation>
     </message>
@@ -6012,7 +6012,7 @@ Määrityksesi palautetaan globaaliin ohjainmääritykseen.</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="735"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1357"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
         <source>Remove custom gamepad configuration?</source>
         <translation>Poistetaanko mukautettu ohjainmääritys?</translation>
     </message>
@@ -6028,195 +6028,200 @@ Määrityksesi palautetaan globaaliin ohjainmääritykseen.</translation>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1246"/>
         <source>Confirm Creation</source>
         <translation>Vahvista luonti</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1238"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1246"/>
         <source>Create LLVM cache?</source>
         <translation>Luodaanko LLVM-välimuisti?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1259"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1270"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1250"/>
+        <source>Include PS3 Interface (XMB, or VSH)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1282"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1293"/>
         <source>LLVM Cache Batch Creation</source>
         <translation>LLVM välimuisti-erän luonti</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1259"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1282"/>
         <source>No titles found</source>
         <translation>Pelejä ei löydetty</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1268"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1291"/>
         <source>Creating all LLVM caches</source>
         <translation>Luodaan kaikki LLVM-välimuistit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1283"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1306"/>
         <source>%0
 Progress: %1/%2 caches compiled</source>
         <translation>%0
 Edistyminen: %1/%2 välimuistia koottu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1317"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1340"/>
         <source>Remove custom configuration?</source>
         <translation>Poistetaanko mukautetut asetukset?</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1336"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1340"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1359"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1363"/>
         <source>Custom Configuration Batch Removal</source>
         <translation>Mukauttujen asetusten joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1336"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1376"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1418"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1460"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1503"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1546"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1636"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1359"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1399"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1441"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1483"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1526"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1569"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1612"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1659"/>
         <source>No files found</source>
         <translation>Tiedostoja ei löytynyt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1340"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1363"/>
         <source>Removing all custom configurations</source>
         <translation>Poistetaan kaikki mukautetut asetukset</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1345"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1368"/>
         <source>%0/%1 custom configurations cleared</source>
         <translation>%0/%1 mukautettuja asetuksia poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1376"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1399"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1403"/>
         <source>Custom Gamepad Configuration Batch Removal</source>
         <translation>Mukauttujen ohjainmääritysten joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1380"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1403"/>
         <source>Removing all custom gamepad configurations</source>
         <translation>Poistetaan kaikki mukautetut ohjainmääritykset</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1385"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1408"/>
         <source>%0/%1 custom gamepad configurations cleared</source>
         <translation>%0/%1 mukautettua ohjainmääritystä poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1418"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1422"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1441"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1445"/>
         <source>Shader Cache Batch Removal</source>
         <translation>Varjostinvälimuistin joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1422"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1445"/>
         <source>Removing all shader caches</source>
         <translation>Poistetaan kaikki varjostinvälimuistit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1427"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1450"/>
         <source>%0/%1 shader caches cleared</source>
         <translation>%0/%1 varjostinvälimuistia poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1460"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1464"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1483"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
         <source>PPU Cache Batch Removal</source>
         <translation>PPU-välimuistin joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1464"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1487"/>
         <source>Removing all PPU caches</source>
         <translation>Poistetaan kaikki PPU-välimuistit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1469"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1492"/>
         <source>%0/%1 PPU caches cleared</source>
         <translation>%0/%1 PPU-välimuistia poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1503"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1507"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1526"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1530"/>
         <source>SPU Cache Batch Removal</source>
         <translation>SPU-välimuistin joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1507"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1530"/>
         <source>Removing all SPU caches</source>
         <translation>Poistetaan kaikki SPU-välimuistit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1512"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1535"/>
         <source>%0/%1 SPU caches cleared</source>
         <translation>%0/%1 SPU-välimuistia poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1546"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1569"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
         <source>HDD1 Cache Batch Removal</source>
         <translation>HDD1-välimuistin joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1550"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1573"/>
         <source>Removing all HDD1 caches</source>
         <translation>Poistetaan kaikki HDD1-välimuistit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1555"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1578"/>
         <source>%0/%1 HDD1 caches cleared</source>
         <translation>%0/%1 HDD1-välimuistia poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1589"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1593"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1612"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1616"/>
         <source>Cache Batch Removal</source>
         <translation>Välimuistin joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1593"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1616"/>
         <source>Removing all caches</source>
         <translation>Poistetaan kaikki välimuistit</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1598"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1621"/>
         <source>%0/%1 caches cleared</source>
         <translation>%0/%1 välimuistia poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1636"/>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1642"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1659"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1665"/>
         <source>Content Batch Removal</source>
         <translation>Sisällön joukkopoisto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1642"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1665"/>
         <source>Removing all contents</source>
         <translation>Poistetaan kaikki sisältö</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1647"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1670"/>
         <source>%0/%1 contents cleared</source>
         <translation>%0/%1 sisältöä poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1687"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1710"/>
         <source>Success!</source>
         <translation>Onnistui!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1687"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1710"/>
         <source>Successfully created shortcut(s).</source>
         <translation>Pikakuvakkeiden luonti onnistui.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1691"/>
+        <location filename="rpcs3/rpcs3qt/game_list_actions.cpp" line="1714"/>
         <source>Failed to create one or more shortcuts!</source>
         <translation>Yhden tai useamman pikakuvakkeen luonti epäonnistui!</translation>
     </message>
@@ -10032,174 +10037,194 @@ Aihe:</translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="330"/>
-        <source>Sort: Game Default</source>
+        <source>Sync trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="331"/>
-        <source>Sort: Not Earned</source>
+        <source>Syncing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="332"/>
-        <source>Sort: Earned Date</source>
+        <source>Synced!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="333"/>
-        <source>Sort: Grade</source>
+        <source>Sync failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="rpcs3/rpcs3qt/localized_emu.h" line="334"/>
+        <source>Sort: Game Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="335"/>
+        <source>Sort: Not Earned</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="336"/>
+        <source>Sort: Earned Date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="337"/>
+        <source>Sort: Grade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="338"/>
         <source>Audio muted</source>
         <comment>Audio</comment>
         <translation>Ääni mykistetty</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="335"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="339"/>
         <source>Audio unmuted</source>
         <comment>Audio</comment>
         <translation>Äänen mykistys poistettu</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="336"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="340"/>
         <source>Volume changed to %0</source>
         <comment>Audio</comment>
         <translation>Äänenvoimakkuus muutettu arvoon %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="337"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="341"/>
         <source>Progress:</source>
         <translation>Edistyminen:</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="338"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="342"/>
         <source>Progress: analyzing...</source>
         <translation>Edistyminen: analysoidaan...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="339"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="343"/>
         <source>remaining</source>
         <translation>jäljellä</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="340"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="344"/>
         <source>done</source>
         <translation>valmis</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="341"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="345"/>
         <source>file</source>
         <translation>tiedosto</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="342"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="346"/>
         <source>module</source>
         <translation>moduuli</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="343"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="347"/>
         <source>of</source>
         <translation>/</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="344"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="348"/>
         <source>Please wait</source>
         <translation>Odota hetki</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="345"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="349"/>
         <source>Stopping. Please wait...</source>
         <translation>Lopetetaan, odota hetki...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="346"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="350"/>
         <source>Creating savestate. Please wait...</source>
         <translation>Luodaan tilatallennusta, odota hetki...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="347"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="351"/>
         <source>Scanning PPU Executable...</source>
         <translation>Skannataan PPU-sovellustiedostoa...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="348"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="352"/>
         <source>Analyzing PPU Executable...</source>
         <translation>Analysoidaan PPU-sovellustiedostoa...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="349"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="353"/>
         <source>Scanning PPU Modules...</source>
         <translation>Skannataan PPU-moduuleja...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="350"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="354"/>
         <source>Loading PPU Modules...</source>
         <translation>Ladataan PPU-moduuleja...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="351"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="355"/>
         <source>Compiling PPU Modules...</source>
         <translation>Käännetään PPU-moduuleja...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="352"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="356"/>
         <source>Linking PPU Modules...</source>
         <translation>Yhdistetään PPU-moduuleja...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="353"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="357"/>
         <source>Applying PPU Code...</source>
         <translation>Toteutetaan PPU-koodia...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="354"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="358"/>
         <source>Building SPU Cache...</source>
         <translation>Rakennetaan SPU-välimuistia...</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="355"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="359"/>
         <source>Press and hold the START button to resume</source>
         <translation>Pidä START-näppäintä painettuna jatkaaksesi</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="356"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="360"/>
         <source>Resuming...!</source>
         <translation>Jatketaan...!</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="357"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="361"/>
         <source>The PS3 application has likely crashed, you can close it.</source>
         <translation>PS3-sovellus on todennäköisesti kaatunut. Voit sulkea sen.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="358"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="362"/>
         <source>SaveState failed: Game saving is in progress, wait until finished.</source>
         <translation>Tilatallennus epäonnistui: peliä tallennetaan, odota kunnes se on valmis.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="359"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="363"/>
         <source>SaveState failed: VDEC-based video/cutscenes are in order, wait for them to end or enable libvdec.sprx.</source>
         <translation>Tilatallennus epäonnistui: VDEC-pohjaista videota tai kohtausta toistetaan. Odota sen päättymistä tai ota libvdec.sprx käyttöön.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="360"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="364"/>
         <source>SaveState failed: Failed to lock SPU state, enabling SPU-Compatible mode may fix it.</source>
         <translation>Tilatallennus epäonnistui: SPU-tilan lukitus epäonnistui. SPU-yhteensopivan tilan käyttöönotto voi korjata sen.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="361"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="365"/>
         <source>SaveState failed: Failed to lock SPU state, using SPU ASMJIT will fix it.</source>
         <translation>Tilatallennus epäonnistui: SPU-tilan lukitus epäonnistui. SPU ASMJIT korjaa sen.</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="362"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="366"/>
         <source>Invalid</source>
         <translation>Virheellinen</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="363"/>
+        <location filename="rpcs3/rpcs3qt/localized_emu.h" line="367"/>
         <source>Unknown</source>
         <translation>Tuntematon</translation>
     </message>
@@ -14604,87 +14629,87 @@ Tarvittava levytila: %3</translation>
         <translation>Piirrä peittokuvat</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="62"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="63"/>
         <source>RGBA</source>
         <translation>RGBA</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="63"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="64"/>
         <source>RAW8</source>
         <translation>RAW8</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="76"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="77"/>
         <source>Image</source>
         <translation>Kuva</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="77"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="78"/>
         <source>Grayscale</source>
         <translation>Harmaasävy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="78"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="79"/>
         <source>HSV Hue</source>
         <translation>HSV sävy</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="79"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="80"/>
         <source>HSV Saturation</source>
         <translation>HSV värikylläisyys</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="80"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="81"/>
         <source>HSV Value</source>
         <translation>HSV kirkkaus</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="81"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="82"/>
         <source>Binary</source>
         <translation>Binääri</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="82"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="83"/>
         <source>Contours</source>
         <translation>Ääriviivat</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="94"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="95"/>
         <source>Hues</source>
         <translation>Värisävyt</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="203"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="204"/>
         <source>PS Move #%0</source>
         <translation>PS Move %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="280"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="346"/>
         <source>Color: R=%0, G=%1, B=%2</source>
         <translation>Väri: R=%0, G =%1, B =%2</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="320"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="386"/>
         <source>Hue: %0</source>
         <translation>Värisävy: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="340"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="406"/>
         <source>Hue Threshold: %0</source>
         <translation>Värisävyn kynnys: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="351"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="417"/>
         <source>Saturation Threshold: %0</source>
         <translation>Värikylläisyyden kynnys: %0</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="361"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="427"/>
         <source>Min Radius: %0 %</source>
         <translation>Minimi säde: %0 %</translation>
     </message>
     <message>
-        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="371"/>
+        <location filename="rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="437"/>
         <source>Max Radius: %0 %</source>
         <translation>Maksimi säde: %0 %</translation>
     </message>
