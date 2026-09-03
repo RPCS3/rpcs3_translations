@@ -839,9 +839,9 @@ Isso aumenta o uso da CPU. Esta configuração é vantajosa para CPUs com muitos
 · Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
 · Relaxed changes the synchronization method completely and can greatly improve performance in some games or completely break others.</source>
       <translation>Altera o comportamento de sincronização reportado pelo ZCULL. Experimente para encontrar a melhor opção para o seu jogo. O modo aproximado é recomendado para a maioria dos jogos.
-· O modo Rigoroso é o mais fiel ao comportamento do PS3. Necessário para imagens precisas em alguns títulos, como Demon&apos;s Souls e The Darkness.
-· O modo Aproximado é uma maneira muito mais rápida de gerar dados de oclusão, que podem nem sempre corresponder ao que o PS3 geraria. Funciona bem com a maioria dos jogos de PS3.
-· o modo Atenuado altera completamente o método de sincronização e pode melhorar muito o desempenho em alguns jogos ou causar problemas em outros.</translation>
+· Rigoroso é o mais fiel ao comportamento do PS3. Necessário para imagens precisas em alguns títulos, como Demon&apos;s Souls e The Darkness.
+· Aproximado é uma maneira muito mais rápida de gerar dados de oclusão, que podem nem sempre corresponder ao que o PS3 geraria. Funciona bem com a maioria dos jogos de PS3.
+· Atenuado altera completamente o método de sincronização e pode melhorar muito o desempenho em alguns jogos ou causar problemas em outros.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="47"/>
