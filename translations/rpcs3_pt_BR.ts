@@ -3291,13 +3291,13 @@ Algumas configurações parecem divergir da configuração padrão:</translation
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="276"/>
       <source>Pause All Threads On Hit</source>
-      <translation>Pausar Todas as Threads no Êxito</translation>
+      <translation>Pausar Todas as Threads na Ocorrência</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/debugger_frame.cpp" line="279"/>
       <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-      <translation>Quando definido: um breakpoint será atingido, a emulação será pausada em vez da thread atual.
+      <translation>Quando definido: um breakpoint ocorre, a emulação será pausada em vez da thread atual.
 Aplica-se a todos os breakpoints em todas as threads, independentemente de terem sido definidos antes ou depois de alterar esta configuração.</translation>
     </message>
     <message>
