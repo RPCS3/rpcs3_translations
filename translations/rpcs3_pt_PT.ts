@@ -1419,7 +1419,8 @@ Além disso, quando combinados com a SPU DMA Precisa, os acessos às linhas de "
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="115"/>
       <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
-      <translation type="unfinished"/>
+      <translation>Força adiamento dos comandos MFC ímpares, esperando por pelo menos dois comandos pendentes para os executar numa ordem aleatória.
+Afeta severamente o desempenho! Em caso de dúvida, não uses esta opção.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="116"/>
@@ -2935,27 +2936,27 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="26"/>
       <source>Choose Avatar - User %0</source>
-      <translation type="unfinished"/>
+      <translation>Escolher avatar - Utilizador %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="54"/>
       <source>&amp;Browse PNG...</source>
-      <translation type="unfinished"/>
+      <translation>&amp;Procurar PNG...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="56"/>
       <source>Use a PNG image as avatar.</source>
-      <translation type="unfinished"/>
+      <translation>Usar uma imagem PNG como avatar.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="58"/>
       <source>Use &amp;Default Avatar</source>
-      <translation type="unfinished"/>
+      <translation>Usar avatar &amp;padrão</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="61"/>
       <source>&amp;Select</source>
-      <translation type="unfinished"/>
+      <translation>&amp;Selecionar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="64"/>
@@ -2965,33 +2966,35 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="223"/>
       <source>Current avatar: Default</source>
-      <translation type="unfinished"/>
+      <translation>Avatar atual: Padrão</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="227"/>
       <source>Current avatar:
 %0</source>
-      <translation type="unfinished"/>
+      <translation>Avatar atual:
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="235"/>
       <source>No PSN avatars are installed for this user. You can install avatar packages (PKG) with File &gt; Install Packages/Raps/Edats.</source>
-      <translation type="unfinished"/>
+      <translation>Não existem avatares da PSN instalados para este utilizador.
+Podes instalar pacotes de avatares (PKG) com ficheiro &gt; Instalar Pacotes/Raps/Edats.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="243"/>
       <source>Loading avatars... %0 / %1</source>
-      <translation type="unfinished"/>
+      <translation>A carregar avatares... %0 / %1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="247"/>
       <source>%0 avatars available.</source>
-      <translation type="unfinished"/>
+      <translation>%0 avatares disponíveis.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="252"/>
       <source>%0 avatars are hidden because their RAP license is missing or they could not be decrypted.</source>
-      <translation type="unfinished"/>
+      <translation>%0 avatares foram ocultados porque a licença RAP está ausente ou não pode ser desencriptada.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="262"/>
@@ -3003,12 +3006,13 @@ Restart of the game is required to apply. You can enable/disable this in the set
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="262"/>
       <source>Failed to load the avatar:
 %0</source>
-      <translation type="unfinished"/>
+      <translation>Falha ao carregar o avatar:
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="268"/>
       <source>Failed to save the avatar of user %0.</source>
-      <translation type="unfinished"/>
+      <translation>Falha ao guardar o avatar do utilizador %0.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="277"/>
@@ -15263,7 +15267,7 @@ Hold the PS Move still in front of the camera.</source>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="228"/>
       <source>Calibrate</source>
-      <translation type="unfinished"/>
+      <translation>Calibrar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="238"/>
@@ -15418,12 +15422,12 @@ Hold the PS Move still in front of the camera.</source>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="843"/>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="846"/>
       <source>Calibration failed</source>
-      <translation type="unfinished"/>
+      <translation>A calibração falhou</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="797"/>
       <source>The color of the sphere was changed during the calibration.</source>
-      <translation type="unfinished"/>
+      <translation>A cor da esfera foi alterada durante a calibração.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="819"/>
@@ -15451,7 +15455,7 @@ Warning: %0% of the background has a similar color. This may disturb the trackin
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="833"/>
       <source>Calibration finished</source>
-      <translation type="unfinished"/>
+      <translation>Calibração concluída</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="837"/>
@@ -15479,7 +15483,7 @@ The sphere may be too bright. Try to reduce the brightness of the sphere or move
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="962"/>
       <source>%0: H=%1 (hue +/-%2, S &gt;= %3, V &gt;= %4)</source>
-      <translation type="unfinished"/>
+      <translation>%0: H=%1 (hue +/-%2, S &gt;= %3, V &gt;= %4)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="966"/>
@@ -15489,17 +15493,17 @@ The sphere may be too bright. Try to reduce the brightness of the sphere or move
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="971"/>
       <source>%0: -</source>
-      <translation type="unfinished"/>
+      <translation>%0: -</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="982"/>
       <source>Calibrated</source>
-      <translation type="unfinished"/>
+      <translation>Calibrado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="983"/>
       <source>Measured</source>
-      <translation type="unfinished"/>
+      <translation>Medido</translation>
     </message>
   </context>
   <context>
@@ -20802,7 +20806,7 @@ Verifica o registo para mais informações.</translation>
       <location filename="./rpcs3/rpcs3qt/user_manager_dialog.cpp" line="73"/>
       <location filename="./rpcs3/rpcs3qt/user_manager_dialog.cpp" line="443"/>
       <source>Change &amp;Avatar</source>
-      <translation type="unfinished"/>
+      <translation>Mudar &amp;avatar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/user_manager_dialog.cpp" line="76"/>
