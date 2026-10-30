@@ -3017,12 +3017,12 @@ Podes instalar pacotes de avatares (PKG) com ficheiro &gt; Instalar Pacotes/Raps
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="277"/>
       <source>Select Avatar Image</source>
-      <translation type="unfinished"/>
+      <translation>Seleciona a imagem do avatar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="277"/>
       <source>Avatar Images (*.png *.edat);;All Files (*)</source>
-      <translation type="unfinished"/>
+      <translation>Imagens do avatar (*.png *.edat);;Todos os ficheiros (*)</translation>
     </message>
   </context>
   <context>
@@ -15262,7 +15262,10 @@ Espaço livre necessário: %3</translation>
 The calibrated hue is used instead of the configured hue until the color of the sphere changes.
 The thresholds are replaced by the calibrated thresholds.
 Hold the PS Move still in front of the camera.</source>
-      <translation type="unfinished"/>
+      <translation>Permite à esfera piscar e medir a matiz e os limites observados pela câmara.
+A matiz calibrada é usada em vez da matiz pré-definida até que a cor da esfera mude.
+Os limites são substituídos pelos limites calibrados.
+Mantém o PS Move imóvel em frente à câmara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="228"/>
@@ -15388,7 +15391,7 @@ Hold the PS Move still in front of the camera.</source>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="429"/>
       <source>Hue: %0 (calibrated: %1)</source>
-      <translation type="unfinished"/>
+      <translation>Matiz: %0 (calibrado: %1)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="433"/>
@@ -15443,14 +15446,27 @@ Value: %6
 
 The calibrated hue and thresholds are used until the color of the sphere changes.
 Save the settings to keep them.</source>
-      <translation type="unfinished"/>
+      <translation>A câmara deteta a esfera do PS Move Nº %0 com:
+Matiz: %1
+Saturação: %2
+Valor: %3
+
+Limites calibrados:
+Matiz: %4
+Saturação: %5
+Valor: %6
+
+A matiz e os limites calibrados são usados até à mudança de cor da esfera.
+Guarda as configurações para as manteres.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="830"/>
       <source>
 
 Warning: %0% of the background has a similar color. This may disturb the tracking.</source>
-      <translation type="unfinished"/>
+      <translation>
+
+Aviso: %0% do fundo tem uma cor semelhante. Isto pode afetar o rastreamento.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="833"/>
@@ -15460,25 +15476,28 @@ Warning: %0% of the background has a similar color. This may disturb the trackin
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="837"/>
       <source>The camera images could not be used.</source>
-      <translation type="unfinished"/>
+      <translation>Não foi possível usar as imagens da câmara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="840"/>
       <source>The sphere could not be found.
 Make sure that the PS Move is connected and that its sphere is visible to the camera.</source>
-      <translation type="unfinished"/>
+      <translation>Não foi possível encontrar a esfera.
+Certifica-te que o PS Move está conectado e que a esfera é visível pela câmara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="843"/>
       <source>The blinking area is not round.
 Hold the PS Move still while it is blinking and make sure that nothing else changes in front of the camera.</source>
-      <translation type="unfinished"/>
+      <translation>A área que pisca não é redonda.
+Mantém o PS Move imóvel enquanto este estiver a piscar e certifica-te que nada mais muda em frente à câmara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="846"/>
       <source>The sphere has almost no color in the camera image.
 The sphere may be too bright. Try to reduce the brightness of the sphere or move it further away from the camera.</source>
-      <translation type="unfinished"/>
+      <translation>A esfera quase não tem cor na imagem da câmara.
+A esfera pode estar demasiado luminosa. Tenta reduzir o brilho da esfera ou afasta-a da câmara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="962"/>
@@ -15488,7 +15507,7 @@ The sphere may be too bright. Try to reduce the brightness of the sphere or move
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="966"/>
       <source>%0: H=%1 S=%2 V=%3</source>
-      <translation type="unfinished"/>
+      <translation>%0: H=%1 S=%2 V=%3</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="971"/>
