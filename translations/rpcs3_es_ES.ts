@@ -1399,7 +1399,8 @@ Además, si se utiliza conjuntamente con DMA de la SPU preciso, los accesos a la
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="115"/>
       <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Severely degrades performance! If unsure, don&apos;t use this option.</source>
-      <translation type="unfinished"/>
+      <translation>Fuerza el retraso de cualquier comando MFC impar y espera a que haya al menos 2 comandos pendientes para ejecutarlos en un orden aleatorio.
+¡Reduce en gran medida el rendimiento! En caso de duda, no uses esta opción.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="116"/>
