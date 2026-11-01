@@ -2911,27 +2911,27 @@ Es necesario reiniciar el juego para aplicar los cambios. Puedes activar o desac
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="26"/>
       <source>Choose Avatar - User %0</source>
-      <translation type="unfinished"/>
+      <translation>Elegir avatar - Usuario %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="54"/>
       <source>&amp;Browse PNG...</source>
-      <translation type="unfinished"/>
+      <translation>&amp;Buscar PNG...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="56"/>
       <source>Use a PNG image as avatar.</source>
-      <translation type="unfinished"/>
+      <translation>Usar una imagen PNG como avatar.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="58"/>
       <source>Use &amp;Default Avatar</source>
-      <translation type="unfinished"/>
+      <translation>Usar avatar &amp;predeterminado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="61"/>
       <source>&amp;Select</source>
-      <translation type="unfinished"/>
+      <translation>&amp;Seleccionar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="64"/>
@@ -2941,33 +2941,34 @@ Es necesario reiniciar el juego para aplicar los cambios. Puedes activar o desac
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="223"/>
       <source>Current avatar: Default</source>
-      <translation type="unfinished"/>
+      <translation>Avatar actual: Predeterminado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="227"/>
       <source>Current avatar:
 %0</source>
-      <translation type="unfinished"/>
+      <translation>Avatar actual:
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="235"/>
       <source>No PSN avatars are installed for this user. You can install avatar packages (PKG) with File &gt; Install Packages/Raps/Edats.</source>
-      <translation type="unfinished"/>
+      <translation>Este usuario no tiene avatares de PSN instalados. Puedes instalar paquetes de avatares (PKG) en Archivo &gt; Instalar paquetes/RAPs/EDATs.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="243"/>
       <source>Loading avatars... %0 / %1</source>
-      <translation type="unfinished"/>
+      <translation>Cargando avatares... %0/%1</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="247"/>
       <source>%0 avatars available.</source>
-      <translation type="unfinished"/>
+      <translation>%0 avatares disponibles.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="252"/>
       <source>%0 avatars are hidden because their RAP license is missing or they could not be decrypted.</source>
-      <translation type="unfinished"/>
+      <translation>Se han ocultado %0 avatares porque falta su licencia RAP o no se han podido descifrar.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="262"/>
@@ -2979,22 +2980,23 @@ Es necesario reiniciar el juego para aplicar los cambios. Puedes activar o desac
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="262"/>
       <source>Failed to load the avatar:
 %0</source>
-      <translation type="unfinished"/>
+      <translation>Error al cargar el avatar:
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="268"/>
       <source>Failed to save the avatar of user %0.</source>
-      <translation type="unfinished"/>
+      <translation>Error al guardar el avatar del usuario %0.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="277"/>
       <source>Select Avatar Image</source>
-      <translation type="unfinished"/>
+      <translation>Seleccionar imagen de avatar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/avatar_selection_dialog.cpp" line="277"/>
       <source>Avatar Images (*.png *.edat);;All Files (*)</source>
-      <translation type="unfinished"/>
+      <translation>Imágenes de avatar (*.png *.edat);;Todos los archivos (*.*)</translation>
     </message>
   </context>
   <context>
@@ -15225,12 +15227,15 @@ Espacio necesario en disco: %3</translation>
 The calibrated hue is used instead of the configured hue until the color of the sphere changes.
 The thresholds are replaced by the calibrated thresholds.
 Hold the PS Move still in front of the camera.</source>
-      <translation type="unfinished"/>
+      <translation>Ilumina la esfera para medir su tono y los niveles de brillo de la cámara.
+Se utilizará el tono calibrado en vez del configurado hasta que cambie el color de la esfera.
+Se cambiarán los niveles por los calibrados.
+Sostén el mando PS Move delante de la cámara y mantenlo quieto.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="228"/>
       <source>Calibrate</source>
-      <translation type="unfinished"/>
+      <translation>Calibrar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="238"/>
@@ -15351,7 +15356,7 @@ Hold the PS Move still in front of the camera.</source>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="429"/>
       <source>Hue: %0 (calibrated: %1)</source>
-      <translation type="unfinished"/>
+      <translation>Tono: %0 (calibrado: %1)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="433"/>
@@ -15385,12 +15390,12 @@ Hold the PS Move still in front of the camera.</source>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="843"/>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="846"/>
       <source>Calibration failed</source>
-      <translation type="unfinished"/>
+      <translation>Error al calibrar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="797"/>
       <source>The color of the sphere was changed during the calibration.</source>
-      <translation type="unfinished"/>
+      <translation>El color de la esfera cambió durante la calibración.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="819"/>
@@ -15406,67 +15411,83 @@ Value: %6
 
 The calibrated hue and thresholds are used until the color of the sphere changes.
 Save the settings to keep them.</source>
-      <translation type="unfinished"/>
+      <translation>La cámara ve la esfera del mando PS Move %0 con estos valores:
+Tono: %1
+Saturación: %2
+Valor: %3
+
+Niveles calibrados:
+Tono: %4
+Saturación: %5
+Valor: %6
+
+Se utilizarán el tono y niveles calibrados hasta que cambie el color de la esfera.
+Guarda esta configuración para conservarla.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="830"/>
       <source>
 
 Warning: %0% of the background has a similar color. This may disturb the tracking.</source>
-      <translation type="unfinished"/>
+      <translation>
+
+Advertencia: un %0 % del fondo tiene un color similar. Podría afectar al seguimiento del mando.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="833"/>
       <source>Calibration finished</source>
-      <translation type="unfinished"/>
+      <translation>Calibración finalizada</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="837"/>
       <source>The camera images could not be used.</source>
-      <translation type="unfinished"/>
+      <translation>No se han podido usar las imágenes de la cámara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="840"/>
       <source>The sphere could not be found.
 Make sure that the PS Move is connected and that its sphere is visible to the camera.</source>
-      <translation type="unfinished"/>
+      <translation>No se ha encontrado la esfera.
+Asegúrate de que el mando PS Move esté conectado y de que su esfera sea visible para la cámara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="843"/>
       <source>The blinking area is not round.
 Hold the PS Move still while it is blinking and make sure that nothing else changes in front of the camera.</source>
-      <translation type="unfinished"/>
+      <translation>La zona parpadeante no es redonda.
+Sostén el mando PS Move delante de la cámara y mantenlo quieto mientras esté parpadeando, procurando que no cambie nada más de lo que vea la cámara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="846"/>
       <source>The sphere has almost no color in the camera image.
 The sphere may be too bright. Try to reduce the brightness of the sphere or move it further away from the camera.</source>
-      <translation type="unfinished"/>
+      <translation>La esfera apenas tiene color en la imagen de la cámara.
+Es posible que su luz sea muy fuerte. Intenta reducir el brillo de la esfera o aleja el mando de la cámara.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="962"/>
       <source>%0: H=%1 (hue +/-%2, S &gt;= %3, V &gt;= %4)</source>
-      <translation type="unfinished"/>
+      <translation>%0: H=%1 (tono +/-%2, S &gt;= %3, V &gt;= %4)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="966"/>
       <source>%0: H=%1 S=%2 V=%3</source>
-      <translation type="unfinished"/>
+      <translation>%0: H=%1 S=%2 V=%3</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="971"/>
       <source>%0: -</source>
-      <translation type="unfinished"/>
+      <translation>%0: -</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="982"/>
       <source>Calibrated</source>
-      <translation type="unfinished"/>
+      <translation>Calibrado</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="983"/>
       <source>Measured</source>
-      <translation type="unfinished"/>
+      <translation>Medido</translation>
     </message>
   </context>
   <context>
@@ -20771,7 +20792,7 @@ Revisa el registro para saber más.</translation>
       <location filename="./rpcs3/rpcs3qt/user_manager_dialog.cpp" line="73"/>
       <location filename="./rpcs3/rpcs3qt/user_manager_dialog.cpp" line="443"/>
       <source>Change &amp;Avatar</source>
-      <translation type="unfinished"/>
+      <translation>Cambiar &amp;avatar</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/user_manager_dialog.cpp" line="76"/>
