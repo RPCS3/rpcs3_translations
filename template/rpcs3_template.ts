@@ -640,114 +640,114 @@ Dial CCW</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="569"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="570"/>
         <source>The disc image &apos;%0&apos; is encrypted and the key file found for it does not decrypt it: it belongs to another disc.&lt;br&gt;&lt;br&gt;Replace it with the right key file, &apos;%1.dkey&apos; or &apos;%1.key&apos;, next to the image or in the Redump keys folder:&lt;br&gt;&apos;%2&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="572"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="573"/>
         <source>The disc is encrypted and the key file found for it does not decrypt it: it belongs to another disc.&lt;br&gt;&lt;br&gt;Replace it with the right key file (.dkey or .key) in the Redump keys folder:&lt;br&gt;&apos;%0&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="578"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="579"/>
         <source>The disc image &apos;%0&apos; is encrypted and no key to read it back was found.&lt;br&gt;&lt;br&gt;Put its key file &apos;%1.dkey&apos; or &apos;%1.key&apos; next to the image or in the Redump keys folder:&lt;br&gt;&apos;%2&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="584"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="585"/>
         <source>The disc on BD Drive is encrypted and no key to read it back was found.&lt;br&gt;&lt;br&gt;Put its key file (.dkey or .key) in the Redump keys folder:&lt;br&gt;&apos;%0&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="589"/>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="672"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="590"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="673"/>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="598"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="599"/>
         <source>Open keys folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="620"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="621"/>
         <source>No bootable content was found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="623"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="624"/>
         <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="626"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="627"/>
         <source>The selected file or folder is invalid or corrupted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="629"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="630"/>
         <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="632"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="633"/>
         <source>Additional content could not be installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="635"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="636"/>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="638"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="639"/>
         <source>The emulator could not create files required for booting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="641"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="642"/>
         <source>This disc type is not supported yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="646"/>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="675"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="647"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="676"/>
         <source>Boot Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="649"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="650"/>
         <source>Savestate data is corrupted or it&apos;s not an RPCS3 savestate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="652"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="653"/>
         <source>Savestate versioning data differs from your RPCS3 build.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="655"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="656"/>
         <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="658"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="659"/>
         <source>The game or PS3 application needs a more recent firmware version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="661"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="662"/>
         <source>Could not find any configuration for this game in the database.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="669"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="670"/>
         <source>Unknown error.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="679"/>
+        <location filename="./rpcs3/rpcs3qt/qt_utils.cpp" line="680"/>
         <source>Booting failed: %1 %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1791,14 +1791,14 @@ Use this if you do not want to deal with graphics pop-in, or for testing before 
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="210"/>
-        <source>This is the recommended option.
-If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
+        <source>If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/tooltips.h" line="211"/>
-        <source>Hybrid rendering mode.
+        <source>This is the recommended option.
+Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5743,13 +5743,13 @@ Permanently remove selected (optional) contents from drive?
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="297"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="902"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1051"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1111"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1135"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1204"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1815"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1855"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="904"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1053"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1113"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1137"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1206"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1817"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1857"/>
         <source>Confirm Removal</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5812,7 +5812,7 @@ Match found on &apos;%0&apos; DB:
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="503"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="695"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="697"/>
         <source>Integrity check aborted!
 
 Hash calculation failed!</source>
@@ -5820,7 +5820,7 @@ Hash calculation failed!</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="508"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="715"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="717"/>
         <source>Integrity check completed!
 
 %0</source>
@@ -5829,8 +5829,8 @@ Hash calculation failed!</source>
     <message>
         <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="519"/>
         <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="524"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="725"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="730"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="727"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="732"/>
         <source>Game Integrity</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5841,15 +5841,15 @@ Hash calculation failed!</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="534"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1768"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1838"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1878"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1920"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1962"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2005"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2048"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2091"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2140"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1770"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1840"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1880"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1922"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1964"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2007"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2050"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2093"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2142"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5859,31 +5859,31 @@ Hash calculation failed!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="582"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="584"/>
         <source>Select the IRD file of the game</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="583"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="585"/>
         <source>IRD files (*.ird *.IRD);;All files (*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="614"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="616"/>
         <source>Game check PASSED
 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="614"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="616"/>
         <source>Game check NOT PASSED
 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="616"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="618"/>
         <source>Summary:
  - %0: %1
  - Game: %2 [%3]
@@ -5893,135 +5893,135 @@ Hash calculation failed!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="618"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="620"/>
         <source>ISO</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="618"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="620"/>
         <source>Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="634"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="636"/>
         <source>
 
 NOTE: no key file was found for this encrypted image, so it was read back through the key stored in the IRD file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="640"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="642"/>
         <source>
 
 WARNING: the IRD file belongs to another game!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="646"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="648"/>
         <source>
 
 WARNING: the IRD file is corrupted (wrong CRC32)!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="657"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="659"/>
         <source>[VALID, TO BE REBUILT] %0
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="660"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="662"/>
         <source>[INVALID] %0
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="671"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="673"/>
         <source>[MISSING] %0
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="674"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="676"/>
         <source>[NOT REQUIRED] %0
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="681"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="683"/>
         <source>
 
 NOTE: %0 file(s) match the disc only once rebuilt (e.g. a missing license file or a firmware update not padded to its size on the disc)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="689"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="691"/>
         <source>
 
 NOTE: only the firmware update is missing. All the game data matches the disc</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="698"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="700"/>
         <source>Integrity check failed!
 
 &apos;%0&apos; does not hold a PS3 game</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="701"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="703"/>
         <source>Integrity check failed!
 
 Failed to open the ISO file: &apos;%0&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="709"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="711"/>
         <source>Integrity check failed!
 
 Failed to parse the IRD file: &apos;%0&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="726"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="728"/>
         <source>Integrity check failed!&lt;br&gt;&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="773"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="775"/>
         <source>
     %0: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="778"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="780"/>
         <source>
   VFS disk usage: %0%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="780"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="782"/>
         <source>
   Cache disk usage: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="786"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="788"/>
         <source>Disk usage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="860"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="862"/>
         <source>Create Game Collection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="880"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="882"/>
         <source>Rename &apos;%0&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="898"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="900"/>
         <source>Remove the game collection &apos;%0&apos;?
 
 Its %Ln game(s) will no longer be assigned to any collection.</source>
@@ -6030,305 +6030,305 @@ Its %Ln game(s) will no longer be assigned to any collection.</source>
         </translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="900"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="902"/>
         <source>Remove the game collection &apos;%0&apos;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="947"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="949"/>
         <source>&amp;Add to Collection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="950"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="952"/>
         <source>&amp;Create and Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="981"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="983"/>
         <source>&amp;Remove from Collection &apos;%0&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="994"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="996"/>
         <source>Collection name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1018"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1020"/>
         <source>&apos;%0&apos; is not a valid collection name.
 
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1025"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1027"/>
         <source>&apos;%0&apos; is reserved for the default game collection entry. Please choose another name.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1032"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1034"/>
         <source>&apos;%0&apos; clashes with an existing game collection. Names are not case sensitive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1048"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1050"/>
         <source>Remove %Ln game(s) from the &apos;%0&apos; game collection?</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1104"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1126"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1106"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1128"/>
         <source>Removal Aborted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1105"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1107"/>
         <source>Removal of %0 not allowed due to %1 title is running!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1111"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1135"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1113"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1137"/>
         <source>Remove %0?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1127"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1129"/>
         <source>Removal of %0 not allowed due to emulator is running!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1191"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1232"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2189"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1193"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1234"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2191"/>
         <source>Warning!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1191"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1193"/>
         <source>Failed to remove configuration file!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1205"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1207"/>
         <source>Remove custom gamepad configuration?
 Your configuration will revert to the global pad settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1206"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1855"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1208"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1857"/>
         <source>Remove custom gamepad configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1232"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1234"/>
         <source>Failed to completely remove gamepad configuration directory!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1647"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1689"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1649"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1691"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1721"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1723"/>
         <source>Confirm Creation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1721"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1723"/>
         <source>Create LLVM cache?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1725"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1727"/>
         <source>Include PS3 Interface (XMB, or VSH)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1757"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1768"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1759"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1770"/>
         <source>LLVM Cache Batch Creation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1757"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1759"/>
         <source>No titles found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1766"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1768"/>
         <source>Creating all LLVM caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1781"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1783"/>
         <source>%0
 Progress: %1/%2 caches compiled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1815"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1817"/>
         <source>Remove custom configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1834"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1838"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1836"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1840"/>
         <source>Custom Configuration Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1834"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1874"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1916"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1958"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2001"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2044"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2087"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2134"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1836"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1876"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1918"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1960"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2003"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2046"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2089"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2136"/>
         <source>No files found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1838"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1840"/>
         <source>Removing all custom configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1843"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1845"/>
         <source>%0/%1 custom configurations cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1874"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1878"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1876"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1880"/>
         <source>Custom Gamepad Configuration Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1878"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1880"/>
         <source>Removing all custom gamepad configurations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1883"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1885"/>
         <source>%0/%1 custom gamepad configurations cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1916"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1920"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1918"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1922"/>
         <source>Shader Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1920"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1922"/>
         <source>Removing all shader caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1925"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1927"/>
         <source>%0/%1 shader caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1958"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1962"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1960"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1964"/>
         <source>PPU Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1962"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1964"/>
         <source>Removing all PPU caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1967"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="1969"/>
         <source>%0/%1 PPU caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2001"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2005"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2003"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2007"/>
         <source>SPU Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2005"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2007"/>
         <source>Removing all SPU caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2010"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2012"/>
         <source>%0/%1 SPU caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2044"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2048"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2046"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2050"/>
         <source>HDD1 Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2048"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2050"/>
         <source>Removing all HDD1 caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2053"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2055"/>
         <source>%0/%1 HDD1 caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2087"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2091"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2089"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2093"/>
         <source>Cache Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2091"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2093"/>
         <source>Removing all caches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2096"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2098"/>
         <source>%0/%1 caches cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2134"/>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2140"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2136"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2142"/>
         <source>Content Batch Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2140"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2142"/>
         <source>Removing all contents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2145"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2147"/>
         <source>%0/%1 contents cleared</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2185"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2187"/>
         <source>Success!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2185"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2187"/>
         <source>Successfully created shortcut(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2189"/>
+        <location filename="./rpcs3/rpcs3qt/game_list_actions.cpp" line="2191"/>
         <source>Failed to create one or more shortcuts!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7344,12 +7344,12 @@ The 4 GB guest_memory.bin file is sparse: its file offset equals the PS3 guest a
 <context>
     <name>gui_application</name>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="125"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="120"/>
         <source>Experimental Build Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="130"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="125"/>
         <source>Please understand that this build is not an official RPCS3 release.
 This build contains changes that may break games, or even &lt;b&gt;damage&lt;/b&gt; your data.
 We recommend to download and use the official build from the %0.
@@ -7359,18 +7359,18 @@ Do you wish to use this build anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="137"/>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="179"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="132"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="174"/>
         <source>RPCS3 website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="166"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="161"/>
         <source>Unofficial Build Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="171"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="166"/>
         <source>Warning! You&apos;re running an unofficial %0 build of RPCS3.
 You will get no official support for this build.
 Issues opened on the RPCS3 GitHub related to %0 builds are not allowed and will be closed.
@@ -7380,31 +7380,31 @@ Do you wish to use this build anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="207"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="202"/>
         <source>Vulkan Check Timeout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="208"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="203"/>
         <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
 
 Selecting ignore starts the emulator without Vulkan support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="254"/>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="264"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="251"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="261"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="255"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="252"/>
         <source>Vulkan is not supported on this Mac.
 No graphics will be rendered.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="265"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="262"/>
         <source>The current limit of maximum file descriptors is too low.
 Some games will crash.
 
@@ -7412,54 +7412,54 @@ Please increase the limit before running RPCS3.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="972"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="959"/>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="985"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="972"/>
         <source>PS3 Game/Application Is Unresponsive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="989"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="976"/>
         <source>Terminate RPCS3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="990"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="977"/>
         <source>Keep Waiting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="992"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="979"/>
         <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1031"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1018"/>
         <source>Creating Save-State / Do Not Close RPCS3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1031"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1018"/>
         <source>Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1031"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1018"/>
         <source>Hide Progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1036"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1023"/>
         <source>%0 written, %1 second(s) passed%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1095"/>
+        <location filename="./rpcs3/rpcs3qt/gui_application.cpp" line="1082"/>
         <source>If Stuck, Report To Developers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7510,7 +7510,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
 <context>
     <name>headless_application</name>
     <message>
-        <location filename="./rpcs3/headless_application.cpp" line="153"/>
+        <location filename="./rpcs3/headless_application.cpp" line="154"/>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
         <translation type="unfinished"></translation>
@@ -8008,17 +8008,17 @@ File was too small.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="852"/>
+        <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="868"/>
         <source>IO-EA Table</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="853"/>
+        <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="869"/>
         <source>Zcull Bindings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="854"/>
+        <location filename="./rpcs3/rpcs3qt/kernel_explorer.cpp" line="870"/>
         <source>Display Buffers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8047,13 +8047,13 @@ File was too small.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="13"/>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="379"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="380"/>
         <source>Select</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="14"/>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="377"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="378"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9598,700 +9598,706 @@ Subject:</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="253"/>
-        <source>Resolution Scale</source>
+        <source>Graphics Renderer</source>
         <comment>Video</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="254"/>
-        <source>Resolution Scale Threshold</source>
+        <source>Resolution Scale</source>
         <comment>Video</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="255"/>
-        <source>Stretch To Display Area</source>
+        <source>Resolution Scale Threshold</source>
         <comment>Video</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="256"/>
-        <source>Stereo Mode</source>
+        <source>Stretch To Display Area</source>
         <comment>Video</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="257"/>
-        <source>Input</source>
+        <source>Stereo Mode</source>
+        <comment>Video</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="258"/>
+        <source>Input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="259"/>
         <source>Background Input Enabled</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="259"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="260"/>
         <source>Keep Pads Connected</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="260"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="261"/>
         <source>Show PS Move Cursor</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="261"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="262"/>
         <source>Camera Flip</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="262"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="263"/>
         <source>Pad Handler Mode</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="263"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="264"/>
         <source>Pad Handler Sleep</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="264"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="265"/>
         <source>Fake PS Move Rotation Cone (Horizontal)</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="265"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="266"/>
         <source>Fake PS Move Rotation Cone (Vertical)</source>
         <comment>Input</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="266"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="267"/>
         <source>Advanced</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="267"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="268"/>
         <source>Preferred SPU Threads</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="268"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="269"/>
         <source>Max Power Saving CPU-Preemptions</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="269"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="270"/>
         <source>Accurate RSX reservation access</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="270"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="271"/>
         <source>Sleep Timers Accuracy</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="271"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="272"/>
         <source>Handle RSX Memory Tiling</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="272"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="273"/>
         <source>Max SPURS Threads</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="273"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="274"/>
         <source>PPU Event Wake-Up Delay</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="274"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="275"/>
         <source>Driver Wake-Up Delay</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="275"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="276"/>
         <source>VBlank Frequency</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="276"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="277"/>
         <source>VBlank NTSC Fixup</source>
         <comment>Advanced</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="277"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="278"/>
         <source>Overlays</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="278"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="279"/>
         <source>Show Trophy Popups</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="279"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="280"/>
         <source>Show RPCN Popups</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="280"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="281"/>
         <source>Show Shader Compilation Hint</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="281"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="282"/>
         <source>Show PPU Compilation Hint</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="282"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="283"/>
         <source>Show Autosave/Autoload Hint</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="283"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="284"/>
         <source>Show Pressure Intensity Toggle Hint</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="284"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="285"/>
         <source>Show Analog Limiter Toggle Hint</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="285"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="286"/>
         <source>Show Mouse And Keyboard Toggle Hint</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="286"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="287"/>
         <source>Show Fatal Error Hints</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="287"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="288"/>
         <source>Record With Overlays</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="288"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="289"/>
         <source>Play music during boot sequence.</source>
         <comment>Overlays</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="289"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="290"/>
         <source>Performance Overlay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="290"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="291"/>
         <source>Enable Performance Overlay</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="291"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="292"/>
         <source>Enable Framerate Graph</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="292"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="293"/>
         <source>Enable Frametime Graph</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="293"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="294"/>
         <source>Detail level</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="294"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="295"/>
         <source>Framerate Graph Detail Level</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="295"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="296"/>
         <source>Frametime Graph Detail Level</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="296"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="297"/>
         <source>Framerate Datapoints</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="297"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="298"/>
         <source>Frametime Datapoints</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="298"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="299"/>
         <source>Metrics Update Interval</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="299"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="300"/>
         <source>Position</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="300"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="301"/>
         <source>Center Horizontally</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="301"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="302"/>
         <source>Center Vertically</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="302"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="303"/>
         <source>Horizontal Margin</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="303"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="304"/>
         <source>Vertical Margin</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="304"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="305"/>
         <source>Font Size</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="305"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="306"/>
         <source>Opacity</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="306"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="307"/>
         <source>Use Window Space</source>
         <comment>Performance Overlay</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="307"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="308"/>
         <source>Debug</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="308"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="309"/>
         <source>Debug Overlay</source>
         <comment>Debug</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="309"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="310"/>
         <source>Input Debug Overlay</source>
         <comment>Debug</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="310"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="311"/>
         <source>Mouse Debug Overlay</source>
         <comment>Debug</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="311"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="312"/>
         <source>Disable Video Output</source>
         <comment>Debug</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="312"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="313"/>
         <source>Texture LOD Bias Addend</source>
         <comment>Debug</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="313"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="314"/>
         <source>Open Big Picture Mode On Boot</source>
         <comment>System</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="314"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="315"/>
         <source>Take Screenshot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="315"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="316"/>
         <source>SaveState</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="316"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="317"/>
         <source>Save Emulation State</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="317"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="318"/>
         <source>Save Emulation State And Exit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="318"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="319"/>
         <source>Reload Last Emulation State</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="319"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="320"/>
         <source>Reload Second-To-Last Emulation State</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="320"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="321"/>
         <source>Reload Third-To-Last Emulation State</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="321"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="322"/>
         <source>Reload Fourth-To-Last Emulation State</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="322"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="323"/>
         <source>Toggle Fullscreen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="323"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="324"/>
         <source>Start/Stop Recording</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="324"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="325"/>
         <source>Trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="325"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="326"/>
         <source>Trophy Progress: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="326"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="327"/>
         <source>Locked trophy: %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="327"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="328"/>
         <source>Hidden trophy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="328"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="329"/>
         <source>This trophy is hidden</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="329"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="330"/>
         <source>Show hidden trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="330"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="331"/>
         <source>Hide hidden trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="331"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="332"/>
         <source>Platinum relevant</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="332"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="333"/>
         <source>Bronze</source>
         <comment>Trophy type</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="333"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="334"/>
         <source>Silver</source>
         <comment>Trophy type</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="334"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="335"/>
         <source>Gold</source>
         <comment>Trophy type</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="335"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="336"/>
         <source>Platinum</source>
         <comment>Trophy type</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="336"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="337"/>
         <source>Sync trophies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="337"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="338"/>
         <source>Syncing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="338"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="339"/>
         <source>Synced!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="339"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="340"/>
         <source>Sync failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="340"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="341"/>
         <source>Sort: Game Default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="341"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="342"/>
         <source>Sort: Not Earned</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="342"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="343"/>
         <source>Sort: Earned Date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="343"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="344"/>
         <source>Sort: Grade</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="344"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="345"/>
         <source>Audio muted</source>
         <comment>Audio</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="345"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="346"/>
         <source>Audio unmuted</source>
         <comment>Audio</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="346"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="347"/>
         <source>Volume changed to %0</source>
         <comment>Audio</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="347"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="348"/>
         <source>Progress:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="348"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="349"/>
         <source>Progress: analyzing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="349"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="350"/>
         <source>remaining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="350"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="351"/>
         <source>done</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="351"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="352"/>
         <source>file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="352"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="353"/>
         <source>module</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="353"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="354"/>
         <source>of</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="354"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="355"/>
         <source>Please wait</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="355"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="356"/>
         <source>Stopping. Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="356"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="357"/>
         <source>Creating savestate. Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="357"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="358"/>
         <source>Scanning PPU Executable...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="358"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="359"/>
         <source>Analyzing PPU Executable...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="359"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="360"/>
         <source>Scanning PPU Modules...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="360"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="361"/>
         <source>Loading PPU Modules...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="361"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="362"/>
         <source>Compiling PPU Modules...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="362"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="363"/>
         <source>Linking PPU Modules...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="363"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="364"/>
         <source>Applying PPU Code...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="364"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="365"/>
         <source>Building SPU Cache...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="365"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="366"/>
         <source>Press and hold the START button to resume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="366"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="367"/>
         <source>Resuming...!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="367"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="368"/>
         <source>The PS3 application has likely crashed, you can close it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="368"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="369"/>
         <source>SaveState failed: Game saving is in progress, wait until finished.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="369"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="370"/>
         <source>SaveState failed: VDEC-based video/cutscenes are in order, wait for them to end or enable libvdec.sprx.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="370"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="371"/>
         <source>SaveState failed: Failed to lock SPU state, enabling SPU-Compatible mode may fix it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="371"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="372"/>
         <source>SaveState failed: Failed to lock SPU state, using SPU ASMJIT will fix it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="372"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="373"/>
         <source>Big Picture Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="373"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="374"/>
         <source>Games</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="374"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="375"/>
         <source>Exit Big Picture Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="375"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="376"/>
         <source>No games found.
 Add games in the main RPCS3 window.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="376"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="377"/>
         <source>Loading games...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="378"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="379"/>
         <source>Back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="380"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="381"/>
         <source>Invalid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="381"/>
+        <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="382"/>
         <source>Unknown</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12947,8 +12953,8 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="494"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="512"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2217"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1955"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1957"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1974"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1976"/>
         <source>Up</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12975,7 +12981,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="574"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="592"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2297"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1959"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1978"/>
         <source>Right</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12989,8 +12995,8 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="635"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="653"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2358"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1956"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1958"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1975"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1977"/>
         <source>Down</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13121,7 +13127,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1346"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1960"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1979"/>
         <source>L1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13132,7 +13138,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1377"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1961"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1980"/>
         <source>L2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13173,7 +13179,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1589"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1963"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1982"/>
         <source>R1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13194,7 +13200,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1716"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1962"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1981"/>
         <source>L3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13205,7 +13211,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1747"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1964"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1983"/>
         <source>R3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13241,7 +13247,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1980"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1954"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1973"/>
         <source>Triangle</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13252,7 +13258,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2029"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1953"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1972"/>
         <source>Square</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13263,7 +13269,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2060"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1952"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1971"/>
         <source>Circle</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13274,7 +13280,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2121"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1951"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1970"/>
         <source>Cross</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13360,523 +13366,523 @@ Tip: SPU floats are commented along forming instructions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="93"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="94"/>
         <source>Gamepad Settings: [%0] %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="97"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="98"/>
         <source>Gamepad Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="123"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="120"/>
         <source>Player %0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="153"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="150"/>
         <source>Filter Noise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="178"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="175"/>
         <source>Standard (Pad)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="179"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="176"/>
         <source>Guitar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="180"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="177"/>
         <source>Drum</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="181"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="178"/>
         <source>DJ</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="182"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="179"/>
         <source>Dance Mat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="183"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="180"/>
         <source>PS Move Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="184"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2328"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="181"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2348"/>
         <source>Skateboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="185"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="182"/>
         <source>GunCon 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="186"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="183"/>
         <source>Top Shot Elite</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="187"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="184"/>
         <source>Top Shot Fearmaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="188"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="185"/>
         <source>uDraw GameTablet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="189"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="186"/>
         <source>Copilot for Player 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="190"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="187"/>
         <source>Copilot for Player 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="191"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="188"/>
         <source>Copilot for Player 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="192"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="189"/>
         <source>Copilot for Player 4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="193"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="190"/>
         <source>Copilot for Player 5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="194"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="191"/>
         <source>Copilot for Player 6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="195"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="192"/>
         <source>Copilot for Player 7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="218"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="215"/>
         <source>Relative</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="219"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="216"/>
         <source>Absolute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="380"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1542"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="384"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1546"/>
         <source>[ Waiting %1 ]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1707"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1726"/>
         <source>Custom Controller</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1761"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1780"/>
         <source>No Device Detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1872"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1891"/>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1877"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1896"/>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1882"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1901"/>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1887"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1906"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1892"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1911"/>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1897"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1916"/>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1902"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1921"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1907"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1926"/>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1912"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1931"/>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1917"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1936"/>
         <source>PS Move Navigation</source>
         <comment>PS Move Navigation Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1922"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1941"/>
         <source>RIDE Skateboard</source>
         <comment>Tony Hawk RIDE Skateboard Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1927"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1946"/>
         <source>GunCon 3</source>
         <comment>GunCon 3 Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1932"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1951"/>
         <source>Top Shot Elite</source>
         <comment>Top Shot Elite Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1937"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1956"/>
         <source>Top Shot Fearmaster</source>
         <comment>Top Shot Fearmaster Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1942"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1961"/>
         <source>uDraw GameTablet</source>
         <comment>uDraw GameTablet Controller</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1970"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1982"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1989"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2001"/>
         <source>Green Fret</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1971"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1983"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1990"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2002"/>
         <source>Red Fret</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1972"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1985"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1991"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2004"/>
         <source>Yellow Fret</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1973"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1984"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1992"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2003"/>
         <source>Blue Fret</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1974"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1986"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1993"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2005"/>
         <source>Strum Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1975"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1987"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1994"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2006"/>
         <source>Strum Down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1976"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1990"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1995"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2009"/>
         <source>Whammy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1977"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1991"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1996"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2010"/>
         <source>Orange Fret</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1988"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2007"/>
         <source>Pickup Switch Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1989"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2008"/>
         <source>Pickup Switch Down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1992"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2011"/>
         <source>Solo Modifier</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1993"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2012"/>
         <source>Tilt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1998"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2008"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2027"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2036"/>
         <source>Green Pad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1999"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2009"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2018"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2028"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2037"/>
         <source>Red Pad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2000"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2010"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2019"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2029"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2038"/>
         <source>Blue Pad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2001"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2011"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2020"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2030"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2039"/>
         <source>Yellow Pad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2002"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2012"/>
         <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2021"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2031"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2040"/>
         <source>Foot Pedal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2003"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2022"/>
         <source>Orange Pad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2022"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2041"/>
         <source>Pad Modifier</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2023"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2042"/>
         <source>Double Bass Pedal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2024"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2043"/>
         <source>Cymbal Modifier</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2052"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2071"/>
         <source>Choose a unique name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2053"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2072"/>
         <source>Configuration Name: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2062"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2067"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2072"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2081"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2086"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2091"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2062"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2081"/>
         <source>Name cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2067"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2086"/>
         <source>Must choose a name without &apos;.&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2072"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2091"/>
         <source>Please choose a non-existing name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2091"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2104"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2275"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2111"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2124"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2295"/>
         <source>Warning!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2091"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2111"/>
         <source>Can&apos;t remove default configuration &apos;%0&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2095"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2115"/>
         <source>Remove Configuration?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2095"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2115"/>
         <source>Do you really want to remove the configuration &apos;%0&apos;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2104"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2124"/>
         <source>Failed to remove &apos;%0&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2119"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2139"/>
         <source>Removed Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2119"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2139"/>
         <source>Removed configuration &apos;%0&apos;.
 The selected configuration is now &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2132"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2152"/>
         <source>Reserved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2276"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2296"/>
         <source>The %0 button or combo &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2323"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2343"/>
         <source>Null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2324"/>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2349"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2344"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2369"/>
         <source>Keyboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2325"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2345"/>
         <source>DualShock 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2326"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2346"/>
         <source>DualShock 4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2327"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2347"/>
         <source>DualSense</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2329"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2349"/>
         <source>PS Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2331"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2351"/>
         <source>XInput</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2332"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2352"/>
         <source>MMJoystick</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2335"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2355"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2338"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2358"/>
         <source>Evdev</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2348"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2368"/>
         <source>Default Null Device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2350"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2370"/>
         <source>DS3 Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2351"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2371"/>
         <source>DS4 Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2352"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2372"/>
         <source>DualSense Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2353"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2373"/>
         <source>Skateboard #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2354"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2374"/>
         <source>PS Move #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2356"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2376"/>
         <source>XInput Pad #%0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2357"/>
+        <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2377"/>
         <source>Joystick #%0</source>
         <translation type="unfinished"></translation>
     </message>
@@ -20295,7 +20301,7 @@ Stop the emulator now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="29"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="30"/>
         <source>RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.
 It is written in C++ for Windows, Linux, FreeBSD and MacOS funded with %0.
 Our developers and contributors are always working hard to ensure this project is the best that it can be.
@@ -20303,12 +20309,12 @@ There are still plenty of implementations to make and optimizations to do.</sour
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="34"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="35"/>
         <source>Patreon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="36"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="37"/>
         <source>To get started, you must first install the %0.
 Please refer to the %1 guide found on the official website for further information.
 If you have any further questions, please refer to the %2.
@@ -20316,37 +20322,37 @@ Otherwise, further discussion and support can be found on the %3 or on our %4 se
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="41"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="42"/>
         <source>PlayStation 3 firmware</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="42"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="43"/>
         <source>Quickstart</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="43"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="44"/>
         <source>FAQ</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="44"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="45"/>
         <source>Forums</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="45"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="46"/>
         <source>Discord</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="48"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="49"/>
         <source>&amp;Create Launchpad shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="53"/>
+        <location filename="./rpcs3/rpcs3qt/welcome_dialog.cpp" line="54"/>
         <source>&amp;Create Application Menu shortcut</source>
         <translation type="unfinished"></translation>
     </message>
