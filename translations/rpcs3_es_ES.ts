@@ -2002,14 +2002,17 @@ Desactiva esta opción si no quieres que los gráficos aparezcan de repente o si
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="210"/>
       <source>If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
-      <translation type="unfinished"/>
+      <translation>Si no se encuentra un shader en la caché, este shader no renderizará nada hasta ser compilado.
+Puede provocar que los gráficos aparezcan de repente.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="211"/>
       <source>This is the recommended option.
 Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
-      <translation type="unfinished"/>
+      <translation>La opción recomendada.
+Modo de renderizado híbrido.
+Si no se encuentra un shader en la caché, se utilizará el intérprete para renderizar una aproximación de los gráficos usados con este shader hasta que sea compilado.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="212"/>
@@ -10181,7 +10184,7 @@ Asunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="253"/>
       <source>Graphics Renderer</source>
       <comment>Video</comment>
-      <translation type="unfinished"/>
+      <translation>Renderizador de gráficos</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="254"/>
