@@ -1999,14 +1999,17 @@ Usalo se non vuoi fare i conti con il pop-in grafico, o per fare test prima di p
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="210"/>
       <source>If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
-      <translation type="unfinished"/>
+      <translation>Se uno shader non viene trovato nella cache, niente verrà renderato per questo shader finché non viene compilato.
+Potresti avere a che fare con pop-in grafici.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="211"/>
       <source>This is the recommended option.
 Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
-      <translation type="unfinished"/>
+      <translation>Questa è l'opzione consigliata.
+Modalità di rendering ibrida.
+Se uno shader non viene trovato nella cache, l'interprete verrà usato per renderare grafiche approssimate per questo shader finché non viene compilato.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="212"/>
@@ -2559,7 +2562,7 @@ Se non sei sicuro, lascia questo campo vuoto.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="319"/>
       <source>Assigns the infrared sensors and tilt values of the Tony Hawk RIDE skateboard.&lt;br&gt;Analog inputs like triggers or sticks are recommended, since the skateboard reports gradual values.&lt;br&gt;Only used if the device class is set to Skateboard.</source>
-      <translation type="unfinished"/>
+      <translation>Assegna i sensori a infrarossi e i valori d'inclinazione dello skateboard di Tony Hawk: RIDE.&lt;br&gt;Gli input analogici come i grilletti o i joystick sono consigliati, visto che lo skateboard riporta valori graduali.&lt;br&gt;Usato solo se la classe del dispositivo è impostata su Skateboard.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="320"/>
@@ -9691,7 +9694,9 @@ Spazio necessario: %0 KB</translation>
 
 %0</source>
       <comment>Savedata entry info</comment>
-      <translation type="unfinished"/>
+      <translation>Vuoi salvare questi dati?
+
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="172"/>
@@ -10184,7 +10189,7 @@ Soggetto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="254"/>
       <source>Graphics Renderer</source>
       <comment>Video</comment>
-      <translation type="unfinished"/>
+      <translation>Renderer Grafico</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="255"/>
@@ -13876,7 +13881,7 @@ Suggerimento: I numeri a virgola mobile SPU sono commentati lungo le istruzioni 
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1901"/>
       <source>Infrared and Tilt Settings</source>
-      <translation type="unfinished"/>
+      <translation>Impostazioni Infrarossi ed Inclinazione</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1930"/>
@@ -14535,37 +14540,37 @@ La configurazione selezionata ora è &apos;%1&apos;.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="14"/>
       <source>Skateboard Infrared and Tilt Settings</source>
-      <translation type="unfinished"/>
+      <translation>Impostazioni Infrarossi ed Inclinazione dello Skateboard</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="25"/>
       <source>IR Left</source>
-      <translation type="unfinished"/>
+      <translation>IR Sinistra</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="81"/>
       <source>IR Nose</source>
-      <translation type="unfinished"/>
+      <translation>IR Nose</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="118"/>
       <source>IR Right</source>
-      <translation type="unfinished"/>
+      <translation>IR Destra</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="155"/>
       <source>IR Tail</source>
-      <translation type="unfinished"/>
+      <translation>IR Tail</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="192"/>
       <source>Tilt Right</source>
-      <translation type="unfinished"/>
+      <translation>Inclina a Destra</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="229"/>
       <source>Tilt Left</source>
-      <translation type="unfinished"/>
+      <translation>Inclina a Sinistra</translation>
     </message>
   </context>
   <context>
@@ -15094,7 +15099,7 @@ Registro:
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="90"/>
       <source>Installation path: %0</source>
       <comment>Installation path</comment>
-      <translation type="unfinished"/>
+      <translation>Percorso d'installazione: %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="94"/>
@@ -15103,7 +15108,10 @@ Changelog:
 
 %0</source>
       <comment>Changelog info</comment>
-      <translation type="unfinished"/>
+      <translation>
+Registro delle modifiche:
+
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="99"/>

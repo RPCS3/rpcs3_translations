@@ -811,7 +811,7 @@ Se escolhido incorretamente, os jogos não funcionarão! Se não tiver certeza, 
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="25"/>
       <source>Select to LLE. (HLE by default)</source>
-      <translation>Selecione para LLE. (HLE por padrão)</translation>
+      <translation>Selecionar para LLE. (HLE por padrão)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="26"/>
@@ -2564,7 +2564,7 @@ Em caso de dúvida, deixe este campo em branco.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="319"/>
       <source>Assigns the infrared sensors and tilt values of the Tony Hawk RIDE skateboard.&lt;br&gt;Analog inputs like triggers or sticks are recommended, since the skateboard reports gradual values.&lt;br&gt;Only used if the device class is set to Skateboard.</source>
-      <translation type="unfinished"/>
+      <translation>Atribui os sensores infravermelhos e os valores de inclinação do RIDE skateboard do Tony Hawk.&lt;br&gt;Recomendam-se entradas analógicas, como gatilhos ou alavancas, uma vez que o skate fornece valores graduais.&lt;br&gt;Utilizado apenas se a classe do dispositivo estiver definida como Skateboard.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="320"/>
@@ -3432,7 +3432,7 @@ Algumas configurações parecem divergir da configuração padrão:</translation
     <message>
       <location filename="./rpcs3/rpcs3qt/content_integrity.cpp" line="49"/>
       <source>Downloading database</source>
-      <translation>Baixando banco de dados</translation>
+      <translation>Transferindo banco de dados</translation>
     </message>
   </context>
   <context>
@@ -9694,7 +9694,9 @@ Espaço necessário: %0 KB</translation>
 
 %0</source>
       <comment>Savedata entry info</comment>
-      <translation type="unfinished"/>
+      <translation>Deseja salvar estes dados?
+
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="172"/>
@@ -13879,7 +13881,7 @@ Dica: Os números de ponto flutuantes da SPU são comentados ao longo da moldage
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1901"/>
       <source>Infrared and Tilt Settings</source>
-      <translation type="unfinished"/>
+      <translation>Configurações de Infravermelho e Inclinação</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1930"/>
@@ -14538,37 +14540,37 @@ A configuração selecionada agora é &apos;%1&apos;.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="14"/>
       <source>Skateboard Infrared and Tilt Settings</source>
-      <translation type="unfinished"/>
+      <translation>Configurações de Infravermelho e Inclinação do Skateboard</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="25"/>
       <source>IR Left</source>
-      <translation type="unfinished"/>
+      <translation>Esquerda no IV</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="81"/>
       <source>IR Nose</source>
-      <translation type="unfinished"/>
+      <translation>Nose no IV</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="118"/>
       <source>IR Right</source>
-      <translation type="unfinished"/>
+      <translation>Direita no IV</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="155"/>
       <source>IR Tail</source>
-      <translation type="unfinished"/>
+      <translation>Tail no IV</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="192"/>
       <source>Tilt Right</source>
-      <translation type="unfinished"/>
+      <translation>Inclinar para Direita</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_skateboard_settings_dialog.ui" line="229"/>
       <source>Tilt Left</source>
-      <translation type="unfinished"/>
+      <translation>Inclinar para Esquerda</translation>
     </message>
   </context>
   <context>
@@ -15097,7 +15099,7 @@ Log:
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="90"/>
       <source>Installation path: %0</source>
       <comment>Installation path</comment>
-      <translation type="unfinished"/>
+      <translation>Caminho da instalação: %0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="94"/>
@@ -15106,7 +15108,10 @@ Changelog:
 
 %0</source>
       <comment>Changelog info</comment>
-      <translation type="unfinished"/>
+      <translation>
+Histórico de Alterações:
+
+%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="99"/>
