@@ -8521,13 +8521,13 @@ O arquivo é muito pequeno.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="13"/>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="381"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="383"/>
       <source>Select</source>
       <translation>Select</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.cpp" line="14"/>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="379"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="381"/>
       <source>Start</source>
       <translation>Start</translation>
     </message>
@@ -8983,36 +8983,48 @@ Por favor, aguarde...</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="78"/>
+      <source>Mouse is now used as emulated device.</source>
+      <comment>Mouse emulated</comment>
+      <translation type="unfinished"/>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="79"/>
+      <source>Keyboard is now used as emulated device.</source>
+      <comment>Keyboard emulated</comment>
+      <translation type="unfinished"/>
+    </message>
+    <message>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="80"/>
       <source>Mouse and keyboard are now used as pad.</source>
       <comment>Mouse and keyboard pad</comment>
       <translation>Agora o mouse e o teclado são usados como controle.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="79"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="81"/>
       <source>ERROR: Game data is corrupted. The application will continue.</source>
       <comment>Game Error</comment>
       <translation>ERRO: Os dados do jogo estão corrompidos. O aplicativo irá continuar.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="80"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="82"/>
       <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
       <comment>Game Error</comment>
       <translation>ERRO: A inicialização do jogo no HDD está corrompida. O aplicativo irá continuar.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="81"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="83"/>
       <source>ERROR: Game data is corrupted. The application will be terminated.</source>
       <comment>Game Error</comment>
       <translation>ERRO: Os dados do jogo estão corrompidos. O aplicativo será encerrado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="82"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="84"/>
       <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
       <comment>Game Error</comment>
       <translation>ERRO: A inicialização do jogo no HDD está corrompida. O aplicativo será encerrado.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="83"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="85"/>
       <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
       <comment>Game Error</comment>
@@ -9020,7 +9032,7 @@ Space needed: %0 KB</source>
 Espaço necessário: %0 KB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="84"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="86"/>
       <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
       <comment>Game Error</comment>
@@ -9028,13 +9040,13 @@ Space needed: %0 KB</source>
 Espaço necessário: %0 KB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="85"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="87"/>
       <source>Directory name: %0</source>
       <comment>Game Error</comment>
       <translation>Nome do diretório: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="86"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="88"/>
       <source>There has been an error!
 
 Please remove the game data for this title.</source>
@@ -9044,7 +9056,7 @@ Please remove the game data for this title.</source>
 Por favor, remova os dados do jogo para este título.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="87"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="89"/>
       <source>There has been an error!
 
 Please reinstall the HDD boot game.</source>
@@ -9054,7 +9066,7 @@ Please reinstall the HDD boot game.</source>
 Reinstale a inicialização do jogo no HDD.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="88"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="90"/>
       <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
       <comment>HDD Game Check Error</comment>
@@ -9062,25 +9074,25 @@ Space Needed: %0 KB</source>
 Espaço necessário: %0 KB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="89"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="91"/>
       <source>HDD boot game %0 is corrupt!</source>
       <comment>HDD Game Check Error</comment>
       <translation>A inicialização do jogo %0 no HDD está corrompida!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="90"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="92"/>
       <source>HDD boot game %0 could not be found!</source>
       <comment>HDD Game Check Error</comment>
       <translation>Não foi possível encontrar a inicialização do jogo %0 no HDD!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="91"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="93"/>
       <source>Error: %0</source>
       <comment>HDD Game Check Error</comment>
       <translation>Erro: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="92"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="94"/>
       <source>Not enough space to create game data.
 Space Needed: %0 KB</source>
       <comment>Gamedata Check Error</comment>
@@ -9088,25 +9100,25 @@ Space Needed: %0 KB</source>
 Espaço necessário: %0 KB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="93"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="95"/>
       <source>The game data in %0 is corrupt!</source>
       <comment>Gamedata Check Error</comment>
       <translation>Os dados do jogo em %0 estão corrompidos!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="94"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="96"/>
       <source>The game data in %0 could not be found!</source>
       <comment>Gamedata Check Error</comment>
       <translation>Não foi possível encontrar os dados do jogo em %0!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="95"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="97"/>
       <source>Error: %0</source>
       <comment>Gamedata Check Error</comment>
       <translation>Erro: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="96"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="98"/>
       <source>The resource is temporarily unavailable.
 (%0)</source>
       <comment>Error code</comment>
@@ -9114,7 +9126,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="97"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="99"/>
       <source>Invalid argument or flag.
 (%0)</source>
       <comment>Error code</comment>
@@ -9122,7 +9134,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="98"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="100"/>
       <source>The feature is not yet implemented.
 (%0)</source>
       <comment>Error code</comment>
@@ -9130,7 +9142,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="99"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="101"/>
       <source>Memory allocation failed.
 (%0)</source>
       <comment>Error code</comment>
@@ -9138,7 +9150,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="100"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="102"/>
       <source>The resource with the specified identifier does not exist.
 (%0)</source>
       <comment>Error code</comment>
@@ -9146,7 +9158,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="101"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="103"/>
       <source>The file does not exist.
 (%0)</source>
       <comment>Error code</comment>
@@ -9154,7 +9166,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="102"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="104"/>
       <source>The file is in an unrecognized format / The file is not a valid ELF file.
 (%0)</source>
       <comment>Error code</comment>
@@ -9162,7 +9174,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="103"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="105"/>
       <source>Resource deadlock is avoided.
 (%0)</source>
       <comment>Error code</comment>
@@ -9170,7 +9182,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="104"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="106"/>
       <source>Operation not permitted.
 (%0)</source>
       <comment>Error code</comment>
@@ -9178,7 +9190,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="105"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="107"/>
       <source>The device or resource is busy.
 (%0)</source>
       <comment>Error code</comment>
@@ -9186,7 +9198,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="106"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="108"/>
       <source>The operation is timed out.
 (%0)</source>
       <comment>Error code</comment>
@@ -9194,7 +9206,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="107"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="109"/>
       <source>The operation is aborted.
 (%0)</source>
       <comment>Error code</comment>
@@ -9202,7 +9214,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="108"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="110"/>
       <source>Invalid memory access.
 (%0)</source>
       <comment>Error code</comment>
@@ -9210,7 +9222,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="109"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="111"/>
       <source>State of the target thread is invalid.
 (%0)</source>
       <comment>Error code</comment>
@@ -9218,7 +9230,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="110"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="112"/>
       <source>Alignment is invalid.
 (%0)</source>
       <comment>Error code</comment>
@@ -9226,7 +9238,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="111"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="113"/>
       <source>Shortage of the kernel resources.
 (%0)</source>
       <comment>Error code</comment>
@@ -9234,7 +9246,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="112"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="114"/>
       <source>The file is a directory.
 (%0)</source>
       <comment>Error code</comment>
@@ -9242,7 +9254,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="113"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="115"/>
       <source>Operation cancelled.
 (%0)</source>
       <comment>Error code</comment>
@@ -9250,7 +9262,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="114"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="116"/>
       <source>Entry already exists.
 (%0)</source>
       <comment>Error code</comment>
@@ -9258,7 +9270,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="115"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="117"/>
       <source>Port is already connected.
 (%0)</source>
       <comment>Error code</comment>
@@ -9266,7 +9278,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="116"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="118"/>
       <source>Port is not connected.
 (%0)</source>
       <comment>Error code</comment>
@@ -9274,7 +9286,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="117"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="119"/>
       <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
       <comment>Error code</comment>
@@ -9282,7 +9294,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="118"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="120"/>
       <source>The file is not MSELF.
 (%0)</source>
       <comment>Error code</comment>
@@ -9290,7 +9302,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="119"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="121"/>
       <source>System version error.
 (%0)</source>
       <comment>Error code</comment>
@@ -9298,7 +9310,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="120"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="122"/>
       <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
       <comment>Error code</comment>
@@ -9306,7 +9318,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="121"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="123"/>
       <source>Math domain violation.
 (%0)</source>
       <comment>Error code</comment>
@@ -9314,7 +9326,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="122"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="124"/>
       <source>Math range violation.
 (%0)</source>
       <comment>Error code</comment>
@@ -9322,7 +9334,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="123"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="125"/>
       <source>Illegal multi-byte sequence in input.
 (%0)</source>
       <comment>Error code</comment>
@@ -9330,7 +9342,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="124"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="126"/>
       <source>File position error.
 (%0)</source>
       <comment>Error code</comment>
@@ -9338,7 +9350,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="125"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="127"/>
       <source>Syscall was interrupted.
 (%0)</source>
       <comment>Error code</comment>
@@ -9346,7 +9358,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="126"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="128"/>
       <source>File too large.
 (%0)</source>
       <comment>Error code</comment>
@@ -9354,7 +9366,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="127"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="129"/>
       <source>Too many links.
 (%0)</source>
       <comment>Error code</comment>
@@ -9362,7 +9374,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="128"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="130"/>
       <source>File table overflow.
 (%0)</source>
       <comment>Error code</comment>
@@ -9370,7 +9382,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="129"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="131"/>
       <source>No space left on device.
 (%0)</source>
       <comment>Error code</comment>
@@ -9378,7 +9390,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="130"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="132"/>
       <source>Not a TTY.
 (%0)</source>
       <comment>Error code</comment>
@@ -9386,7 +9398,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="131"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="133"/>
       <source>Broken pipe.
 (%0)</source>
       <comment>Error code</comment>
@@ -9394,7 +9406,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="132"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="134"/>
       <source>Read-only filesystem.
 (%0)</source>
       <comment>Error code</comment>
@@ -9402,7 +9414,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="133"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="135"/>
       <source>Illegal seek.
 (%0)</source>
       <comment>Error code</comment>
@@ -9410,7 +9422,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="134"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="136"/>
       <source>Arg list too long.
 (%0)</source>
       <comment>Error code</comment>
@@ -9418,7 +9430,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="135"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="137"/>
       <source>Access violation.
 (%0)</source>
       <comment>Error code</comment>
@@ -9426,7 +9438,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="136"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="138"/>
       <source>Invalid file descriptor.
 (%0)</source>
       <comment>Error code</comment>
@@ -9434,7 +9446,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="137"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="139"/>
       <source>Filesystem mounting failed.
 (%0)</source>
       <comment>Error code</comment>
@@ -9442,7 +9454,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="138"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="140"/>
       <source>Too many files open.
 (%0)</source>
       <comment>Error code</comment>
@@ -9450,7 +9462,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="139"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="141"/>
       <source>No device.
 (%0)</source>
       <comment>Error code</comment>
@@ -9458,7 +9470,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="140"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="142"/>
       <source>Not a directory.
 (%0)</source>
       <comment>Error code</comment>
@@ -9466,7 +9478,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="141"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="143"/>
       <source>No such device or IO.
 (%0)</source>
       <comment>Error code</comment>
@@ -9474,7 +9486,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="142"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="144"/>
       <source>Cross-device link error.
 (%0)</source>
       <comment>Error code</comment>
@@ -9482,7 +9494,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="143"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="145"/>
       <source>Bad Message.
 (%0)</source>
       <comment>Error code</comment>
@@ -9490,7 +9502,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="144"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="146"/>
       <source>In progress.
 (%0)</source>
       <comment>Error code</comment>
@@ -9498,7 +9510,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="145"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="147"/>
       <source>Message size error.
 (%0)</source>
       <comment>Error code</comment>
@@ -9506,7 +9518,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="146"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="148"/>
       <source>Name too long.
 (%0)</source>
       <comment>Error code</comment>
@@ -9514,7 +9526,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="147"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="149"/>
       <source>No lock.
 (%0)</source>
       <comment>Error code</comment>
@@ -9522,7 +9534,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="148"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="150"/>
       <source>Not empty.
 (%0)</source>
       <comment>Error code</comment>
@@ -9530,7 +9542,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="149"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="151"/>
       <source>Not supported.
 (%0)</source>
       <comment>Error code</comment>
@@ -9538,7 +9550,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="150"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="152"/>
       <source>File-system specific error.
 (%0)</source>
       <comment>Error code</comment>
@@ -9546,7 +9558,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="151"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="153"/>
       <source>Overflow occurred.
 (%0)</source>
       <comment>Error code</comment>
@@ -9554,7 +9566,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="152"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="154"/>
       <source>Filesystem not mounted.
 (%0)</source>
       <comment>Error code</comment>
@@ -9562,7 +9574,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="153"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="155"/>
       <source>Not SData.
 (%0)</source>
       <comment>Error code</comment>
@@ -9570,7 +9582,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="154"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="156"/>
       <source>Incorrect version in sys_load_param.
 (%0)</source>
       <comment>Error code</comment>
@@ -9578,8 +9590,8 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="155"/>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="156"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="157"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="158"/>
       <source>Pointer is null.
 (%0)</source>
       <comment>Error code</comment>
@@ -9587,7 +9599,7 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="157"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="159"/>
       <source>An error has occurred.
 (%0)</source>
       <comment>Error code</comment>
@@ -9595,37 +9607,37 @@ Espaço necessário: %0 KB</translation>
 (%0)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="158"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="160"/>
       <source>On Screen Keyboard</source>
       <comment>OSK Dialog</comment>
       <translation>No Teclado da Tela</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="159"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="161"/>
       <source>The Home Menu can&apos;t be opened while the On Screen Keyboard is busy!</source>
       <comment>OSK Dialog</comment>
       <translation>Não é possível abrir o Menu Inicial enquanto teclado em tela estiver ocupado!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="160"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="162"/>
       <source>Error - Save data corrupted</source>
       <comment>Savedata Error</comment>
       <translation>Erro - Dados salvos corrompidos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="161"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="163"/>
       <source>Error - Failed to save or load</source>
       <comment>Savedata Error</comment>
       <translation>Erro - Falha ao salvar ou carregar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="162"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="164"/>
       <source>Error - Save data cannot be found</source>
       <comment>Savedata Error</comment>
       <translation>Erro - Não é possível localizar os dados salvos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="163"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="165"/>
       <source>Error - Insufficient free space
 
 Space needed: %0 KB</source>
@@ -9635,31 +9647,31 @@ Space needed: %0 KB</source>
 Espaço necessário: %0 KB</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="164"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="166"/>
       <source>There is no saved data.</source>
       <comment>Savedata entry info</comment>
       <translation>Não há dados salvos.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="165"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="167"/>
       <source>New Saved Data</source>
       <comment>Savedata Dialog</comment>
       <translation>Novos Dados Salvos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="166"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="168"/>
       <source>Select to create a new entry</source>
       <comment>Savedata Dialog</comment>
       <translation>Selecione para criar uma nova entrada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="167"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="169"/>
       <source>Do you want to save this data?</source>
       <comment>Savedata Dialog</comment>
       <translation>Deseja salvar estes dados?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="168"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="170"/>
       <source>Do you really want to delete this data?
 
 %0</source>
@@ -9669,7 +9681,7 @@ Espaço necessário: %0 KB</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="169"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="171"/>
       <source>Successfully removed data!
 
 %0</source>
@@ -9679,7 +9691,7 @@ Espaço necessário: %0 KB</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="170"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="172"/>
       <source>Delete this data?
 
 %0</source>
@@ -9689,7 +9701,7 @@ Espaço necessário: %0 KB</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="171"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="173"/>
       <source>Do you want to save this data?
 
 %0</source>
@@ -9699,7 +9711,7 @@ Espaço necessário: %0 KB</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="172"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="174"/>
       <source>Load this data?
 
 %0</source>
@@ -9709,7 +9721,7 @@ Espaço necessário: %0 KB</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="173"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="175"/>
       <source>Do you want to overwrite the saved data?
 
 %0</source>
@@ -9719,17 +9731,17 @@ Espaço necessário: %0 KB</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="174"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="176"/>
       <source>Saving...</source>
       <translation>Salvando...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="175"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="177"/>
       <source>Loading...</source>
       <translation>Carregando...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="176"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="178"/>
       <source>Start [%0] on the PS Vita system.
 If you have not installed [%0], go to [Remote Play] on the PS Vita system and start [Cross-Controller] from the LiveArea™ screen.</source>
       <comment>Cross-Controller message</comment>
@@ -9737,61 +9749,61 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 Se você não instalou [%0], acesse [Remote Play] no sistema PS Vita e inicie [Cross-Controller] na tela LiveArea™.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="177"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="179"/>
       <source>If your system software version on the PS Vita system is earlier than 1.80, you must update the system software to the latest version.</source>
       <comment>Cross-Controller firmware message</comment>
       <translation>Se a versão do software do sistema do seu PS Vita for anterior à 1.80, você deve atualizá-la para a versão mais recente.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="178"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="180"/>
       <source>Select Message</source>
       <comment>RECVMESSAGE_DIALOG</comment>
       <translation>Selecionar Mensagem</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="179"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="181"/>
       <source>Select Invite</source>
       <comment>RECVMESSAGE_DIALOG</comment>
       <translation>Selecionar Convite</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="180"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="182"/>
       <source>Add Friend</source>
       <comment>RECVMESSAGE_DIALOG</comment>
       <translation>Adicionar Amigo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="181"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="183"/>
       <source>From:</source>
       <comment>RECVMESSAGE_DIALOG</comment>
       <translation>De:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="182"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="184"/>
       <source>Subject:</source>
       <comment>RECVMESSAGE_DIALOG</comment>
       <translation>Assunto:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="183"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="185"/>
       <source>Select Message To Send</source>
       <comment>SENDMESSAGE_DIALOG</comment>
       <translation>Selecione Mensagem para Enviar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="184"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="186"/>
       <source>Send Invite</source>
       <comment>SENDMESSAGE_DIALOG</comment>
       <translation>Enviar Convite</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="185"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="187"/>
       <source>Add Friend</source>
       <comment>SENDMESSAGE_DIALOG</comment>
       <translation>Adicionar Amigo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="186"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="188"/>
       <source>Send message to %0 ?
 
 Subject:</source>
@@ -9801,7 +9813,7 @@ Subject:</source>
 Assunto:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="187"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="189"/>
       <source>Send invite to %0 ?
 
 Subject:</source>
@@ -9811,7 +9823,7 @@ Subject:</source>
 Assunto:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="188"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="190"/>
       <source>Send friend request to %0 ?
 
 Subject:</source>
@@ -9821,182 +9833,182 @@ Subject:</source>
 Assunto:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="189"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="191"/>
       <source>Received an invite from %0</source>
       <translation>Um convite foi recebido de %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="190"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="192"/>
       <source>Received a message from %0</source>
       <translation>Uma mensagem foi recebida de %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="191"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="193"/>
       <source>Recording aborted!</source>
       <translation>Gravação abortada!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="192"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="194"/>
       <source>RPCN: No Error</source>
       <translation>RPCN: Sem Erro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="193"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="195"/>
       <source>RPCN: Invalid Input (Wrong Host/Port)</source>
       <translation>RPCN: Entrada Inválida (Host/Porta Incorreto)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="194"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="196"/>
       <source>RPCN Connection Error: WolfSSL Error</source>
       <translation>Erro de Conexão ao RPCN: Erro de WolfSSL</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="195"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="197"/>
       <source>RPCN Connection Error: Resolve Error</source>
       <translation>Erro de Conexão ao RPCN: Erro de Resolução</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="196"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="198"/>
       <source>RPCN Connection Error: Failed to bind to given binding IP</source>
       <translation>Erro de conexão ao RPCN: Falha ao vincular ao endereço IP de vinculação fornecido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="197"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="199"/>
       <source>RPCN Connection Error</source>
       <translation>Erro de conexão ao RPCN</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="198"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="200"/>
       <source>RPCN Login Error: Identification Error</source>
       <translation>Erro ao Entrar no RPCN: Erro de Identificação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="199"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="201"/>
       <source>RPCN Login Error: User Already Logged In</source>
       <translation>Erro ao Entrar no RPCN: Usuário Conectado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="200"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="202"/>
       <source>RPCN Login Error: Invalid Username</source>
       <translation>Erro ao Entrar no RPCN: Nome de Usuário Inválido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="201"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="203"/>
       <source>RPCN Login Error: Invalid Password</source>
       <translation>Erro ao Entrar no RPCN: Senha Inválida</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="202"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="204"/>
       <source>RPCN Login Error: Invalid Token</source>
       <translation>Erro ao Entrar no RPCN: Token Inválido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="203"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="205"/>
       <source>RPCN Misc Error: Protocol Version Error (outdated RPCS3?)</source>
       <translation>Erro Diverso do RPCN: Erro de Versão de Protocolo (RPCS3 desatualizado?)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="204"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="206"/>
       <source>RPCN: Unknown Error</source>
       <translation>RPCN: Erro Desconhecido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="205"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="207"/>
       <source>Successfully logged on RPCN!</source>
       <translation>Sessão iniciada com sucesso ao RPCN!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="206"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="208"/>
       <source>RPCN: Received friend request: %0</source>
       <comment>RCPN Friends</comment>
       <translation>RPCN: Solicitação de amizade recebida: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="207"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="209"/>
       <source>RPCN: Friend added: %0</source>
       <comment>RCPN Friends</comment>
       <translation>RPCN: Amigo adicionado: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="208"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="210"/>
       <source>RPCN: Friend removed: %0</source>
       <comment>RCPN Friends</comment>
       <translation>RPCN: Amigo removido: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="209"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="211"/>
       <source>RPCN: %0 logged in</source>
       <comment>RCPN Friends</comment>
       <translation>RPCN: %0 está conectado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="210"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="212"/>
       <source>RPCN: %0 logged out</source>
       <comment>RCPN Friends</comment>
       <translation>RPCN: %0 desconectou-se</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="211"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="213"/>
       <source>Home Menu</source>
       <translation>Menu Inicial</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="212"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="214"/>
       <source>Exit Game</source>
       <translation>Sair do Jogo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="213"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="215"/>
       <source>Resume Game</source>
       <translation>Continuar Jogo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="214"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="216"/>
       <source>Friends</source>
       <translation>Amigos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="215"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="217"/>
       <source>Pending Friend Requests</source>
       <translation>Solicitações de Amizade Pendentes</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="216"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="218"/>
       <source>Game Invitations</source>
       <translation>Convites de Jogos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="217"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="219"/>
       <source>Blocked Users</source>
       <translation>Usuários Bloqueados</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="218"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="220"/>
       <source>Online</source>
       <translation>On-line</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="219"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="221"/>
       <source>Offline</source>
       <translation>Off-line</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="220"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="222"/>
       <source>Blocked</source>
       <translation>Bloqueado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="221"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="223"/>
       <source>You sent a friend request</source>
       <translation>Você enviou uma solicitação de amizade</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="222"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="224"/>
       <source>Sent you a friend request</source>
       <translation>Enviou-lhe uma solicitação de amizade</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="223"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="225"/>
       <source>Block this user?
 
 %0</source>
@@ -10005,7 +10017,7 @@ Assunto:</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="224"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="226"/>
       <source>Unblock this user?
 
 %0</source>
@@ -10014,7 +10026,7 @@ Assunto:</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="225"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="227"/>
       <source>Remove this user?
 
 %0</source>
@@ -10023,7 +10035,7 @@ Assunto:</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="226"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="228"/>
       <source>Accept Request?
 
 %0</source>
@@ -10032,7 +10044,7 @@ Assunto:</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="227"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="229"/>
       <source>Cancel Request?
 
 %0</source>
@@ -10041,7 +10053,7 @@ Assunto:</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="228"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="230"/>
       <source>Reject Request?
 
 %0</source>
@@ -10050,844 +10062,844 @@ Assunto:</translation>
 %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="229"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="231"/>
       <source>Reject Request</source>
       <translation>Recusar Solicitação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="230"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="232"/>
       <source>Accept game invitation from %0?</source>
       <translation>Aceitar convite de jogo de %0?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="231"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="233"/>
       <source>Reject game invitation from %0?</source>
       <translation>Rejeitar convite de jogo de %0?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="232"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="234"/>
       <source>Reject Invitation</source>
       <translation>Rejeitar Convite</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="233"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="235"/>
       <source>Next list</source>
       <translation>Próxima lista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="234"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="236"/>
       <source>Restart Game</source>
       <translation>Reiniciar Jogo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="235"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="237"/>
       <source>Settings</source>
       <translation>Configurações</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="236"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="238"/>
       <source>Save custom configuration?</source>
       <translation>Salvar configuração personalizada?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="237"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="239"/>
       <source>Save</source>
       <translation>Salvar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="238"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="240"/>
       <source>Discard the current settings&apos; changes?</source>
       <translation>Descartar alterações da configuração atual?</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="239"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="241"/>
       <source>Discard</source>
       <translation>Descartar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="240"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="242"/>
       <source>To default</source>
       <translation>Para padrão</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="241"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="243"/>
       <source>Audio</source>
       <translation>Áudio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="242"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="244"/>
       <source>Master Volume</source>
       <comment>Audio</comment>
       <translation>Volume Principal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="243"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="245"/>
       <source>Audio Backend</source>
       <comment>Audio</comment>
       <translation>Backend de Áudio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="244"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="246"/>
       <source>Enable Buffering</source>
       <comment>Audio</comment>
       <translation>Ativar Bufferização</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="245"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="247"/>
       <source>Desired Audio Buffer Duration</source>
       <comment>Audio</comment>
       <translation>Duração Desejada do Buffer de Áudio</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="246"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="248"/>
       <source>Enable Time Stretching</source>
       <comment>Audio</comment>
       <translation>Habilitar Alongamento de Tempo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="247"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="249"/>
       <source>Time Stretching Threshold</source>
       <comment>Audio</comment>
       <translation>Limite de Alongamento de Tempo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="248"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="250"/>
       <source>Video</source>
       <translation>Vídeo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="249"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="251"/>
       <source>VSync</source>
       <comment>Video</comment>
       <translation>Sincronização Vertical</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="250"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="252"/>
       <source>Frame Limit</source>
       <comment>Video</comment>
       <translation>Limite de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="251"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="253"/>
       <source>Anisotropic Filter Override</source>
       <comment>Video</comment>
       <translation>Substituição de Filtro Anisotrópico</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="252"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="254"/>
       <source>Output Scaling</source>
       <comment>Video</comment>
       <translation>Dimensionamento da Saída</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="253"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="255"/>
       <source>FidelityFX CAS Sharpening Intensity</source>
       <comment>Video</comment>
       <translation>Intensidade de Nitidez FidelityFX CAS</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="254"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="256"/>
       <source>Graphics Renderer</source>
       <comment>Video</comment>
       <translation>Renderizador Gráfico</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="255"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="257"/>
       <source>Resolution Scale</source>
       <comment>Video</comment>
       <translation>Escala de Resolução</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="256"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="258"/>
       <source>Resolution Scale Threshold</source>
       <comment>Video</comment>
       <translation>Limite de Escala de Resolução</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="257"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="259"/>
       <source>Stretch To Display Area</source>
       <comment>Video</comment>
       <translation>Esticar Para Área de Exibição</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="258"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="260"/>
       <source>Stereo Mode</source>
       <comment>Video</comment>
       <translation>Modo Estéreo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="259"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="261"/>
       <source>Input</source>
       <translation>Entrada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="260"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="262"/>
       <source>Background Input Enabled</source>
       <comment>Input</comment>
       <translation>Entrada em Segundo Plano Ativada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="261"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="263"/>
       <source>Keep Pads Connected</source>
       <comment>Input</comment>
       <translation>Manter Controles Conectados</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="262"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="264"/>
       <source>Show PS Move Cursor</source>
       <comment>Input</comment>
       <translation>Mostrar Cursor do PS Move</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="263"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="265"/>
       <source>Camera Flip</source>
       <comment>Input</comment>
       <translation>Inverter Câmera</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="264"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="266"/>
       <source>Pad Handler Mode</source>
       <comment>Input</comment>
       <translation>Modo do Manipulador de Controle</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="265"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="267"/>
       <source>Pad Handler Sleep</source>
       <comment>Input</comment>
       <translation>Suspensão do Manipulador de Controle</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="266"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="268"/>
       <source>Fake PS Move Rotation Cone (Horizontal)</source>
       <comment>Input</comment>
       <translation>Cone de Rotação do PS Move Falso (Horizontal)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="267"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="269"/>
       <source>Fake PS Move Rotation Cone (Vertical)</source>
       <comment>Input</comment>
       <translation>Cone de Rotação do PS Move Falso (Vertical)</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="268"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="270"/>
       <source>Advanced</source>
       <translation>Avançado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="269"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="271"/>
       <source>Preferred SPU Threads</source>
       <comment>Advanced</comment>
       <translation>Threads da SPU Preferencial</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="270"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="272"/>
       <source>Max Power Saving CPU-Preemptions</source>
       <comment>Advanced</comment>
       <translation>Preempções de CPU para Economia Máxima de Energia</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="271"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="273"/>
       <source>Accurate RSX reservation access</source>
       <comment>Advanced</comment>
       <translation>Acesso a reservas do RSX precisas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="272"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="274"/>
       <source>Sleep Timers Accuracy</source>
       <comment>Advanced</comment>
       <translation>Precisão dos Temporizadores de Suspensão</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="273"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="275"/>
       <source>Handle RSX Memory Tiling</source>
       <comment>Advanced</comment>
       <translation>Manipular Mosaico de Memória do RSX</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="274"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="276"/>
       <source>Max SPURS Threads</source>
       <comment>Advanced</comment>
       <translation>Máximo de Threads SPURS</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="275"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="277"/>
       <source>PPU Event Wake-Up Delay</source>
       <comment>Advanced</comment>
       <translation>Atraso no Despertar de Eventos da PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="276"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="278"/>
       <source>Driver Wake-Up Delay</source>
       <comment>Advanced</comment>
       <translation>Atraso no Despertador do Driver</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="277"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="279"/>
       <source>VBlank Frequency</source>
       <comment>Advanced</comment>
       <translation>Frequência do VBlank</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="278"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="280"/>
       <source>VBlank NTSC Fixup</source>
       <comment>Advanced</comment>
       <translation>Ajuste NTSC do VBlank</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="279"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="281"/>
       <source>Overlays</source>
       <translation>Sobreposições</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="280"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="282"/>
       <source>Show Trophy Popups</source>
       <comment>Overlays</comment>
       <translation>Mostrar Notificações de Troféus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="281"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="283"/>
       <source>Show RPCN Popups</source>
       <comment>Overlays</comment>
       <translation>Mostrar Notificações do RPCN</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="282"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="284"/>
       <source>Show Shader Compilation Hint</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestão de Compilação de Shader</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="283"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="285"/>
       <source>Show PPU Compilation Hint</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestão de Compilação da PPU</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="284"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="286"/>
       <source>Show Autosave/Autoload Hint</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestão de Salvamento/Carregamento Automático</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="285"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="287"/>
       <source>Show Pressure Intensity Toggle Hint</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestão Para Alternar a Intensidade de Pressão</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="286"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="288"/>
       <source>Show Analog Limiter Toggle Hint</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestão Para Alternar o Limitador Analógico</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="287"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="289"/>
       <source>Show Mouse And Keyboard Toggle Hint</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestão Para Alternar Mouse e Teclado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="288"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="290"/>
       <source>Show Fatal Error Hints</source>
       <comment>Overlays</comment>
       <translation>Mostrar Sugestões para Erro Fatal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="289"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="291"/>
       <source>Record With Overlays</source>
       <comment>Overlays</comment>
       <translation>Gravar Com Sobreposições</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="290"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="292"/>
       <source>Play music during boot sequence.</source>
       <comment>Overlays</comment>
       <translation>Reproduzir música durante a sequência de inicialização.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="291"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="293"/>
       <source>Performance Overlay</source>
       <translation>Sobreposição de Desempenho</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="292"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="294"/>
       <source>Enable Performance Overlay</source>
       <comment>Performance Overlay</comment>
       <translation>Habilitar Sobreposição de Desempenho</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="293"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="295"/>
       <source>Enable Framerate Graph</source>
       <comment>Performance Overlay</comment>
       <translation>Habilitar Gráfico de Taxa de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="294"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="296"/>
       <source>Enable Frametime Graph</source>
       <comment>Performance Overlay</comment>
       <translation>Habilitar Gráfico do Tempo de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="295"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="297"/>
       <source>Detail level</source>
       <comment>Performance Overlay</comment>
       <translation>Nível de detalhes</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="296"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="298"/>
       <source>Framerate Graph Detail Level</source>
       <comment>Performance Overlay</comment>
       <translation>Nível de Detalhes do Gráfico da Taxa de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="297"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="299"/>
       <source>Frametime Graph Detail Level</source>
       <comment>Performance Overlay</comment>
       <translation>Nível de Detalhes do Gráfico do Tempo de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="298"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="300"/>
       <source>Framerate Datapoints</source>
       <comment>Performance Overlay</comment>
       <translation>Ponto de Dados da Taxa de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="299"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="301"/>
       <source>Frametime Datapoints</source>
       <comment>Performance Overlay</comment>
       <translation>Ponto de Dados do Tempo de Quadros</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="300"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="302"/>
       <source>Metrics Update Interval</source>
       <comment>Performance Overlay</comment>
       <translation>Intervalo de Atualização de Métricas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="301"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="303"/>
       <source>Position</source>
       <comment>Performance Overlay</comment>
       <translation>Posição</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="302"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="304"/>
       <source>Center Horizontally</source>
       <comment>Performance Overlay</comment>
       <translation>Centralizar Horizontalmente</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="303"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="305"/>
       <source>Center Vertically</source>
       <comment>Performance Overlay</comment>
       <translation>Centralizar Verticamente</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="304"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="306"/>
       <source>Horizontal Margin</source>
       <comment>Performance Overlay</comment>
       <translation>Margem Horizontal</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="305"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="307"/>
       <source>Vertical Margin</source>
       <comment>Performance Overlay</comment>
       <translation>Margem Vertical</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="306"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="308"/>
       <source>Font Size</source>
       <comment>Performance Overlay</comment>
       <translation>Tamanho da Fonte</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="307"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="309"/>
       <source>Opacity</source>
       <comment>Performance Overlay</comment>
       <translation>Transparência</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="308"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="310"/>
       <source>Use Window Space</source>
       <comment>Performance Overlay</comment>
       <translation>Usar Espaço da Janela</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="309"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="311"/>
       <source>Debug</source>
       <translation>Depurar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="310"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="312"/>
       <source>Debug Overlay</source>
       <comment>Debug</comment>
       <translation>Depurar Sobreposição</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="311"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="313"/>
       <source>Input Debug Overlay</source>
       <comment>Debug</comment>
       <translation>Sobreposição de Depuração de Entrada</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="312"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="314"/>
       <source>Mouse Debug Overlay</source>
       <comment>Debug</comment>
       <translation>Sobreposição de Depuração do Mouse</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="313"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="315"/>
       <source>Disable Video Output</source>
       <comment>Debug</comment>
       <translation>Desabilitar Saída de Vídeo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="314"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="316"/>
       <source>Texture LOD Bias Addend</source>
       <comment>Debug</comment>
       <translation>Parcela Enviesada do LOD das Texturas</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="315"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="317"/>
       <source>Open Big Picture Mode On Boot</source>
       <comment>System</comment>
       <translation>Abrir Modo Big Picture na Inicialização</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="316"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="318"/>
       <source>Take Screenshot</source>
       <translation>Tirar Captura de Tela</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="317"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="319"/>
       <source>SaveState</source>
       <translation>Savestate</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="318"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="320"/>
       <source>Save Emulation State</source>
       <translation>Salvar Estado da Emulação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="319"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="321"/>
       <source>Save Emulation State And Exit</source>
       <translation>Salvar Estado da Emulação e Sair</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="320"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="322"/>
       <source>Reload Last Emulation State</source>
       <translation>Recarregar Estado da Última Emulação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="321"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="323"/>
       <source>Reload Second-To-Last Emulation State</source>
       <translation>Recarregar Estado da Penúltima Emulação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="322"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="324"/>
       <source>Reload Third-To-Last Emulation State</source>
       <translation>Recarregar Estado da Antepenúltima Emulação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="323"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="325"/>
       <source>Reload Fourth-To-Last Emulation State</source>
       <translation>Recarregar Estado da Pré-Antepenúltima Emulação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="324"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="326"/>
       <source>Toggle Fullscreen</source>
       <translation>Alternar Tela Cheia</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="325"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="327"/>
       <source>Start/Stop Recording</source>
       <translation>Iniciar/Parar Gravação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="326"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="328"/>
       <source>Trophies</source>
       <translation>Troféus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="327"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="329"/>
       <source>Trophy Progress: %0</source>
       <translation>Progresso do Troféu: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="328"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="330"/>
       <source>Locked trophy: %0</source>
       <translation>Troféu bloqueado: %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="329"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="331"/>
       <source>Hidden trophy</source>
       <translation>Troféu oculto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="330"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="332"/>
       <source>This trophy is hidden</source>
       <translation>Este troféu está oculto</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="331"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="333"/>
       <source>Show hidden trophies</source>
       <translation>Mostrar troféus ocultos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="332"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="334"/>
       <source>Hide hidden trophies</source>
       <translation>Esconder troféus ocultos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="333"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="335"/>
       <source>Platinum relevant</source>
       <translation>Necessário para Platina</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="334"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="336"/>
       <source>Bronze</source>
       <comment>Trophy type</comment>
       <translation>Bronze</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="335"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="337"/>
       <source>Silver</source>
       <comment>Trophy type</comment>
       <translation>Prata</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="336"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="338"/>
       <source>Gold</source>
       <comment>Trophy type</comment>
       <translation>Ouro</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="337"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="339"/>
       <source>Platinum</source>
       <comment>Trophy type</comment>
       <translation>Platina</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="338"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="340"/>
       <source>Sync trophies</source>
       <translation>Sincronizar troféus</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="339"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="341"/>
       <source>Syncing...</source>
       <translation>Sincronizando...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="340"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="342"/>
       <source>Synced!</source>
       <translation>Sincronizado!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="341"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="343"/>
       <source>Sync failed</source>
       <translation>Falha na sincronização</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="342"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="344"/>
       <source>Sort: Game Default</source>
       <translation>Organizar: Padrão do Jogo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="343"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="345"/>
       <source>Sort: Not Earned</source>
       <translation>Organizar: Não Conquistado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="344"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="346"/>
       <source>Sort: Earned Date</source>
       <translation>Organizar: Data da Conquista</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="345"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="347"/>
       <source>Sort: Grade</source>
       <translation>Organizar: Avaliação</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="346"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="348"/>
       <source>Audio muted</source>
       <comment>Audio</comment>
       <translation>Áudio silenciado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="347"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="349"/>
       <source>Audio unmuted</source>
       <comment>Audio</comment>
       <translation>Áudio reativado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="348"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="350"/>
       <source>Volume changed to %0</source>
       <comment>Audio</comment>
       <translation>Volume modificado para %0</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="349"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="351"/>
       <source>Progress:</source>
       <translation>Progresso:</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="350"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="352"/>
       <source>Progress: analyzing...</source>
       <translation>Progresso: analisando...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="351"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="353"/>
       <source>remaining</source>
       <translation>restando</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="352"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="354"/>
       <source>done</source>
       <translation>finalizado</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="353"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="355"/>
       <source>file</source>
       <translation>arquivo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="354"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="356"/>
       <source>module</source>
       <translation>módulo</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="355"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="357"/>
       <source>of</source>
       <translation>de</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="356"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="358"/>
       <source>Please wait</source>
       <translation>Por favor, aguarde</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="357"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="359"/>
       <source>Stopping. Please wait...</source>
       <translation>Encerrando. Por favor, aguarde...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="358"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="360"/>
       <source>Creating savestate. Please wait...</source>
       <translation>Criando savestate. Por favor, aguarde...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="359"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="361"/>
       <source>Scanning PPU Executable...</source>
       <translation>Verificando Executável da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="360"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="362"/>
       <source>Analyzing PPU Executable...</source>
       <translation>Analisando Executável da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="361"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="363"/>
       <source>Scanning PPU Modules...</source>
       <translation>Verificando Módulos da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="362"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="364"/>
       <source>Loading PPU Modules...</source>
       <translation>Carregando Módulos da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="363"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="365"/>
       <source>Compiling PPU Modules...</source>
       <translation>Compilando Módulos da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="364"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="366"/>
       <source>Linking PPU Modules...</source>
       <translation>Vinculando Módulos da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="365"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="367"/>
       <source>Applying PPU Code...</source>
       <translation>Aplicando Código da PPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="366"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="368"/>
       <source>Building SPU Cache...</source>
       <translation>Construindo Cache da SPU...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="367"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="369"/>
       <source>Press and hold the START button to resume</source>
       <translation>Pressione e segure o botão START para continuar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="368"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="370"/>
       <source>Resuming...!</source>
       <translation>Continuando...!</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="369"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="371"/>
       <source>The PS3 application has likely crashed, you can close it.</source>
       <translation>É provável que o aplicativo PS3 tenha travado; você pode fechá-lo.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="370"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="372"/>
       <source>SaveState failed: Game saving is in progress, wait until finished.</source>
       <translation>Falha no SaveState: O salvamento do jogo está em andamento, aguarde até que seja concluído.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="371"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="373"/>
       <source>SaveState failed: VDEC-based video/cutscenes are in order, wait for them to end or enable libvdec.sprx.</source>
       <translation>Falha no SaveState: vídeos/cutscenes baseados em VDEC estão em execução; aguarde o término deles ou habilite libvdec.sprx.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="372"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="374"/>
       <source>SaveState failed: Failed to lock SPU state, enabling SPU-Compatible mode may fix it.</source>
       <translation>Falha no SaveState: Falha ao bloquear o estado da SPU; ativar o modo de Compatibilidade SPU pode resolver o problema.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="373"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="375"/>
       <source>SaveState failed: Failed to lock SPU state, using SPU ASMJIT will fix it.</source>
       <translation>Falha no SaveState: Falha ao bloquear o estado da SPU; usar o SPU ASMJIT resolverá o problema.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="374"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="376"/>
       <source>Big Picture Mode</source>
       <translation>Modo Big Picture</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="375"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="377"/>
       <source>Games</source>
       <translation>Jogos</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="376"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="378"/>
       <source>Exit Big Picture Mode</source>
       <translation>Sair do Modo Big Picture</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="377"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="379"/>
       <source>No games found.
 Add games in the main RPCS3 window.</source>
       <translation>Nenhum jogo encontrado.
 Adiciona jogos na janela principal do RPCS3.</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="378"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="380"/>
       <source>Loading games...</source>
       <translation>Carregando jogos...</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="380"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="382"/>
       <source>Back</source>
       <translation>Voltar</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="382"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="384"/>
       <source>Invalid</source>
       <translation>Inválido</translation>
     </message>
     <message>
-      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="383"/>
+      <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="385"/>
       <source>Unknown</source>
       <translation>Desconhecido</translation>
     </message>
