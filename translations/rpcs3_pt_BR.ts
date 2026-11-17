@@ -8985,13 +8985,13 @@ Por favor, aguarde...</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="78"/>
       <source>Mouse is now used as emulated device.</source>
       <comment>Mouse emulated</comment>
-      <translation type="unfinished"/>
+      <translation>O mouse agora é utilizado como um dispositivo emulado.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="79"/>
       <source>Keyboard is now used as emulated device.</source>
       <comment>Keyboard emulated</comment>
-      <translation type="unfinished"/>
+      <translation>O teclado agora é utilizado como um dispositivo emulado.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="80"/>
