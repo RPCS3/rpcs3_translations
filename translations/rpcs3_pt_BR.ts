@@ -1532,7 +1532,11 @@ Virtual Screen shows a flat screen in front of you.
 Virtual Screen (3D) also shows each eye its own image in games with 3D support (enable 3D Support for this).
 Full View stretches each eye&apos;s image across your whole view.
 The headset has to be connected to the same GPU that RPCS3 uses.</source>
-      <translation type="unfinished"/>
+      <translation>Exibe o jogo em um headset de RV por meio de um runtime OpenXR, como o SteamVR ou o aplicativo Meta Quest Link. Requer o renderizador Vulkan ou OpenGL.
+Tela Virtual apresenta uma tela plana à sua frente.
+Tela Virtual (3D) exibe uma imagem específica para cada olho em jogos com suporte a 3D (para isso, é necessário ativar o suporte a 3D).
+Visualização Completa expande a imagem de cada olho por todo o seu campo de visão.
+O headset deve estar conectado à mesma GPU utilizada pelo RPCS3.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="133"/>
@@ -2548,7 +2552,7 @@ Em caso de dúvida, deixe este campo em branco.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="314"/>
       <source>The OpenXR handler uses VR controllers (for example Meta Quest, Valve Index, HTC Vive or Windows Mixed Reality controllers) through an OpenXR runtime like SteamVR or the Meta Quest Link app.&lt;br&gt;You can use both controllers as one gamepad, or each controller on its own.&lt;br&gt;The controllers only send input while the headset is in use and RPCS3 has the focus in VR (close the dashboard of your runtime). RPCS3 shows up as a VR application while this handler is selected.</source>
-      <translation type="unfinished"/>
+      <translation>O manipulador OpenXR utiliza controles de RV (por exemplo: controles do Meta Quest, Valve Index, HTC Vive ou Windows Mixed Reality) por meio de um runtime OpenXR, como o SteamVR ou o aplicativo Meta Quest Link.&lt;br&gt;É possível usar ambos os controles como um único gamepad, ou utilizar cada controle de forma independente.&lt;br&gt;Os controles só enviam comandos enquanto o headset estiver em uso e o RPCS3 estiver em foco no modo RV (feche o painel/dashboard do seu runtime). O RPCS3 aparece como um aplicativo de RV enquanto este manipulador estiver selecionado.</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/tooltips.h" line="315"/>
@@ -4495,7 +4499,7 @@ Esta alteração somente terá efeito quando as configurações forem salvas.</t
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1216"/>
       <source>OpenXR (VR Controllers)</source>
       <comment>Move handler</comment>
-      <translation type="unfinished"/>
+      <translation>OpenXR (Controles de RV)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1219"/>
@@ -5371,19 +5375,19 @@ Esta alteração somente terá efeito quando as configurações forem salvas.</t
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1508"/>
       <source>Virtual Screen</source>
       <comment>OpenXR Render Mode</comment>
-      <translation type="unfinished"/>
+      <translation>Tela Virtual</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1509"/>
       <source>Virtual Screen (3D)</source>
       <comment>OpenXR Render Mode</comment>
-      <translation type="unfinished"/>
+      <translation>Tela Virtual (3D)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1510"/>
       <source>Full View</source>
       <comment>OpenXR Render Mode</comment>
-      <translation type="unfinished"/>
+      <translation>Visualização Completa</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/emu_settings.cpp" line="1516"/>
@@ -10275,7 +10279,7 @@ Assunto:</translation>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="261"/>
       <source>OpenXR Render Mode</source>
       <comment>Video</comment>
-      <translation type="unfinished"/>
+      <translation>Modo de Renderização do OpenXR</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/localized_emu.h" line="262"/>
@@ -14534,7 +14538,7 @@ A configuração selecionada agora é &apos;%1&apos;.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2434"/>
       <source>OpenXR</source>
-      <translation type="unfinished"/>
+      <translation>OpenXR</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2437"/>
@@ -14589,22 +14593,22 @@ A configuração selecionada agora é &apos;%1&apos;.</translation>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2467"/>
       <source>OpenXR Controllers (both hands)</source>
-      <translation type="unfinished"/>
+      <translation>Controles OpenXR (ambas as mãos)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2468"/>
       <source>OpenXR Left Controller</source>
-      <translation type="unfinished"/>
+      <translation>Controle Esquerdo OpenXR</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2469"/>
       <source>OpenXR Right Controller</source>
-      <translation type="unfinished"/>
+      <translation>Controle Direito OpenXR</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2470"/>
       <source>OpenXR #%0</source>
-      <translation type="unfinished"/>
+      <translation>OpenXR #%0</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2475"/>
@@ -17721,7 +17725,7 @@ Para confirmar, digite seu nome de usuário abaixo e clique em &quot;Sim&quot;.
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="603"/>
       <source>VR Headset (OpenXR)</source>
-      <translation type="unfinished"/>
+      <translation>Headset de RV (OpenXR)</translation>
     </message>
     <message>
       <location filename="./rpcs3/rpcs3qt/settings_dialog.ui" line="635"/>
